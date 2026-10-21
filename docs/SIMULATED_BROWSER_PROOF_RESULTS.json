@@ -1,0 +1,18 @@
+{
+  "simulation": true,
+  "browser": "155.0.8059.85",
+  "measurements": [
+    {
+      "name": "below_threshold",
+      "browserProvingMs": 1690.2,
+      "verified": true,
+      "mutationRejected": true
+    },
+    {
+      "name": "commitment_validity",
+      "browserProvingMs": 3329.5,
+      "verified": true,
+      "mutationRejected": true
+    }
+  ]
+}

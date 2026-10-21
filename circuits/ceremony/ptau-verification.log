@@ -1,0 +1,5736 @@
+Published BLAKE2b-512 checksum matches upstream snarkjs table.
+[debug] power: 2**15
+[debug] Computing initial contribution hash
+[debug] Calculating First Challenge Hash
+[debug] Calculate Initial Hash: tauG1
+[debug] Initial hash: 0
+[debug] Initial hash: 341000
+[debug] Initial hash: 682000
+[debug] Initial hash: 1023000
+[debug] Initial hash: 1364000
+[debug] Initial hash: 1705000
+[debug] Initial hash: 2046000
+[debug] Initial hash: 2387000
+[debug] Initial hash: 2728000
+[debug] Initial hash: 3069000
+[debug] Initial hash: 3410000
+[debug] Initial hash: 3751000
+[debug] Initial hash: 4092000
+[debug] Initial hash: 4433000
+[debug] Initial hash: 4774000
+[debug] Initial hash: 5115000
+[debug] Initial hash: 5456000
+[debug] Initial hash: 5797000
+[debug] Initial hash: 6138000
+[debug] Initial hash: 6479000
+[debug] Initial hash: 6820000
+[debug] Initial hash: 7161000
+[debug] Initial hash: 7502000
+[debug] Initial hash: 7843000
+[debug] Initial hash: 8184000
+[debug] Initial hash: 8525000
+[debug] Initial hash: 8866000
+[debug] Initial hash: 9207000
+[debug] Initial hash: 9548000
+[debug] Initial hash: 9889000
+[debug] Initial hash: 10230000
+[debug] Initial hash: 10571000
+[debug] Initial hash: 10912000
+[debug] Initial hash: 11253000
+[debug] Initial hash: 11594000
+[debug] Initial hash: 11935000
+[debug] Initial hash: 12276000
+[debug] Initial hash: 12617000
+[debug] Initial hash: 12958000
+[debug] Initial hash: 13299000
+[debug] Initial hash: 13640000
+[debug] Initial hash: 13981000
+[debug] Initial hash: 14322000
+[debug] Initial hash: 14663000
+[debug] Initial hash: 15004000
+[debug] Initial hash: 15345000
+[debug] Initial hash: 15686000
+[debug] Initial hash: 16027000
+[debug] Initial hash: 16368000
+[debug] Initial hash: 16709000
+[debug] Initial hash: 17050000
+[debug] Initial hash: 17391000
+[debug] Initial hash: 17732000
+[debug] Initial hash: 18073000
+[debug] Initial hash: 18414000
+[debug] Initial hash: 18755000
+[debug] Initial hash: 19096000
+[debug] Initial hash: 19437000
+[debug] Initial hash: 19778000
+[debug] Initial hash: 20119000
+[debug] Initial hash: 20460000
+[debug] Initial hash: 20801000
+[debug] Initial hash: 21142000
+[debug] Initial hash: 21483000
+[debug] Initial hash: 21824000
+[debug] Initial hash: 22165000
+[debug] Initial hash: 22506000
+[debug] Initial hash: 22847000
+[debug] Initial hash: 23188000
+[debug] Initial hash: 23529000
+[debug] Initial hash: 23870000
+[debug] Initial hash: 24211000
+[debug] Initial hash: 24552000
+[debug] Initial hash: 24893000
+[debug] Initial hash: 25234000
+[debug] Initial hash: 25575000
+[debug] Initial hash: 25916000
+[debug] Initial hash: 26257000
+[debug] Initial hash: 26598000
+[debug] Initial hash: 26939000
+[debug] Initial hash: 27280000
+[debug] Initial hash: 27621000
+[debug] Initial hash: 27962000
+[debug] Initial hash: 28303000
+[debug] Initial hash: 28644000
+[debug] Initial hash: 28985000
+[debug] Initial hash: 29326000
+[debug] Initial hash: 29667000
+[debug] Initial hash: 30008000
+[debug] Initial hash: 30349000
+[debug] Initial hash: 30690000
+[debug] Initial hash: 31031000
+[debug] Initial hash: 31372000
+[debug] Initial hash: 31713000
+[debug] Initial hash: 32054000
+[debug] Initial hash: 32395000
+[debug] Initial hash: 32736000
+[debug] Initial hash: 33077000
+[debug] Initial hash: 33418000
+[debug] Initial hash: 33759000
+[debug] Initial hash: 34100000
+[debug] Initial hash: 34441000
+[debug] Initial hash: 34782000
+[debug] Initial hash: 35123000
+[debug] Initial hash: 35464000
+[debug] Initial hash: 35805000
+[debug] Initial hash: 36146000
+[debug] Initial hash: 36487000
+[debug] Initial hash: 36828000
+[debug] Initial hash: 37169000
+[debug] Initial hash: 37510000
+[debug] Initial hash: 37851000
+[debug] Initial hash: 38192000
+[debug] Initial hash: 38533000
+[debug] Initial hash: 38874000
+[debug] Initial hash: 39215000
+[debug] Initial hash: 39556000
+[debug] Initial hash: 39897000
+[debug] Initial hash: 40238000
+[debug] Initial hash: 40579000
+[debug] Initial hash: 40920000
+[debug] Initial hash: 41261000
+[debug] Initial hash: 41602000
+[debug] Initial hash: 41943000
+[debug] Initial hash: 42284000
+[debug] Initial hash: 42625000
+[debug] Initial hash: 42966000
+[debug] Initial hash: 43307000
+[debug] Initial hash: 43648000
+[debug] Initial hash: 43989000
+[debug] Initial hash: 44330000
+[debug] Initial hash: 44671000
+[debug] Initial hash: 45012000
+[debug] Initial hash: 45353000
+[debug] Initial hash: 45694000
+[debug] Initial hash: 46035000
+[debug] Initial hash: 46376000
+[debug] Initial hash: 46717000
+[debug] Initial hash: 47058000
+[debug] Initial hash: 47399000
+[debug] Initial hash: 47740000
+[debug] Initial hash: 48081000
+[debug] Initial hash: 48422000
+[debug] Initial hash: 48763000
+[debug] Initial hash: 49104000
+[debug] Initial hash: 49445000
+[debug] Initial hash: 49786000
+[debug] Initial hash: 50127000
+[debug] Initial hash: 50468000
+[debug] Initial hash: 50809000
+[debug] Initial hash: 51150000
+[debug] Initial hash: 51491000
+[debug] Initial hash: 51832000
+[debug] Initial hash: 52173000
+[debug] Initial hash: 52514000
+[debug] Initial hash: 52855000
+[debug] Initial hash: 53196000
+[debug] Initial hash: 53537000
+[debug] Initial hash: 53878000
+[debug] Initial hash: 54219000
+[debug] Initial hash: 54560000
+[debug] Initial hash: 54901000
+[debug] Initial hash: 55242000
+[debug] Initial hash: 55583000
+[debug] Initial hash: 55924000
+[debug] Initial hash: 56265000
+[debug] Initial hash: 56606000
+[debug] Initial hash: 56947000
+[debug] Initial hash: 57288000
+[debug] Initial hash: 57629000
+[debug] Initial hash: 57970000
+[debug] Initial hash: 58311000
+[debug] Initial hash: 58652000
+[debug] Initial hash: 58993000
+[debug] Initial hash: 59334000
+[debug] Initial hash: 59675000
+[debug] Initial hash: 60016000
+[debug] Initial hash: 60357000
+[debug] Initial hash: 60698000
+[debug] Initial hash: 61039000
+[debug] Initial hash: 61380000
+[debug] Initial hash: 61721000
+[debug] Initial hash: 62062000
+[debug] Initial hash: 62403000
+[debug] Initial hash: 62744000
+[debug] Initial hash: 63085000
+[debug] Initial hash: 63426000
+[debug] Initial hash: 63767000
+[debug] Initial hash: 64108000
+[debug] Initial hash: 64449000
+[debug] Initial hash: 64790000
+[debug] Initial hash: 65131000
+[debug] Initial hash: 65472000
+[debug] Initial hash: 65813000
+[debug] Initial hash: 66154000
+[debug] Initial hash: 66495000
+[debug] Initial hash: 66836000
+[debug] Initial hash: 67177000
+[debug] Initial hash: 67518000
+[debug] Initial hash: 67859000
+[debug] Initial hash: 68200000
+[debug] Initial hash: 68541000
+[debug] Initial hash: 68882000
+[debug] Initial hash: 69223000
+[debug] Initial hash: 69564000
+[debug] Initial hash: 69905000
+[debug] Initial hash: 70246000
+[debug] Initial hash: 70587000
+[debug] Initial hash: 70928000
+[debug] Initial hash: 71269000
+[debug] Initial hash: 71610000
+[debug] Initial hash: 71951000
+[debug] Initial hash: 72292000
+[debug] Initial hash: 72633000
+[debug] Initial hash: 72974000
+[debug] Initial hash: 73315000
+[debug] Initial hash: 73656000
+[debug] Initial hash: 73997000
+[debug] Initial hash: 74338000
+[debug] Initial hash: 74679000
+[debug] Initial hash: 75020000
+[debug] Initial hash: 75361000
+[debug] Initial hash: 75702000
+[debug] Initial hash: 76043000
+[debug] Initial hash: 76384000
+[debug] Initial hash: 76725000
+[debug] Initial hash: 77066000
+[debug] Initial hash: 77407000
+[debug] Initial hash: 77748000
+[debug] Initial hash: 78089000
+[debug] Initial hash: 78430000
+[debug] Initial hash: 78771000
+[debug] Initial hash: 79112000
+[debug] Initial hash: 79453000
+[debug] Initial hash: 79794000
+[debug] Initial hash: 80135000
+[debug] Initial hash: 80476000
+[debug] Initial hash: 80817000
+[debug] Initial hash: 81158000
+[debug] Initial hash: 81499000
+[debug] Initial hash: 81840000
+[debug] Initial hash: 82181000
+[debug] Initial hash: 82522000
+[debug] Initial hash: 82863000
+[debug] Initial hash: 83204000
+[debug] Initial hash: 83545000
+[debug] Initial hash: 83886000
+[debug] Initial hash: 84227000
+[debug] Initial hash: 84568000
+[debug] Initial hash: 84909000
+[debug] Initial hash: 85250000
+[debug] Initial hash: 85591000
+[debug] Initial hash: 85932000
+[debug] Initial hash: 86273000
+[debug] Initial hash: 86614000
+[debug] Initial hash: 86955000
+[debug] Initial hash: 87296000
+[debug] Initial hash: 87637000
+[debug] Initial hash: 87978000
+[debug] Initial hash: 88319000
+[debug] Initial hash: 88660000
+[debug] Initial hash: 89001000
+[debug] Initial hash: 89342000
+[debug] Initial hash: 89683000
+[debug] Initial hash: 90024000
+[debug] Initial hash: 90365000
+[debug] Initial hash: 90706000
+[debug] Initial hash: 91047000
+[debug] Initial hash: 91388000
+[debug] Initial hash: 91729000
+[debug] Initial hash: 92070000
+[debug] Initial hash: 92411000
+[debug] Initial hash: 92752000
+[debug] Initial hash: 93093000
+[debug] Initial hash: 93434000
+[debug] Initial hash: 93775000
+[debug] Initial hash: 94116000
+[debug] Initial hash: 94457000
+[debug] Initial hash: 94798000
+[debug] Initial hash: 95139000
+[debug] Initial hash: 95480000
+[debug] Initial hash: 95821000
+[debug] Initial hash: 96162000
+[debug] Initial hash: 96503000
+[debug] Initial hash: 96844000
+[debug] Initial hash: 97185000
+[debug] Initial hash: 97526000
+[debug] Initial hash: 97867000
+[debug] Initial hash: 98208000
+[debug] Initial hash: 98549000
+[debug] Initial hash: 98890000
+[debug] Initial hash: 99231000
+[debug] Initial hash: 99572000
+[debug] Initial hash: 99913000
+[debug] Initial hash: 100254000
+[debug] Initial hash: 100595000
+[debug] Initial hash: 100936000
+[debug] Initial hash: 101277000
+[debug] Initial hash: 101618000
+[debug] Initial hash: 101959000
+[debug] Initial hash: 102300000
+[debug] Initial hash: 102641000
+[debug] Initial hash: 102982000
+[debug] Initial hash: 103323000
+[debug] Initial hash: 103664000
+[debug] Initial hash: 104005000
+[debug] Initial hash: 104346000
+[debug] Initial hash: 104687000
+[debug] Initial hash: 105028000
+[debug] Initial hash: 105369000
+[debug] Initial hash: 105710000
+[debug] Initial hash: 106051000
+[debug] Initial hash: 106392000
+[debug] Initial hash: 106733000
+[debug] Initial hash: 107074000
+[debug] Initial hash: 107415000
+[debug] Initial hash: 107756000
+[debug] Initial hash: 108097000
+[debug] Initial hash: 108438000
+[debug] Initial hash: 108779000
+[debug] Initial hash: 109120000
+[debug] Initial hash: 109461000
+[debug] Initial hash: 109802000
+[debug] Initial hash: 110143000
+[debug] Initial hash: 110484000
+[debug] Initial hash: 110825000
+[debug] Initial hash: 111166000
+[debug] Initial hash: 111507000
+[debug] Initial hash: 111848000
+[debug] Initial hash: 112189000
+[debug] Initial hash: 112530000
+[debug] Initial hash: 112871000
+[debug] Initial hash: 113212000
+[debug] Initial hash: 113553000
+[debug] Initial hash: 113894000
+[debug] Initial hash: 114235000
+[debug] Initial hash: 114576000
+[debug] Initial hash: 114917000
+[debug] Initial hash: 115258000
+[debug] Initial hash: 115599000
+[debug] Initial hash: 115940000
+[debug] Initial hash: 116281000
+[debug] Initial hash: 116622000
+[debug] Initial hash: 116963000
+[debug] Initial hash: 117304000
+[debug] Initial hash: 117645000
+[debug] Initial hash: 117986000
+[debug] Initial hash: 118327000
+[debug] Initial hash: 118668000
+[debug] Initial hash: 119009000
+[debug] Initial hash: 119350000
+[debug] Initial hash: 119691000
+[debug] Initial hash: 120032000
+[debug] Initial hash: 120373000
+[debug] Initial hash: 120714000
+[debug] Initial hash: 121055000
+[debug] Initial hash: 121396000
+[debug] Initial hash: 121737000
+[debug] Initial hash: 122078000
+[debug] Initial hash: 122419000
+[debug] Initial hash: 122760000
+[debug] Initial hash: 123101000
+[debug] Initial hash: 123442000
+[debug] Initial hash: 123783000
+[debug] Initial hash: 124124000
+[debug] Initial hash: 124465000
+[debug] Initial hash: 124806000
+[debug] Initial hash: 125147000
+[debug] Initial hash: 125488000
+[debug] Initial hash: 125829000
+[debug] Initial hash: 126170000
+[debug] Initial hash: 126511000
+[debug] Initial hash: 126852000
+[debug] Initial hash: 127193000
+[debug] Initial hash: 127534000
+[debug] Initial hash: 127875000
+[debug] Initial hash: 128216000
+[debug] Initial hash: 128557000
+[debug] Initial hash: 128898000
+[debug] Initial hash: 129239000
+[debug] Initial hash: 129580000
+[debug] Initial hash: 129921000
+[debug] Initial hash: 130262000
+[debug] Initial hash: 130603000
+[debug] Initial hash: 130944000
+[debug] Initial hash: 131285000
+[debug] Initial hash: 131626000
+[debug] Initial hash: 131967000
+[debug] Initial hash: 132308000
+[debug] Initial hash: 132649000
+[debug] Initial hash: 132990000
+[debug] Initial hash: 133331000
+[debug] Initial hash: 133672000
+[debug] Initial hash: 134013000
+[debug] Initial hash: 134354000
+[debug] Initial hash: 134695000
+[debug] Initial hash: 135036000
+[debug] Initial hash: 135377000
+[debug] Initial hash: 135718000
+[debug] Initial hash: 136059000
+[debug] Initial hash: 136400000
+[debug] Initial hash: 136741000
+[debug] Initial hash: 137082000
+[debug] Initial hash: 137423000
+[debug] Initial hash: 137764000
+[debug] Initial hash: 138105000
+[debug] Initial hash: 138446000
+[debug] Initial hash: 138787000
+[debug] Initial hash: 139128000
+[debug] Initial hash: 139469000
+[debug] Initial hash: 139810000
+[debug] Initial hash: 140151000
+[debug] Initial hash: 140492000
+[debug] Initial hash: 140833000
+[debug] Initial hash: 141174000
+[debug] Initial hash: 141515000
+[debug] Initial hash: 141856000
+[debug] Initial hash: 142197000
+[debug] Initial hash: 142538000
+[debug] Initial hash: 142879000
+[debug] Initial hash: 143220000
+[debug] Initial hash: 143561000
+[debug] Initial hash: 143902000
+[debug] Initial hash: 144243000
+[debug] Initial hash: 144584000
+[debug] Initial hash: 144925000
+[debug] Initial hash: 145266000
+[debug] Initial hash: 145607000
+[debug] Initial hash: 145948000
+[debug] Initial hash: 146289000
+[debug] Initial hash: 146630000
+[debug] Initial hash: 146971000
+[debug] Initial hash: 147312000
+[debug] Initial hash: 147653000
+[debug] Initial hash: 147994000
+[debug] Initial hash: 148335000
+[debug] Initial hash: 148676000
+[debug] Initial hash: 149017000
+[debug] Initial hash: 149358000
+[debug] Initial hash: 149699000
+[debug] Initial hash: 150040000
+[debug] Initial hash: 150381000
+[debug] Initial hash: 150722000
+[debug] Initial hash: 151063000
+[debug] Initial hash: 151404000
+[debug] Initial hash: 151745000
+[debug] Initial hash: 152086000
+[debug] Initial hash: 152427000
+[debug] Initial hash: 152768000
+[debug] Initial hash: 153109000
+[debug] Initial hash: 153450000
+[debug] Initial hash: 153791000
+[debug] Initial hash: 154132000
+[debug] Initial hash: 154473000
+[debug] Initial hash: 154814000
+[debug] Initial hash: 155155000
+[debug] Initial hash: 155496000
+[debug] Initial hash: 155837000
+[debug] Initial hash: 156178000
+[debug] Initial hash: 156519000
+[debug] Initial hash: 156860000
+[debug] Initial hash: 157201000
+[debug] Initial hash: 157542000
+[debug] Initial hash: 157883000
+[debug] Initial hash: 158224000
+[debug] Initial hash: 158565000
+[debug] Initial hash: 158906000
+[debug] Initial hash: 159247000
+[debug] Initial hash: 159588000
+[debug] Initial hash: 159929000
+[debug] Initial hash: 160270000
+[debug] Initial hash: 160611000
+[debug] Initial hash: 160952000
+[debug] Initial hash: 161293000
+[debug] Initial hash: 161634000
+[debug] Initial hash: 161975000
+[debug] Initial hash: 162316000
+[debug] Initial hash: 162657000
+[debug] Initial hash: 162998000
+[debug] Initial hash: 163339000
+[debug] Initial hash: 163680000
+[debug] Initial hash: 164021000
+[debug] Initial hash: 164362000
+[debug] Initial hash: 164703000
+[debug] Initial hash: 165044000
+[debug] Initial hash: 165385000
+[debug] Initial hash: 165726000
+[debug] Initial hash: 166067000
+[debug] Initial hash: 166408000
+[debug] Initial hash: 166749000
+[debug] Initial hash: 167090000
+[debug] Initial hash: 167431000
+[debug] Initial hash: 167772000
+[debug] Initial hash: 168113000
+[debug] Initial hash: 168454000
+[debug] Initial hash: 168795000
+[debug] Initial hash: 169136000
+[debug] Initial hash: 169477000
+[debug] Initial hash: 169818000
+[debug] Initial hash: 170159000
+[debug] Initial hash: 170500000
+[debug] Initial hash: 170841000
+[debug] Initial hash: 171182000
+[debug] Initial hash: 171523000
+[debug] Initial hash: 171864000
+[debug] Initial hash: 172205000
+[debug] Initial hash: 172546000
+[debug] Initial hash: 172887000
+[debug] Initial hash: 173228000
+[debug] Initial hash: 173569000
+[debug] Initial hash: 173910000
+[debug] Initial hash: 174251000
+[debug] Initial hash: 174592000
+[debug] Initial hash: 174933000
+[debug] Initial hash: 175274000
+[debug] Initial hash: 175615000
+[debug] Initial hash: 175956000
+[debug] Initial hash: 176297000
+[debug] Initial hash: 176638000
+[debug] Initial hash: 176979000
+[debug] Initial hash: 177320000
+[debug] Initial hash: 177661000
+[debug] Initial hash: 178002000
+[debug] Initial hash: 178343000
+[debug] Initial hash: 178684000
+[debug] Initial hash: 179025000
+[debug] Initial hash: 179366000
+[debug] Initial hash: 179707000
+[debug] Initial hash: 180048000
+[debug] Initial hash: 180389000
+[debug] Initial hash: 180730000
+[debug] Initial hash: 181071000
+[debug] Initial hash: 181412000
+[debug] Initial hash: 181753000
+[debug] Initial hash: 182094000
+[debug] Initial hash: 182435000
+[debug] Initial hash: 182776000
+[debug] Initial hash: 183117000
+[debug] Initial hash: 183458000
+[debug] Initial hash: 183799000
+[debug] Initial hash: 184140000
+[debug] Initial hash: 184481000
+[debug] Initial hash: 184822000
+[debug] Initial hash: 185163000
+[debug] Initial hash: 185504000
+[debug] Initial hash: 185845000
+[debug] Initial hash: 186186000
+[debug] Initial hash: 186527000
+[debug] Initial hash: 186868000
+[debug] Initial hash: 187209000
+[debug] Initial hash: 187550000
+[debug] Initial hash: 187891000
+[debug] Initial hash: 188232000
+[debug] Initial hash: 188573000
+[debug] Initial hash: 188914000
+[debug] Initial hash: 189255000
+[debug] Initial hash: 189596000
+[debug] Initial hash: 189937000
+[debug] Initial hash: 190278000
+[debug] Initial hash: 190619000
+[debug] Initial hash: 190960000
+[debug] Initial hash: 191301000
+[debug] Initial hash: 191642000
+[debug] Initial hash: 191983000
+[debug] Initial hash: 192324000
+[debug] Initial hash: 192665000
+[debug] Initial hash: 193006000
+[debug] Initial hash: 193347000
+[debug] Initial hash: 193688000
+[debug] Initial hash: 194029000
+[debug] Initial hash: 194370000
+[debug] Initial hash: 194711000
+[debug] Initial hash: 195052000
+[debug] Initial hash: 195393000
+[debug] Initial hash: 195734000
+[debug] Initial hash: 196075000
+[debug] Initial hash: 196416000
+[debug] Initial hash: 196757000
+[debug] Initial hash: 197098000
+[debug] Initial hash: 197439000
+[debug] Initial hash: 197780000
+[debug] Initial hash: 198121000
+[debug] Initial hash: 198462000
+[debug] Initial hash: 198803000
+[debug] Initial hash: 199144000
+[debug] Initial hash: 199485000
+[debug] Initial hash: 199826000
+[debug] Initial hash: 200167000
+[debug] Initial hash: 200508000
+[debug] Initial hash: 200849000
+[debug] Initial hash: 201190000
+[debug] Initial hash: 201531000
+[debug] Initial hash: 201872000
+[debug] Initial hash: 202213000
+[debug] Initial hash: 202554000
+[debug] Initial hash: 202895000
+[debug] Initial hash: 203236000
+[debug] Initial hash: 203577000
+[debug] Initial hash: 203918000
+[debug] Initial hash: 204259000
+[debug] Initial hash: 204600000
+[debug] Initial hash: 204941000
+[debug] Initial hash: 205282000
+[debug] Initial hash: 205623000
+[debug] Initial hash: 205964000
+[debug] Initial hash: 206305000
+[debug] Initial hash: 206646000
+[debug] Initial hash: 206987000
+[debug] Initial hash: 207328000
+[debug] Initial hash: 207669000
+[debug] Initial hash: 208010000
+[debug] Initial hash: 208351000
+[debug] Initial hash: 208692000
+[debug] Initial hash: 209033000
+[debug] Initial hash: 209374000
+[debug] Initial hash: 209715000
+[debug] Initial hash: 210056000
+[debug] Initial hash: 210397000
+[debug] Initial hash: 210738000
+[debug] Initial hash: 211079000
+[debug] Initial hash: 211420000
+[debug] Initial hash: 211761000
+[debug] Initial hash: 212102000
+[debug] Initial hash: 212443000
+[debug] Initial hash: 212784000
+[debug] Initial hash: 213125000
+[debug] Initial hash: 213466000
+[debug] Initial hash: 213807000
+[debug] Initial hash: 214148000
+[debug] Initial hash: 214489000
+[debug] Initial hash: 214830000
+[debug] Initial hash: 215171000
+[debug] Initial hash: 215512000
+[debug] Initial hash: 215853000
+[debug] Initial hash: 216194000
+[debug] Initial hash: 216535000
+[debug] Initial hash: 216876000
+[debug] Initial hash: 217217000
+[debug] Initial hash: 217558000
+[debug] Initial hash: 217899000
+[debug] Initial hash: 218240000
+[debug] Initial hash: 218581000
+[debug] Initial hash: 218922000
+[debug] Initial hash: 219263000
+[debug] Initial hash: 219604000
+[debug] Initial hash: 219945000
+[debug] Initial hash: 220286000
+[debug] Initial hash: 220627000
+[debug] Initial hash: 220968000
+[debug] Initial hash: 221309000
+[debug] Initial hash: 221650000
+[debug] Initial hash: 221991000
+[debug] Initial hash: 222332000
+[debug] Initial hash: 222673000
+[debug] Initial hash: 223014000
+[debug] Initial hash: 223355000
+[debug] Initial hash: 223696000
+[debug] Initial hash: 224037000
+[debug] Initial hash: 224378000
+[debug] Initial hash: 224719000
+[debug] Initial hash: 225060000
+[debug] Initial hash: 225401000
+[debug] Initial hash: 225742000
+[debug] Initial hash: 226083000
+[debug] Initial hash: 226424000
+[debug] Initial hash: 226765000
+[debug] Initial hash: 227106000
+[debug] Initial hash: 227447000
+[debug] Initial hash: 227788000
+[debug] Initial hash: 228129000
+[debug] Initial hash: 228470000
+[debug] Initial hash: 228811000
+[debug] Initial hash: 229152000
+[debug] Initial hash: 229493000
+[debug] Initial hash: 229834000
+[debug] Initial hash: 230175000
+[debug] Initial hash: 230516000
+[debug] Initial hash: 230857000
+[debug] Initial hash: 231198000
+[debug] Initial hash: 231539000
+[debug] Initial hash: 231880000
+[debug] Initial hash: 232221000
+[debug] Initial hash: 232562000
+[debug] Initial hash: 232903000
+[debug] Initial hash: 233244000
+[debug] Initial hash: 233585000
+[debug] Initial hash: 233926000
+[debug] Initial hash: 234267000
+[debug] Initial hash: 234608000
+[debug] Initial hash: 234949000
+[debug] Initial hash: 235290000
+[debug] Initial hash: 235631000
+[debug] Initial hash: 235972000
+[debug] Initial hash: 236313000
+[debug] Initial hash: 236654000
+[debug] Initial hash: 236995000
+[debug] Initial hash: 237336000
+[debug] Initial hash: 237677000
+[debug] Initial hash: 238018000
+[debug] Initial hash: 238359000
+[debug] Initial hash: 238700000
+[debug] Initial hash: 239041000
+[debug] Initial hash: 239382000
+[debug] Initial hash: 239723000
+[debug] Initial hash: 240064000
+[debug] Initial hash: 240405000
+[debug] Initial hash: 240746000
+[debug] Initial hash: 241087000
+[debug] Initial hash: 241428000
+[debug] Initial hash: 241769000
+[debug] Initial hash: 242110000
+[debug] Initial hash: 242451000
+[debug] Initial hash: 242792000
+[debug] Initial hash: 243133000
+[debug] Initial hash: 243474000
+[debug] Initial hash: 243815000
+[debug] Initial hash: 244156000
+[debug] Initial hash: 244497000
+[debug] Initial hash: 244838000
+[debug] Initial hash: 245179000
+[debug] Initial hash: 245520000
+[debug] Initial hash: 245861000
+[debug] Initial hash: 246202000
+[debug] Initial hash: 246543000
+[debug] Initial hash: 246884000
+[debug] Initial hash: 247225000
+[debug] Initial hash: 247566000
+[debug] Initial hash: 247907000
+[debug] Initial hash: 248248000
+[debug] Initial hash: 248589000
+[debug] Initial hash: 248930000
+[debug] Initial hash: 249271000
+[debug] Initial hash: 249612000
+[debug] Initial hash: 249953000
+[debug] Initial hash: 250294000
+[debug] Initial hash: 250635000
+[debug] Initial hash: 250976000
+[debug] Initial hash: 251317000
+[debug] Initial hash: 251658000
+[debug] Initial hash: 251999000
+[debug] Initial hash: 252340000
+[debug] Initial hash: 252681000
+[debug] Initial hash: 253022000
+[debug] Initial hash: 253363000
+[debug] Initial hash: 253704000
+[debug] Initial hash: 254045000
+[debug] Initial hash: 254386000
+[debug] Initial hash: 254727000
+[debug] Initial hash: 255068000
+[debug] Initial hash: 255409000
+[debug] Initial hash: 255750000
+[debug] Initial hash: 256091000
+[debug] Initial hash: 256432000
+[debug] Initial hash: 256773000
+[debug] Initial hash: 257114000
+[debug] Initial hash: 257455000
+[debug] Initial hash: 257796000
+[debug] Initial hash: 258137000
+[debug] Initial hash: 258478000
+[debug] Initial hash: 258819000
+[debug] Initial hash: 259160000
+[debug] Initial hash: 259501000
+[debug] Initial hash: 259842000
+[debug] Initial hash: 260183000
+[debug] Initial hash: 260524000
+[debug] Initial hash: 260865000
+[debug] Initial hash: 261206000
+[debug] Initial hash: 261547000
+[debug] Initial hash: 261888000
+[debug] Initial hash: 262229000
+[debug] Initial hash: 262570000
+[debug] Initial hash: 262911000
+[debug] Initial hash: 263252000
+[debug] Initial hash: 263593000
+[debug] Initial hash: 263934000
+[debug] Initial hash: 264275000
+[debug] Initial hash: 264616000
+[debug] Initial hash: 264957000
+[debug] Initial hash: 265298000
+[debug] Initial hash: 265639000
+[debug] Initial hash: 265980000
+[debug] Initial hash: 266321000
+[debug] Initial hash: 266662000
+[debug] Initial hash: 267003000
+[debug] Initial hash: 267344000
+[debug] Initial hash: 267685000
+[debug] Initial hash: 268026000
+[debug] Initial hash: 268367000
+[debug] Initial hash: 268708000
+[debug] Initial hash: 269049000
+[debug] Initial hash: 269390000
+[debug] Initial hash: 269731000
+[debug] Initial hash: 270072000
+[debug] Initial hash: 270413000
+[debug] Initial hash: 270754000
+[debug] Initial hash: 271095000
+[debug] Initial hash: 271436000
+[debug] Initial hash: 271777000
+[debug] Initial hash: 272118000
+[debug] Initial hash: 272459000
+[debug] Initial hash: 272800000
+[debug] Initial hash: 273141000
+[debug] Initial hash: 273482000
+[debug] Initial hash: 273823000
+[debug] Initial hash: 274164000
+[debug] Initial hash: 274505000
+[debug] Initial hash: 274846000
+[debug] Initial hash: 275187000
+[debug] Initial hash: 275528000
+[debug] Initial hash: 275869000
+[debug] Initial hash: 276210000
+[debug] Initial hash: 276551000
+[debug] Initial hash: 276892000
+[debug] Initial hash: 277233000
+[debug] Initial hash: 277574000
+[debug] Initial hash: 277915000
+[debug] Initial hash: 278256000
+[debug] Initial hash: 278597000
+[debug] Initial hash: 278938000
+[debug] Initial hash: 279279000
+[debug] Initial hash: 279620000
+[debug] Initial hash: 279961000
+[debug] Initial hash: 280302000
+[debug] Initial hash: 280643000
+[debug] Initial hash: 280984000
+[debug] Initial hash: 281325000
+[debug] Initial hash: 281666000
+[debug] Initial hash: 282007000
+[debug] Initial hash: 282348000
+[debug] Initial hash: 282689000
+[debug] Initial hash: 283030000
+[debug] Initial hash: 283371000
+[debug] Initial hash: 283712000
+[debug] Initial hash: 284053000
+[debug] Initial hash: 284394000
+[debug] Initial hash: 284735000
+[debug] Initial hash: 285076000
+[debug] Initial hash: 285417000
+[debug] Initial hash: 285758000
+[debug] Initial hash: 286099000
+[debug] Initial hash: 286440000
+[debug] Initial hash: 286781000
+[debug] Initial hash: 287122000
+[debug] Initial hash: 287463000
+[debug] Initial hash: 287804000
+[debug] Initial hash: 288145000
+[debug] Initial hash: 288486000
+[debug] Initial hash: 288827000
+[debug] Initial hash: 289168000
+[debug] Initial hash: 289509000
+[debug] Initial hash: 289850000
+[debug] Initial hash: 290191000
+[debug] Initial hash: 290532000
+[debug] Initial hash: 290873000
+[debug] Initial hash: 291214000
+[debug] Initial hash: 291555000
+[debug] Initial hash: 291896000
+[debug] Initial hash: 292237000
+[debug] Initial hash: 292578000
+[debug] Initial hash: 292919000
+[debug] Initial hash: 293260000
+[debug] Initial hash: 293601000
+[debug] Initial hash: 293942000
+[debug] Initial hash: 294283000
+[debug] Initial hash: 294624000
+[debug] Initial hash: 294965000
+[debug] Initial hash: 295306000
+[debug] Initial hash: 295647000
+[debug] Initial hash: 295988000
+[debug] Initial hash: 296329000
+[debug] Initial hash: 296670000
+[debug] Initial hash: 297011000
+[debug] Initial hash: 297352000
+[debug] Initial hash: 297693000
+[debug] Initial hash: 298034000
+[debug] Initial hash: 298375000
+[debug] Initial hash: 298716000
+[debug] Initial hash: 299057000
+[debug] Initial hash: 299398000
+[debug] Initial hash: 299739000
+[debug] Initial hash: 300080000
+[debug] Initial hash: 300421000
+[debug] Initial hash: 300762000
+[debug] Initial hash: 301103000
+[debug] Initial hash: 301444000
+[debug] Initial hash: 301785000
+[debug] Initial hash: 302126000
+[debug] Initial hash: 302467000
+[debug] Initial hash: 302808000
+[debug] Initial hash: 303149000
+[debug] Initial hash: 303490000
+[debug] Initial hash: 303831000
+[debug] Initial hash: 304172000
+[debug] Initial hash: 304513000
+[debug] Initial hash: 304854000
+[debug] Initial hash: 305195000
+[debug] Initial hash: 305536000
+[debug] Initial hash: 305877000
+[debug] Initial hash: 306218000
+[debug] Initial hash: 306559000
+[debug] Initial hash: 306900000
+[debug] Initial hash: 307241000
+[debug] Initial hash: 307582000
+[debug] Initial hash: 307923000
+[debug] Initial hash: 308264000
+[debug] Initial hash: 308605000
+[debug] Initial hash: 308946000
+[debug] Initial hash: 309287000
+[debug] Initial hash: 309628000
+[debug] Initial hash: 309969000
+[debug] Initial hash: 310310000
+[debug] Initial hash: 310651000
+[debug] Initial hash: 310992000
+[debug] Initial hash: 311333000
+[debug] Initial hash: 311674000
+[debug] Initial hash: 312015000
+[debug] Initial hash: 312356000
+[debug] Initial hash: 312697000
+[debug] Initial hash: 313038000
+[debug] Initial hash: 313379000
+[debug] Initial hash: 313720000
+[debug] Initial hash: 314061000
+[debug] Initial hash: 314402000
+[debug] Initial hash: 314743000
+[debug] Initial hash: 315084000
+[debug] Initial hash: 315425000
+[debug] Initial hash: 315766000
+[debug] Initial hash: 316107000
+[debug] Initial hash: 316448000
+[debug] Initial hash: 316789000
+[debug] Initial hash: 317130000
+[debug] Initial hash: 317471000
+[debug] Initial hash: 317812000
+[debug] Initial hash: 318153000
+[debug] Initial hash: 318494000
+[debug] Initial hash: 318835000
+[debug] Initial hash: 319176000
+[debug] Initial hash: 319517000
+[debug] Initial hash: 319858000
+[debug] Initial hash: 320199000
+[debug] Initial hash: 320540000
+[debug] Initial hash: 320881000
+[debug] Initial hash: 321222000
+[debug] Initial hash: 321563000
+[debug] Initial hash: 321904000
+[debug] Initial hash: 322245000
+[debug] Initial hash: 322586000
+[debug] Initial hash: 322927000
+[debug] Initial hash: 323268000
+[debug] Initial hash: 323609000
+[debug] Initial hash: 323950000
+[debug] Initial hash: 324291000
+[debug] Initial hash: 324632000
+[debug] Initial hash: 324973000
+[debug] Initial hash: 325314000
+[debug] Initial hash: 325655000
+[debug] Initial hash: 325996000
+[debug] Initial hash: 326337000
+[debug] Initial hash: 326678000
+[debug] Initial hash: 327019000
+[debug] Initial hash: 327360000
+[debug] Initial hash: 327701000
+[debug] Initial hash: 328042000
+[debug] Initial hash: 328383000
+[debug] Initial hash: 328724000
+[debug] Initial hash: 329065000
+[debug] Initial hash: 329406000
+[debug] Initial hash: 329747000
+[debug] Initial hash: 330088000
+[debug] Initial hash: 330429000
+[debug] Initial hash: 330770000
+[debug] Initial hash: 331111000
+[debug] Initial hash: 331452000
+[debug] Initial hash: 331793000
+[debug] Initial hash: 332134000
+[debug] Initial hash: 332475000
+[debug] Initial hash: 332816000
+[debug] Initial hash: 333157000
+[debug] Initial hash: 333498000
+[debug] Initial hash: 333839000
+[debug] Initial hash: 334180000
+[debug] Initial hash: 334521000
+[debug] Initial hash: 334862000
+[debug] Initial hash: 335203000
+[debug] Initial hash: 335544000
+[debug] Initial hash: 335885000
+[debug] Initial hash: 336226000
+[debug] Initial hash: 336567000
+[debug] Initial hash: 336908000
+[debug] Initial hash: 337249000
+[debug] Initial hash: 337590000
+[debug] Initial hash: 337931000
+[debug] Initial hash: 338272000
+[debug] Initial hash: 338613000
+[debug] Initial hash: 338954000
+[debug] Initial hash: 339295000
+[debug] Initial hash: 339636000
+[debug] Initial hash: 339977000
+[debug] Initial hash: 340318000
+[debug] Initial hash: 340659000
+[debug] Initial hash: 341000000
+[debug] Initial hash: 341341000
+[debug] Initial hash: 341682000
+[debug] Initial hash: 342023000
+[debug] Initial hash: 342364000
+[debug] Initial hash: 342705000
+[debug] Initial hash: 343046000
+[debug] Initial hash: 343387000
+[debug] Initial hash: 343728000
+[debug] Initial hash: 344069000
+[debug] Initial hash: 344410000
+[debug] Initial hash: 344751000
+[debug] Initial hash: 345092000
+[debug] Initial hash: 345433000
+[debug] Initial hash: 345774000
+[debug] Initial hash: 346115000
+[debug] Initial hash: 346456000
+[debug] Initial hash: 346797000
+[debug] Initial hash: 347138000
+[debug] Initial hash: 347479000
+[debug] Initial hash: 347820000
+[debug] Initial hash: 348161000
+[debug] Initial hash: 348502000
+[debug] Initial hash: 348843000
+[debug] Initial hash: 349184000
+[debug] Initial hash: 349525000
+[debug] Initial hash: 349866000
+[debug] Initial hash: 350207000
+[debug] Initial hash: 350548000
+[debug] Initial hash: 350889000
+[debug] Initial hash: 351230000
+[debug] Initial hash: 351571000
+[debug] Initial hash: 351912000
+[debug] Initial hash: 352253000
+[debug] Initial hash: 352594000
+[debug] Initial hash: 352935000
+[debug] Initial hash: 353276000
+[debug] Initial hash: 353617000
+[debug] Initial hash: 353958000
+[debug] Initial hash: 354299000
+[debug] Initial hash: 354640000
+[debug] Initial hash: 354981000
+[debug] Initial hash: 355322000
+[debug] Initial hash: 355663000
+[debug] Initial hash: 356004000
+[debug] Initial hash: 356345000
+[debug] Initial hash: 356686000
+[debug] Initial hash: 357027000
+[debug] Initial hash: 357368000
+[debug] Initial hash: 357709000
+[debug] Initial hash: 358050000
+[debug] Initial hash: 358391000
+[debug] Initial hash: 358732000
+[debug] Initial hash: 359073000
+[debug] Initial hash: 359414000
+[debug] Initial hash: 359755000
+[debug] Initial hash: 360096000
+[debug] Initial hash: 360437000
+[debug] Initial hash: 360778000
+[debug] Initial hash: 361119000
+[debug] Initial hash: 361460000
+[debug] Initial hash: 361801000
+[debug] Initial hash: 362142000
+[debug] Initial hash: 362483000
+[debug] Initial hash: 362824000
+[debug] Initial hash: 363165000
+[debug] Initial hash: 363506000
+[debug] Initial hash: 363847000
+[debug] Initial hash: 364188000
+[debug] Initial hash: 364529000
+[debug] Initial hash: 364870000
+[debug] Initial hash: 365211000
+[debug] Initial hash: 365552000
+[debug] Initial hash: 365893000
+[debug] Initial hash: 366234000
+[debug] Initial hash: 366575000
+[debug] Initial hash: 366916000
+[debug] Initial hash: 367257000
+[debug] Initial hash: 367598000
+[debug] Initial hash: 367939000
+[debug] Initial hash: 368280000
+[debug] Initial hash: 368621000
+[debug] Initial hash: 368962000
+[debug] Initial hash: 369303000
+[debug] Initial hash: 369644000
+[debug] Initial hash: 369985000
+[debug] Initial hash: 370326000
+[debug] Initial hash: 370667000
+[debug] Initial hash: 371008000
+[debug] Initial hash: 371349000
+[debug] Initial hash: 371690000
+[debug] Initial hash: 372031000
+[debug] Initial hash: 372372000
+[debug] Initial hash: 372713000
+[debug] Initial hash: 373054000
+[debug] Initial hash: 373395000
+[debug] Initial hash: 373736000
+[debug] Initial hash: 374077000
+[debug] Initial hash: 374418000
+[debug] Initial hash: 374759000
+[debug] Initial hash: 375100000
+[debug] Initial hash: 375441000
+[debug] Initial hash: 375782000
+[debug] Initial hash: 376123000
+[debug] Initial hash: 376464000
+[debug] Initial hash: 376805000
+[debug] Initial hash: 377146000
+[debug] Initial hash: 377487000
+[debug] Initial hash: 377828000
+[debug] Initial hash: 378169000
+[debug] Initial hash: 378510000
+[debug] Initial hash: 378851000
+[debug] Initial hash: 379192000
+[debug] Initial hash: 379533000
+[debug] Initial hash: 379874000
+[debug] Initial hash: 380215000
+[debug] Initial hash: 380556000
+[debug] Initial hash: 380897000
+[debug] Initial hash: 381238000
+[debug] Initial hash: 381579000
+[debug] Initial hash: 381920000
+[debug] Initial hash: 382261000
+[debug] Initial hash: 382602000
+[debug] Initial hash: 382943000
+[debug] Initial hash: 383284000
+[debug] Initial hash: 383625000
+[debug] Initial hash: 383966000
+[debug] Initial hash: 384307000
+[debug] Initial hash: 384648000
+[debug] Initial hash: 384989000
+[debug] Initial hash: 385330000
+[debug] Initial hash: 385671000
+[debug] Initial hash: 386012000
+[debug] Initial hash: 386353000
+[debug] Initial hash: 386694000
+[debug] Initial hash: 387035000
+[debug] Initial hash: 387376000
+[debug] Initial hash: 387717000
+[debug] Initial hash: 388058000
+[debug] Initial hash: 388399000
+[debug] Initial hash: 388740000
+[debug] Initial hash: 389081000
+[debug] Initial hash: 389422000
+[debug] Initial hash: 389763000
+[debug] Initial hash: 390104000
+[debug] Initial hash: 390445000
+[debug] Initial hash: 390786000
+[debug] Initial hash: 391127000
+[debug] Initial hash: 391468000
+[debug] Initial hash: 391809000
+[debug] Initial hash: 392150000
+[debug] Initial hash: 392491000
+[debug] Initial hash: 392832000
+[debug] Initial hash: 393173000
+[debug] Initial hash: 393514000
+[debug] Initial hash: 393855000
+[debug] Initial hash: 394196000
+[debug] Initial hash: 394537000
+[debug] Initial hash: 394878000
+[debug] Initial hash: 395219000
+[debug] Initial hash: 395560000
+[debug] Initial hash: 395901000
+[debug] Initial hash: 396242000
+[debug] Initial hash: 396583000
+[debug] Initial hash: 396924000
+[debug] Initial hash: 397265000
+[debug] Initial hash: 397606000
+[debug] Initial hash: 397947000
+[debug] Initial hash: 398288000
+[debug] Initial hash: 398629000
+[debug] Initial hash: 398970000
+[debug] Initial hash: 399311000
+[debug] Initial hash: 399652000
+[debug] Initial hash: 399993000
+[debug] Initial hash: 400334000
+[debug] Initial hash: 400675000
+[debug] Initial hash: 401016000
+[debug] Initial hash: 401357000
+[debug] Initial hash: 401698000
+[debug] Initial hash: 402039000
+[debug] Initial hash: 402380000
+[debug] Initial hash: 402721000
+[debug] Initial hash: 403062000
+[debug] Initial hash: 403403000
+[debug] Initial hash: 403744000
+[debug] Initial hash: 404085000
+[debug] Initial hash: 404426000
+[debug] Initial hash: 404767000
+[debug] Initial hash: 405108000
+[debug] Initial hash: 405449000
+[debug] Initial hash: 405790000
+[debug] Initial hash: 406131000
+[debug] Initial hash: 406472000
+[debug] Initial hash: 406813000
+[debug] Initial hash: 407154000
+[debug] Initial hash: 407495000
+[debug] Initial hash: 407836000
+[debug] Initial hash: 408177000
+[debug] Initial hash: 408518000
+[debug] Initial hash: 408859000
+[debug] Initial hash: 409200000
+[debug] Initial hash: 409541000
+[debug] Initial hash: 409882000
+[debug] Initial hash: 410223000
+[debug] Initial hash: 410564000
+[debug] Initial hash: 410905000
+[debug] Initial hash: 411246000
+[debug] Initial hash: 411587000
+[debug] Initial hash: 411928000
+[debug] Initial hash: 412269000
+[debug] Initial hash: 412610000
+[debug] Initial hash: 412951000
+[debug] Initial hash: 413292000
+[debug] Initial hash: 413633000
+[debug] Initial hash: 413974000
+[debug] Initial hash: 414315000
+[debug] Initial hash: 414656000
+[debug] Initial hash: 414997000
+[debug] Initial hash: 415338000
+[debug] Initial hash: 415679000
+[debug] Initial hash: 416020000
+[debug] Initial hash: 416361000
+[debug] Initial hash: 416702000
+[debug] Initial hash: 417043000
+[debug] Initial hash: 417384000
+[debug] Initial hash: 417725000
+[debug] Initial hash: 418066000
+[debug] Initial hash: 418407000
+[debug] Initial hash: 418748000
+[debug] Initial hash: 419089000
+[debug] Initial hash: 419430000
+[debug] Initial hash: 419771000
+[debug] Initial hash: 420112000
+[debug] Initial hash: 420453000
+[debug] Initial hash: 420794000
+[debug] Initial hash: 421135000
+[debug] Initial hash: 421476000
+[debug] Initial hash: 421817000
+[debug] Initial hash: 422158000
+[debug] Initial hash: 422499000
+[debug] Initial hash: 422840000
+[debug] Initial hash: 423181000
+[debug] Initial hash: 423522000
+[debug] Initial hash: 423863000
+[debug] Initial hash: 424204000
+[debug] Initial hash: 424545000
+[debug] Initial hash: 424886000
+[debug] Initial hash: 425227000
+[debug] Initial hash: 425568000
+[debug] Initial hash: 425909000
+[debug] Initial hash: 426250000
+[debug] Initial hash: 426591000
+[debug] Initial hash: 426932000
+[debug] Initial hash: 427273000
+[debug] Initial hash: 427614000
+[debug] Initial hash: 427955000
+[debug] Initial hash: 428296000
+[debug] Initial hash: 428637000
+[debug] Initial hash: 428978000
+[debug] Initial hash: 429319000
+[debug] Initial hash: 429660000
+[debug] Initial hash: 430001000
+[debug] Initial hash: 430342000
+[debug] Initial hash: 430683000
+[debug] Initial hash: 431024000
+[debug] Initial hash: 431365000
+[debug] Initial hash: 431706000
+[debug] Initial hash: 432047000
+[debug] Initial hash: 432388000
+[debug] Initial hash: 432729000
+[debug] Initial hash: 433070000
+[debug] Initial hash: 433411000
+[debug] Initial hash: 433752000
+[debug] Initial hash: 434093000
+[debug] Initial hash: 434434000
+[debug] Initial hash: 434775000
+[debug] Initial hash: 435116000
+[debug] Initial hash: 435457000
+[debug] Initial hash: 435798000
+[debug] Initial hash: 436139000
+[debug] Initial hash: 436480000
+[debug] Initial hash: 436821000
+[debug] Initial hash: 437162000
+[debug] Initial hash: 437503000
+[debug] Initial hash: 437844000
+[debug] Initial hash: 438185000
+[debug] Initial hash: 438526000
+[debug] Initial hash: 438867000
+[debug] Initial hash: 439208000
+[debug] Initial hash: 439549000
+[debug] Initial hash: 439890000
+[debug] Initial hash: 440231000
+[debug] Initial hash: 440572000
+[debug] Initial hash: 440913000
+[debug] Initial hash: 441254000
+[debug] Initial hash: 441595000
+[debug] Initial hash: 441936000
+[debug] Initial hash: 442277000
+[debug] Initial hash: 442618000
+[debug] Initial hash: 442959000
+[debug] Initial hash: 443300000
+[debug] Initial hash: 443641000
+[debug] Initial hash: 443982000
+[debug] Initial hash: 444323000
+[debug] Initial hash: 444664000
+[debug] Initial hash: 445005000
+[debug] Initial hash: 445346000
+[debug] Initial hash: 445687000
+[debug] Initial hash: 446028000
+[debug] Initial hash: 446369000
+[debug] Initial hash: 446710000
+[debug] Initial hash: 447051000
+[debug] Initial hash: 447392000
+[debug] Initial hash: 447733000
+[debug] Initial hash: 448074000
+[debug] Initial hash: 448415000
+[debug] Initial hash: 448756000
+[debug] Initial hash: 449097000
+[debug] Initial hash: 449438000
+[debug] Initial hash: 449779000
+[debug] Initial hash: 450120000
+[debug] Initial hash: 450461000
+[debug] Initial hash: 450802000
+[debug] Initial hash: 451143000
+[debug] Initial hash: 451484000
+[debug] Initial hash: 451825000
+[debug] Initial hash: 452166000
+[debug] Initial hash: 452507000
+[debug] Initial hash: 452848000
+[debug] Initial hash: 453189000
+[debug] Initial hash: 453530000
+[debug] Initial hash: 453871000
+[debug] Initial hash: 454212000
+[debug] Initial hash: 454553000
+[debug] Initial hash: 454894000
+[debug] Initial hash: 455235000
+[debug] Initial hash: 455576000
+[debug] Initial hash: 455917000
+[debug] Initial hash: 456258000
+[debug] Initial hash: 456599000
+[debug] Initial hash: 456940000
+[debug] Initial hash: 457281000
+[debug] Initial hash: 457622000
+[debug] Initial hash: 457963000
+[debug] Initial hash: 458304000
+[debug] Initial hash: 458645000
+[debug] Initial hash: 458986000
+[debug] Initial hash: 459327000
+[debug] Initial hash: 459668000
+[debug] Initial hash: 460009000
+[debug] Initial hash: 460350000
+[debug] Initial hash: 460691000
+[debug] Initial hash: 461032000
+[debug] Initial hash: 461373000
+[debug] Initial hash: 461714000
+[debug] Initial hash: 462055000
+[debug] Initial hash: 462396000
+[debug] Initial hash: 462737000
+[debug] Initial hash: 463078000
+[debug] Initial hash: 463419000
+[debug] Initial hash: 463760000
+[debug] Initial hash: 464101000
+[debug] Initial hash: 464442000
+[debug] Initial hash: 464783000
+[debug] Initial hash: 465124000
+[debug] Initial hash: 465465000
+[debug] Initial hash: 465806000
+[debug] Initial hash: 466147000
+[debug] Initial hash: 466488000
+[debug] Initial hash: 466829000
+[debug] Initial hash: 467170000
+[debug] Initial hash: 467511000
+[debug] Initial hash: 467852000
+[debug] Initial hash: 468193000
+[debug] Initial hash: 468534000
+[debug] Initial hash: 468875000
+[debug] Initial hash: 469216000
+[debug] Initial hash: 469557000
+[debug] Initial hash: 469898000
+[debug] Initial hash: 470239000
+[debug] Initial hash: 470580000
+[debug] Initial hash: 470921000
+[debug] Initial hash: 471262000
+[debug] Initial hash: 471603000
+[debug] Initial hash: 471944000
+[debug] Initial hash: 472285000
+[debug] Initial hash: 472626000
+[debug] Initial hash: 472967000
+[debug] Initial hash: 473308000
+[debug] Initial hash: 473649000
+[debug] Initial hash: 473990000
+[debug] Initial hash: 474331000
+[debug] Initial hash: 474672000
+[debug] Initial hash: 475013000
+[debug] Initial hash: 475354000
+[debug] Initial hash: 475695000
+[debug] Initial hash: 476036000
+[debug] Initial hash: 476377000
+[debug] Initial hash: 476718000
+[debug] Initial hash: 477059000
+[debug] Initial hash: 477400000
+[debug] Initial hash: 477741000
+[debug] Initial hash: 478082000
+[debug] Initial hash: 478423000
+[debug] Initial hash: 478764000
+[debug] Initial hash: 479105000
+[debug] Initial hash: 479446000
+[debug] Initial hash: 479787000
+[debug] Initial hash: 480128000
+[debug] Initial hash: 480469000
+[debug] Initial hash: 480810000
+[debug] Initial hash: 481151000
+[debug] Initial hash: 481492000
+[debug] Initial hash: 481833000
+[debug] Initial hash: 482174000
+[debug] Initial hash: 482515000
+[debug] Initial hash: 482856000
+[debug] Initial hash: 483197000
+[debug] Initial hash: 483538000
+[debug] Initial hash: 483879000
+[debug] Initial hash: 484220000
+[debug] Initial hash: 484561000
+[debug] Initial hash: 484902000
+[debug] Initial hash: 485243000
+[debug] Initial hash: 485584000
+[debug] Initial hash: 485925000
+[debug] Initial hash: 486266000
+[debug] Initial hash: 486607000
+[debug] Initial hash: 486948000
+[debug] Initial hash: 487289000
+[debug] Initial hash: 487630000
+[debug] Initial hash: 487971000
+[debug] Initial hash: 488312000
+[debug] Initial hash: 488653000
+[debug] Initial hash: 488994000
+[debug] Initial hash: 489335000
+[debug] Initial hash: 489676000
+[debug] Initial hash: 490017000
+[debug] Initial hash: 490358000
+[debug] Initial hash: 490699000
+[debug] Initial hash: 491040000
+[debug] Initial hash: 491381000
+[debug] Initial hash: 491722000
+[debug] Initial hash: 492063000
+[debug] Initial hash: 492404000
+[debug] Initial hash: 492745000
+[debug] Initial hash: 493086000
+[debug] Initial hash: 493427000
+[debug] Initial hash: 493768000
+[debug] Initial hash: 494109000
+[debug] Initial hash: 494450000
+[debug] Initial hash: 494791000
+[debug] Initial hash: 495132000
+[debug] Initial hash: 495473000
+[debug] Initial hash: 495814000
+[debug] Initial hash: 496155000
+[debug] Initial hash: 496496000
+[debug] Initial hash: 496837000
+[debug] Initial hash: 497178000
+[debug] Initial hash: 497519000
+[debug] Initial hash: 497860000
+[debug] Initial hash: 498201000
+[debug] Initial hash: 498542000
+[debug] Initial hash: 498883000
+[debug] Initial hash: 499224000
+[debug] Initial hash: 499565000
+[debug] Initial hash: 499906000
+[debug] Initial hash: 500247000
+[debug] Initial hash: 500588000
+[debug] Initial hash: 500929000
+[debug] Initial hash: 501270000
+[debug] Initial hash: 501611000
+[debug] Initial hash: 501952000
+[debug] Initial hash: 502293000
+[debug] Initial hash: 502634000
+[debug] Initial hash: 502975000
+[debug] Initial hash: 503316000
+[debug] Initial hash: 503657000
+[debug] Initial hash: 503998000
+[debug] Initial hash: 504339000
+[debug] Initial hash: 504680000
+[debug] Initial hash: 505021000
+[debug] Initial hash: 505362000
+[debug] Initial hash: 505703000
+[debug] Initial hash: 506044000
+[debug] Initial hash: 506385000
+[debug] Initial hash: 506726000
+[debug] Initial hash: 507067000
+[debug] Initial hash: 507408000
+[debug] Initial hash: 507749000
+[debug] Initial hash: 508090000
+[debug] Initial hash: 508431000
+[debug] Initial hash: 508772000
+[debug] Initial hash: 509113000
+[debug] Initial hash: 509454000
+[debug] Initial hash: 509795000
+[debug] Initial hash: 510136000
+[debug] Initial hash: 510477000
+[debug] Initial hash: 510818000
+[debug] Initial hash: 511159000
+[debug] Initial hash: 511500000
+[debug] Initial hash: 511841000
+[debug] Initial hash: 512182000
+[debug] Initial hash: 512523000
+[debug] Initial hash: 512864000
+[debug] Initial hash: 513205000
+[debug] Initial hash: 513546000
+[debug] Initial hash: 513887000
+[debug] Initial hash: 514228000
+[debug] Initial hash: 514569000
+[debug] Initial hash: 514910000
+[debug] Initial hash: 515251000
+[debug] Initial hash: 515592000
+[debug] Initial hash: 515933000
+[debug] Initial hash: 516274000
+[debug] Initial hash: 516615000
+[debug] Initial hash: 516956000
+[debug] Initial hash: 517297000
+[debug] Initial hash: 517638000
+[debug] Initial hash: 517979000
+[debug] Initial hash: 518320000
+[debug] Initial hash: 518661000
+[debug] Initial hash: 519002000
+[debug] Initial hash: 519343000
+[debug] Initial hash: 519684000
+[debug] Initial hash: 520025000
+[debug] Initial hash: 520366000
+[debug] Initial hash: 520707000
+[debug] Initial hash: 521048000
+[debug] Initial hash: 521389000
+[debug] Initial hash: 521730000
+[debug] Initial hash: 522071000
+[debug] Initial hash: 522412000
+[debug] Initial hash: 522753000
+[debug] Initial hash: 523094000
+[debug] Initial hash: 523435000
+[debug] Initial hash: 523776000
+[debug] Initial hash: 524117000
+[debug] Initial hash: 524458000
+[debug] Initial hash: 524799000
+[debug] Initial hash: 525140000
+[debug] Initial hash: 525481000
+[debug] Initial hash: 525822000
+[debug] Initial hash: 526163000
+[debug] Initial hash: 526504000
+[debug] Initial hash: 526845000
+[debug] Initial hash: 527186000
+[debug] Initial hash: 527527000
+[debug] Initial hash: 527868000
+[debug] Initial hash: 528209000
+[debug] Initial hash: 528550000
+[debug] Initial hash: 528891000
+[debug] Initial hash: 529232000
+[debug] Initial hash: 529573000
+[debug] Initial hash: 529914000
+[debug] Initial hash: 530255000
+[debug] Initial hash: 530596000
+[debug] Initial hash: 530937000
+[debug] Initial hash: 531278000
+[debug] Initial hash: 531619000
+[debug] Initial hash: 531960000
+[debug] Initial hash: 532301000
+[debug] Initial hash: 532642000
+[debug] Initial hash: 532983000
+[debug] Initial hash: 533324000
+[debug] Initial hash: 533665000
+[debug] Initial hash: 534006000
+[debug] Initial hash: 534347000
+[debug] Initial hash: 534688000
+[debug] Initial hash: 535029000
+[debug] Initial hash: 535370000
+[debug] Initial hash: 535711000
+[debug] Initial hash: 536052000
+[debug] Initial hash: 536393000
+[debug] Calculate Initial Hash: tauG2
+[debug] Initial hash: 0
+[debug] Initial hash: 341000
+[debug] Initial hash: 682000
+[debug] Initial hash: 1023000
+[debug] Initial hash: 1364000
+[debug] Initial hash: 1705000
+[debug] Initial hash: 2046000
+[debug] Initial hash: 2387000
+[debug] Initial hash: 2728000
+[debug] Initial hash: 3069000
+[debug] Initial hash: 3410000
+[debug] Initial hash: 3751000
+[debug] Initial hash: 4092000
+[debug] Initial hash: 4433000
+[debug] Initial hash: 4774000
+[debug] Initial hash: 5115000
+[debug] Initial hash: 5456000
+[debug] Initial hash: 5797000
+[debug] Initial hash: 6138000
+[debug] Initial hash: 6479000
+[debug] Initial hash: 6820000
+[debug] Initial hash: 7161000
+[debug] Initial hash: 7502000
+[debug] Initial hash: 7843000
+[debug] Initial hash: 8184000
+[debug] Initial hash: 8525000
+[debug] Initial hash: 8866000
+[debug] Initial hash: 9207000
+[debug] Initial hash: 9548000
+[debug] Initial hash: 9889000
+[debug] Initial hash: 10230000
+[debug] Initial hash: 10571000
+[debug] Initial hash: 10912000
+[debug] Initial hash: 11253000
+[debug] Initial hash: 11594000
+[debug] Initial hash: 11935000
+[debug] Initial hash: 12276000
+[debug] Initial hash: 12617000
+[debug] Initial hash: 12958000
+[debug] Initial hash: 13299000
+[debug] Initial hash: 13640000
+[debug] Initial hash: 13981000
+[debug] Initial hash: 14322000
+[debug] Initial hash: 14663000
+[debug] Initial hash: 15004000
+[debug] Initial hash: 15345000
+[debug] Initial hash: 15686000
+[debug] Initial hash: 16027000
+[debug] Initial hash: 16368000
+[debug] Initial hash: 16709000
+[debug] Initial hash: 17050000
+[debug] Initial hash: 17391000
+[debug] Initial hash: 17732000
+[debug] Initial hash: 18073000
+[debug] Initial hash: 18414000
+[debug] Initial hash: 18755000
+[debug] Initial hash: 19096000
+[debug] Initial hash: 19437000
+[debug] Initial hash: 19778000
+[debug] Initial hash: 20119000
+[debug] Initial hash: 20460000
+[debug] Initial hash: 20801000
+[debug] Initial hash: 21142000
+[debug] Initial hash: 21483000
+[debug] Initial hash: 21824000
+[debug] Initial hash: 22165000
+[debug] Initial hash: 22506000
+[debug] Initial hash: 22847000
+[debug] Initial hash: 23188000
+[debug] Initial hash: 23529000
+[debug] Initial hash: 23870000
+[debug] Initial hash: 24211000
+[debug] Initial hash: 24552000
+[debug] Initial hash: 24893000
+[debug] Initial hash: 25234000
+[debug] Initial hash: 25575000
+[debug] Initial hash: 25916000
+[debug] Initial hash: 26257000
+[debug] Initial hash: 26598000
+[debug] Initial hash: 26939000
+[debug] Initial hash: 27280000
+[debug] Initial hash: 27621000
+[debug] Initial hash: 27962000
+[debug] Initial hash: 28303000
+[debug] Initial hash: 28644000
+[debug] Initial hash: 28985000
+[debug] Initial hash: 29326000
+[debug] Initial hash: 29667000
+[debug] Initial hash: 30008000
+[debug] Initial hash: 30349000
+[debug] Initial hash: 30690000
+[debug] Initial hash: 31031000
+[debug] Initial hash: 31372000
+[debug] Initial hash: 31713000
+[debug] Initial hash: 32054000
+[debug] Initial hash: 32395000
+[debug] Initial hash: 32736000
+[debug] Initial hash: 33077000
+[debug] Initial hash: 33418000
+[debug] Initial hash: 33759000
+[debug] Initial hash: 34100000
+[debug] Initial hash: 34441000
+[debug] Initial hash: 34782000
+[debug] Initial hash: 35123000
+[debug] Initial hash: 35464000
+[debug] Initial hash: 35805000
+[debug] Initial hash: 36146000
+[debug] Initial hash: 36487000
+[debug] Initial hash: 36828000
+[debug] Initial hash: 37169000
+[debug] Initial hash: 37510000
+[debug] Initial hash: 37851000
+[debug] Initial hash: 38192000
+[debug] Initial hash: 38533000
+[debug] Initial hash: 38874000
+[debug] Initial hash: 39215000
+[debug] Initial hash: 39556000
+[debug] Initial hash: 39897000
+[debug] Initial hash: 40238000
+[debug] Initial hash: 40579000
+[debug] Initial hash: 40920000
+[debug] Initial hash: 41261000
+[debug] Initial hash: 41602000
+[debug] Initial hash: 41943000
+[debug] Initial hash: 42284000
+[debug] Initial hash: 42625000
+[debug] Initial hash: 42966000
+[debug] Initial hash: 43307000
+[debug] Initial hash: 43648000
+[debug] Initial hash: 43989000
+[debug] Initial hash: 44330000
+[debug] Initial hash: 44671000
+[debug] Initial hash: 45012000
+[debug] Initial hash: 45353000
+[debug] Initial hash: 45694000
+[debug] Initial hash: 46035000
+[debug] Initial hash: 46376000
+[debug] Initial hash: 46717000
+[debug] Initial hash: 47058000
+[debug] Initial hash: 47399000
+[debug] Initial hash: 47740000
+[debug] Initial hash: 48081000
+[debug] Initial hash: 48422000
+[debug] Initial hash: 48763000
+[debug] Initial hash: 49104000
+[debug] Initial hash: 49445000
+[debug] Initial hash: 49786000
+[debug] Initial hash: 50127000
+[debug] Initial hash: 50468000
+[debug] Initial hash: 50809000
+[debug] Initial hash: 51150000
+[debug] Initial hash: 51491000
+[debug] Initial hash: 51832000
+[debug] Initial hash: 52173000
+[debug] Initial hash: 52514000
+[debug] Initial hash: 52855000
+[debug] Initial hash: 53196000
+[debug] Initial hash: 53537000
+[debug] Initial hash: 53878000
+[debug] Initial hash: 54219000
+[debug] Initial hash: 54560000
+[debug] Initial hash: 54901000
+[debug] Initial hash: 55242000
+[debug] Initial hash: 55583000
+[debug] Initial hash: 55924000
+[debug] Initial hash: 56265000
+[debug] Initial hash: 56606000
+[debug] Initial hash: 56947000
+[debug] Initial hash: 57288000
+[debug] Initial hash: 57629000
+[debug] Initial hash: 57970000
+[debug] Initial hash: 58311000
+[debug] Initial hash: 58652000
+[debug] Initial hash: 58993000
+[debug] Initial hash: 59334000
+[debug] Initial hash: 59675000
+[debug] Initial hash: 60016000
+[debug] Initial hash: 60357000
+[debug] Initial hash: 60698000
+[debug] Initial hash: 61039000
+[debug] Initial hash: 61380000
+[debug] Initial hash: 61721000
+[debug] Initial hash: 62062000
+[debug] Initial hash: 62403000
+[debug] Initial hash: 62744000
+[debug] Initial hash: 63085000
+[debug] Initial hash: 63426000
+[debug] Initial hash: 63767000
+[debug] Initial hash: 64108000
+[debug] Initial hash: 64449000
+[debug] Initial hash: 64790000
+[debug] Initial hash: 65131000
+[debug] Initial hash: 65472000
+[debug] Initial hash: 65813000
+[debug] Initial hash: 66154000
+[debug] Initial hash: 66495000
+[debug] Initial hash: 66836000
+[debug] Initial hash: 67177000
+[debug] Initial hash: 67518000
+[debug] Initial hash: 67859000
+[debug] Initial hash: 68200000
+[debug] Initial hash: 68541000
+[debug] Initial hash: 68882000
+[debug] Initial hash: 69223000
+[debug] Initial hash: 69564000
+[debug] Initial hash: 69905000
+[debug] Initial hash: 70246000
+[debug] Initial hash: 70587000
+[debug] Initial hash: 70928000
+[debug] Initial hash: 71269000
+[debug] Initial hash: 71610000
+[debug] Initial hash: 71951000
+[debug] Initial hash: 72292000
+[debug] Initial hash: 72633000
+[debug] Initial hash: 72974000
+[debug] Initial hash: 73315000
+[debug] Initial hash: 73656000
+[debug] Initial hash: 73997000
+[debug] Initial hash: 74338000
+[debug] Initial hash: 74679000
+[debug] Initial hash: 75020000
+[debug] Initial hash: 75361000
+[debug] Initial hash: 75702000
+[debug] Initial hash: 76043000
+[debug] Initial hash: 76384000
+[debug] Initial hash: 76725000
+[debug] Initial hash: 77066000
+[debug] Initial hash: 77407000
+[debug] Initial hash: 77748000
+[debug] Initial hash: 78089000
+[debug] Initial hash: 78430000
+[debug] Initial hash: 78771000
+[debug] Initial hash: 79112000
+[debug] Initial hash: 79453000
+[debug] Initial hash: 79794000
+[debug] Initial hash: 80135000
+[debug] Initial hash: 80476000
+[debug] Initial hash: 80817000
+[debug] Initial hash: 81158000
+[debug] Initial hash: 81499000
+[debug] Initial hash: 81840000
+[debug] Initial hash: 82181000
+[debug] Initial hash: 82522000
+[debug] Initial hash: 82863000
+[debug] Initial hash: 83204000
+[debug] Initial hash: 83545000
+[debug] Initial hash: 83886000
+[debug] Initial hash: 84227000
+[debug] Initial hash: 84568000
+[debug] Initial hash: 84909000
+[debug] Initial hash: 85250000
+[debug] Initial hash: 85591000
+[debug] Initial hash: 85932000
+[debug] Initial hash: 86273000
+[debug] Initial hash: 86614000
+[debug] Initial hash: 86955000
+[debug] Initial hash: 87296000
+[debug] Initial hash: 87637000
+[debug] Initial hash: 87978000
+[debug] Initial hash: 88319000
+[debug] Initial hash: 88660000
+[debug] Initial hash: 89001000
+[debug] Initial hash: 89342000
+[debug] Initial hash: 89683000
+[debug] Initial hash: 90024000
+[debug] Initial hash: 90365000
+[debug] Initial hash: 90706000
+[debug] Initial hash: 91047000
+[debug] Initial hash: 91388000
+[debug] Initial hash: 91729000
+[debug] Initial hash: 92070000
+[debug] Initial hash: 92411000
+[debug] Initial hash: 92752000
+[debug] Initial hash: 93093000
+[debug] Initial hash: 93434000
+[debug] Initial hash: 93775000
+[debug] Initial hash: 94116000
+[debug] Initial hash: 94457000
+[debug] Initial hash: 94798000
+[debug] Initial hash: 95139000
+[debug] Initial hash: 95480000
+[debug] Initial hash: 95821000
+[debug] Initial hash: 96162000
+[debug] Initial hash: 96503000
+[debug] Initial hash: 96844000
+[debug] Initial hash: 97185000
+[debug] Initial hash: 97526000
+[debug] Initial hash: 97867000
+[debug] Initial hash: 98208000
+[debug] Initial hash: 98549000
+[debug] Initial hash: 98890000
+[debug] Initial hash: 99231000
+[debug] Initial hash: 99572000
+[debug] Initial hash: 99913000
+[debug] Initial hash: 100254000
+[debug] Initial hash: 100595000
+[debug] Initial hash: 100936000
+[debug] Initial hash: 101277000
+[debug] Initial hash: 101618000
+[debug] Initial hash: 101959000
+[debug] Initial hash: 102300000
+[debug] Initial hash: 102641000
+[debug] Initial hash: 102982000
+[debug] Initial hash: 103323000
+[debug] Initial hash: 103664000
+[debug] Initial hash: 104005000
+[debug] Initial hash: 104346000
+[debug] Initial hash: 104687000
+[debug] Initial hash: 105028000
+[debug] Initial hash: 105369000
+[debug] Initial hash: 105710000
+[debug] Initial hash: 106051000
+[debug] Initial hash: 106392000
+[debug] Initial hash: 106733000
+[debug] Initial hash: 107074000
+[debug] Initial hash: 107415000
+[debug] Initial hash: 107756000
+[debug] Initial hash: 108097000
+[debug] Initial hash: 108438000
+[debug] Initial hash: 108779000
+[debug] Initial hash: 109120000
+[debug] Initial hash: 109461000
+[debug] Initial hash: 109802000
+[debug] Initial hash: 110143000
+[debug] Initial hash: 110484000
+[debug] Initial hash: 110825000
+[debug] Initial hash: 111166000
+[debug] Initial hash: 111507000
+[debug] Initial hash: 111848000
+[debug] Initial hash: 112189000
+[debug] Initial hash: 112530000
+[debug] Initial hash: 112871000
+[debug] Initial hash: 113212000
+[debug] Initial hash: 113553000
+[debug] Initial hash: 113894000
+[debug] Initial hash: 114235000
+[debug] Initial hash: 114576000
+[debug] Initial hash: 114917000
+[debug] Initial hash: 115258000
+[debug] Initial hash: 115599000
+[debug] Initial hash: 115940000
+[debug] Initial hash: 116281000
+[debug] Initial hash: 116622000
+[debug] Initial hash: 116963000
+[debug] Initial hash: 117304000
+[debug] Initial hash: 117645000
+[debug] Initial hash: 117986000
+[debug] Initial hash: 118327000
+[debug] Initial hash: 118668000
+[debug] Initial hash: 119009000
+[debug] Initial hash: 119350000
+[debug] Initial hash: 119691000
+[debug] Initial hash: 120032000
+[debug] Initial hash: 120373000
+[debug] Initial hash: 120714000
+[debug] Initial hash: 121055000
+[debug] Initial hash: 121396000
+[debug] Initial hash: 121737000
+[debug] Initial hash: 122078000
+[debug] Initial hash: 122419000
+[debug] Initial hash: 122760000
+[debug] Initial hash: 123101000
+[debug] Initial hash: 123442000
+[debug] Initial hash: 123783000
+[debug] Initial hash: 124124000
+[debug] Initial hash: 124465000
+[debug] Initial hash: 124806000
+[debug] Initial hash: 125147000
+[debug] Initial hash: 125488000
+[debug] Initial hash: 125829000
+[debug] Initial hash: 126170000
+[debug] Initial hash: 126511000
+[debug] Initial hash: 126852000
+[debug] Initial hash: 127193000
+[debug] Initial hash: 127534000
+[debug] Initial hash: 127875000
+[debug] Initial hash: 128216000
+[debug] Initial hash: 128557000
+[debug] Initial hash: 128898000
+[debug] Initial hash: 129239000
+[debug] Initial hash: 129580000
+[debug] Initial hash: 129921000
+[debug] Initial hash: 130262000
+[debug] Initial hash: 130603000
+[debug] Initial hash: 130944000
+[debug] Initial hash: 131285000
+[debug] Initial hash: 131626000
+[debug] Initial hash: 131967000
+[debug] Initial hash: 132308000
+[debug] Initial hash: 132649000
+[debug] Initial hash: 132990000
+[debug] Initial hash: 133331000
+[debug] Initial hash: 133672000
+[debug] Initial hash: 134013000
+[debug] Initial hash: 134354000
+[debug] Initial hash: 134695000
+[debug] Initial hash: 135036000
+[debug] Initial hash: 135377000
+[debug] Initial hash: 135718000
+[debug] Initial hash: 136059000
+[debug] Initial hash: 136400000
+[debug] Initial hash: 136741000
+[debug] Initial hash: 137082000
+[debug] Initial hash: 137423000
+[debug] Initial hash: 137764000
+[debug] Initial hash: 138105000
+[debug] Initial hash: 138446000
+[debug] Initial hash: 138787000
+[debug] Initial hash: 139128000
+[debug] Initial hash: 139469000
+[debug] Initial hash: 139810000
+[debug] Initial hash: 140151000
+[debug] Initial hash: 140492000
+[debug] Initial hash: 140833000
+[debug] Initial hash: 141174000
+[debug] Initial hash: 141515000
+[debug] Initial hash: 141856000
+[debug] Initial hash: 142197000
+[debug] Initial hash: 142538000
+[debug] Initial hash: 142879000
+[debug] Initial hash: 143220000
+[debug] Initial hash: 143561000
+[debug] Initial hash: 143902000
+[debug] Initial hash: 144243000
+[debug] Initial hash: 144584000
+[debug] Initial hash: 144925000
+[debug] Initial hash: 145266000
+[debug] Initial hash: 145607000
+[debug] Initial hash: 145948000
+[debug] Initial hash: 146289000
+[debug] Initial hash: 146630000
+[debug] Initial hash: 146971000
+[debug] Initial hash: 147312000
+[debug] Initial hash: 147653000
+[debug] Initial hash: 147994000
+[debug] Initial hash: 148335000
+[debug] Initial hash: 148676000
+[debug] Initial hash: 149017000
+[debug] Initial hash: 149358000
+[debug] Initial hash: 149699000
+[debug] Initial hash: 150040000
+[debug] Initial hash: 150381000
+[debug] Initial hash: 150722000
+[debug] Initial hash: 151063000
+[debug] Initial hash: 151404000
+[debug] Initial hash: 151745000
+[debug] Initial hash: 152086000
+[debug] Initial hash: 152427000
+[debug] Initial hash: 152768000
+[debug] Initial hash: 153109000
+[debug] Initial hash: 153450000
+[debug] Initial hash: 153791000
+[debug] Initial hash: 154132000
+[debug] Initial hash: 154473000
+[debug] Initial hash: 154814000
+[debug] Initial hash: 155155000
+[debug] Initial hash: 155496000
+[debug] Initial hash: 155837000
+[debug] Initial hash: 156178000
+[debug] Initial hash: 156519000
+[debug] Initial hash: 156860000
+[debug] Initial hash: 157201000
+[debug] Initial hash: 157542000
+[debug] Initial hash: 157883000
+[debug] Initial hash: 158224000
+[debug] Initial hash: 158565000
+[debug] Initial hash: 158906000
+[debug] Initial hash: 159247000
+[debug] Initial hash: 159588000
+[debug] Initial hash: 159929000
+[debug] Initial hash: 160270000
+[debug] Initial hash: 160611000
+[debug] Initial hash: 160952000
+[debug] Initial hash: 161293000
+[debug] Initial hash: 161634000
+[debug] Initial hash: 161975000
+[debug] Initial hash: 162316000
+[debug] Initial hash: 162657000
+[debug] Initial hash: 162998000
+[debug] Initial hash: 163339000
+[debug] Initial hash: 163680000
+[debug] Initial hash: 164021000
+[debug] Initial hash: 164362000
+[debug] Initial hash: 164703000
+[debug] Initial hash: 165044000
+[debug] Initial hash: 165385000
+[debug] Initial hash: 165726000
+[debug] Initial hash: 166067000
+[debug] Initial hash: 166408000
+[debug] Initial hash: 166749000
+[debug] Initial hash: 167090000
+[debug] Initial hash: 167431000
+[debug] Initial hash: 167772000
+[debug] Initial hash: 168113000
+[debug] Initial hash: 168454000
+[debug] Initial hash: 168795000
+[debug] Initial hash: 169136000
+[debug] Initial hash: 169477000
+[debug] Initial hash: 169818000
+[debug] Initial hash: 170159000
+[debug] Initial hash: 170500000
+[debug] Initial hash: 170841000
+[debug] Initial hash: 171182000
+[debug] Initial hash: 171523000
+[debug] Initial hash: 171864000
+[debug] Initial hash: 172205000
+[debug] Initial hash: 172546000
+[debug] Initial hash: 172887000
+[debug] Initial hash: 173228000
+[debug] Initial hash: 173569000
+[debug] Initial hash: 173910000
+[debug] Initial hash: 174251000
+[debug] Initial hash: 174592000
+[debug] Initial hash: 174933000
+[debug] Initial hash: 175274000
+[debug] Initial hash: 175615000
+[debug] Initial hash: 175956000
+[debug] Initial hash: 176297000
+[debug] Initial hash: 176638000
+[debug] Initial hash: 176979000
+[debug] Initial hash: 177320000
+[debug] Initial hash: 177661000
+[debug] Initial hash: 178002000
+[debug] Initial hash: 178343000
+[debug] Initial hash: 178684000
+[debug] Initial hash: 179025000
+[debug] Initial hash: 179366000
+[debug] Initial hash: 179707000
+[debug] Initial hash: 180048000
+[debug] Initial hash: 180389000
+[debug] Initial hash: 180730000
+[debug] Initial hash: 181071000
+[debug] Initial hash: 181412000
+[debug] Initial hash: 181753000
+[debug] Initial hash: 182094000
+[debug] Initial hash: 182435000
+[debug] Initial hash: 182776000
+[debug] Initial hash: 183117000
+[debug] Initial hash: 183458000
+[debug] Initial hash: 183799000
+[debug] Initial hash: 184140000
+[debug] Initial hash: 184481000
+[debug] Initial hash: 184822000
+[debug] Initial hash: 185163000
+[debug] Initial hash: 185504000
+[debug] Initial hash: 185845000
+[debug] Initial hash: 186186000
+[debug] Initial hash: 186527000
+[debug] Initial hash: 186868000
+[debug] Initial hash: 187209000
+[debug] Initial hash: 187550000
+[debug] Initial hash: 187891000
+[debug] Initial hash: 188232000
+[debug] Initial hash: 188573000
+[debug] Initial hash: 188914000
+[debug] Initial hash: 189255000
+[debug] Initial hash: 189596000
+[debug] Initial hash: 189937000
+[debug] Initial hash: 190278000
+[debug] Initial hash: 190619000
+[debug] Initial hash: 190960000
+[debug] Initial hash: 191301000
+[debug] Initial hash: 191642000
+[debug] Initial hash: 191983000
+[debug] Initial hash: 192324000
+[debug] Initial hash: 192665000
+[debug] Initial hash: 193006000
+[debug] Initial hash: 193347000
+[debug] Initial hash: 193688000
+[debug] Initial hash: 194029000
+[debug] Initial hash: 194370000
+[debug] Initial hash: 194711000
+[debug] Initial hash: 195052000
+[debug] Initial hash: 195393000
+[debug] Initial hash: 195734000
+[debug] Initial hash: 196075000
+[debug] Initial hash: 196416000
+[debug] Initial hash: 196757000
+[debug] Initial hash: 197098000
+[debug] Initial hash: 197439000
+[debug] Initial hash: 197780000
+[debug] Initial hash: 198121000
+[debug] Initial hash: 198462000
+[debug] Initial hash: 198803000
+[debug] Initial hash: 199144000
+[debug] Initial hash: 199485000
+[debug] Initial hash: 199826000
+[debug] Initial hash: 200167000
+[debug] Initial hash: 200508000
+[debug] Initial hash: 200849000
+[debug] Initial hash: 201190000
+[debug] Initial hash: 201531000
+[debug] Initial hash: 201872000
+[debug] Initial hash: 202213000
+[debug] Initial hash: 202554000
+[debug] Initial hash: 202895000
+[debug] Initial hash: 203236000
+[debug] Initial hash: 203577000
+[debug] Initial hash: 203918000
+[debug] Initial hash: 204259000
+[debug] Initial hash: 204600000
+[debug] Initial hash: 204941000
+[debug] Initial hash: 205282000
+[debug] Initial hash: 205623000
+[debug] Initial hash: 205964000
+[debug] Initial hash: 206305000
+[debug] Initial hash: 206646000
+[debug] Initial hash: 206987000
+[debug] Initial hash: 207328000
+[debug] Initial hash: 207669000
+[debug] Initial hash: 208010000
+[debug] Initial hash: 208351000
+[debug] Initial hash: 208692000
+[debug] Initial hash: 209033000
+[debug] Initial hash: 209374000
+[debug] Initial hash: 209715000
+[debug] Initial hash: 210056000
+[debug] Initial hash: 210397000
+[debug] Initial hash: 210738000
+[debug] Initial hash: 211079000
+[debug] Initial hash: 211420000
+[debug] Initial hash: 211761000
+[debug] Initial hash: 212102000
+[debug] Initial hash: 212443000
+[debug] Initial hash: 212784000
+[debug] Initial hash: 213125000
+[debug] Initial hash: 213466000
+[debug] Initial hash: 213807000
+[debug] Initial hash: 214148000
+[debug] Initial hash: 214489000
+[debug] Initial hash: 214830000
+[debug] Initial hash: 215171000
+[debug] Initial hash: 215512000
+[debug] Initial hash: 215853000
+[debug] Initial hash: 216194000
+[debug] Initial hash: 216535000
+[debug] Initial hash: 216876000
+[debug] Initial hash: 217217000
+[debug] Initial hash: 217558000
+[debug] Initial hash: 217899000
+[debug] Initial hash: 218240000
+[debug] Initial hash: 218581000
+[debug] Initial hash: 218922000
+[debug] Initial hash: 219263000
+[debug] Initial hash: 219604000
+[debug] Initial hash: 219945000
+[debug] Initial hash: 220286000
+[debug] Initial hash: 220627000
+[debug] Initial hash: 220968000
+[debug] Initial hash: 221309000
+[debug] Initial hash: 221650000
+[debug] Initial hash: 221991000
+[debug] Initial hash: 222332000
+[debug] Initial hash: 222673000
+[debug] Initial hash: 223014000
+[debug] Initial hash: 223355000
+[debug] Initial hash: 223696000
+[debug] Initial hash: 224037000
+[debug] Initial hash: 224378000
+[debug] Initial hash: 224719000
+[debug] Initial hash: 225060000
+[debug] Initial hash: 225401000
+[debug] Initial hash: 225742000
+[debug] Initial hash: 226083000
+[debug] Initial hash: 226424000
+[debug] Initial hash: 226765000
+[debug] Initial hash: 227106000
+[debug] Initial hash: 227447000
+[debug] Initial hash: 227788000
+[debug] Initial hash: 228129000
+[debug] Initial hash: 228470000
+[debug] Initial hash: 228811000
+[debug] Initial hash: 229152000
+[debug] Initial hash: 229493000
+[debug] Initial hash: 229834000
+[debug] Initial hash: 230175000
+[debug] Initial hash: 230516000
+[debug] Initial hash: 230857000
+[debug] Initial hash: 231198000
+[debug] Initial hash: 231539000
+[debug] Initial hash: 231880000
+[debug] Initial hash: 232221000
+[debug] Initial hash: 232562000
+[debug] Initial hash: 232903000
+[debug] Initial hash: 233244000
+[debug] Initial hash: 233585000
+[debug] Initial hash: 233926000
+[debug] Initial hash: 234267000
+[debug] Initial hash: 234608000
+[debug] Initial hash: 234949000
+[debug] Initial hash: 235290000
+[debug] Initial hash: 235631000
+[debug] Initial hash: 235972000
+[debug] Initial hash: 236313000
+[debug] Initial hash: 236654000
+[debug] Initial hash: 236995000
+[debug] Initial hash: 237336000
+[debug] Initial hash: 237677000
+[debug] Initial hash: 238018000
+[debug] Initial hash: 238359000
+[debug] Initial hash: 238700000
+[debug] Initial hash: 239041000
+[debug] Initial hash: 239382000
+[debug] Initial hash: 239723000
+[debug] Initial hash: 240064000
+[debug] Initial hash: 240405000
+[debug] Initial hash: 240746000
+[debug] Initial hash: 241087000
+[debug] Initial hash: 241428000
+[debug] Initial hash: 241769000
+[debug] Initial hash: 242110000
+[debug] Initial hash: 242451000
+[debug] Initial hash: 242792000
+[debug] Initial hash: 243133000
+[debug] Initial hash: 243474000
+[debug] Initial hash: 243815000
+[debug] Initial hash: 244156000
+[debug] Initial hash: 244497000
+[debug] Initial hash: 244838000
+[debug] Initial hash: 245179000
+[debug] Initial hash: 245520000
+[debug] Initial hash: 245861000
+[debug] Initial hash: 246202000
+[debug] Initial hash: 246543000
+[debug] Initial hash: 246884000
+[debug] Initial hash: 247225000
+[debug] Initial hash: 247566000
+[debug] Initial hash: 247907000
+[debug] Initial hash: 248248000
+[debug] Initial hash: 248589000
+[debug] Initial hash: 248930000
+[debug] Initial hash: 249271000
+[debug] Initial hash: 249612000
+[debug] Initial hash: 249953000
+[debug] Initial hash: 250294000
+[debug] Initial hash: 250635000
+[debug] Initial hash: 250976000
+[debug] Initial hash: 251317000
+[debug] Initial hash: 251658000
+[debug] Initial hash: 251999000
+[debug] Initial hash: 252340000
+[debug] Initial hash: 252681000
+[debug] Initial hash: 253022000
+[debug] Initial hash: 253363000
+[debug] Initial hash: 253704000
+[debug] Initial hash: 254045000
+[debug] Initial hash: 254386000
+[debug] Initial hash: 254727000
+[debug] Initial hash: 255068000
+[debug] Initial hash: 255409000
+[debug] Initial hash: 255750000
+[debug] Initial hash: 256091000
+[debug] Initial hash: 256432000
+[debug] Initial hash: 256773000
+[debug] Initial hash: 257114000
+[debug] Initial hash: 257455000
+[debug] Initial hash: 257796000
+[debug] Initial hash: 258137000
+[debug] Initial hash: 258478000
+[debug] Initial hash: 258819000
+[debug] Initial hash: 259160000
+[debug] Initial hash: 259501000
+[debug] Initial hash: 259842000
+[debug] Initial hash: 260183000
+[debug] Initial hash: 260524000
+[debug] Initial hash: 260865000
+[debug] Initial hash: 261206000
+[debug] Initial hash: 261547000
+[debug] Initial hash: 261888000
+[debug] Initial hash: 262229000
+[debug] Initial hash: 262570000
+[debug] Initial hash: 262911000
+[debug] Initial hash: 263252000
+[debug] Initial hash: 263593000
+[debug] Initial hash: 263934000
+[debug] Initial hash: 264275000
+[debug] Initial hash: 264616000
+[debug] Initial hash: 264957000
+[debug] Initial hash: 265298000
+[debug] Initial hash: 265639000
+[debug] Initial hash: 265980000
+[debug] Initial hash: 266321000
+[debug] Initial hash: 266662000
+[debug] Initial hash: 267003000
+[debug] Initial hash: 267344000
+[debug] Initial hash: 267685000
+[debug] Initial hash: 268026000
+[debug] Calculate Initial Hash: alphaTauG1
+[debug] Initial hash: 0
+[debug] Initial hash: 341000
+[debug] Initial hash: 682000
+[debug] Initial hash: 1023000
+[debug] Initial hash: 1364000
+[debug] Initial hash: 1705000
+[debug] Initial hash: 2046000
+[debug] Initial hash: 2387000
+[debug] Initial hash: 2728000
+[debug] Initial hash: 3069000
+[debug] Initial hash: 3410000
+[debug] Initial hash: 3751000
+[debug] Initial hash: 4092000
+[debug] Initial hash: 4433000
+[debug] Initial hash: 4774000
+[debug] Initial hash: 5115000
+[debug] Initial hash: 5456000
+[debug] Initial hash: 5797000
+[debug] Initial hash: 6138000
+[debug] Initial hash: 6479000
+[debug] Initial hash: 6820000
+[debug] Initial hash: 7161000
+[debug] Initial hash: 7502000
+[debug] Initial hash: 7843000
+[debug] Initial hash: 8184000
+[debug] Initial hash: 8525000
+[debug] Initial hash: 8866000
+[debug] Initial hash: 9207000
+[debug] Initial hash: 9548000
+[debug] Initial hash: 9889000
+[debug] Initial hash: 10230000
+[debug] Initial hash: 10571000
+[debug] Initial hash: 10912000
+[debug] Initial hash: 11253000
+[debug] Initial hash: 11594000
+[debug] Initial hash: 11935000
+[debug] Initial hash: 12276000
+[debug] Initial hash: 12617000
+[debug] Initial hash: 12958000
+[debug] Initial hash: 13299000
+[debug] Initial hash: 13640000
+[debug] Initial hash: 13981000
+[debug] Initial hash: 14322000
+[debug] Initial hash: 14663000
+[debug] Initial hash: 15004000
+[debug] Initial hash: 15345000
+[debug] Initial hash: 15686000
+[debug] Initial hash: 16027000
+[debug] Initial hash: 16368000
+[debug] Initial hash: 16709000
+[debug] Initial hash: 17050000
+[debug] Initial hash: 17391000
+[debug] Initial hash: 17732000
+[debug] Initial hash: 18073000
+[debug] Initial hash: 18414000
+[debug] Initial hash: 18755000
+[debug] Initial hash: 19096000
+[debug] Initial hash: 19437000
+[debug] Initial hash: 19778000
+[debug] Initial hash: 20119000
+[debug] Initial hash: 20460000
+[debug] Initial hash: 20801000
+[debug] Initial hash: 21142000
+[debug] Initial hash: 21483000
+[debug] Initial hash: 21824000
+[debug] Initial hash: 22165000
+[debug] Initial hash: 22506000
+[debug] Initial hash: 22847000
+[debug] Initial hash: 23188000
+[debug] Initial hash: 23529000
+[debug] Initial hash: 23870000
+[debug] Initial hash: 24211000
+[debug] Initial hash: 24552000
+[debug] Initial hash: 24893000
+[debug] Initial hash: 25234000
+[debug] Initial hash: 25575000
+[debug] Initial hash: 25916000
+[debug] Initial hash: 26257000
+[debug] Initial hash: 26598000
+[debug] Initial hash: 26939000
+[debug] Initial hash: 27280000
+[debug] Initial hash: 27621000
+[debug] Initial hash: 27962000
+[debug] Initial hash: 28303000
+[debug] Initial hash: 28644000
+[debug] Initial hash: 28985000
+[debug] Initial hash: 29326000
+[debug] Initial hash: 29667000
+[debug] Initial hash: 30008000
+[debug] Initial hash: 30349000
+[debug] Initial hash: 30690000
+[debug] Initial hash: 31031000
+[debug] Initial hash: 31372000
+[debug] Initial hash: 31713000
+[debug] Initial hash: 32054000
+[debug] Initial hash: 32395000
+[debug] Initial hash: 32736000
+[debug] Initial hash: 33077000
+[debug] Initial hash: 33418000
+[debug] Initial hash: 33759000
+[debug] Initial hash: 34100000
+[debug] Initial hash: 34441000
+[debug] Initial hash: 34782000
+[debug] Initial hash: 35123000
+[debug] Initial hash: 35464000
+[debug] Initial hash: 35805000
+[debug] Initial hash: 36146000
+[debug] Initial hash: 36487000
+[debug] Initial hash: 36828000
+[debug] Initial hash: 37169000
+[debug] Initial hash: 37510000
+[debug] Initial hash: 37851000
+[debug] Initial hash: 38192000
+[debug] Initial hash: 38533000
+[debug] Initial hash: 38874000
+[debug] Initial hash: 39215000
+[debug] Initial hash: 39556000
+[debug] Initial hash: 39897000
+[debug] Initial hash: 40238000
+[debug] Initial hash: 40579000
+[debug] Initial hash: 40920000
+[debug] Initial hash: 41261000
+[debug] Initial hash: 41602000
+[debug] Initial hash: 41943000
+[debug] Initial hash: 42284000
+[debug] Initial hash: 42625000
+[debug] Initial hash: 42966000
+[debug] Initial hash: 43307000
+[debug] Initial hash: 43648000
+[debug] Initial hash: 43989000
+[debug] Initial hash: 44330000
+[debug] Initial hash: 44671000
+[debug] Initial hash: 45012000
+[debug] Initial hash: 45353000
+[debug] Initial hash: 45694000
+[debug] Initial hash: 46035000
+[debug] Initial hash: 46376000
+[debug] Initial hash: 46717000
+[debug] Initial hash: 47058000
+[debug] Initial hash: 47399000
+[debug] Initial hash: 47740000
+[debug] Initial hash: 48081000
+[debug] Initial hash: 48422000
+[debug] Initial hash: 48763000
+[debug] Initial hash: 49104000
+[debug] Initial hash: 49445000
+[debug] Initial hash: 49786000
+[debug] Initial hash: 50127000
+[debug] Initial hash: 50468000
+[debug] Initial hash: 50809000
+[debug] Initial hash: 51150000
+[debug] Initial hash: 51491000
+[debug] Initial hash: 51832000
+[debug] Initial hash: 52173000
+[debug] Initial hash: 52514000
+[debug] Initial hash: 52855000
+[debug] Initial hash: 53196000
+[debug] Initial hash: 53537000
+[debug] Initial hash: 53878000
+[debug] Initial hash: 54219000
+[debug] Initial hash: 54560000
+[debug] Initial hash: 54901000
+[debug] Initial hash: 55242000
+[debug] Initial hash: 55583000
+[debug] Initial hash: 55924000
+[debug] Initial hash: 56265000
+[debug] Initial hash: 56606000
+[debug] Initial hash: 56947000
+[debug] Initial hash: 57288000
+[debug] Initial hash: 57629000
+[debug] Initial hash: 57970000
+[debug] Initial hash: 58311000
+[debug] Initial hash: 58652000
+[debug] Initial hash: 58993000
+[debug] Initial hash: 59334000
+[debug] Initial hash: 59675000
+[debug] Initial hash: 60016000
+[debug] Initial hash: 60357000
+[debug] Initial hash: 60698000
+[debug] Initial hash: 61039000
+[debug] Initial hash: 61380000
+[debug] Initial hash: 61721000
+[debug] Initial hash: 62062000
+[debug] Initial hash: 62403000
+[debug] Initial hash: 62744000
+[debug] Initial hash: 63085000
+[debug] Initial hash: 63426000
+[debug] Initial hash: 63767000
+[debug] Initial hash: 64108000
+[debug] Initial hash: 64449000
+[debug] Initial hash: 64790000
+[debug] Initial hash: 65131000
+[debug] Initial hash: 65472000
+[debug] Initial hash: 65813000
+[debug] Initial hash: 66154000
+[debug] Initial hash: 66495000
+[debug] Initial hash: 66836000
+[debug] Initial hash: 67177000
+[debug] Initial hash: 67518000
+[debug] Initial hash: 67859000
+[debug] Initial hash: 68200000
+[debug] Initial hash: 68541000
+[debug] Initial hash: 68882000
+[debug] Initial hash: 69223000
+[debug] Initial hash: 69564000
+[debug] Initial hash: 69905000
+[debug] Initial hash: 70246000
+[debug] Initial hash: 70587000
+[debug] Initial hash: 70928000
+[debug] Initial hash: 71269000
+[debug] Initial hash: 71610000
+[debug] Initial hash: 71951000
+[debug] Initial hash: 72292000
+[debug] Initial hash: 72633000
+[debug] Initial hash: 72974000
+[debug] Initial hash: 73315000
+[debug] Initial hash: 73656000
+[debug] Initial hash: 73997000
+[debug] Initial hash: 74338000
+[debug] Initial hash: 74679000
+[debug] Initial hash: 75020000
+[debug] Initial hash: 75361000
+[debug] Initial hash: 75702000
+[debug] Initial hash: 76043000
+[debug] Initial hash: 76384000
+[debug] Initial hash: 76725000
+[debug] Initial hash: 77066000
+[debug] Initial hash: 77407000
+[debug] Initial hash: 77748000
+[debug] Initial hash: 78089000
+[debug] Initial hash: 78430000
+[debug] Initial hash: 78771000
+[debug] Initial hash: 79112000
+[debug] Initial hash: 79453000
+[debug] Initial hash: 79794000
+[debug] Initial hash: 80135000
+[debug] Initial hash: 80476000
+[debug] Initial hash: 80817000
+[debug] Initial hash: 81158000
+[debug] Initial hash: 81499000
+[debug] Initial hash: 81840000
+[debug] Initial hash: 82181000
+[debug] Initial hash: 82522000
+[debug] Initial hash: 82863000
+[debug] Initial hash: 83204000
+[debug] Initial hash: 83545000
+[debug] Initial hash: 83886000
+[debug] Initial hash: 84227000
+[debug] Initial hash: 84568000
+[debug] Initial hash: 84909000
+[debug] Initial hash: 85250000
+[debug] Initial hash: 85591000
+[debug] Initial hash: 85932000
+[debug] Initial hash: 86273000
+[debug] Initial hash: 86614000
+[debug] Initial hash: 86955000
+[debug] Initial hash: 87296000
+[debug] Initial hash: 87637000
+[debug] Initial hash: 87978000
+[debug] Initial hash: 88319000
+[debug] Initial hash: 88660000
+[debug] Initial hash: 89001000
+[debug] Initial hash: 89342000
+[debug] Initial hash: 89683000
+[debug] Initial hash: 90024000
+[debug] Initial hash: 90365000
+[debug] Initial hash: 90706000
+[debug] Initial hash: 91047000
+[debug] Initial hash: 91388000
+[debug] Initial hash: 91729000
+[debug] Initial hash: 92070000
+[debug] Initial hash: 92411000
+[debug] Initial hash: 92752000
+[debug] Initial hash: 93093000
+[debug] Initial hash: 93434000
+[debug] Initial hash: 93775000
+[debug] Initial hash: 94116000
+[debug] Initial hash: 94457000
+[debug] Initial hash: 94798000
+[debug] Initial hash: 95139000
+[debug] Initial hash: 95480000
+[debug] Initial hash: 95821000
+[debug] Initial hash: 96162000
+[debug] Initial hash: 96503000
+[debug] Initial hash: 96844000
+[debug] Initial hash: 97185000
+[debug] Initial hash: 97526000
+[debug] Initial hash: 97867000
+[debug] Initial hash: 98208000
+[debug] Initial hash: 98549000
+[debug] Initial hash: 98890000
+[debug] Initial hash: 99231000
+[debug] Initial hash: 99572000
+[debug] Initial hash: 99913000
+[debug] Initial hash: 100254000
+[debug] Initial hash: 100595000
+[debug] Initial hash: 100936000
+[debug] Initial hash: 101277000
+[debug] Initial hash: 101618000
+[debug] Initial hash: 101959000
+[debug] Initial hash: 102300000
+[debug] Initial hash: 102641000
+[debug] Initial hash: 102982000
+[debug] Initial hash: 103323000
+[debug] Initial hash: 103664000
+[debug] Initial hash: 104005000
+[debug] Initial hash: 104346000
+[debug] Initial hash: 104687000
+[debug] Initial hash: 105028000
+[debug] Initial hash: 105369000
+[debug] Initial hash: 105710000
+[debug] Initial hash: 106051000
+[debug] Initial hash: 106392000
+[debug] Initial hash: 106733000
+[debug] Initial hash: 107074000
+[debug] Initial hash: 107415000
+[debug] Initial hash: 107756000
+[debug] Initial hash: 108097000
+[debug] Initial hash: 108438000
+[debug] Initial hash: 108779000
+[debug] Initial hash: 109120000
+[debug] Initial hash: 109461000
+[debug] Initial hash: 109802000
+[debug] Initial hash: 110143000
+[debug] Initial hash: 110484000
+[debug] Initial hash: 110825000
+[debug] Initial hash: 111166000
+[debug] Initial hash: 111507000
+[debug] Initial hash: 111848000
+[debug] Initial hash: 112189000
+[debug] Initial hash: 112530000
+[debug] Initial hash: 112871000
+[debug] Initial hash: 113212000
+[debug] Initial hash: 113553000
+[debug] Initial hash: 113894000
+[debug] Initial hash: 114235000
+[debug] Initial hash: 114576000
+[debug] Initial hash: 114917000
+[debug] Initial hash: 115258000
+[debug] Initial hash: 115599000
+[debug] Initial hash: 115940000
+[debug] Initial hash: 116281000
+[debug] Initial hash: 116622000
+[debug] Initial hash: 116963000
+[debug] Initial hash: 117304000
+[debug] Initial hash: 117645000
+[debug] Initial hash: 117986000
+[debug] Initial hash: 118327000
+[debug] Initial hash: 118668000
+[debug] Initial hash: 119009000
+[debug] Initial hash: 119350000
+[debug] Initial hash: 119691000
+[debug] Initial hash: 120032000
+[debug] Initial hash: 120373000
+[debug] Initial hash: 120714000
+[debug] Initial hash: 121055000
+[debug] Initial hash: 121396000
+[debug] Initial hash: 121737000
+[debug] Initial hash: 122078000
+[debug] Initial hash: 122419000
+[debug] Initial hash: 122760000
+[debug] Initial hash: 123101000
+[debug] Initial hash: 123442000
+[debug] Initial hash: 123783000
+[debug] Initial hash: 124124000
+[debug] Initial hash: 124465000
+[debug] Initial hash: 124806000
+[debug] Initial hash: 125147000
+[debug] Initial hash: 125488000
+[debug] Initial hash: 125829000
+[debug] Initial hash: 126170000
+[debug] Initial hash: 126511000
+[debug] Initial hash: 126852000
+[debug] Initial hash: 127193000
+[debug] Initial hash: 127534000
+[debug] Initial hash: 127875000
+[debug] Initial hash: 128216000
+[debug] Initial hash: 128557000
+[debug] Initial hash: 128898000
+[debug] Initial hash: 129239000
+[debug] Initial hash: 129580000
+[debug] Initial hash: 129921000
+[debug] Initial hash: 130262000
+[debug] Initial hash: 130603000
+[debug] Initial hash: 130944000
+[debug] Initial hash: 131285000
+[debug] Initial hash: 131626000
+[debug] Initial hash: 131967000
+[debug] Initial hash: 132308000
+[debug] Initial hash: 132649000
+[debug] Initial hash: 132990000
+[debug] Initial hash: 133331000
+[debug] Initial hash: 133672000
+[debug] Initial hash: 134013000
+[debug] Initial hash: 134354000
+[debug] Initial hash: 134695000
+[debug] Initial hash: 135036000
+[debug] Initial hash: 135377000
+[debug] Initial hash: 135718000
+[debug] Initial hash: 136059000
+[debug] Initial hash: 136400000
+[debug] Initial hash: 136741000
+[debug] Initial hash: 137082000
+[debug] Initial hash: 137423000
+[debug] Initial hash: 137764000
+[debug] Initial hash: 138105000
+[debug] Initial hash: 138446000
+[debug] Initial hash: 138787000
+[debug] Initial hash: 139128000
+[debug] Initial hash: 139469000
+[debug] Initial hash: 139810000
+[debug] Initial hash: 140151000
+[debug] Initial hash: 140492000
+[debug] Initial hash: 140833000
+[debug] Initial hash: 141174000
+[debug] Initial hash: 141515000
+[debug] Initial hash: 141856000
+[debug] Initial hash: 142197000
+[debug] Initial hash: 142538000
+[debug] Initial hash: 142879000
+[debug] Initial hash: 143220000
+[debug] Initial hash: 143561000
+[debug] Initial hash: 143902000
+[debug] Initial hash: 144243000
+[debug] Initial hash: 144584000
+[debug] Initial hash: 144925000
+[debug] Initial hash: 145266000
+[debug] Initial hash: 145607000
+[debug] Initial hash: 145948000
+[debug] Initial hash: 146289000
+[debug] Initial hash: 146630000
+[debug] Initial hash: 146971000
+[debug] Initial hash: 147312000
+[debug] Initial hash: 147653000
+[debug] Initial hash: 147994000
+[debug] Initial hash: 148335000
+[debug] Initial hash: 148676000
+[debug] Initial hash: 149017000
+[debug] Initial hash: 149358000
+[debug] Initial hash: 149699000
+[debug] Initial hash: 150040000
+[debug] Initial hash: 150381000
+[debug] Initial hash: 150722000
+[debug] Initial hash: 151063000
+[debug] Initial hash: 151404000
+[debug] Initial hash: 151745000
+[debug] Initial hash: 152086000
+[debug] Initial hash: 152427000
+[debug] Initial hash: 152768000
+[debug] Initial hash: 153109000
+[debug] Initial hash: 153450000
+[debug] Initial hash: 153791000
+[debug] Initial hash: 154132000
+[debug] Initial hash: 154473000
+[debug] Initial hash: 154814000
+[debug] Initial hash: 155155000
+[debug] Initial hash: 155496000
+[debug] Initial hash: 155837000
+[debug] Initial hash: 156178000
+[debug] Initial hash: 156519000
+[debug] Initial hash: 156860000
+[debug] Initial hash: 157201000
+[debug] Initial hash: 157542000
+[debug] Initial hash: 157883000
+[debug] Initial hash: 158224000
+[debug] Initial hash: 158565000
+[debug] Initial hash: 158906000
+[debug] Initial hash: 159247000
+[debug] Initial hash: 159588000
+[debug] Initial hash: 159929000
+[debug] Initial hash: 160270000
+[debug] Initial hash: 160611000
+[debug] Initial hash: 160952000
+[debug] Initial hash: 161293000
+[debug] Initial hash: 161634000
+[debug] Initial hash: 161975000
+[debug] Initial hash: 162316000
+[debug] Initial hash: 162657000
+[debug] Initial hash: 162998000
+[debug] Initial hash: 163339000
+[debug] Initial hash: 163680000
+[debug] Initial hash: 164021000
+[debug] Initial hash: 164362000
+[debug] Initial hash: 164703000
+[debug] Initial hash: 165044000
+[debug] Initial hash: 165385000
+[debug] Initial hash: 165726000
+[debug] Initial hash: 166067000
+[debug] Initial hash: 166408000
+[debug] Initial hash: 166749000
+[debug] Initial hash: 167090000
+[debug] Initial hash: 167431000
+[debug] Initial hash: 167772000
+[debug] Initial hash: 168113000
+[debug] Initial hash: 168454000
+[debug] Initial hash: 168795000
+[debug] Initial hash: 169136000
+[debug] Initial hash: 169477000
+[debug] Initial hash: 169818000
+[debug] Initial hash: 170159000
+[debug] Initial hash: 170500000
+[debug] Initial hash: 170841000
+[debug] Initial hash: 171182000
+[debug] Initial hash: 171523000
+[debug] Initial hash: 171864000
+[debug] Initial hash: 172205000
+[debug] Initial hash: 172546000
+[debug] Initial hash: 172887000
+[debug] Initial hash: 173228000
+[debug] Initial hash: 173569000
+[debug] Initial hash: 173910000
+[debug] Initial hash: 174251000
+[debug] Initial hash: 174592000
+[debug] Initial hash: 174933000
+[debug] Initial hash: 175274000
+[debug] Initial hash: 175615000
+[debug] Initial hash: 175956000
+[debug] Initial hash: 176297000
+[debug] Initial hash: 176638000
+[debug] Initial hash: 176979000
+[debug] Initial hash: 177320000
+[debug] Initial hash: 177661000
+[debug] Initial hash: 178002000
+[debug] Initial hash: 178343000
+[debug] Initial hash: 178684000
+[debug] Initial hash: 179025000
+[debug] Initial hash: 179366000
+[debug] Initial hash: 179707000
+[debug] Initial hash: 180048000
+[debug] Initial hash: 180389000
+[debug] Initial hash: 180730000
+[debug] Initial hash: 181071000
+[debug] Initial hash: 181412000
+[debug] Initial hash: 181753000
+[debug] Initial hash: 182094000
+[debug] Initial hash: 182435000
+[debug] Initial hash: 182776000
+[debug] Initial hash: 183117000
+[debug] Initial hash: 183458000
+[debug] Initial hash: 183799000
+[debug] Initial hash: 184140000
+[debug] Initial hash: 184481000
+[debug] Initial hash: 184822000
+[debug] Initial hash: 185163000
+[debug] Initial hash: 185504000
+[debug] Initial hash: 185845000
+[debug] Initial hash: 186186000
+[debug] Initial hash: 186527000
+[debug] Initial hash: 186868000
+[debug] Initial hash: 187209000
+[debug] Initial hash: 187550000
+[debug] Initial hash: 187891000
+[debug] Initial hash: 188232000
+[debug] Initial hash: 188573000
+[debug] Initial hash: 188914000
+[debug] Initial hash: 189255000
+[debug] Initial hash: 189596000
+[debug] Initial hash: 189937000
+[debug] Initial hash: 190278000
+[debug] Initial hash: 190619000
+[debug] Initial hash: 190960000
+[debug] Initial hash: 191301000
+[debug] Initial hash: 191642000
+[debug] Initial hash: 191983000
+[debug] Initial hash: 192324000
+[debug] Initial hash: 192665000
+[debug] Initial hash: 193006000
+[debug] Initial hash: 193347000
+[debug] Initial hash: 193688000
+[debug] Initial hash: 194029000
+[debug] Initial hash: 194370000
+[debug] Initial hash: 194711000
+[debug] Initial hash: 195052000
+[debug] Initial hash: 195393000
+[debug] Initial hash: 195734000
+[debug] Initial hash: 196075000
+[debug] Initial hash: 196416000
+[debug] Initial hash: 196757000
+[debug] Initial hash: 197098000
+[debug] Initial hash: 197439000
+[debug] Initial hash: 197780000
+[debug] Initial hash: 198121000
+[debug] Initial hash: 198462000
+[debug] Initial hash: 198803000
+[debug] Initial hash: 199144000
+[debug] Initial hash: 199485000
+[debug] Initial hash: 199826000
+[debug] Initial hash: 200167000
+[debug] Initial hash: 200508000
+[debug] Initial hash: 200849000
+[debug] Initial hash: 201190000
+[debug] Initial hash: 201531000
+[debug] Initial hash: 201872000
+[debug] Initial hash: 202213000
+[debug] Initial hash: 202554000
+[debug] Initial hash: 202895000
+[debug] Initial hash: 203236000
+[debug] Initial hash: 203577000
+[debug] Initial hash: 203918000
+[debug] Initial hash: 204259000
+[debug] Initial hash: 204600000
+[debug] Initial hash: 204941000
+[debug] Initial hash: 205282000
+[debug] Initial hash: 205623000
+[debug] Initial hash: 205964000
+[debug] Initial hash: 206305000
+[debug] Initial hash: 206646000
+[debug] Initial hash: 206987000
+[debug] Initial hash: 207328000
+[debug] Initial hash: 207669000
+[debug] Initial hash: 208010000
+[debug] Initial hash: 208351000
+[debug] Initial hash: 208692000
+[debug] Initial hash: 209033000
+[debug] Initial hash: 209374000
+[debug] Initial hash: 209715000
+[debug] Initial hash: 210056000
+[debug] Initial hash: 210397000
+[debug] Initial hash: 210738000
+[debug] Initial hash: 211079000
+[debug] Initial hash: 211420000
+[debug] Initial hash: 211761000
+[debug] Initial hash: 212102000
+[debug] Initial hash: 212443000
+[debug] Initial hash: 212784000
+[debug] Initial hash: 213125000
+[debug] Initial hash: 213466000
+[debug] Initial hash: 213807000
+[debug] Initial hash: 214148000
+[debug] Initial hash: 214489000
+[debug] Initial hash: 214830000
+[debug] Initial hash: 215171000
+[debug] Initial hash: 215512000
+[debug] Initial hash: 215853000
+[debug] Initial hash: 216194000
+[debug] Initial hash: 216535000
+[debug] Initial hash: 216876000
+[debug] Initial hash: 217217000
+[debug] Initial hash: 217558000
+[debug] Initial hash: 217899000
+[debug] Initial hash: 218240000
+[debug] Initial hash: 218581000
+[debug] Initial hash: 218922000
+[debug] Initial hash: 219263000
+[debug] Initial hash: 219604000
+[debug] Initial hash: 219945000
+[debug] Initial hash: 220286000
+[debug] Initial hash: 220627000
+[debug] Initial hash: 220968000
+[debug] Initial hash: 221309000
+[debug] Initial hash: 221650000
+[debug] Initial hash: 221991000
+[debug] Initial hash: 222332000
+[debug] Initial hash: 222673000
+[debug] Initial hash: 223014000
+[debug] Initial hash: 223355000
+[debug] Initial hash: 223696000
+[debug] Initial hash: 224037000
+[debug] Initial hash: 224378000
+[debug] Initial hash: 224719000
+[debug] Initial hash: 225060000
+[debug] Initial hash: 225401000
+[debug] Initial hash: 225742000
+[debug] Initial hash: 226083000
+[debug] Initial hash: 226424000
+[debug] Initial hash: 226765000
+[debug] Initial hash: 227106000
+[debug] Initial hash: 227447000
+[debug] Initial hash: 227788000
+[debug] Initial hash: 228129000
+[debug] Initial hash: 228470000
+[debug] Initial hash: 228811000
+[debug] Initial hash: 229152000
+[debug] Initial hash: 229493000
+[debug] Initial hash: 229834000
+[debug] Initial hash: 230175000
+[debug] Initial hash: 230516000
+[debug] Initial hash: 230857000
+[debug] Initial hash: 231198000
+[debug] Initial hash: 231539000
+[debug] Initial hash: 231880000
+[debug] Initial hash: 232221000
+[debug] Initial hash: 232562000
+[debug] Initial hash: 232903000
+[debug] Initial hash: 233244000
+[debug] Initial hash: 233585000
+[debug] Initial hash: 233926000
+[debug] Initial hash: 234267000
+[debug] Initial hash: 234608000
+[debug] Initial hash: 234949000
+[debug] Initial hash: 235290000
+[debug] Initial hash: 235631000
+[debug] Initial hash: 235972000
+[debug] Initial hash: 236313000
+[debug] Initial hash: 236654000
+[debug] Initial hash: 236995000
+[debug] Initial hash: 237336000
+[debug] Initial hash: 237677000
+[debug] Initial hash: 238018000
+[debug] Initial hash: 238359000
+[debug] Initial hash: 238700000
+[debug] Initial hash: 239041000
+[debug] Initial hash: 239382000
+[debug] Initial hash: 239723000
+[debug] Initial hash: 240064000
+[debug] Initial hash: 240405000
+[debug] Initial hash: 240746000
+[debug] Initial hash: 241087000
+[debug] Initial hash: 241428000
+[debug] Initial hash: 241769000
+[debug] Initial hash: 242110000
+[debug] Initial hash: 242451000
+[debug] Initial hash: 242792000
+[debug] Initial hash: 243133000
+[debug] Initial hash: 243474000
+[debug] Initial hash: 243815000
+[debug] Initial hash: 244156000
+[debug] Initial hash: 244497000
+[debug] Initial hash: 244838000
+[debug] Initial hash: 245179000
+[debug] Initial hash: 245520000
+[debug] Initial hash: 245861000
+[debug] Initial hash: 246202000
+[debug] Initial hash: 246543000
+[debug] Initial hash: 246884000
+[debug] Initial hash: 247225000
+[debug] Initial hash: 247566000
+[debug] Initial hash: 247907000
+[debug] Initial hash: 248248000
+[debug] Initial hash: 248589000
+[debug] Initial hash: 248930000
+[debug] Initial hash: 249271000
+[debug] Initial hash: 249612000
+[debug] Initial hash: 249953000
+[debug] Initial hash: 250294000
+[debug] Initial hash: 250635000
+[debug] Initial hash: 250976000
+[debug] Initial hash: 251317000
+[debug] Initial hash: 251658000
+[debug] Initial hash: 251999000
+[debug] Initial hash: 252340000
+[debug] Initial hash: 252681000
+[debug] Initial hash: 253022000
+[debug] Initial hash: 253363000
+[debug] Initial hash: 253704000
+[debug] Initial hash: 254045000
+[debug] Initial hash: 254386000
+[debug] Initial hash: 254727000
+[debug] Initial hash: 255068000
+[debug] Initial hash: 255409000
+[debug] Initial hash: 255750000
+[debug] Initial hash: 256091000
+[debug] Initial hash: 256432000
+[debug] Initial hash: 256773000
+[debug] Initial hash: 257114000
+[debug] Initial hash: 257455000
+[debug] Initial hash: 257796000
+[debug] Initial hash: 258137000
+[debug] Initial hash: 258478000
+[debug] Initial hash: 258819000
+[debug] Initial hash: 259160000
+[debug] Initial hash: 259501000
+[debug] Initial hash: 259842000
+[debug] Initial hash: 260183000
+[debug] Initial hash: 260524000
+[debug] Initial hash: 260865000
+[debug] Initial hash: 261206000
+[debug] Initial hash: 261547000
+[debug] Initial hash: 261888000
+[debug] Initial hash: 262229000
+[debug] Initial hash: 262570000
+[debug] Initial hash: 262911000
+[debug] Initial hash: 263252000
+[debug] Initial hash: 263593000
+[debug] Initial hash: 263934000
+[debug] Initial hash: 264275000
+[debug] Initial hash: 264616000
+[debug] Initial hash: 264957000
+[debug] Initial hash: 265298000
+[debug] Initial hash: 265639000
+[debug] Initial hash: 265980000
+[debug] Initial hash: 266321000
+[debug] Initial hash: 266662000
+[debug] Initial hash: 267003000
+[debug] Initial hash: 267344000
+[debug] Initial hash: 267685000
+[debug] Initial hash: 268026000
+[debug] Calculate Initial Hash: betaTauG1
+[debug] Initial hash: 0
+[debug] Initial hash: 341000
+[debug] Initial hash: 682000
+[debug] Initial hash: 1023000
+[debug] Initial hash: 1364000
+[debug] Initial hash: 1705000
+[debug] Initial hash: 2046000
+[debug] Initial hash: 2387000
+[debug] Initial hash: 2728000
+[debug] Initial hash: 3069000
+[debug] Initial hash: 3410000
+[debug] Initial hash: 3751000
+[debug] Initial hash: 4092000
+[debug] Initial hash: 4433000
+[debug] Initial hash: 4774000
+[debug] Initial hash: 5115000
+[debug] Initial hash: 5456000
+[debug] Initial hash: 5797000
+[debug] Initial hash: 6138000
+[debug] Initial hash: 6479000
+[debug] Initial hash: 6820000
+[debug] Initial hash: 7161000
+[debug] Initial hash: 7502000
+[debug] Initial hash: 7843000
+[debug] Initial hash: 8184000
+[debug] Initial hash: 8525000
+[debug] Initial hash: 8866000
+[debug] Initial hash: 9207000
+[debug] Initial hash: 9548000
+[debug] Initial hash: 9889000
+[debug] Initial hash: 10230000
+[debug] Initial hash: 10571000
+[debug] Initial hash: 10912000
+[debug] Initial hash: 11253000
+[debug] Initial hash: 11594000
+[debug] Initial hash: 11935000
+[debug] Initial hash: 12276000
+[debug] Initial hash: 12617000
+[debug] Initial hash: 12958000
+[debug] Initial hash: 13299000
+[debug] Initial hash: 13640000
+[debug] Initial hash: 13981000
+[debug] Initial hash: 14322000
+[debug] Initial hash: 14663000
+[debug] Initial hash: 15004000
+[debug] Initial hash: 15345000
+[debug] Initial hash: 15686000
+[debug] Initial hash: 16027000
+[debug] Initial hash: 16368000
+[debug] Initial hash: 16709000
+[debug] Initial hash: 17050000
+[debug] Initial hash: 17391000
+[debug] Initial hash: 17732000
+[debug] Initial hash: 18073000
+[debug] Initial hash: 18414000
+[debug] Initial hash: 18755000
+[debug] Initial hash: 19096000
+[debug] Initial hash: 19437000
+[debug] Initial hash: 19778000
+[debug] Initial hash: 20119000
+[debug] Initial hash: 20460000
+[debug] Initial hash: 20801000
+[debug] Initial hash: 21142000
+[debug] Initial hash: 21483000
+[debug] Initial hash: 21824000
+[debug] Initial hash: 22165000
+[debug] Initial hash: 22506000
+[debug] Initial hash: 22847000
+[debug] Initial hash: 23188000
+[debug] Initial hash: 23529000
+[debug] Initial hash: 23870000
+[debug] Initial hash: 24211000
+[debug] Initial hash: 24552000
+[debug] Initial hash: 24893000
+[debug] Initial hash: 25234000
+[debug] Initial hash: 25575000
+[debug] Initial hash: 25916000
+[debug] Initial hash: 26257000
+[debug] Initial hash: 26598000
+[debug] Initial hash: 26939000
+[debug] Initial hash: 27280000
+[debug] Initial hash: 27621000
+[debug] Initial hash: 27962000
+[debug] Initial hash: 28303000
+[debug] Initial hash: 28644000
+[debug] Initial hash: 28985000
+[debug] Initial hash: 29326000
+[debug] Initial hash: 29667000
+[debug] Initial hash: 30008000
+[debug] Initial hash: 30349000
+[debug] Initial hash: 30690000
+[debug] Initial hash: 31031000
+[debug] Initial hash: 31372000
+[debug] Initial hash: 31713000
+[debug] Initial hash: 32054000
+[debug] Initial hash: 32395000
+[debug] Initial hash: 32736000
+[debug] Initial hash: 33077000
+[debug] Initial hash: 33418000
+[debug] Initial hash: 33759000
+[debug] Initial hash: 34100000
+[debug] Initial hash: 34441000
+[debug] Initial hash: 34782000
+[debug] Initial hash: 35123000
+[debug] Initial hash: 35464000
+[debug] Initial hash: 35805000
+[debug] Initial hash: 36146000
+[debug] Initial hash: 36487000
+[debug] Initial hash: 36828000
+[debug] Initial hash: 37169000
+[debug] Initial hash: 37510000
+[debug] Initial hash: 37851000
+[debug] Initial hash: 38192000
+[debug] Initial hash: 38533000
+[debug] Initial hash: 38874000
+[debug] Initial hash: 39215000
+[debug] Initial hash: 39556000
+[debug] Initial hash: 39897000
+[debug] Initial hash: 40238000
+[debug] Initial hash: 40579000
+[debug] Initial hash: 40920000
+[debug] Initial hash: 41261000
+[debug] Initial hash: 41602000
+[debug] Initial hash: 41943000
+[debug] Initial hash: 42284000
+[debug] Initial hash: 42625000
+[debug] Initial hash: 42966000
+[debug] Initial hash: 43307000
+[debug] Initial hash: 43648000
+[debug] Initial hash: 43989000
+[debug] Initial hash: 44330000
+[debug] Initial hash: 44671000
+[debug] Initial hash: 45012000
+[debug] Initial hash: 45353000
+[debug] Initial hash: 45694000
+[debug] Initial hash: 46035000
+[debug] Initial hash: 46376000
+[debug] Initial hash: 46717000
+[debug] Initial hash: 47058000
+[debug] Initial hash: 47399000
+[debug] Initial hash: 47740000
+[debug] Initial hash: 48081000
+[debug] Initial hash: 48422000
+[debug] Initial hash: 48763000
+[debug] Initial hash: 49104000
+[debug] Initial hash: 49445000
+[debug] Initial hash: 49786000
+[debug] Initial hash: 50127000
+[debug] Initial hash: 50468000
+[debug] Initial hash: 50809000
+[debug] Initial hash: 51150000
+[debug] Initial hash: 51491000
+[debug] Initial hash: 51832000
+[debug] Initial hash: 52173000
+[debug] Initial hash: 52514000
+[debug] Initial hash: 52855000
+[debug] Initial hash: 53196000
+[debug] Initial hash: 53537000
+[debug] Initial hash: 53878000
+[debug] Initial hash: 54219000
+[debug] Initial hash: 54560000
+[debug] Initial hash: 54901000
+[debug] Initial hash: 55242000
+[debug] Initial hash: 55583000
+[debug] Initial hash: 55924000
+[debug] Initial hash: 56265000
+[debug] Initial hash: 56606000
+[debug] Initial hash: 56947000
+[debug] Initial hash: 57288000
+[debug] Initial hash: 57629000
+[debug] Initial hash: 57970000
+[debug] Initial hash: 58311000
+[debug] Initial hash: 58652000
+[debug] Initial hash: 58993000
+[debug] Initial hash: 59334000
+[debug] Initial hash: 59675000
+[debug] Initial hash: 60016000
+[debug] Initial hash: 60357000
+[debug] Initial hash: 60698000
+[debug] Initial hash: 61039000
+[debug] Initial hash: 61380000
+[debug] Initial hash: 61721000
+[debug] Initial hash: 62062000
+[debug] Initial hash: 62403000
+[debug] Initial hash: 62744000
+[debug] Initial hash: 63085000
+[debug] Initial hash: 63426000
+[debug] Initial hash: 63767000
+[debug] Initial hash: 64108000
+[debug] Initial hash: 64449000
+[debug] Initial hash: 64790000
+[debug] Initial hash: 65131000
+[debug] Initial hash: 65472000
+[debug] Initial hash: 65813000
+[debug] Initial hash: 66154000
+[debug] Initial hash: 66495000
+[debug] Initial hash: 66836000
+[debug] Initial hash: 67177000
+[debug] Initial hash: 67518000
+[debug] Initial hash: 67859000
+[debug] Initial hash: 68200000
+[debug] Initial hash: 68541000
+[debug] Initial hash: 68882000
+[debug] Initial hash: 69223000
+[debug] Initial hash: 69564000
+[debug] Initial hash: 69905000
+[debug] Initial hash: 70246000
+[debug] Initial hash: 70587000
+[debug] Initial hash: 70928000
+[debug] Initial hash: 71269000
+[debug] Initial hash: 71610000
+[debug] Initial hash: 71951000
+[debug] Initial hash: 72292000
+[debug] Initial hash: 72633000
+[debug] Initial hash: 72974000
+[debug] Initial hash: 73315000
+[debug] Initial hash: 73656000
+[debug] Initial hash: 73997000
+[debug] Initial hash: 74338000
+[debug] Initial hash: 74679000
+[debug] Initial hash: 75020000
+[debug] Initial hash: 75361000
+[debug] Initial hash: 75702000
+[debug] Initial hash: 76043000
+[debug] Initial hash: 76384000
+[debug] Initial hash: 76725000
+[debug] Initial hash: 77066000
+[debug] Initial hash: 77407000
+[debug] Initial hash: 77748000
+[debug] Initial hash: 78089000
+[debug] Initial hash: 78430000
+[debug] Initial hash: 78771000
+[debug] Initial hash: 79112000
+[debug] Initial hash: 79453000
+[debug] Initial hash: 79794000
+[debug] Initial hash: 80135000
+[debug] Initial hash: 80476000
+[debug] Initial hash: 80817000
+[debug] Initial hash: 81158000
+[debug] Initial hash: 81499000
+[debug] Initial hash: 81840000
+[debug] Initial hash: 82181000
+[debug] Initial hash: 82522000
+[debug] Initial hash: 82863000
+[debug] Initial hash: 83204000
+[debug] Initial hash: 83545000
+[debug] Initial hash: 83886000
+[debug] Initial hash: 84227000
+[debug] Initial hash: 84568000
+[debug] Initial hash: 84909000
+[debug] Initial hash: 85250000
+[debug] Initial hash: 85591000
+[debug] Initial hash: 85932000
+[debug] Initial hash: 86273000
+[debug] Initial hash: 86614000
+[debug] Initial hash: 86955000
+[debug] Initial hash: 87296000
+[debug] Initial hash: 87637000
+[debug] Initial hash: 87978000
+[debug] Initial hash: 88319000
+[debug] Initial hash: 88660000
+[debug] Initial hash: 89001000
+[debug] Initial hash: 89342000
+[debug] Initial hash: 89683000
+[debug] Initial hash: 90024000
+[debug] Initial hash: 90365000
+[debug] Initial hash: 90706000
+[debug] Initial hash: 91047000
+[debug] Initial hash: 91388000
+[debug] Initial hash: 91729000
+[debug] Initial hash: 92070000
+[debug] Initial hash: 92411000
+[debug] Initial hash: 92752000
+[debug] Initial hash: 93093000
+[debug] Initial hash: 93434000
+[debug] Initial hash: 93775000
+[debug] Initial hash: 94116000
+[debug] Initial hash: 94457000
+[debug] Initial hash: 94798000
+[debug] Initial hash: 95139000
+[debug] Initial hash: 95480000
+[debug] Initial hash: 95821000
+[debug] Initial hash: 96162000
+[debug] Initial hash: 96503000
+[debug] Initial hash: 96844000
+[debug] Initial hash: 97185000
+[debug] Initial hash: 97526000
+[debug] Initial hash: 97867000
+[debug] Initial hash: 98208000
+[debug] Initial hash: 98549000
+[debug] Initial hash: 98890000
+[debug] Initial hash: 99231000
+[debug] Initial hash: 99572000
+[debug] Initial hash: 99913000
+[debug] Initial hash: 100254000
+[debug] Initial hash: 100595000
+[debug] Initial hash: 100936000
+[debug] Initial hash: 101277000
+[debug] Initial hash: 101618000
+[debug] Initial hash: 101959000
+[debug] Initial hash: 102300000
+[debug] Initial hash: 102641000
+[debug] Initial hash: 102982000
+[debug] Initial hash: 103323000
+[debug] Initial hash: 103664000
+[debug] Initial hash: 104005000
+[debug] Initial hash: 104346000
+[debug] Initial hash: 104687000
+[debug] Initial hash: 105028000
+[debug] Initial hash: 105369000
+[debug] Initial hash: 105710000
+[debug] Initial hash: 106051000
+[debug] Initial hash: 106392000
+[debug] Initial hash: 106733000
+[debug] Initial hash: 107074000
+[debug] Initial hash: 107415000
+[debug] Initial hash: 107756000
+[debug] Initial hash: 108097000
+[debug] Initial hash: 108438000
+[debug] Initial hash: 108779000
+[debug] Initial hash: 109120000
+[debug] Initial hash: 109461000
+[debug] Initial hash: 109802000
+[debug] Initial hash: 110143000
+[debug] Initial hash: 110484000
+[debug] Initial hash: 110825000
+[debug] Initial hash: 111166000
+[debug] Initial hash: 111507000
+[debug] Initial hash: 111848000
+[debug] Initial hash: 112189000
+[debug] Initial hash: 112530000
+[debug] Initial hash: 112871000
+[debug] Initial hash: 113212000
+[debug] Initial hash: 113553000
+[debug] Initial hash: 113894000
+[debug] Initial hash: 114235000
+[debug] Initial hash: 114576000
+[debug] Initial hash: 114917000
+[debug] Initial hash: 115258000
+[debug] Initial hash: 115599000
+[debug] Initial hash: 115940000
+[debug] Initial hash: 116281000
+[debug] Initial hash: 116622000
+[debug] Initial hash: 116963000
+[debug] Initial hash: 117304000
+[debug] Initial hash: 117645000
+[debug] Initial hash: 117986000
+[debug] Initial hash: 118327000
+[debug] Initial hash: 118668000
+[debug] Initial hash: 119009000
+[debug] Initial hash: 119350000
+[debug] Initial hash: 119691000
+[debug] Initial hash: 120032000
+[debug] Initial hash: 120373000
+[debug] Initial hash: 120714000
+[debug] Initial hash: 121055000
+[debug] Initial hash: 121396000
+[debug] Initial hash: 121737000
+[debug] Initial hash: 122078000
+[debug] Initial hash: 122419000
+[debug] Initial hash: 122760000
+[debug] Initial hash: 123101000
+[debug] Initial hash: 123442000
+[debug] Initial hash: 123783000
+[debug] Initial hash: 124124000
+[debug] Initial hash: 124465000
+[debug] Initial hash: 124806000
+[debug] Initial hash: 125147000
+[debug] Initial hash: 125488000
+[debug] Initial hash: 125829000
+[debug] Initial hash: 126170000
+[debug] Initial hash: 126511000
+[debug] Initial hash: 126852000
+[debug] Initial hash: 127193000
+[debug] Initial hash: 127534000
+[debug] Initial hash: 127875000
+[debug] Initial hash: 128216000
+[debug] Initial hash: 128557000
+[debug] Initial hash: 128898000
+[debug] Initial hash: 129239000
+[debug] Initial hash: 129580000
+[debug] Initial hash: 129921000
+[debug] Initial hash: 130262000
+[debug] Initial hash: 130603000
+[debug] Initial hash: 130944000
+[debug] Initial hash: 131285000
+[debug] Initial hash: 131626000
+[debug] Initial hash: 131967000
+[debug] Initial hash: 132308000
+[debug] Initial hash: 132649000
+[debug] Initial hash: 132990000
+[debug] Initial hash: 133331000
+[debug] Initial hash: 133672000
+[debug] Initial hash: 134013000
+[debug] Initial hash: 134354000
+[debug] Initial hash: 134695000
+[debug] Initial hash: 135036000
+[debug] Initial hash: 135377000
+[debug] Initial hash: 135718000
+[debug] Initial hash: 136059000
+[debug] Initial hash: 136400000
+[debug] Initial hash: 136741000
+[debug] Initial hash: 137082000
+[debug] Initial hash: 137423000
+[debug] Initial hash: 137764000
+[debug] Initial hash: 138105000
+[debug] Initial hash: 138446000
+[debug] Initial hash: 138787000
+[debug] Initial hash: 139128000
+[debug] Initial hash: 139469000
+[debug] Initial hash: 139810000
+[debug] Initial hash: 140151000
+[debug] Initial hash: 140492000
+[debug] Initial hash: 140833000
+[debug] Initial hash: 141174000
+[debug] Initial hash: 141515000
+[debug] Initial hash: 141856000
+[debug] Initial hash: 142197000
+[debug] Initial hash: 142538000
+[debug] Initial hash: 142879000
+[debug] Initial hash: 143220000
+[debug] Initial hash: 143561000
+[debug] Initial hash: 143902000
+[debug] Initial hash: 144243000
+[debug] Initial hash: 144584000
+[debug] Initial hash: 144925000
+[debug] Initial hash: 145266000
+[debug] Initial hash: 145607000
+[debug] Initial hash: 145948000
+[debug] Initial hash: 146289000
+[debug] Initial hash: 146630000
+[debug] Initial hash: 146971000
+[debug] Initial hash: 147312000
+[debug] Initial hash: 147653000
+[debug] Initial hash: 147994000
+[debug] Initial hash: 148335000
+[debug] Initial hash: 148676000
+[debug] Initial hash: 149017000
+[debug] Initial hash: 149358000
+[debug] Initial hash: 149699000
+[debug] Initial hash: 150040000
+[debug] Initial hash: 150381000
+[debug] Initial hash: 150722000
+[debug] Initial hash: 151063000
+[debug] Initial hash: 151404000
+[debug] Initial hash: 151745000
+[debug] Initial hash: 152086000
+[debug] Initial hash: 152427000
+[debug] Initial hash: 152768000
+[debug] Initial hash: 153109000
+[debug] Initial hash: 153450000
+[debug] Initial hash: 153791000
+[debug] Initial hash: 154132000
+[debug] Initial hash: 154473000
+[debug] Initial hash: 154814000
+[debug] Initial hash: 155155000
+[debug] Initial hash: 155496000
+[debug] Initial hash: 155837000
+[debug] Initial hash: 156178000
+[debug] Initial hash: 156519000
+[debug] Initial hash: 156860000
+[debug] Initial hash: 157201000
+[debug] Initial hash: 157542000
+[debug] Initial hash: 157883000
+[debug] Initial hash: 158224000
+[debug] Initial hash: 158565000
+[debug] Initial hash: 158906000
+[debug] Initial hash: 159247000
+[debug] Initial hash: 159588000
+[debug] Initial hash: 159929000
+[debug] Initial hash: 160270000
+[debug] Initial hash: 160611000
+[debug] Initial hash: 160952000
+[debug] Initial hash: 161293000
+[debug] Initial hash: 161634000
+[debug] Initial hash: 161975000
+[debug] Initial hash: 162316000
+[debug] Initial hash: 162657000
+[debug] Initial hash: 162998000
+[debug] Initial hash: 163339000
+[debug] Initial hash: 163680000
+[debug] Initial hash: 164021000
+[debug] Initial hash: 164362000
+[debug] Initial hash: 164703000
+[debug] Initial hash: 165044000
+[debug] Initial hash: 165385000
+[debug] Initial hash: 165726000
+[debug] Initial hash: 166067000
+[debug] Initial hash: 166408000
+[debug] Initial hash: 166749000
+[debug] Initial hash: 167090000
+[debug] Initial hash: 167431000
+[debug] Initial hash: 167772000
+[debug] Initial hash: 168113000
+[debug] Initial hash: 168454000
+[debug] Initial hash: 168795000
+[debug] Initial hash: 169136000
+[debug] Initial hash: 169477000
+[debug] Initial hash: 169818000
+[debug] Initial hash: 170159000
+[debug] Initial hash: 170500000
+[debug] Initial hash: 170841000
+[debug] Initial hash: 171182000
+[debug] Initial hash: 171523000
+[debug] Initial hash: 171864000
+[debug] Initial hash: 172205000
+[debug] Initial hash: 172546000
+[debug] Initial hash: 172887000
+[debug] Initial hash: 173228000
+[debug] Initial hash: 173569000
+[debug] Initial hash: 173910000
+[debug] Initial hash: 174251000
+[debug] Initial hash: 174592000
+[debug] Initial hash: 174933000
+[debug] Initial hash: 175274000
+[debug] Initial hash: 175615000
+[debug] Initial hash: 175956000
+[debug] Initial hash: 176297000
+[debug] Initial hash: 176638000
+[debug] Initial hash: 176979000
+[debug] Initial hash: 177320000
+[debug] Initial hash: 177661000
+[debug] Initial hash: 178002000
+[debug] Initial hash: 178343000
+[debug] Initial hash: 178684000
+[debug] Initial hash: 179025000
+[debug] Initial hash: 179366000
+[debug] Initial hash: 179707000
+[debug] Initial hash: 180048000
+[debug] Initial hash: 180389000
+[debug] Initial hash: 180730000
+[debug] Initial hash: 181071000
+[debug] Initial hash: 181412000
+[debug] Initial hash: 181753000
+[debug] Initial hash: 182094000
+[debug] Initial hash: 182435000
+[debug] Initial hash: 182776000
+[debug] Initial hash: 183117000
+[debug] Initial hash: 183458000
+[debug] Initial hash: 183799000
+[debug] Initial hash: 184140000
+[debug] Initial hash: 184481000
+[debug] Initial hash: 184822000
+[debug] Initial hash: 185163000
+[debug] Initial hash: 185504000
+[debug] Initial hash: 185845000
+[debug] Initial hash: 186186000
+[debug] Initial hash: 186527000
+[debug] Initial hash: 186868000
+[debug] Initial hash: 187209000
+[debug] Initial hash: 187550000
+[debug] Initial hash: 187891000
+[debug] Initial hash: 188232000
+[debug] Initial hash: 188573000
+[debug] Initial hash: 188914000
+[debug] Initial hash: 189255000
+[debug] Initial hash: 189596000
+[debug] Initial hash: 189937000
+[debug] Initial hash: 190278000
+[debug] Initial hash: 190619000
+[debug] Initial hash: 190960000
+[debug] Initial hash: 191301000
+[debug] Initial hash: 191642000
+[debug] Initial hash: 191983000
+[debug] Initial hash: 192324000
+[debug] Initial hash: 192665000
+[debug] Initial hash: 193006000
+[debug] Initial hash: 193347000
+[debug] Initial hash: 193688000
+[debug] Initial hash: 194029000
+[debug] Initial hash: 194370000
+[debug] Initial hash: 194711000
+[debug] Initial hash: 195052000
+[debug] Initial hash: 195393000
+[debug] Initial hash: 195734000
+[debug] Initial hash: 196075000
+[debug] Initial hash: 196416000
+[debug] Initial hash: 196757000
+[debug] Initial hash: 197098000
+[debug] Initial hash: 197439000
+[debug] Initial hash: 197780000
+[debug] Initial hash: 198121000
+[debug] Initial hash: 198462000
+[debug] Initial hash: 198803000
+[debug] Initial hash: 199144000
+[debug] Initial hash: 199485000
+[debug] Initial hash: 199826000
+[debug] Initial hash: 200167000
+[debug] Initial hash: 200508000
+[debug] Initial hash: 200849000
+[debug] Initial hash: 201190000
+[debug] Initial hash: 201531000
+[debug] Initial hash: 201872000
+[debug] Initial hash: 202213000
+[debug] Initial hash: 202554000
+[debug] Initial hash: 202895000
+[debug] Initial hash: 203236000
+[debug] Initial hash: 203577000
+[debug] Initial hash: 203918000
+[debug] Initial hash: 204259000
+[debug] Initial hash: 204600000
+[debug] Initial hash: 204941000
+[debug] Initial hash: 205282000
+[debug] Initial hash: 205623000
+[debug] Initial hash: 205964000
+[debug] Initial hash: 206305000
+[debug] Initial hash: 206646000
+[debug] Initial hash: 206987000
+[debug] Initial hash: 207328000
+[debug] Initial hash: 207669000
+[debug] Initial hash: 208010000
+[debug] Initial hash: 208351000
+[debug] Initial hash: 208692000
+[debug] Initial hash: 209033000
+[debug] Initial hash: 209374000
+[debug] Initial hash: 209715000
+[debug] Initial hash: 210056000
+[debug] Initial hash: 210397000
+[debug] Initial hash: 210738000
+[debug] Initial hash: 211079000
+[debug] Initial hash: 211420000
+[debug] Initial hash: 211761000
+[debug] Initial hash: 212102000
+[debug] Initial hash: 212443000
+[debug] Initial hash: 212784000
+[debug] Initial hash: 213125000
+[debug] Initial hash: 213466000
+[debug] Initial hash: 213807000
+[debug] Initial hash: 214148000
+[debug] Initial hash: 214489000
+[debug] Initial hash: 214830000
+[debug] Initial hash: 215171000
+[debug] Initial hash: 215512000
+[debug] Initial hash: 215853000
+[debug] Initial hash: 216194000
+[debug] Initial hash: 216535000
+[debug] Initial hash: 216876000
+[debug] Initial hash: 217217000
+[debug] Initial hash: 217558000
+[debug] Initial hash: 217899000
+[debug] Initial hash: 218240000
+[debug] Initial hash: 218581000
+[debug] Initial hash: 218922000
+[debug] Initial hash: 219263000
+[debug] Initial hash: 219604000
+[debug] Initial hash: 219945000
+[debug] Initial hash: 220286000
+[debug] Initial hash: 220627000
+[debug] Initial hash: 220968000
+[debug] Initial hash: 221309000
+[debug] Initial hash: 221650000
+[debug] Initial hash: 221991000
+[debug] Initial hash: 222332000
+[debug] Initial hash: 222673000
+[debug] Initial hash: 223014000
+[debug] Initial hash: 223355000
+[debug] Initial hash: 223696000
+[debug] Initial hash: 224037000
+[debug] Initial hash: 224378000
+[debug] Initial hash: 224719000
+[debug] Initial hash: 225060000
+[debug] Initial hash: 225401000
+[debug] Initial hash: 225742000
+[debug] Initial hash: 226083000
+[debug] Initial hash: 226424000
+[debug] Initial hash: 226765000
+[debug] Initial hash: 227106000
+[debug] Initial hash: 227447000
+[debug] Initial hash: 227788000
+[debug] Initial hash: 228129000
+[debug] Initial hash: 228470000
+[debug] Initial hash: 228811000
+[debug] Initial hash: 229152000
+[debug] Initial hash: 229493000
+[debug] Initial hash: 229834000
+[debug] Initial hash: 230175000
+[debug] Initial hash: 230516000
+[debug] Initial hash: 230857000
+[debug] Initial hash: 231198000
+[debug] Initial hash: 231539000
+[debug] Initial hash: 231880000
+[debug] Initial hash: 232221000
+[debug] Initial hash: 232562000
+[debug] Initial hash: 232903000
+[debug] Initial hash: 233244000
+[debug] Initial hash: 233585000
+[debug] Initial hash: 233926000
+[debug] Initial hash: 234267000
+[debug] Initial hash: 234608000
+[debug] Initial hash: 234949000
+[debug] Initial hash: 235290000
+[debug] Initial hash: 235631000
+[debug] Initial hash: 235972000
+[debug] Initial hash: 236313000
+[debug] Initial hash: 236654000
+[debug] Initial hash: 236995000
+[debug] Initial hash: 237336000
+[debug] Initial hash: 237677000
+[debug] Initial hash: 238018000
+[debug] Initial hash: 238359000
+[debug] Initial hash: 238700000
+[debug] Initial hash: 239041000
+[debug] Initial hash: 239382000
+[debug] Initial hash: 239723000
+[debug] Initial hash: 240064000
+[debug] Initial hash: 240405000
+[debug] Initial hash: 240746000
+[debug] Initial hash: 241087000
+[debug] Initial hash: 241428000
+[debug] Initial hash: 241769000
+[debug] Initial hash: 242110000
+[debug] Initial hash: 242451000
+[debug] Initial hash: 242792000
+[debug] Initial hash: 243133000
+[debug] Initial hash: 243474000
+[debug] Initial hash: 243815000
+[debug] Initial hash: 244156000
+[debug] Initial hash: 244497000
+[debug] Initial hash: 244838000
+[debug] Initial hash: 245179000
+[debug] Initial hash: 245520000
+[debug] Initial hash: 245861000
+[debug] Initial hash: 246202000
+[debug] Initial hash: 246543000
+[debug] Initial hash: 246884000
+[debug] Initial hash: 247225000
+[debug] Initial hash: 247566000
+[debug] Initial hash: 247907000
+[debug] Initial hash: 248248000
+[debug] Initial hash: 248589000
+[debug] Initial hash: 248930000
+[debug] Initial hash: 249271000
+[debug] Initial hash: 249612000
+[debug] Initial hash: 249953000
+[debug] Initial hash: 250294000
+[debug] Initial hash: 250635000
+[debug] Initial hash: 250976000
+[debug] Initial hash: 251317000
+[debug] Initial hash: 251658000
+[debug] Initial hash: 251999000
+[debug] Initial hash: 252340000
+[debug] Initial hash: 252681000
+[debug] Initial hash: 253022000
+[debug] Initial hash: 253363000
+[debug] Initial hash: 253704000
+[debug] Initial hash: 254045000
+[debug] Initial hash: 254386000
+[debug] Initial hash: 254727000
+[debug] Initial hash: 255068000
+[debug] Initial hash: 255409000
+[debug] Initial hash: 255750000
+[debug] Initial hash: 256091000
+[debug] Initial hash: 256432000
+[debug] Initial hash: 256773000
+[debug] Initial hash: 257114000
+[debug] Initial hash: 257455000
+[debug] Initial hash: 257796000
+[debug] Initial hash: 258137000
+[debug] Initial hash: 258478000
+[debug] Initial hash: 258819000
+[debug] Initial hash: 259160000
+[debug] Initial hash: 259501000
+[debug] Initial hash: 259842000
+[debug] Initial hash: 260183000
+[debug] Initial hash: 260524000
+[debug] Initial hash: 260865000
+[debug] Initial hash: 261206000
+[debug] Initial hash: 261547000
+[debug] Initial hash: 261888000
+[debug] Initial hash: 262229000
+[debug] Initial hash: 262570000
+[debug] Initial hash: 262911000
+[debug] Initial hash: 263252000
+[debug] Initial hash: 263593000
+[debug] Initial hash: 263934000
+[debug] Initial hash: 264275000
+[debug] Initial hash: 264616000
+[debug] Initial hash: 264957000
+[debug] Initial hash: 265298000
+[debug] Initial hash: 265639000
+[debug] Initial hash: 265980000
+[debug] Initial hash: 266321000
+[debug] Initial hash: 266662000
+[debug] Initial hash: 267003000
+[debug] Initial hash: 267344000
+[debug] Initial hash: 267685000
+[debug] Initial hash: 268026000
+[debug] Validating contribution #55
+[info] Powers Of tau file OK!
+[debug] Verifying powers in tau*G1 section
+[debug] points relations: tauG1: 0/65535 
+[debug] Verifying powers in tau*G2 section
+[debug] points relations: tauG2: 0/32768 
+[debug] Verifying powers in alpha*tau*G1 section
+[debug] points relations: alphatauG1: 0/32768 
+[debug] Verifying powers in beta*tau*G1 section
+[debug] points relations: betatauG1: 0/32768 
+[info] Next challenge hash: 
+		c74fe0e3 40ab2cf2 1b2f618f 8c54c5a7
+		261c5484 3e106ebe 69556dba 52c82f5a
+		dbd59897 743f774f 2e3e2d2d 45838e9f
+		69671613 370bfd50 b5ee8bab db37e98a
+[info] -----------------------------------------------------
+[info] Contribution #55: 
+[info] Next Challenge: 
+		74ba2bca c21fad58 bf413799 d5ac962a
+		c4a344fb 1b4c1e88 0bd89e4b b4221270
+		113cb4c4 8aa8cd37 eb4fa234 904ff959
+		f726e785 ce7c5608 bb061b2e 0d7480be
+[info] Response Hash:
+		6e61deb8 4491e9f6 e31287ca 05655fd6
+		3a1bcde7 43f2157b 63464ccc 6bcd83f3
+		78f466af dcefdc3d 867ff75f deef53b9
+		998aa5d9 5818732a 98e4eaf3 98a1ce05
+[info] Response Hash:
+		00d0b99a 5ccb65af a5872f82 5f2388f3
+		2f6fd96e d1e58e83 cb921037 447d980d
+		7bfb8a08 11d90a36 01846bbc ee2216ae
+		aec90e60 e2490e5d 09ea36bf 3222840f
+[info] Beacon generator: e586fccaf245c9a1d7e78294d4802018f3001149a71b8f10cd997ef8235aa372
+[info] Beacon iterations Exp: 10
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #54: jarrad
+[info] Next Challenge: 
+		00d0b99a 5ccb65af a5872f82 5f2388f3
+		2f6fd96e d1e58e83 cb921037 447d980d
+		7bfb8a08 11d90a36 01846bbc ee2216ae
+		aec90e60 e2490e5d 09ea36bf 3222840f
+[info] Response Hash:
+		7f1229b8 321fd1b7 935dc9ca 5ebf1d16
+		572f25c9 e936798d 3a2cfbbf 7b6c21d0
+		8c681b03 6cded940 006dec27 0d51facf
+		a1b24f27 698e98ba bd3555a4 6490fca7
+[info] Response Hash:
+		fbad44fc ea6d5052 70046563 04093552
+		d29be00d 7fcd2d62 7e07c1b0 15c6eb97
+		4ea9262c aa4633cd 306c7f55 7d839c78
+		f9a408c9 5cfaef06 f916e37d 182ae94b
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #53: juan
+[info] Next Challenge: 
+		fbad44fc ea6d5052 70046563 04093552
+		d29be00d 7fcd2d62 7e07c1b0 15c6eb97
+		4ea9262c aa4633cd 306c7f55 7d839c78
+		f9a408c9 5cfaef06 f916e37d 182ae94b
+[info] Response Hash:
+		b34c97e0 e4bbd8fd 2053d343 60b09ee0
+		4eb68736 34a7ecd0 8066dc22 b367472a
+		cfa8f4fb c5438674 3e8c48dc 02db95c2
+		6d8816e1 ad04df21 1e6f9f0b f01bf695
+[info] Response Hash:
+		3f02cb8d 89177b2e 9ffe3b1b be0a8f43
+		154eb960 2e8985f6 c84314a3 d47dfd60
+		e098313d b52d7a08 60de1403 0aae4a49
+		64458814 3daf0779 fadf6d9f 2526df43
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #52: zaki
+[info] Next Challenge: 
+		3f02cb8d 89177b2e 9ffe3b1b be0a8f43
+		154eb960 2e8985f6 c84314a3 d47dfd60
+		e098313d b52d7a08 60de1403 0aae4a49
+		64458814 3daf0779 fadf6d9f 2526df43
+[info] Response Hash:
+		991c7525 41bc610b c6931b33 ed31be6b
+		8e8c04ea 317a32db 0e294038 5785185a
+		f456f7b3 065fee76 7f1d4817 f8ec5a9d
+		368d11db e39b20b2 0bcbc6b6 b02b15a3
+[info] Response Hash:
+		01e99205 db3311bf 535b3316 e265050a
+		062a4491 f43c0e14 60bfe0ce acf196d6
+		b78559b8 015a3463 40aea8d5 03f2d9b9
+		a6e1b3f0 a54d2d22 d4ed1d92 16c09402
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #51: joe
+[info] Next Challenge: 
+		01e99205 db3311bf 535b3316 e265050a
+		062a4491 f43c0e14 60bfe0ce acf196d6
+		b78559b8 015a3463 40aea8d5 03f2d9b9
+		a6e1b3f0 a54d2d22 d4ed1d92 16c09402
+[info] Response Hash:
+		6b157096 fa63b56d f6e1607a c58296eb
+		62d1d6bb fd58aa5a 6247e217 4c47d18b
+		d2a313cd c9b0b786 5c6b7f0d 61e364e3
+		0066ce2e 89bbaf3d ec5a8388 1bbb2aed
+[info] Response Hash:
+		e6571d37 a66e7fbd ebd3ba93 6bd8c23c
+		140bb178 fb329657 2bed8709 063e3610
+		e99a5198 3f793bc2 b84d76ed f286d6e7
+		80cc879b ab7e1c6a 61bf8a9f 8fd160d7
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #50: weijie
+[info] Next Challenge: 
+		e6571d37 a66e7fbd ebd3ba93 6bd8c23c
+		140bb178 fb329657 2bed8709 063e3610
+		e99a5198 3f793bc2 b84d76ed f286d6e7
+		80cc879b ab7e1c6a 61bf8a9f 8fd160d7
+[info] Response Hash:
+		11611a89 05056363 781d2039 487f00fe
+		ad74a86f d2bb6f7d a67ba3a0 c4ba71ca
+		7a943185 ec26beb7 391984f5 f60c61f4
+		54a4ca17 a9db1631 7e597971 8129460f
+[info] Response Hash:
+		025d2ee9 4c4cf08f 6a2adeff 90075f4d
+		f4c29632 2e6fa910 815813ab 5e30f5b7
+		2d88b8b9 bda180ed 03c26cd5 2705ee1f
+		17d615f9 aa3d9a56 4434d457 d00c95d9
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #49: jordi
+[info] Next Challenge: 
+		025d2ee9 4c4cf08f 6a2adeff 90075f4d
+		f4c29632 2e6fa910 815813ab 5e30f5b7
+		2d88b8b9 bda180ed 03c26cd5 2705ee1f
+		17d615f9 aa3d9a56 4434d457 d00c95d9
+[info] Response Hash:
+		1ccb74ca 75f43945 8fd1fda3 c3937669
+		ed672302 47c101a2 940f0d88 90a8eb9f
+		24efda2a d2f3c2d2 b0718d01 5caddba2
+		afbe49a1 a82e38c7 9ec78df6 6479bf91
+[info] Response Hash:
+		ede3b130 b045333f 3de41950 aedc7006
+		e8fa2d28 7faa24d5 fc4a7338 c631a52f
+		8d47199d 4649b153 f175eb1d 0863c83f
+		a0d746a6 6f774d08 6743c4d4 d136cfe0
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #48: tyler
+[info] Next Challenge: 
+		ede3b130 b045333f 3de41950 aedc7006
+		e8fa2d28 7faa24d5 fc4a7338 c631a52f
+		8d47199d 4649b153 f175eb1d 0863c83f
+		a0d746a6 6f774d08 6743c4d4 d136cfe0
+[info] Response Hash:
+		08896cef 6150e35c b1e16685 6f8e5699
+		2be30192 6dc217f2 5e162393 92df2d49
+		a82d1f9b 25205431 fd484707 f8e15d2c
+		bb75d3f1 36bed23f dc268a6a e2d7bc8d
+[info] Response Hash:
+		5d38986e 613436f8 f29f713f 967a083c
+		730a1d34 1a1d2c0f fe7c29ca 3e1b6184
+		40412cff 8eeab16b 5a14bf42 1763e61b
+		3cefdf6c a5715027 56331ffb 960fa61e
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #47: saravanan
+[info] Next Challenge: 
+		5d38986e 613436f8 f29f713f 967a083c
+		730a1d34 1a1d2c0f fe7c29ca 3e1b6184
+		40412cff 8eeab16b 5a14bf42 1763e61b
+		3cefdf6c a5715027 56331ffb 960fa61e
+[info] Response Hash:
+		2a015b49 55e1f882 5615c666 f0e9fb0b
+		8c2408c1 49682347 e7c0c3a1 9482b640
+		59a63dbb 7cfc9c00 5eceb1b4 a67118ce
+		d79f649f 9433437d f653427e 83955d4f
+[info] Response Hash:
+		5aac215d a5d5efcb c8badb59 67fd43b5
+		b9b0a9ec f653fc5b d8604a05 869ecce3
+		20d3dafc 42de3eef 05ec318f 94e08552
+		c386b7e1 6a340f0f e9004f93 52fd1a61
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #46: tkorwin
+[info] Next Challenge: 
+		5aac215d a5d5efcb c8badb59 67fd43b5
+		b9b0a9ec f653fc5b d8604a05 869ecce3
+		20d3dafc 42de3eef 05ec318f 94e08552
+		c386b7e1 6a340f0f e9004f93 52fd1a61
+[info] Response Hash:
+		f6124334 8acc3313 f3197405 d22b5ed1
+		b552967f 4eadd830 012ad991 c151574f
+		d9a8fed7 9a4a9706 bb852438 7b8180a7
+		1ccec376 b69e0426 91d9a01a 0c28102b
+[info] Response Hash:
+		939038cd 2dc5a1c0 20f368d2 bfad8686
+		950fdf7e c2d2e192 a7d59509 3068816b
+		becd914b a293dd8a cb6d18c7 b5116b66
+		ea54d915 d47a89cc fbe2d5a3 444dfbed
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #45: ben
+[info] Next Challenge: 
+		939038cd 2dc5a1c0 20f368d2 bfad8686
+		950fdf7e c2d2e192 a7d59509 3068816b
+		becd914b a293dd8a cb6d18c7 b5116b66
+		ea54d915 d47a89cc fbe2d5a3 444dfbed
+[info] Response Hash:
+		213b9ab7 06ea361c 50a34515 47f17bf6
+		370acade b17466a9 3db23b9b d4326375
+		785ac440 639809a4 398c603e 031861f2
+		c388ae35 9df8b31d 09994e82 885ddf06
+[info] Response Hash:
+		c13dedda 076022e6 be2d634d a910930c
+		2154b002 99d4db5c 5462f13f d5fb19f4
+		8cda31bb 63e65a6f cdc6b482 0cc6a4ad
+		dbfe7ed2 446beab8 b63b7214 1fdc0c80
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #44: yingtong
+[info] Next Challenge: 
+		c13dedda 076022e6 be2d634d a910930c
+		2154b002 99d4db5c 5462f13f d5fb19f4
+		8cda31bb 63e65a6f cdc6b482 0cc6a4ad
+		dbfe7ed2 446beab8 b63b7214 1fdc0c80
+[info] Response Hash:
+		e4ee7ebc 787ec108 af7597d6 868c8df1
+		d9cc4d97 e5ef8beb 9d94f055 c8a9d651
+		bd1d7b0f 1f8bdb6e 4a9ab754 c72ad6ca
+		3df58aa3 c9976a98 8163f527 17116f6e
+[info] Response Hash:
+		05985261 72c5fece a3ff71a5 5af41344
+		42569917 25ad3148 1231c4cf 765d9ecd
+		9fd681c4 f7a25717 bb2eab34 49bb4417
+		059498b9 f5a5e4ba b630424f 2c0d3605
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #43: albert
+[info] Next Challenge: 
+		05985261 72c5fece a3ff71a5 5af41344
+		42569917 25ad3148 1231c4cf 765d9ecd
+		9fd681c4 f7a25717 bb2eab34 49bb4417
+		059498b9 f5a5e4ba b630424f 2c0d3605
+[info] Response Hash:
+		60df61e1 f6d84fb3 8f14d515 1f5f02a8
+		45fb9baa 97abaee7 7fbc743a 0dcbc59b
+		6886f6dc 51720340 a6387b5a d172b003
+		d9700d11 6f24ab12 eb722036 b3da1e04
+[info] Response Hash:
+		294dc1ce 3c381dee 7a12ab13 8813ba7d
+		c61ba46f 8e1b6165 ee23c623 af42f0a4
+		5a090951 5558548a 85c7b1b8 12156ff4
+		cb14eb7d 0aa9b35b 4ffdecaa 2bcfe37c
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #42: vaibhav
+[info] Next Challenge: 
+		294dc1ce 3c381dee 7a12ab13 8813ba7d
+		c61ba46f 8e1b6165 ee23c623 af42f0a4
+		5a090951 5558548a 85c7b1b8 12156ff4
+		cb14eb7d 0aa9b35b 4ffdecaa 2bcfe37c
+[info] Response Hash:
+		e8e7293c 3acd49c7 c20418ff 9b2ac179
+		304228a9 f47580b5 57367782 6b3ef007
+		ee6be1d2 699110f7 efa54ef2 d40cda33
+		2da5071b 231e047c 253b11cc 933acc53
+[info] Response Hash:
+		41c03ca8 6cc9df98 d80073e6 93c09d46
+		42cbadb7 a8752934 049db2dd 79016523
+		99d1e13d 90ab9b54 57860f55 914efe1f
+		f87f7b5e 7fc86993 774a7236 0aaa716a
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #41: evan
+[info] Next Challenge: 
+		41c03ca8 6cc9df98 d80073e6 93c09d46
+		42cbadb7 a8752934 049db2dd 79016523
+		99d1e13d 90ab9b54 57860f55 914efe1f
+		f87f7b5e 7fc86993 774a7236 0aaa716a
+[info] Response Hash:
+		8d6a4bcc c44e751a 54b3b818 2997cbe8
+		24e018ad 959e66d2 4c1db2f5 337790ad
+		390e4a11 d65b89e7 4d04d56e 81d558ca
+		90a80b18 0e51b55b f4a07786 28a70f77
+[info] Response Hash:
+		b262f934 ab2368cc aa86772d 586040a5
+		1d284338 d9f41f47 833c19a4 335d4fc6
+		e8e8eccd 17723291 b92bb348 4ef6f6d1
+		99563e61 b2a49634 e081d7c5 44e5bfed
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #40: weitang
+[info] Next Challenge: 
+		b262f934 ab2368cc aa86772d 586040a5
+		1d284338 d9f41f47 833c19a4 335d4fc6
+		e8e8eccd 17723291 b92bb348 4ef6f6d1
+		99563e61 b2a49634 e081d7c5 44e5bfed
+[info] Response Hash:
+		276a5a94 26cee943 0cc3c64b 6049f912
+		4a8c4297 3ffec2bf a60983b2 37fec0aa
+		98247803 596d2ac1 2076bf37 7104ab68
+		c2c2a879 fbc7fcf8 b9168b52 5f1f7916
+[info] Response Hash:
+		79043f5f 7a2e81a2 e7aca5bf c02a375f
+		6b3beb0c 5aa7e3f8 b942201a f3e0d43e
+		b33efd3a 10b10323 8a93eaad 3462180e
+		56eea585 e4f30715 3df06e81 d6150275
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #39: wanseob
+[info] Next Challenge: 
+		79043f5f 7a2e81a2 e7aca5bf c02a375f
+		6b3beb0c 5aa7e3f8 b942201a f3e0d43e
+		b33efd3a 10b10323 8a93eaad 3462180e
+		56eea585 e4f30715 3df06e81 d6150275
+[info] Response Hash:
+		ed29ba79 b1392ba7 4ff572b8 6ed743b9
+		3b94da14 e54eb4a5 4d2fa6f0 cbd47b99
+		13516c95 f53b6a07 845676c5 1b081f2d
+		64a14d26 0809d9bb 2db1bf8d 9bccf584
+[info] Response Hash:
+		ac95544f 0e1eab30 0cbd826c 7ce0ccf5
+		58559b95 cf450ed1 0f472063 fa50bb5e
+		159734c0 a50cdd1a 8413eb92 a7b4947e
+		6e66b8d0 cdb3a19c 85897e42 ee1811e1
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #38: james
+[info] Next Challenge: 
+		ac95544f 0e1eab30 0cbd826c 7ce0ccf5
+		58559b95 cf450ed1 0f472063 fa50bb5e
+		159734c0 a50cdd1a 8413eb92 a7b4947e
+		6e66b8d0 cdb3a19c 85897e42 ee1811e1
+[info] Response Hash:
+		036438ed c68d3a36 6ba0517f 5b4a0e79
+		f6d5efe5 6fd2514a bb674c9d f6126eda
+		854fd11b eb274969 095149d7 7de76179
+		45176503 158beaf9 fc6f9fa5 9aef2aaf
+[info] Response Hash:
+		8d77dba2 eada39e2 2a75a8ad 8c0f40f8
+		0dcefa59 4c6a89ea 28f448df 8bced1b5
+		3ee80e03 9247d88f 9efb734e cbaf9245
+		badd9177 5e8b1dd6 07725db7 facf734b
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #37: chihcheng
+[info] Next Challenge: 
+		8d77dba2 eada39e2 2a75a8ad 8c0f40f8
+		0dcefa59 4c6a89ea 28f448df 8bced1b5
+		3ee80e03 9247d88f 9efb734e cbaf9245
+		badd9177 5e8b1dd6 07725db7 facf734b
+[info] Response Hash:
+		e51f44c2 c3d398d4 fcc3cbae 3a63b449
+		dcfe2aef baab3ad5 a8c7a782 23abd337
+		fb30b676 31caa2f9 af515317 945d5c5e
+		80cf7197 1777af17 072e3ed2 dc6c1d9b
+[info] Response Hash:
+		e406add7 6da9abd4 d2bd81b3 e6fbf721
+		3fdeb18d 3a3b8b3e c35a0a0d c04bcc19
+		c7c94362 8bdc1f9c 974a6053 2f5fe053
+		fc53a956 a11f0b40 990cc734 f0d496d1
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #36: stefaan
+[info] Next Challenge: 
+		e406add7 6da9abd4 d2bd81b3 e6fbf721
+		3fdeb18d 3a3b8b3e c35a0a0d c04bcc19
+		c7c94362 8bdc1f9c 974a6053 2f5fe053
+		fc53a956 a11f0b40 990cc734 f0d496d1
+[info] Response Hash:
+		3b3630a0 e4fa0ef1 4e1086d8 60cae23a
+		fa635c65 cae2971e 702a7ccc f13e3820
+		5507dc4a 9cfdd8f1 481fac94 0ef1bd01
+		46e73740 66d1493d 1114f328 73eb6f27
+[info] Response Hash:
+		33247048 366e6228 5a69d257 601f1ee5
+		2aa5d123 8b0fceb8 aaaca087 614dfa95
+		6eb377b9 683bb551 16ece5d4 023e3e3f
+		5b154993 1048ba07 b5a4b37c 463e9b2c
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #35: leonard
+[info] Next Challenge: 
+		33247048 366e6228 5a69d257 601f1ee5
+		2aa5d123 8b0fceb8 aaaca087 614dfa95
+		6eb377b9 683bb551 16ece5d4 023e3e3f
+		5b154993 1048ba07 b5a4b37c 463e9b2c
+[info] Response Hash:
+		8557483d 85297ec7 455ce374 406319a6
+		2b18f0fa 4b640dbf a7712e19 8df6cc4a
+		ca80c0b6 0ef147f4 42e29c48 35855b14
+		b070e58c 32aecdb4 af713e05 f936af1b
+[info] Response Hash:
+		8fddfae2 385f5fc1 f6def277 e341ccb2
+		c3a78108 e2d7efdd 77c556b5 6305e612
+		2fe0bb4f 27a16743 29d8fbb0 c9520076
+		ae8ee1b1 5da13eff 58914d28 de9459be
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #34: igor
+[info] Next Challenge: 
+		8fddfae2 385f5fc1 f6def277 e341ccb2
+		c3a78108 e2d7efdd 77c556b5 6305e612
+		2fe0bb4f 27a16743 29d8fbb0 c9520076
+		ae8ee1b1 5da13eff 58914d28 de9459be
+[info] Response Hash:
+		8fa4bda0 e8305faf 99461689 11782792
+		5f9c2025 9237b9c0 dea73175 6c907526
+		47eeba78 f27a0391 9ec8b6ff 46c1afa3
+		f57bd7a5 307f9c4e 35d4f5ed 2fabd316
+[info] Response Hash:
+		5e4226c9 b037c98d 6207ee8f 8056c651
+		d3686215 74dcf7ac 67cf6908 43dc8072
+		4f8c8f62 7d3a0e33 4d82934e 24d17e89
+		300c767f 91c03ca2 13742e0d 25c6ac09
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #33: oskar
+[info] Next Challenge: 
+		5e4226c9 b037c98d 6207ee8f 8056c651
+		d3686215 74dcf7ac 67cf6908 43dc8072
+		4f8c8f62 7d3a0e33 4d82934e 24d17e89
+		300c767f 91c03ca2 13742e0d 25c6ac09
+[info] Response Hash:
+		cd052845 3b0cca20 3956bb23 333473be
+		c12c14a8 cb7102ef e437f8d4 07f23463
+		6e77e1e7 d44c4176 608ad290 a2d83f48
+		78ccb222 c1e7c60b f5a8ab38 542ce634
+[info] Response Hash:
+		daa7c3b5 570966a7 1180db03 c0d76def
+		00395cb6 95c90736 d9c7c240 8bc76b33
+		bda8ee88 f495b77d 1927a94d 37e67726
+		89e7cb8a 1796c863 5c1153fc 6d6b6f42
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #32: josephc
+[info] Next Challenge: 
+		daa7c3b5 570966a7 1180db03 c0d76def
+		00395cb6 95c90736 d9c7c240 8bc76b33
+		bda8ee88 f495b77d 1927a94d 37e67726
+		89e7cb8a 1796c863 5c1153fc 6d6b6f42
+[info] Response Hash:
+		527fe68c 16219d86 018de364 fc5701b1
+		44fc5b68 eb063c9a 8c4e8405 b35f4561
+		b55363df 6d9adf82 8792c7b1 92a595b4
+		4aadbea7 cdef918a 11bfe65a 89c9e4a3
+[info] Response Hash:
+		7695680f c6eb5d11 e31b48be a122428a
+		11cf5429 d54b7d9d cd24c879 9876ae61
+		6850f232 0f68964d b26e04dd 06ce5747
+		965e7f41 aefa1eec 790e9566 5c0e6342
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #31: golem
+[info] Next Challenge: 
+		7695680f c6eb5d11 e31b48be a122428a
+		11cf5429 d54b7d9d cd24c879 9876ae61
+		6850f232 0f68964d b26e04dd 06ce5747
+		965e7f41 aefa1eec 790e9566 5c0e6342
+[info] Response Hash:
+		241902b0 c9386b3e bb03a786 a4db8b47
+		7727b8cd 97e4547b 45cd5205 3ce0c4e7
+		cf3d7e36 933f38fb a9283593 2f15b8dc
+		950d111b 7b0b4f4a efdb16df 5f6a799a
+[info] Response Hash:
+		f70c2829 5e85dff9 c2109a7e 8f6d3451
+		1b2199b6 84670acc a460d26a 3a944b93
+		4e65635c 811bd65f bd833147 d27bcfad
+		a8b0548e a5bef208 1c684910 a8f6fe95
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #30: anant
+[info] Next Challenge: 
+		f70c2829 5e85dff9 c2109a7e 8f6d3451
+		1b2199b6 84670acc a460d26a 3a944b93
+		4e65635c 811bd65f bd833147 d27bcfad
+		a8b0548e a5bef208 1c684910 a8f6fe95
+[info] Response Hash:
+		b7fdb609 ef13689a 0fec2af6 ed8192ed
+		ef3b107a e5379b06 695fd244 b385d382
+		47d1218a 686a71c1 989e016a 92da0b6a
+		3c058b0f 9f8b625b 7d053344 7c3fd57c
+[info] Response Hash:
+		e70de5af e726056f 7018fd3d 9c48c756
+		f05a952f d5cf3c27 6e87c5cc f84f315e
+		948d77eb b4bfde3e 48a00ee1 ccea08ff
+		f7ac5231 36d9b0f3 df13c24c 3831970a
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #29: gustavo
+[info] Next Challenge: 
+		e70de5af e726056f 7018fd3d 9c48c756
+		f05a952f d5cf3c27 6e87c5cc f84f315e
+		948d77eb b4bfde3e 48a00ee1 ccea08ff
+		f7ac5231 36d9b0f3 df13c24c 3831970a
+[info] Response Hash:
+		6c645c14 0f037c35 24e71613 a5902d95
+		d407a124 01582a7d d2ed1b13 62a86883
+		cda9e8c1 543704f6 e2476b30 685e433d
+		0a349652 d919ad9a fe9410c1 7127cd3d
+[info] Response Hash:
+		aa470426 518e2a2e 287b1b18 92767431
+		5646e93d d4f2ec4b d5beb54e 0d78f331
+		9e98e46a 0d50dcf7 3f06bb7e 7258a752
+		635d176e 8101350d 3d61108a 58e08962
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #28: dimitris
+[info] Next Challenge: 
+		aa470426 518e2a2e 287b1b18 92767431
+		5646e93d d4f2ec4b d5beb54e 0d78f331
+		9e98e46a 0d50dcf7 3f06bb7e 7258a752
+		635d176e 8101350d 3d61108a 58e08962
+[info] Response Hash:
+		1488bd2d 1acf5ec7 c3636ff2 ba23cf99
+		7cf9ef7e eee6af0f 98150c11 e1c18b14
+		6c7225ed 6cecbe0d 749b8d2f b96a3139
+		04ec9b9c d5035958 f77dae70 75d3326e
+[info] Response Hash:
+		f71e9315 058c1c88 ba4cd22e 01f86242
+		d81b5e74 de829ad8 8bd7ecef 475ca3ce
+		d59eaa77 7e2ebfd3 14c38bde 84a47ebf
+		c3143252 9c978b84 b25cddf7 a6212371
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #27: alex
+[info] Next Challenge: 
+		f71e9315 058c1c88 ba4cd22e 01f86242
+		d81b5e74 de829ad8 8bd7ecef 475ca3ce
+		d59eaa77 7e2ebfd3 14c38bde 84a47ebf
+		c3143252 9c978b84 b25cddf7 a6212371
+[info] Response Hash:
+		379ecd36 fd2650c0 2196c9b4 13ea0f28
+		2d5545c9 ed270075 fd5b5000 60a41e67
+		8d5b75fc b22221b4 2636b741 0c45d9a1
+		68a4bf12 a6e91efc 14e09be2 20780990
+[info] Response Hash:
+		10bdaa12 81af4408 8d52f74e a0a68574
+		10c43fda cf11a54b 123c14e9 90501cbc
+		91267417 db60661e bf911d30 bd800684
+		e2ce8ddc c3ee68c0 e37640fa 22553b98
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #26: geoff
+[info] Next Challenge: 
+		10bdaa12 81af4408 8d52f74e a0a68574
+		10c43fda cf11a54b 123c14e9 90501cbc
+		91267417 db60661e bf911d30 bd800684
+		e2ce8ddc c3ee68c0 e37640fa 22553b98
+[info] Response Hash:
+		0eb5712a f476dd2f b5fe6419 9eb269f9
+		e945c281 71d09687 f373a02a 11f53cbd
+		c3df2fc9 77529e2f 9a51c428 4547f6df
+		e49eb1aa 3a46c508 27566b0b ac5fa5af
+[info] Response Hash:
+		bbe7103c 4d477e68 31055c95 03d66ae0
+		4d6cedd7 509e2478 bd567555 0f265017
+		b54f10c1 fb8b7217 28c2e505 110e5bbf
+		c9911702 d9ef1416 b76bb4a3 43c0fe90
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #25: stefan
+[info] Next Challenge: 
+		bbe7103c 4d477e68 31055c95 03d66ae0
+		4d6cedd7 509e2478 bd567555 0f265017
+		b54f10c1 fb8b7217 28c2e505 110e5bbf
+		c9911702 d9ef1416 b76bb4a3 43c0fe90
+[info] Response Hash:
+		7f45bf22 6b33ae9a a8f63ce6 bdd35975
+		7984d114 97200427 014e64ae 7dfee818
+		de42d36d 9f2e9cd7 71c5d500 f164287c
+		428d8af0 a1eb3a18 b40a5dd2 a2b6dc9e
+[info] Response Hash:
+		ab45d9d9 de4a950d a97ae2b1 d20fb7c6
+		1b6d1098 6cb02d41 8a8be0c6 4e2c99d6
+		c000a914 c03d9ab2 71ee07c0 990a41fb
+		56971420 2c380711 d722350c c19a1152
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #24: vb
+[info] Next Challenge: 
+		ab45d9d9 de4a950d a97ae2b1 d20fb7c6
+		1b6d1098 6cb02d41 8a8be0c6 4e2c99d6
+		c000a914 c03d9ab2 71ee07c0 990a41fb
+		56971420 2c380711 d722350c c19a1152
+[info] Response Hash:
+		31ea680a 591f8062 6cad18b7 1f72218c
+		6fe1be52 493e6be0 b709a2cc 87a585d6
+		dfaae025 6ea6a569 373d89d4 cd8b6587
+		aec1ed9a d1fbf69c c9c46d4d 4acccc98
+[info] Response Hash:
+		7474dc21 f794d4ac fe75ceb7 36774ca0
+		5df34e59 40646583 c12d4f72 05f7cf40
+		aa45aef8 9f0da9ac f8ef1b4e b398638e
+		4dc84557 1a3e2e9f 1c92615d 68ba80d5
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #23: shomari
+[info] Next Challenge: 
+		7474dc21 f794d4ac fe75ceb7 36774ca0
+		5df34e59 40646583 c12d4f72 05f7cf40
+		aa45aef8 9f0da9ac f8ef1b4e b398638e
+		4dc84557 1a3e2e9f 1c92615d 68ba80d5
+[info] Response Hash:
+		008a80a3 373a99ce 2c2f83e2 896147bb
+		f51cd431 128299cf eb36f85e 009e49ce
+		4da5ae54 601858e6 1bd4a4cd bebb0c63
+		247e7841 fa692b32 0856f9f7 aaf54640
+[info] Response Hash:
+		14e4fe77 59391f2c 6988e790 2abd6343
+		cc27d259 80883aec 39a88d1e 415610b2
+		25e0aa5a c1ec9f5a 40b69989 4767ac75
+		983e5ca5 441ebbc6 ca66a61d 049c9112
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #22: roman
+[info] Next Challenge: 
+		14e4fe77 59391f2c 6988e790 2abd6343
+		cc27d259 80883aec 39a88d1e 415610b2
+		25e0aa5a c1ec9f5a 40b69989 4767ac75
+		983e5ca5 441ebbc6 ca66a61d 049c9112
+[info] Response Hash:
+		d49e62bd 44ce5741 48dcc541 05b52e71
+		d89b3466 834eeba0 609b2b39 dc8c6033
+		4929ad4c 73a36bca 0113ad70 c960e6ed
+		dacc9e93 67e19901 e6c92263 a4e8d3e0
+[info] Response Hash:
+		dfcaaa51 9ada2419 256d73b4 1d944815
+		4ff1b687 5874d44c f4e18be8 e933966e
+		08db79db 40878856 78138e60 d3c82a9a
+		7d50735c 449af38a 76d9ac9c 81af7e2a
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #21: rf
+[info] Next Challenge: 
+		dfcaaa51 9ada2419 256d73b4 1d944815
+		4ff1b687 5874d44c f4e18be8 e933966e
+		08db79db 40878856 78138e60 d3c82a9a
+		7d50735c 449af38a 76d9ac9c 81af7e2a
+[info] Response Hash:
+		287647b5 6cfe5115 f9367f2c 2962c12b
+		0a1947a7 85e2522d 9751d929 5c9b5a37
+		bed0204f f022abb2 7771e477 bb18d024
+		845c861e 663696db dc34739b 3fd86822
+[info] Response Hash:
+		0ba142a6 f4403ff4 1d6ab339 6708f4d0
+		d5e567f3 2d6b293b dcdad335 09533246
+		a475da20 b0cf3f2f b4bff3bb 6d82ccf4
+		7f43d5ea 6623de42 57d65f3f be285915
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #20: edu
+[info] Next Challenge: 
+		0ba142a6 f4403ff4 1d6ab339 6708f4d0
+		d5e567f3 2d6b293b dcdad335 09533246
+		a475da20 b0cf3f2f b4bff3bb 6d82ccf4
+		7f43d5ea 6623de42 57d65f3f be285915
+[info] Response Hash:
+		e9d2416c 15ed22d9 c6b7c2f5 683c21e9
+		9409df85 b068b3a1 f0c63984 061e13b2
+		1905b533 724ce1c8 7d756409 36706c9c
+		0026d811 64e17e1f 7b84e735 392835f6
+[info] Response Hash:
+		5bfc6971 5a5f57d2 9170410c 04cfb19d
+		b079de9d a94f9b81 770d7cfd 6cfb7b14
+		d05e3268 596722a6 546a40b6 79194ce9
+		682d3956 23a664a9 a7d836c9 67a41d7d
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #19: petr
+[info] Next Challenge: 
+		5bfc6971 5a5f57d2 9170410c 04cfb19d
+		b079de9d a94f9b81 770d7cfd 6cfb7b14
+		d05e3268 596722a6 546a40b6 79194ce9
+		682d3956 23a664a9 a7d836c9 67a41d7d
+[info] Response Hash:
+		98900cd9 b12a8619 aaa134ee e1a20ec8
+		89acc1af ca5a8131 c8b92c47 60f3b6b2
+		6132ec96 31c7e735 4547252f 2d578d29
+		3fcb91af d797edd1 b28fef9e 7105b5b8
+[info] Response Hash:
+		729cd42c 9fa0328d d3faa58e 5fdd80b9
+		94270562 af70a380 f017bb9a 6099d742
+		8865b173 824c7547 10d2ccf0 667508f4
+		e7bf5f33 30660b5b 1dda4364 256926fc
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #18: cody
+[info] Next Challenge: 
+		729cd42c 9fa0328d d3faa58e 5fdd80b9
+		94270562 af70a380 f017bb9a 6099d742
+		8865b173 824c7547 10d2ccf0 667508f4
+		e7bf5f33 30660b5b 1dda4364 256926fc
+[info] Response Hash:
+		28349fa9 f600daca 6b62e35d 8583ded4
+		132c7376 0447693b 9a4028ca 3b9b2437
+		7133c40e e33acdc2 3f59a34a f481abe7
+		7e3232e8 07f2cff7 1ffcf196 dab58baa
+[info] Response Hash:
+		89a6b171 315d4522 99b25f19 a8fd5ff8
+		40d15b67 623953cd c8eb0c22 73d2a277
+		026e16be bacebd22 d3b72a44 b1091b5a
+		0a33d2ba b1546e9d fd42a01d bdd0596b
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #17: philip
+[info] Next Challenge: 
+		89a6b171 315d4522 99b25f19 a8fd5ff8
+		40d15b67 623953cd c8eb0c22 73d2a277
+		026e16be bacebd22 d3b72a44 b1091b5a
+		0a33d2ba b1546e9d fd42a01d bdd0596b
+[info] Response Hash:
+		eaf5d6d3 821690bb 16070bc4 fed04f9f
+		aa652baf 9d959ad9 ae394bc1 d51d3beb
+		84d0ffd9 66328257 4956f171 79fa5fea
+		e5b6e77c 7eb509f1 925e1b92 ccb9d51a
+[info] Response Hash:
+		af608b45 96865150 0c5b4f09 1ea38f34
+		fa7bee9b 75192c28 719e200d a483cc1d
+		e9db8db4 2c73de9e 92fb47ac 8a4554e8
+		e91044b1 a9d471ab b67b64fa 7eb9337d
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #16: aurel
+[info] Next Challenge: 
+		af608b45 96865150 0c5b4f09 1ea38f34
+		fa7bee9b 75192c28 719e200d a483cc1d
+		e9db8db4 2c73de9e 92fb47ac 8a4554e8
+		e91044b1 a9d471ab b67b64fa 7eb9337d
+[info] Response Hash:
+		93a88218 13e1ae6b 59485741 002013e9
+		94faa680 5ee25e17 4787fcc9 63a3ae08
+		b2a71e4c 9d5563e4 fb91335d d6f98396
+		aa0536c5 fc19fc54 fcf164ab 99307249
+[info] Response Hash:
+		1dcfa3a3 2135ab8d 1adca012 b01a4e63
+		42be7688 022183fb 0e28d1ac 762dcf3a
+		4bf2cf25 71f83624 c37cbaa5 30676bd8
+		0fa00411 c6e586e5 47a70d95 4085d4cd
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #15: anon0
+[info] Next Challenge: 
+		1dcfa3a3 2135ab8d 1adca012 b01a4e63
+		42be7688 022183fb 0e28d1ac 762dcf3a
+		4bf2cf25 71f83624 c37cbaa5 30676bd8
+		0fa00411 c6e586e5 47a70d95 4085d4cd
+[info] Response Hash:
+		ba95f869 eabeb87c c1c55f21 6aed17ef
+		e96a832c 1571dcb3 556b85e0 434c45b2
+		0220dc2b 67af7012 12354f58 71b40d4a
+		0887b7b4 c485d2f3 43c65624 12ca5c31
+[info] Response Hash:
+		ad1d6f7d 105fe751 56ae95ab 9c289094
+		5aca0552 61902a80 eb6b5f7c 98996f80
+		5575ba0d 05dfddc8 df75506c b22911a4
+		182a852b 4ee4953d 25c37841 cee60084
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #14: weijie
+[info] Next Challenge: 
+		ad1d6f7d 105fe751 56ae95ab 9c289094
+		5aca0552 61902a80 eb6b5f7c 98996f80
+		5575ba0d 05dfddc8 df75506c b22911a4
+		182a852b 4ee4953d 25c37841 cee60084
+[info] Response Hash:
+		1fb91ad1 54ef9d58 b03f7cc8 9ada45ed
+		94b7a3a9 748c8f08 a6f2655f fd31483e
+		6b012d28 e47544cb 50e8c8fe 1f3cc72e
+		1305b7ad bdc49b80 68876d19 4b5d0a60
+[info] Response Hash:
+		a85053ff 17c3c395 e4c6ede7 4fe7df4d
+		85e64700 bff1a066 c429a515 db5fbbb4
+		04958b99 9304c2ae b8b537d3 55a38651
+		9fb531f7 34e8bd17 eeb7c85c aab3501e
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #13: kevin
+[info] Next Challenge: 
+		a85053ff 17c3c395 e4c6ede7 4fe7df4d
+		85e64700 bff1a066 c429a515 db5fbbb4
+		04958b99 9304c2ae b8b537d3 55a38651
+		9fb531f7 34e8bd17 eeb7c85c aab3501e
+[info] Response Hash:
+		c22a8a27 15feadad 42217518 ecca2788
+		fb771d57 8aa1f8e0 cef98ef5 7e6565b8
+		bf5ab833 298417de 5cddff07 520231b2
+		54ddc9c2 72817bf2 aae0d4ec 584500dc
+[info] Response Hash:
+		e83607eb 942b3ac1 394dfb2a 36b465a0
+		3bcea042 a8bceafe 16daa05d 7dc143dd
+		d9c3e807 7490083b be2839ad 8be6bbdd
+		f1e90896 d14eab37 0ea33fd0 c0d3c11e
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #12: daniel
+[info] Next Challenge: 
+		e83607eb 942b3ac1 394dfb2a 36b465a0
+		3bcea042 a8bceafe 16daa05d 7dc143dd
+		d9c3e807 7490083b be2839ad 8be6bbdd
+		f1e90896 d14eab37 0ea33fd0 c0d3c11e
+[info] Response Hash:
+		e38344af 2ccbb361 e5afe696 1a71a66b
+		1a5f319f ce49143d 2218509b 59cc5d44
+		04f3315f 3bde6a3c a556f3f4 9cc30578
+		0b958f8c 65a0727b 0da32273 3bf8cde4
+[info] Response Hash:
+		f36bf303 7f19f750 dc8edb45 30522048
+		4090acb5 12e96c50 149618fa 007d3b8f
+		d9103148 f6d5c5d2 62449ca1 b332b43c
+		f8d6afb2 71bf2a11 24bcf4b2 143f0477
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #11: zhiniang
+[info] Next Challenge: 
+		f36bf303 7f19f750 dc8edb45 30522048
+		4090acb5 12e96c50 149618fa 007d3b8f
+		d9103148 f6d5c5d2 62449ca1 b332b43c
+		f8d6afb2 71bf2a11 24bcf4b2 143f0477
+[info] Response Hash:
+		c72fa936 1a701827 9f9a2d78 501dc242
+		53e62a2f e871f056 3c8dd530 c4ee6761
+		e8bad30e 2e4cabc8 21b159c8 7fc554e7
+		18faf6e7 b303bc5e c0865ff8 86fbea48
+[info] Response Hash:
+		ac890865 8234b4f0 b8f4e3c3 0f6acc34
+		38d3f297 734b62b9 c7b1157f 93d7eed2
+		ba05c59d e663cebc 08049076 3cfbee1e
+		5e231123 7714661e 67b43cca 921da027
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #10: vano
+[info] Next Challenge: 
+		ac890865 8234b4f0 b8f4e3c3 0f6acc34
+		38d3f297 734b62b9 c7b1157f 93d7eed2
+		ba05c59d e663cebc 08049076 3cfbee1e
+		5e231123 7714661e 67b43cca 921da027
+[info] Response Hash:
+		ed65fac5 4967c6ee abfd8350 2eceb53c
+		a7ccd0bf d35353ee c5350c37 06988b8b
+		f1590b10 fe8388ab fbeb088c 8843fb80
+		4fe885d6 0bd6d8fb 7cd47eef c93b778b
+[info] Response Hash:
+		7fde382d 1bc12ae7 d3d99879 648e416b
+		0540f39d 5e8f4945 229a7faa e97c3630
+		9d54bf8b b8a0813c 67f89d19 9b2111b9
+		0adb93c2 6b80fdd4 e3fe3640 860b7731
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #9: brecht
+[info] Next Challenge: 
+		7fde382d 1bc12ae7 d3d99879 648e416b
+		0540f39d 5e8f4945 229a7faa e97c3630
+		9d54bf8b b8a0813c 67f89d19 9b2111b9
+		0adb93c2 6b80fdd4 e3fe3640 860b7731
+[info] Response Hash:
+		2f21e33e d267b2c5 31fbafb1 89beb370
+		a30166bf f9d97c02 42b7f3fc c650022c
+		61868f0e b2000578 d852fb4a 71ceb9e9
+		49337de4 9ec3ac48 1f2092db aac7a1de
+[info] Response Hash:
+		af1d28b6 e1c2e68f 5c871f3e 01856f25
+		2ef4f745 a3e39e3d 2aa3bc40 7f82b4a5
+		feb2ba4c 303f90fb 15c86929 0611b732
+		be31f29a 15e5d609 6f555cd0 683e5421
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #8: mike
+[info] Next Challenge: 
+		af1d28b6 e1c2e68f 5c871f3e 01856f25
+		2ef4f745 a3e39e3d 2aa3bc40 7f82b4a5
+		feb2ba4c 303f90fb 15c86929 0611b732
+		be31f29a 15e5d609 6f555cd0 683e5421
+[info] Response Hash:
+		cf0abf2f 06b4f5d1 3ab6ff1b 59e1ff40
+		a9a2e9b4 fdf27eac 0b1345e8 c89cbc3f
+		142d00d9 742d8e1a cc996425 cc626531
+		fb1be7b2 86640d09 c2909072 f26b9a3e
+[info] Response Hash:
+		10e6b25c 4b066b59 a5b837d2 460a78b1
+		59edb6cb 2018ae0a a74b7555 499c9690
+		b16b4f38 99fa8147 b9bc4602 5b634eef
+		8e998fa2 44f9fe64 4df29ee9 a0944e7a
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #7: youssef
+[info] Next Challenge: 
+		10e6b25c 4b066b59 a5b837d2 460a78b1
+		59edb6cb 2018ae0a a74b7555 499c9690
+		b16b4f38 99fa8147 b9bc4602 5b634eef
+		8e998fa2 44f9fe64 4df29ee9 a0944e7a
+[info] Response Hash:
+		f34b3fe3 bf71c731 424d0b95 16ac3751
+		a2250b26 23648f74 58361bce 9616a233
+		e5aef57e 8cdd0f3c 555e1e0e e4feeace
+		c5f2342b 860d0975 4c450972 72d99b26
+[info] Response Hash:
+		3e1140e5 66971cbd e6308dc3 d3f2ef4e
+		2c36bb4d b16704ed 0ffd26ee 7d80ccce
+		f2b46aa4 6feadf3e 2da8c43e ccf7588a
+		09e6cd94 85a4dd05 20af752d b0f24128
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #6: zac
+[info] Next Challenge: 
+		3e1140e5 66971cbd e6308dc3 d3f2ef4e
+		2c36bb4d b16704ed 0ffd26ee 7d80ccce
+		f2b46aa4 6feadf3e 2da8c43e ccf7588a
+		09e6cd94 85a4dd05 20af752d b0f24128
+[info] Response Hash:
+		fbb8512f 393ffd01 7c20b1b6 6f7f5cf2
+		05f1de39 4fa987a7 03dc3fc6 c3957613
+		b33e69a9 143ae272 cd3e02b1 4db3c5d4
+		24ab0695 27e3e813 2a7b7ecf 8bbd05df
+[info] Response Hash:
+		a7b3c130 cd8dbd26 769cfbcb e4c9a4ef
+		9055d13b ac932854 81c1007c acf51d29
+		c00dd146 d73a6670 47f65200 ae227e01
+		d589c609 04d263a4 1f5f187d 03fcc692
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #5: amrullah
+[info] Next Challenge: 
+		a7b3c130 cd8dbd26 769cfbcb e4c9a4ef
+		9055d13b ac932854 81c1007c acf51d29
+		c00dd146 d73a6670 47f65200 ae227e01
+		d589c609 04d263a4 1f5f187d 03fcc692
+[info] Response Hash:
+		6201ec95 c960e694 4471bf9d ad3fe42c
+		b1b47a86 6d9c27ea 1c44f418 2a5622d4
+		663e5b4f 454d2a2a b7b7c546 397c46a7
+		72402e6c 7e3fbbd8 a921120d 00d19af2
+[info] Response Hash:
+		635b55a6 a0c3c809 6843c9ab c06f40f0
+		e60fac21 df00b5c2 e2edbcc2 e4f4e0c2
+		f4d196f9 b34b95be 43e9f905 723e6a58
+		da92df24 f2035d85 3841ce4f 3518ee60
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #4: pepesha
+[info] Next Challenge: 
+		635b55a6 a0c3c809 6843c9ab c06f40f0
+		e60fac21 df00b5c2 e2edbcc2 e4f4e0c2
+		f4d196f9 b34b95be 43e9f905 723e6a58
+		da92df24 f2035d85 3841ce4f 3518ee60
+[info] Response Hash:
+		e66da21e 696219ed a217664b 8deb0a30
+		b37f376b 16aae752 f5491015 2b2307f4
+		508d04b4 124d4e95 8c391d41 6dfc04a8
+		2db73c84 f8aa87f3 ba652eec 7b18b407
+[info] Response Hash:
+		01401c5e 781fc7c8 aae99b16 0f14a86b
+		16a0a5e3 19d48fd0 4eaba3db 8a0fefa7
+		bf0854bc 9bf67893 36b8680f 261151bc
+		1d2aca16 3aa74c50 19c817bf dbc4d21d
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #3: poma
+[info] Next Challenge: 
+		01401c5e 781fc7c8 aae99b16 0f14a86b
+		16a0a5e3 19d48fd0 4eaba3db 8a0fefa7
+		bf0854bc 9bf67893 36b8680f 261151bc
+		1d2aca16 3aa74c50 19c817bf dbc4d21d
+[info] Response Hash:
+		65c6c7bd f97d1259 ccac23b0 2fc35af4
+		73818991 93a0b9d3 82c5bee5 2159d5d1
+		1ceaa64c f8558471 3e954bdf a5c0e628
+		ab75b48d 0fda7dfb 6d1690d9 5361201c
+[info] Response Hash:
+		9ff247f1 38a11751 05137ace d8c9766c
+		5eeccef3 5b892c62 c55eae78 7301991b
+		05b66649 b00c48f2 7501b30d 1538f5d8
+		0e2da3ed f163a978 5fba5b47 352f7d04
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #2: kobi
+[info] Next Challenge: 
+		9ff247f1 38a11751 05137ace d8c9766c
+		5eeccef3 5b892c62 c55eae78 7301991b
+		05b66649 b00c48f2 7501b30d 1538f5d8
+		0e2da3ed f163a978 5fba5b47 352f7d04
+[info] Response Hash:
+		edec0294 eb450803 ec0ef7e1 7573f238
+		5663016b 6b47b9cc 8c9396cb 5ed36732
+		fcc6b6e3 abf5f8ac 61d6761d d565b203
+		936e475a 00f6e9ba 047e5991 4340fd1f
+[info] Response Hash:
+		5e72e26e 38b46d06 7b797eb5 929e18e7
+		eda11ae0 cf429bb8 c04af72d 8a2633b5
+		625f8cbe bb07b61b 510403d4 bf644357
+		a80ea08d 7d5cc04d 58a8aa4d 2d9084ea
+[info] Powers Of tau file OK!
+[info] -----------------------------------------------------
+[info] Contribution #1: weijie
+[info] Next Challenge: 
+		5e72e26e 38b46d06 7b797eb5 929e18e7
+		eda11ae0 cf429bb8 c04af72d 8a2633b5
+		625f8cbe bb07b61b 510403d4 bf644357
+		a80ea08d 7d5cc04d 58a8aa4d 2d9084ea
+[info] Response Hash:
+		398b99a4 3f0214e0 2b7483ea 96b8ac0d
+		1e2aa662 7b6e9e3b 9fe0b043 2803be29
+		f014b567 8fd83cfa 0abee8ca 07d7655c
+		b6682b52 7a7965aa 1f99f02a 89afb712
+[info] Response Hash:
+		93da9192 0d5a54a8 a0fde55c d9dc3a10
+		c4f3eef7 68b62c09 48741370 864254b4
+		c1920f3f 29d4ebc0 ef3acecf 2e2db63a
+		755713d7 7e1ed773 47a56fbc 317c7a93
+[info] -----------------------------------------------------
+[debug] Verifying phase2 calculated values tauG1...
+[debug] Power 0...
+[debug] Creating random numbers Powers0...
+[debug] reading points Powers0...
+[debug] Multiexp start: tauG1_0: 0/1
+[debug] Multiexp end: tauG1_0: 0/1
+[debug] Creating random numbers Powers0...
+[debug] batchToMontgomery 0...
+[debug] fft 0...
+[debug] batchFromMontgomery 0...
+[debug] reading points Lagrange0...
+[debug] Multiexp start: tauG1_0_transformed: 0/1
+[debug] Multiexp end: tauG1_0_transformed: 0/1
+[debug] Power 1...
+[debug] Creating random numbers Powers1...
+[debug] reading points Powers1...
+[debug] Multiexp start: tauG1_1: 0/2
+[debug] Multiexp end: tauG1_1: 0/2
+[debug] Creating random numbers Powers1...
+[debug] batchToMontgomery 1...
+[debug] fft 1...
+[debug] batchFromMontgomery 1...
+[debug] reading points Lagrange1...
+[debug] Multiexp start: tauG1_1_transformed: 0/2
+[debug] Multiexp end: tauG1_1_transformed: 0/2
+[debug] Power 2...
+[debug] Creating random numbers Powers2...
+[debug] reading points Powers2...
+[debug] Multiexp start: tauG1_2: 0/4
+[debug] Multiexp end: tauG1_2: 0/4
+[debug] Creating random numbers Powers2...
+[debug] batchToMontgomery 2...
+[debug] fft 2...
+[debug] batchFromMontgomery 2...
+[debug] reading points Lagrange2...
+[debug] Multiexp start: tauG1_2_transformed: 0/4
+[debug] Multiexp end: tauG1_2_transformed: 0/4
+[debug] Power 3...
+[debug] Creating random numbers Powers3...
+[debug] reading points Powers3...
+[debug] Multiexp start: tauG1_3: 0/8
+[debug] Multiexp end: tauG1_3: 0/8
+[debug] Creating random numbers Powers3...
+[debug] batchToMontgomery 3...
+[debug] fft 3...
+[debug] batchFromMontgomery 3...
+[debug] reading points Lagrange3...
+[debug] Multiexp start: tauG1_3_transformed: 0/8
+[debug] Multiexp end: tauG1_3_transformed: 0/8
+[debug] Power 4...
+[debug] Creating random numbers Powers4...
+[debug] reading points Powers4...
+[debug] Multiexp start: tauG1_4: 0/16
+[debug] Multiexp end: tauG1_4: 0/16
+[debug] Creating random numbers Powers4...
+[debug] batchToMontgomery 4...
+[debug] fft 4...
+[debug] batchFromMontgomery 4...
+[debug] reading points Lagrange4...
+[debug] Multiexp start: tauG1_4_transformed: 0/16
+[debug] Multiexp end: tauG1_4_transformed: 0/16
+[debug] Power 5...
+[debug] Creating random numbers Powers5...
+[debug] reading points Powers5...
+[debug] Multiexp start: tauG1_5: 0/32
+[debug] Multiexp end: tauG1_5: 0/32
+[debug] Creating random numbers Powers5...
+[debug] batchToMontgomery 5...
+[debug] fft 5...
+[debug] batchFromMontgomery 5...
+[debug] reading points Lagrange5...
+[debug] Multiexp start: tauG1_5_transformed: 0/32
+[debug] Multiexp end: tauG1_5_transformed: 0/32
+[debug] Power 6...
+[debug] Creating random numbers Powers6...
+[debug] reading points Powers6...
+[debug] Multiexp start: tauG1_6: 0/64
+[debug] Multiexp end: tauG1_6: 0/64
+[debug] Creating random numbers Powers6...
+[debug] batchToMontgomery 6...
+[debug] fft 6...
+[debug] batchFromMontgomery 6...
+[debug] reading points Lagrange6...
+[debug] Multiexp start: tauG1_6_transformed: 0/64
+[debug] Multiexp end: tauG1_6_transformed: 0/64
+[debug] Power 7...
+[debug] Creating random numbers Powers7...
+[debug] reading points Powers7...
+[debug] Multiexp start: tauG1_7: 0/128
+[debug] Multiexp end: tauG1_7: 0/128
+[debug] Creating random numbers Powers7...
+[debug] batchToMontgomery 7...
+[debug] fft 7...
+[debug] batchFromMontgomery 7...
+[debug] reading points Lagrange7...
+[debug] Multiexp start: tauG1_7_transformed: 0/128
+[debug] Multiexp end: tauG1_7_transformed: 0/128
+[debug] Power 8...
+[debug] Creating random numbers Powers8...
+[debug] reading points Powers8...
+[debug] Multiexp start: tauG1_8: 0/256
+[debug] Multiexp end: tauG1_8: 0/256
+[debug] Creating random numbers Powers8...
+[debug] batchToMontgomery 8...
+[debug] fft 8...
+[debug] batchFromMontgomery 8...
+[debug] reading points Lagrange8...
+[debug] Multiexp start: tauG1_8_transformed: 0/256
+[debug] Multiexp end: tauG1_8_transformed: 0/256
+[debug] Power 9...
+[debug] Creating random numbers Powers9...
+[debug] reading points Powers9...
+[debug] Multiexp start: tauG1_9: 0/512
+[debug] Multiexp end: tauG1_9: 0/512
+[debug] Creating random numbers Powers9...
+[debug] batchToMontgomery 9...
+[debug] fft 9...
+[debug] batchFromMontgomery 9...
+[debug] reading points Lagrange9...
+[debug] Multiexp start: tauG1_9_transformed: 0/512
+[debug] Multiexp end: tauG1_9_transformed: 0/512
+[debug] Power 10...
+[debug] Creating random numbers Powers10...
+[debug] reading points Powers10...
+[debug] Multiexp start: tauG1_10: 0/1024
+[debug] Multiexp end: tauG1_10: 0/1024
+[debug] Creating random numbers Powers10...
+[debug] batchToMontgomery 10...
+[debug] fft 10...
+[debug] batchFromMontgomery 10...
+[debug] reading points Lagrange10...
+[debug] Multiexp start: tauG1_10_transformed: 0/1024
+[debug] Multiexp end: tauG1_10_transformed: 0/1024
+[debug] Power 11...
+[debug] Creating random numbers Powers11...
+[debug] reading points Powers11...
+[debug] Multiexp start: tauG1_11: 0/2048
+[debug] Multiexp end: tauG1_11: 0/2048
+[debug] Creating random numbers Powers11...
+[debug] batchToMontgomery 11...
+[debug] fft 11...
+[debug] batchFromMontgomery 11...
+[debug] reading points Lagrange11...
+[debug] Multiexp start: tauG1_11_transformed: 0/2048
+[debug] Multiexp end: tauG1_11_transformed: 0/2048
+[debug] Power 12...
+[debug] Creating random numbers Powers12...
+[debug] reading points Powers12...
+[debug] Multiexp start: tauG1_12: 0/4096
+[debug] Multiexp end: tauG1_12: 0/4096
+[debug] Creating random numbers Powers12...
+[debug] batchToMontgomery 12...
+[debug] fft 12...
+[debug] batchFromMontgomery 12...
+[debug] reading points Lagrange12...
+[debug] Multiexp start: tauG1_12_transformed: 0/4096
+[debug] Multiexp end: tauG1_12_transformed: 0/4096
+[debug] Power 13...
+[debug] Creating random numbers Powers13...
+[debug] reading points Powers13...
+[debug] Multiexp start: tauG1_13: 0/8192
+[debug] Multiexp end: tauG1_13: 0/8192
+[debug] Creating random numbers Powers13...
+[debug] batchToMontgomery 13...
+[debug] fft 13...
+[debug] batchFromMontgomery 13...
+[debug] reading points Lagrange13...
+[debug] Multiexp start: tauG1_13_transformed: 0/8192
+[debug] Multiexp end: tauG1_13_transformed: 0/8192
+[debug] Power 14...
+[debug] Creating random numbers Powers14...
+[debug] reading points Powers14...
+[debug] Multiexp start: tauG1_14: 0/16384
+[debug] Multiexp end: tauG1_14: 0/16384
+[debug] Creating random numbers Powers14...
+[debug] batchToMontgomery 14...
+[debug] fft 14...
+[debug] batchFromMontgomery 14...
+[debug] reading points Lagrange14...
+[debug] Multiexp start: tauG1_14_transformed: 0/16384
+[debug] Multiexp end: tauG1_14_transformed: 0/16384
+[debug] Power 15...
+[debug] Creating random numbers Powers15...
+[debug] reading points Powers15...
+[debug] Multiexp start: tauG1_15: 0/32768
+[debug] Multiexp end: tauG1_15: 0/32768
+[debug] Creating random numbers Powers15...
+[debug] batchToMontgomery 15...
+[debug] fft 15...
+[debug] batchFromMontgomery 15...
+[debug] reading points Lagrange15...
+[debug] Multiexp start: tauG1_15_transformed: 0/32768
+[debug] Multiexp end: tauG1_15_transformed: 0/32768
+[debug] Power 16...
+[debug] Creating random numbers Powers16...
+[debug] reading points Powers16...
+[debug] Multiexp start: tauG1_16: 0/65536
+[debug] Multiexp end: tauG1_16: 0/65536
+[debug] Creating random numbers Powers16...
+[debug] batchToMontgomery 16...
+[debug] fft 16...
+[debug] batchFromMontgomery 16...
+[debug] reading points Lagrange16...
+[debug] Multiexp start: tauG1_16_transformed: 0/65536
+[debug] Multiexp end: tauG1_16_transformed: 0/65536
+[debug] Verifying phase2 calculated values tauG2...
+[debug] Power 0...
+[debug] Creating random numbers Powers0...
+[debug] reading points Powers0...
+[debug] Multiexp start: tauG2_0: 0/1
+[debug] Multiexp end: tauG2_0: 0/1
+[debug] Creating random numbers Powers0...
+[debug] batchToMontgomery 0...
+[debug] fft 0...
+[debug] batchFromMontgomery 0...
+[debug] reading points Lagrange0...
+[debug] Multiexp start: tauG2_0_transformed: 0/1
+[debug] Multiexp end: tauG2_0_transformed: 0/1
+[debug] Power 1...
+[debug] Creating random numbers Powers1...
+[debug] reading points Powers1...
+[debug] Multiexp start: tauG2_1: 0/2
+[debug] Multiexp end: tauG2_1: 0/2
+[debug] Creating random numbers Powers1...
+[debug] batchToMontgomery 1...
+[debug] fft 1...
+[debug] batchFromMontgomery 1...
+[debug] reading points Lagrange1...
+[debug] Multiexp start: tauG2_1_transformed: 0/2
+[debug] Multiexp end: tauG2_1_transformed: 0/2
+[debug] Power 2...
+[debug] Creating random numbers Powers2...
+[debug] reading points Powers2...
+[debug] Multiexp start: tauG2_2: 0/4
+[debug] Multiexp end: tauG2_2: 0/4
+[debug] Creating random numbers Powers2...
+[debug] batchToMontgomery 2...
+[debug] fft 2...
+[debug] batchFromMontgomery 2...
+[debug] reading points Lagrange2...
+[debug] Multiexp start: tauG2_2_transformed: 0/4
+[debug] Multiexp end: tauG2_2_transformed: 0/4
+[debug] Power 3...
+[debug] Creating random numbers Powers3...
+[debug] reading points Powers3...
+[debug] Multiexp start: tauG2_3: 0/8
+[debug] Multiexp end: tauG2_3: 0/8
+[debug] Creating random numbers Powers3...
+[debug] batchToMontgomery 3...
+[debug] fft 3...
+[debug] batchFromMontgomery 3...
+[debug] reading points Lagrange3...
+[debug] Multiexp start: tauG2_3_transformed: 0/8
+[debug] Multiexp end: tauG2_3_transformed: 0/8
+[debug] Power 4...
+[debug] Creating random numbers Powers4...
+[debug] reading points Powers4...
+[debug] Multiexp start: tauG2_4: 0/16
+[debug] Multiexp end: tauG2_4: 0/16
+[debug] Creating random numbers Powers4...
+[debug] batchToMontgomery 4...
+[debug] fft 4...
+[debug] batchFromMontgomery 4...
+[debug] reading points Lagrange4...
+[debug] Multiexp start: tauG2_4_transformed: 0/16
+[debug] Multiexp end: tauG2_4_transformed: 0/16
+[debug] Power 5...
+[debug] Creating random numbers Powers5...
+[debug] reading points Powers5...
+[debug] Multiexp start: tauG2_5: 0/32
+[debug] Multiexp end: tauG2_5: 0/32
+[debug] Creating random numbers Powers5...
+[debug] batchToMontgomery 5...
+[debug] fft 5...
+[debug] batchFromMontgomery 5...
+[debug] reading points Lagrange5...
+[debug] Multiexp start: tauG2_5_transformed: 0/32
+[debug] Multiexp end: tauG2_5_transformed: 0/32
+[debug] Power 6...
+[debug] Creating random numbers Powers6...
+[debug] reading points Powers6...
+[debug] Multiexp start: tauG2_6: 0/64
+[debug] Multiexp end: tauG2_6: 0/64
+[debug] Creating random numbers Powers6...
+[debug] batchToMontgomery 6...
+[debug] fft 6...
+[debug] batchFromMontgomery 6...
+[debug] reading points Lagrange6...
+[debug] Multiexp start: tauG2_6_transformed: 0/64
+[debug] Multiexp end: tauG2_6_transformed: 0/64
+[debug] Power 7...
+[debug] Creating random numbers Powers7...
+[debug] reading points Powers7...
+[debug] Multiexp start: tauG2_7: 0/128
+[debug] Multiexp end: tauG2_7: 0/128
+[debug] Creating random numbers Powers7...
+[debug] batchToMontgomery 7...
+[debug] fft 7...
+[debug] batchFromMontgomery 7...
+[debug] reading points Lagrange7...
+[debug] Multiexp start: tauG2_7_transformed: 0/128
+[debug] Multiexp end: tauG2_7_transformed: 0/128
+[debug] Power 8...
+[debug] Creating random numbers Powers8...
+[debug] reading points Powers8...
+[debug] Multiexp start: tauG2_8: 0/256
+[debug] Multiexp end: tauG2_8: 0/256
+[debug] Creating random numbers Powers8...
+[debug] batchToMontgomery 8...
+[debug] fft 8...
+[debug] batchFromMontgomery 8...
+[debug] reading points Lagrange8...
+[debug] Multiexp start: tauG2_8_transformed: 0/256
+[debug] Multiexp end: tauG2_8_transformed: 0/256
+[debug] Power 9...
+[debug] Creating random numbers Powers9...
+[debug] reading points Powers9...
+[debug] Multiexp start: tauG2_9: 0/512
+[debug] Multiexp end: tauG2_9: 0/512
+[debug] Creating random numbers Powers9...
+[debug] batchToMontgomery 9...
+[debug] fft 9...
+[debug] batchFromMontgomery 9...
+[debug] reading points Lagrange9...
+[debug] Multiexp start: tauG2_9_transformed: 0/512
+[debug] Multiexp end: tauG2_9_transformed: 0/512
+[debug] Power 10...
+[debug] Creating random numbers Powers10...
+[debug] reading points Powers10...
+[debug] Multiexp start: tauG2_10: 0/1024
+[debug] Multiexp end: tauG2_10: 0/1024
+[debug] Creating random numbers Powers10...
+[debug] batchToMontgomery 10...
+[debug] fft 10...
+[debug] batchFromMontgomery 10...
+[debug] reading points Lagrange10...
+[debug] Multiexp start: tauG2_10_transformed: 0/1024
+[debug] Multiexp end: tauG2_10_transformed: 0/1024
+[debug] Power 11...
+[debug] Creating random numbers Powers11...
+[debug] reading points Powers11...
+[debug] Multiexp start: tauG2_11: 0/2048
+[debug] Multiexp end: tauG2_11: 0/2048
+[debug] Creating random numbers Powers11...
+[debug] batchToMontgomery 11...
+[debug] fft 11...
+[debug] batchFromMontgomery 11...
+[debug] reading points Lagrange11...
+[debug] Multiexp start: tauG2_11_transformed: 0/2048
+[debug] Multiexp end: tauG2_11_transformed: 0/2048
+[debug] Power 12...
+[debug] Creating random numbers Powers12...
+[debug] reading points Powers12...
+[debug] Multiexp start: tauG2_12: 0/4096
+[debug] Multiexp end: tauG2_12: 0/4096
+[debug] Creating random numbers Powers12...
+[debug] batchToMontgomery 12...
+[debug] fft 12...
+[debug] batchFromMontgomery 12...
+[debug] reading points Lagrange12...
+[debug] Multiexp start: tauG2_12_transformed: 0/4096
+[debug] Multiexp end: tauG2_12_transformed: 0/4096
+[debug] Power 13...
+[debug] Creating random numbers Powers13...
+[debug] reading points Powers13...
+[debug] Multiexp start: tauG2_13: 0/8192
+[debug] Multiexp end: tauG2_13: 0/8192
+[debug] Creating random numbers Powers13...
+[debug] batchToMontgomery 13...
+[debug] fft 13...
+[debug] batchFromMontgomery 13...
+[debug] reading points Lagrange13...
+[debug] Multiexp start: tauG2_13_transformed: 0/8192
+[debug] Multiexp end: tauG2_13_transformed: 0/8192
+[debug] Power 14...
+[debug] Creating random numbers Powers14...
+[debug] reading points Powers14...
+[debug] Multiexp start: tauG2_14: 0/16384
+[debug] Multiexp end: tauG2_14: 0/16384
+[debug] Creating random numbers Powers14...
+[debug] batchToMontgomery 14...
+[debug] fft 14...
+[debug] batchFromMontgomery 14...
+[debug] reading points Lagrange14...
+[debug] Multiexp start: tauG2_14_transformed: 0/16384
+[debug] Multiexp end: tauG2_14_transformed: 0/16384
+[debug] Power 15...
+[debug] Creating random numbers Powers15...
+[debug] reading points Powers15...
+[debug] Multiexp start: tauG2_15: 0/32768
+[debug] Multiexp end: tauG2_15: 0/32768
+[debug] Creating random numbers Powers15...
+[debug] batchToMontgomery 15...
+[debug] fft 15...
+[debug] batchFromMontgomery 15...
+[debug] reading points Lagrange15...
+[debug] Multiexp start: tauG2_15_transformed: 0/32768
+[debug] Multiexp end: tauG2_15_transformed: 0/32768
+[debug] Verifying phase2 calculated values alphaTauG1...
+[debug] Power 0...
+[debug] Creating random numbers Powers0...
+[debug] reading points Powers0...
+[debug] Multiexp start: alphaTauG1_0: 0/1
+[debug] Multiexp end: alphaTauG1_0: 0/1
+[debug] Creating random numbers Powers0...
+[debug] batchToMontgomery 0...
+[debug] fft 0...
+[debug] batchFromMontgomery 0...
+[debug] reading points Lagrange0...
+[debug] Multiexp start: alphaTauG1_0_transformed: 0/1
+[debug] Multiexp end: alphaTauG1_0_transformed: 0/1
+[debug] Power 1...
+[debug] Creating random numbers Powers1...
+[debug] reading points Powers1...
+[debug] Multiexp start: alphaTauG1_1: 0/2
+[debug] Multiexp end: alphaTauG1_1: 0/2
+[debug] Creating random numbers Powers1...
+[debug] batchToMontgomery 1...
+[debug] fft 1...
+[debug] batchFromMontgomery 1...
+[debug] reading points Lagrange1...
+[debug] Multiexp start: alphaTauG1_1_transformed: 0/2
+[debug] Multiexp end: alphaTauG1_1_transformed: 0/2
+[debug] Power 2...
+[debug] Creating random numbers Powers2...
+[debug] reading points Powers2...
+[debug] Multiexp start: alphaTauG1_2: 0/4
+[debug] Multiexp end: alphaTauG1_2: 0/4
+[debug] Creating random numbers Powers2...
+[debug] batchToMontgomery 2...
+[debug] fft 2...
+[debug] batchFromMontgomery 2...
+[debug] reading points Lagrange2...
+[debug] Multiexp start: alphaTauG1_2_transformed: 0/4
+[debug] Multiexp end: alphaTauG1_2_transformed: 0/4
+[debug] Power 3...
+[debug] Creating random numbers Powers3...
+[debug] reading points Powers3...
+[debug] Multiexp start: alphaTauG1_3: 0/8
+[debug] Multiexp end: alphaTauG1_3: 0/8
+[debug] Creating random numbers Powers3...
+[debug] batchToMontgomery 3...
+[debug] fft 3...
+[debug] batchFromMontgomery 3...
+[debug] reading points Lagrange3...
+[debug] Multiexp start: alphaTauG1_3_transformed: 0/8
+[debug] Multiexp end: alphaTauG1_3_transformed: 0/8
+[debug] Power 4...
+[debug] Creating random numbers Powers4...
+[debug] reading points Powers4...
+[debug] Multiexp start: alphaTauG1_4: 0/16
+[debug] Multiexp end: alphaTauG1_4: 0/16
+[debug] Creating random numbers Powers4...
+[debug] batchToMontgomery 4...
+[debug] fft 4...
+[debug] batchFromMontgomery 4...
+[debug] reading points Lagrange4...
+[debug] Multiexp start: alphaTauG1_4_transformed: 0/16
+[debug] Multiexp end: alphaTauG1_4_transformed: 0/16
+[debug] Power 5...
+[debug] Creating random numbers Powers5...
+[debug] reading points Powers5...
+[debug] Multiexp start: alphaTauG1_5: 0/32
+[debug] Multiexp end: alphaTauG1_5: 0/32
+[debug] Creating random numbers Powers5...
+[debug] batchToMontgomery 5...
+[debug] fft 5...
+[debug] batchFromMontgomery 5...
+[debug] reading points Lagrange5...
+[debug] Multiexp start: alphaTauG1_5_transformed: 0/32
+[debug] Multiexp end: alphaTauG1_5_transformed: 0/32
+[debug] Power 6...
+[debug] Creating random numbers Powers6...
+[debug] reading points Powers6...
+[debug] Multiexp start: alphaTauG1_6: 0/64
+[debug] Multiexp end: alphaTauG1_6: 0/64
+[debug] Creating random numbers Powers6...
+[debug] batchToMontgomery 6...
+[debug] fft 6...
+[debug] batchFromMontgomery 6...
+[debug] reading points Lagrange6...
+[debug] Multiexp start: alphaTauG1_6_transformed: 0/64
+[debug] Multiexp end: alphaTauG1_6_transformed: 0/64
+[debug] Power 7...
+[debug] Creating random numbers Powers7...
+[debug] reading points Powers7...
+[debug] Multiexp start: alphaTauG1_7: 0/128
+[debug] Multiexp end: alphaTauG1_7: 0/128
+[debug] Creating random numbers Powers7...
+[debug] batchToMontgomery 7...
+[debug] fft 7...
+[debug] batchFromMontgomery 7...
+[debug] reading points Lagrange7...
+[debug] Multiexp start: alphaTauG1_7_transformed: 0/128
+[debug] Multiexp end: alphaTauG1_7_transformed: 0/128
+[debug] Power 8...
+[debug] Creating random numbers Powers8...
+[debug] reading points Powers8...
+[debug] Multiexp start: alphaTauG1_8: 0/256
+[debug] Multiexp end: alphaTauG1_8: 0/256
+[debug] Creating random numbers Powers8...
+[debug] batchToMontgomery 8...
+[debug] fft 8...
+[debug] batchFromMontgomery 8...
+[debug] reading points Lagrange8...
+[debug] Multiexp start: alphaTauG1_8_transformed: 0/256
+[debug] Multiexp end: alphaTauG1_8_transformed: 0/256
+[debug] Power 9...
+[debug] Creating random numbers Powers9...
+[debug] reading points Powers9...
+[debug] Multiexp start: alphaTauG1_9: 0/512
+[debug] Multiexp end: alphaTauG1_9: 0/512
+[debug] Creating random numbers Powers9...
+[debug] batchToMontgomery 9...
+[debug] fft 9...
+[debug] batchFromMontgomery 9...
+[debug] reading points Lagrange9...
+[debug] Multiexp start: alphaTauG1_9_transformed: 0/512
+[debug] Multiexp end: alphaTauG1_9_transformed: 0/512
+[debug] Power 10...
+[debug] Creating random numbers Powers10...
+[debug] reading points Powers10...
+[debug] Multiexp start: alphaTauG1_10: 0/1024
+[debug] Multiexp end: alphaTauG1_10: 0/1024
+[debug] Creating random numbers Powers10...
+[debug] batchToMontgomery 10...
+[debug] fft 10...
+[debug] batchFromMontgomery 10...
+[debug] reading points Lagrange10...
+[debug] Multiexp start: alphaTauG1_10_transformed: 0/1024
+[debug] Multiexp end: alphaTauG1_10_transformed: 0/1024
+[debug] Power 11...
+[debug] Creating random numbers Powers11...
+[debug] reading points Powers11...
+[debug] Multiexp start: alphaTauG1_11: 0/2048
+[debug] Multiexp end: alphaTauG1_11: 0/2048
+[debug] Creating random numbers Powers11...
+[debug] batchToMontgomery 11...
+[debug] fft 11...
+[debug] batchFromMontgomery 11...
+[debug] reading points Lagrange11...
+[debug] Multiexp start: alphaTauG1_11_transformed: 0/2048
+[debug] Multiexp end: alphaTauG1_11_transformed: 0/2048
+[debug] Power 12...
+[debug] Creating random numbers Powers12...
+[debug] reading points Powers12...
+[debug] Multiexp start: alphaTauG1_12: 0/4096
+[debug] Multiexp end: alphaTauG1_12: 0/4096
+[debug] Creating random numbers Powers12...
+[debug] batchToMontgomery 12...
+[debug] fft 12...
+[debug] batchFromMontgomery 12...
+[debug] reading points Lagrange12...
+[debug] Multiexp start: alphaTauG1_12_transformed: 0/4096
+[debug] Multiexp end: alphaTauG1_12_transformed: 0/4096
+[debug] Power 13...
+[debug] Creating random numbers Powers13...
+[debug] reading points Powers13...
+[debug] Multiexp start: alphaTauG1_13: 0/8192
+[debug] Multiexp end: alphaTauG1_13: 0/8192
+[debug] Creating random numbers Powers13...
+[debug] batchToMontgomery 13...
+[debug] fft 13...
+[debug] batchFromMontgomery 13...
+[debug] reading points Lagrange13...
+[debug] Multiexp start: alphaTauG1_13_transformed: 0/8192
+[debug] Multiexp end: alphaTauG1_13_transformed: 0/8192
+[debug] Power 14...
+[debug] Creating random numbers Powers14...
+[debug] reading points Powers14...
+[debug] Multiexp start: alphaTauG1_14: 0/16384
+[debug] Multiexp end: alphaTauG1_14: 0/16384
+[debug] Creating random numbers Powers14...
+[debug] batchToMontgomery 14...
+[debug] fft 14...
+[debug] batchFromMontgomery 14...
+[debug] reading points Lagrange14...
+[debug] Multiexp start: alphaTauG1_14_transformed: 0/16384
+[debug] Multiexp end: alphaTauG1_14_transformed: 0/16384
+[debug] Power 15...
+[debug] Creating random numbers Powers15...
+[debug] reading points Powers15...
+[debug] Multiexp start: alphaTauG1_15: 0/32768
+[debug] Multiexp end: alphaTauG1_15: 0/32768
+[debug] Creating random numbers Powers15...
+[debug] batchToMontgomery 15...
+[debug] fft 15...
+[debug] batchFromMontgomery 15...
+[debug] reading points Lagrange15...
+[debug] Multiexp start: alphaTauG1_15_transformed: 0/32768
+[debug] Multiexp end: alphaTauG1_15_transformed: 0/32768
+[debug] Verifying phase2 calculated values betaTauG1...
+[debug] Power 0...
+[debug] Creating random numbers Powers0...
+[debug] reading points Powers0...
+[debug] Multiexp start: betaTauG1_0: 0/1
+[debug] Multiexp end: betaTauG1_0: 0/1
+[debug] Creating random numbers Powers0...
+[debug] batchToMontgomery 0...
+[debug] fft 0...
+[debug] batchFromMontgomery 0...
+[debug] reading points Lagrange0...
+[debug] Multiexp start: betaTauG1_0_transformed: 0/1
+[debug] Multiexp end: betaTauG1_0_transformed: 0/1
+[debug] Power 1...
+[debug] Creating random numbers Powers1...
+[debug] reading points Powers1...
+[debug] Multiexp start: betaTauG1_1: 0/2
+[debug] Multiexp end: betaTauG1_1: 0/2
+[debug] Creating random numbers Powers1...
+[debug] batchToMontgomery 1...
+[debug] fft 1...
+[debug] batchFromMontgomery 1...
+[debug] reading points Lagrange1...
+[debug] Multiexp start: betaTauG1_1_transformed: 0/2
+[debug] Multiexp end: betaTauG1_1_transformed: 0/2
+[debug] Power 2...
+[debug] Creating random numbers Powers2...
+[debug] reading points Powers2...
+[debug] Multiexp start: betaTauG1_2: 0/4
+[debug] Multiexp end: betaTauG1_2: 0/4
+[debug] Creating random numbers Powers2...
+[debug] batchToMontgomery 2...
+[debug] fft 2...
+[debug] batchFromMontgomery 2...
+[debug] reading points Lagrange2...
+[debug] Multiexp start: betaTauG1_2_transformed: 0/4
+[debug] Multiexp end: betaTauG1_2_transformed: 0/4
+[debug] Power 3...
+[debug] Creating random numbers Powers3...
+[debug] reading points Powers3...
+[debug] Multiexp start: betaTauG1_3: 0/8
+[debug] Multiexp end: betaTauG1_3: 0/8
+[debug] Creating random numbers Powers3...
+[debug] batchToMontgomery 3...
+[debug] fft 3...
+[debug] batchFromMontgomery 3...
+[debug] reading points Lagrange3...
+[debug] Multiexp start: betaTauG1_3_transformed: 0/8
+[debug] Multiexp end: betaTauG1_3_transformed: 0/8
+[debug] Power 4...
+[debug] Creating random numbers Powers4...
+[debug] reading points Powers4...
+[debug] Multiexp start: betaTauG1_4: 0/16
+[debug] Multiexp end: betaTauG1_4: 0/16
+[debug] Creating random numbers Powers4...
+[debug] batchToMontgomery 4...
+[debug] fft 4...
+[debug] batchFromMontgomery 4...
+[debug] reading points Lagrange4...
+[debug] Multiexp start: betaTauG1_4_transformed: 0/16
+[debug] Multiexp end: betaTauG1_4_transformed: 0/16
+[debug] Power 5...
+[debug] Creating random numbers Powers5...
+[debug] reading points Powers5...
+[debug] Multiexp start: betaTauG1_5: 0/32
+[debug] Multiexp end: betaTauG1_5: 0/32
+[debug] Creating random numbers Powers5...
+[debug] batchToMontgomery 5...
+[debug] fft 5...
+[debug] batchFromMontgomery 5...
+[debug] reading points Lagrange5...
+[debug] Multiexp start: betaTauG1_5_transformed: 0/32
+[debug] Multiexp end: betaTauG1_5_transformed: 0/32
+[debug] Power 6...
+[debug] Creating random numbers Powers6...
+[debug] reading points Powers6...
+[debug] Multiexp start: betaTauG1_6: 0/64
+[debug] Multiexp end: betaTauG1_6: 0/64
+[debug] Creating random numbers Powers6...
+[debug] batchToMontgomery 6...
+[debug] fft 6...
+[debug] batchFromMontgomery 6...
+[debug] reading points Lagrange6...
+[debug] Multiexp start: betaTauG1_6_transformed: 0/64
+[debug] Multiexp end: betaTauG1_6_transformed: 0/64
+[debug] Power 7...
+[debug] Creating random numbers Powers7...
+[debug] reading points Powers7...
+[debug] Multiexp start: betaTauG1_7: 0/128
+[debug] Multiexp end: betaTauG1_7: 0/128
+[debug] Creating random numbers Powers7...
+[debug] batchToMontgomery 7...
+[debug] fft 7...
+[debug] batchFromMontgomery 7...
+[debug] reading points Lagrange7...
+[debug] Multiexp start: betaTauG1_7_transformed: 0/128
+[debug] Multiexp end: betaTauG1_7_transformed: 0/128
+[debug] Power 8...
+[debug] Creating random numbers Powers8...
+[debug] reading points Powers8...
+[debug] Multiexp start: betaTauG1_8: 0/256
+[debug] Multiexp end: betaTauG1_8: 0/256
+[debug] Creating random numbers Powers8...
+[debug] batchToMontgomery 8...
+[debug] fft 8...
+[debug] batchFromMontgomery 8...
+[debug] reading points Lagrange8...
+[debug] Multiexp start: betaTauG1_8_transformed: 0/256
+[debug] Multiexp end: betaTauG1_8_transformed: 0/256
+[debug] Power 9...
+[debug] Creating random numbers Powers9...
+[debug] reading points Powers9...
+[debug] Multiexp start: betaTauG1_9: 0/512
+[debug] Multiexp end: betaTauG1_9: 0/512
+[debug] Creating random numbers Powers9...
+[debug] batchToMontgomery 9...
+[debug] fft 9...
+[debug] batchFromMontgomery 9...
+[debug] reading points Lagrange9...
+[debug] Multiexp start: betaTauG1_9_transformed: 0/512
+[debug] Multiexp end: betaTauG1_9_transformed: 0/512
+[debug] Power 10...
+[debug] Creating random numbers Powers10...
+[debug] reading points Powers10...
+[debug] Multiexp start: betaTauG1_10: 0/1024
+[debug] Multiexp end: betaTauG1_10: 0/1024
+[debug] Creating random numbers Powers10...
+[debug] batchToMontgomery 10...
+[debug] fft 10...
+[debug] batchFromMontgomery 10...
+[debug] reading points Lagrange10...
+[debug] Multiexp start: betaTauG1_10_transformed: 0/1024
+[debug] Multiexp end: betaTauG1_10_transformed: 0/1024
+[debug] Power 11...
+[debug] Creating random numbers Powers11...
+[debug] reading points Powers11...
+[debug] Multiexp start: betaTauG1_11: 0/2048
+[debug] Multiexp end: betaTauG1_11: 0/2048
+[debug] Creating random numbers Powers11...
+[debug] batchToMontgomery 11...
+[debug] fft 11...
+[debug] batchFromMontgomery 11...
+[debug] reading points Lagrange11...
+[debug] Multiexp start: betaTauG1_11_transformed: 0/2048
+[debug] Multiexp end: betaTauG1_11_transformed: 0/2048
+[debug] Power 12...
+[debug] Creating random numbers Powers12...
+[debug] reading points Powers12...
+[debug] Multiexp start: betaTauG1_12: 0/4096
+[debug] Multiexp end: betaTauG1_12: 0/4096
+[debug] Creating random numbers Powers12...
+[debug] batchToMontgomery 12...
+[debug] fft 12...
+[debug] batchFromMontgomery 12...
+[debug] reading points Lagrange12...
+[debug] Multiexp start: betaTauG1_12_transformed: 0/4096
+[debug] Multiexp end: betaTauG1_12_transformed: 0/4096
+[debug] Power 13...
+[debug] Creating random numbers Powers13...
+[debug] reading points Powers13...
+[debug] Multiexp start: betaTauG1_13: 0/8192
+[debug] Multiexp end: betaTauG1_13: 0/8192
+[debug] Creating random numbers Powers13...
+[debug] batchToMontgomery 13...
+[debug] fft 13...
+[debug] batchFromMontgomery 13...
+[debug] reading points Lagrange13...
+[debug] Multiexp start: betaTauG1_13_transformed: 0/8192
+[debug] Multiexp end: betaTauG1_13_transformed: 0/8192
+[debug] Power 14...
+[debug] Creating random numbers Powers14...
+[debug] reading points Powers14...
+[debug] Multiexp start: betaTauG1_14: 0/16384
+[debug] Multiexp end: betaTauG1_14: 0/16384
+[debug] Creating random numbers Powers14...
+[debug] batchToMontgomery 14...
+[debug] fft 14...
+[debug] batchFromMontgomery 14...
+[debug] reading points Lagrange14...
+[debug] Multiexp start: betaTauG1_14_transformed: 0/16384
+[debug] Multiexp end: betaTauG1_14_transformed: 0/16384
+[debug] Power 15...
+[debug] Creating random numbers Powers15...
+[debug] reading points Powers15...
+[debug] Multiexp start: betaTauG1_15: 0/32768
+[debug] Multiexp end: betaTauG1_15: 0/32768
+[debug] Creating random numbers Powers15...
+[debug] batchToMontgomery 15...
+[debug] fft 15...
+[debug] batchFromMontgomery 15...
+[debug] reading points Lagrange15...
+[debug] Multiexp start: betaTauG1_15_transformed: 0/32768
+[debug] Multiexp end: betaTauG1_15_transformed: 0/32768
+[info] Powers of Tau Ok!
+FULL_TRANSCRIPT_VERIFICATION=PASS

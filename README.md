@@ -27,8 +27,9 @@ The independent Python reference cross-checks **224** synthetic vectors and
 SIMULATED test data; no verifier or trustee organisation has joined the project.
 
 Two real Circom circuits constrain commitment validity and an at-or-below-threshold
-badge. Source files compile; their positive/negative witness tests run locally.
-Proof setup, proof timings and deployment status must be read from the current
+badge. Their contributed setups verify and real proofs pass locally in Node and
+Chrome, with adversarial witness and public-input tests. Detailed gate status,
+proof timings and deployment status must be read from the current
 [build status](docs/BUILD_STATUS.md), not inferred from the presence of circuit files.
 
 ## Run the completed foundation

@@ -22,5 +22,20 @@ jobs:
       - run: make circuits
       - name: Positive and negative circuit witnesses
         run: node --import tsx --test --test-name-pattern='badge accepts|badge blocks|validity accepts|validity blocks' circuits/test/circuits.test.mjs
-      # Full proofs/ceremony verification are a separate phase gate. This job
-      # deliberately has no misleading "all phases complete" success label.
+  groth16-proofs:
+    needs: crypto-and-facts
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: make circuits
+      - run: node scripts/fetch-ptau.mjs
+      # Reuse the recorded full verification of this exact checksum-pinned
+      # public ptau; generate and verify fresh test-only phase-2 contributions.
+      - run: node scripts/setup-circuits.mjs
+      - run: npm run test:circuits

@@ -3,25 +3,12 @@ import assert from 'node:assert/strict';
 import { writeFile, readFile } from 'node:fs/promises';
 import { performance } from 'node:perf_hooks';
 import * as snarkjs from 'snarkjs';
-import { buildPoseidon } from 'circomlibjs';
-import { createCrypto } from '../../packages/crypto-ts/src/index.ts';
+import { createFixtures } from './fixtures.mjs';
 
-const c = await createCrypto(), poseidon = await buildPoseidon();
+const { c, badge, validity } = await createFixtures();
+globalThis.curve_bn128 = await snarkjs.curves.getCurveFromName('bn128', { singleThread: true });
 after(async () => { const curve = await snarkjs.curves.getCurveFromName('bn128'); await curve.terminate(); });
-const hash = values => poseidon.F.toObject(poseidon(values));
 const serialise = x => JSON.parse(JSON.stringify(x, (_, v) => typeof v === 'bigint' ? v.toString() : v));
-const context = { roundId: 1n, installationHi: 2n, installationLo: 3n, chainId: 31337n, contractAddress: 12345n };
-const base = { ...context, E: 880n, r: c.l - 1n, P: 1000n, s: 20n };
-const badge = (patch = {}) => {
-  const input = { ...base, thresholdNum: 880n, thresholdDen: 1000n, thresholdId: 0n, ...patch };
-  const CE = c.commit(input.E, input.r < c.l ? input.r : input.r % c.l), CP = c.commit(input.P, input.s < c.l ? input.s : input.s % c.l);
-  return { ...input, CE, CP, contextTag: hash([2n, ...CE, ...CP, input.thresholdNum, input.thresholdDen, input.roundId, input.installationHi, input.installationLo, input.thresholdId, input.chainId, input.contractAddress]) };
-};
-const validity = (patch = {}) => {
-  const input = { ...base, aE: 9n, ar: 11n, aP: 13n, as: 17n, ...patch };
-  const CE = c.commit(input.E, input.r % c.l), CP = c.commit(input.P, input.s % c.l), AE = c.commit(input.aE % c.l, input.ar % c.l), AP = c.commit(input.aP % c.l, input.as % c.l);
-  return { ...input, CE, CP, AE, AP, contextTag: hash([1n, ...CE, ...CP, ...AE, ...AP, input.roundId, input.installationHi, input.installationLo, input.chainId, input.contractAddress]) };
-};
 const wasm = name => `circuits/build/${name}_js/${name}.wasm`;
 async function witness(name, input) {
   const w = { type: 'mem' };
@@ -80,7 +67,7 @@ test('real Groth16 proofs verify; altered public inputs and invalid witness do n
     await assert.rejects(() => snarkjs.groth16.fullProve(serialise({ ...input, E: input.E + 1n }), wasm(name), `circuits/ceremony/${name}_final.zkey`, undefined, undefined, { singleThread: true }));
     measurements.push({ name, publicInputs: publicCount, nodeProvingMs: Number(provingMs.toFixed(2)), browserProvingMs: null, browserStatus: 'NOT_MEASURED' });
   }
-  const report = { phase: 2, simulation: true, status: 'PARTIAL', witnessPositiveCases: positiveCases, witnessNegativeCases: negativeCases, publicInputMutationsRejected: 27, measurements, remaining: ['Browser proving measurement', 'Independent security review of protocol/circuits'] };
-  await writeFile('docs/PHASE2_RESULTS.json', JSON.stringify(report, null, 2) + '\n');
+  const report = { phase: 2, simulation: true, status: 'PARTIAL', witnessPositiveCases: positiveCases, witnessNegativeCases: negativeCases, publicInputMutationsRejected: 27, measurements, remaining: ['Browser proving measurement', 'Gate reconciliation with ceremony records'] };
+  if (process.env.ORTALAMA_RECORD_METRICS === '1') await writeFile('docs/PHASE2_RESULTS.json', JSON.stringify(report, null, 2) + '\n');
   console.log(JSON.stringify(report));
 });

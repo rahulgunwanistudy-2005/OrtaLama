@@ -56,8 +56,10 @@ const derivation = JSON.parse(serialise({ protocol: 'ORTALAMA_PEDERSEN_H_v1', q:
 const saved = JSON.parse(await readFile('packages/crypto-ts/H.json', 'utf8'));
 assert.deepEqual(derivation, saved, 'committed generator record differs from independently re-derived H');
 const report = { simulation: true, phase: 1, vectorCount: vectors.length, pairReconstructionsPerLanguage: vectors.length * 3, bidirectionalTransportCases: transport.length, status: 'PASS', elapsedSeconds: Number(((performance.now() - started) / 1000).toFixed(3)), node: process.version };
-await mkdir('data/simulated', { recursive: true });
-// Never persist the temporary private transport fixture keys.
-await writeFile('data/simulated/SIMULATED_cross_language_vectors.json', serialise({ simulation: true, vectors, expected: reference.vectors, generator: derivation }) + '\n');
-await writeFile('docs/PHASE1_RESULTS.json', JSON.stringify(report, null, 2) + '\n');
+if (process.env.ORTALAMA_RECORD_METRICS === '1') {
+  await mkdir('data/simulated', { recursive: true });
+  // Never persist the temporary private transport fixture keys.
+  await writeFile('data/simulated/SIMULATED_cross_language_vectors.json', serialise({ simulation: true, vectors, expected: reference.vectors, generator: derivation }) + '\n');
+  await writeFile('docs/PHASE1_RESULTS.json', JSON.stringify(report, null, 2) + '\n');
+}
 console.log(JSON.stringify(report));

@@ -14,6 +14,7 @@ dist/
 *.zkey
 *.ptau
 *.wtns
+*.download
 circuits/build/
 data/simulated/*key*
 data/simulated/*secret*

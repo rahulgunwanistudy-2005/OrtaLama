@@ -20,6 +20,7 @@ circuits:
 	node scripts/build-circuits.mjs
 
 setup-circuits: circuits
+	node scripts/fetch-ptau.mjs
 	node --import ./scripts/native-blake2-loader.mjs scripts/verify-ptau.mjs
 	node scripts/setup-circuits.mjs
 

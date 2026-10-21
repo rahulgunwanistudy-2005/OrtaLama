@@ -1,0 +1,22 @@
+{
+  "algorithm": "SHA-256",
+  "purpose": "Exact matching demonstration proving bundle; public keys and parameters, no signing secrets",
+  "sha256": {
+    "circuits/below_threshold.circom": "d2e3d252d542c395275a6ae0419756b107d16910ffa828b352a14e2e207e0ff3",
+    "circuits/build/below_threshold.r1cs": "1e7e0046e2d070adc67f786370aa7fa1d4ad7c373e551812bede3fd89087f9c3",
+    "circuits/build/below_threshold_js/below_threshold.wasm": "34dc95bb7cb37af3ecbfb8b72105057519e900808178df93443b61c20003d42a",
+    "circuits/ceremony/below_threshold_final.zkey": "cd06d86379751339b416f8169a3abca64eb2f3bf00dfe4026ba6faa85db51fe2",
+    "circuits/ceremony/below_threshold_verification_key.json": "bef6b88a4d91c9b6b27d74eb87918a8c5c49a1bf50505d20c049b9d25a179e61",
+    "contracts/src/BelowThresholdVerifier.sol": "5090ed8e4131daa0defaf647c02e8c68810ab0ed938dc2532e2d567e1faa6599",
+    "circuits/commitment_validity.circom": "86ab446a16c2c545949066c32529631f814a0e0d70747a1d45a8d1dbe925684c",
+    "circuits/build/commitment_validity.r1cs": "a179d295242aa5829bf4e7307dac4112927e88b2b996b64f5fac1cf286dd717d",
+    "circuits/build/commitment_validity_js/commitment_validity.wasm": "ee162232728a2d659ba603db6b8ce5cb4f21ca01a1da179100bc48ca5173113c",
+    "circuits/ceremony/commitment_validity_final.zkey": "687f6e6e19849584393b9954e6bfb0491bdd8bba1b36eda9c6b5011394506609",
+    "circuits/ceremony/commitment_validity_verification_key.json": "9f27b2e806e3acc8154744213ff644f0b59fe9d218f0d2c7162383a82fae1ca7",
+    "contracts/src/CommitmentValidityVerifier.sol": "3a47f0a3477694878422581d8373025179f5b11ca377f3ae2b3e7ba280c42e53",
+    "circuits/lib/opening.circom": "ae07edbb943c1e6c6ad0be258eb46e2064bd589179349b8f898be59173036351",
+    "circuits/lib/generators.circom": "7a0acb4eb1b2981ea7ed28da4d3ba145976ce21233b99736a13716eaadf2f65e",
+    "circuits/ceremony/ptau-verification.log": "9d509668cd2cc1b8ae3c3f2a06ef9bd56df94b78b7f08209015cf5ccc9bc4a29",
+    "circuits/ceremony/phase2-verification.log": "e97db8d08323ad0e3438d71fffd7d6c8295c53022a2c37654e1f4e6438dcb493"
+  }
+}

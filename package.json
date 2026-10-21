@@ -19,7 +19,8 @@
     "derive:h": "node --import tsx scripts/derive-h.ts",
     "test:phase1": "npm run check:facts && npm run typecheck && npm run test:crypto && npm run test:vectors",
     "build:circuits": "node scripts/build-circuits.mjs",
-    "test:circuits": "node --import tsx --test circuits/test/circuits.test.mjs"
+    "test:circuits": "node --import tsx --test circuits/test/circuits.test.mjs",
+    "test:witnesses": "node --import tsx --test --test-name-pattern=\"badge accepts|badge blocks|validity accepts|validity blocks\" circuits/test/circuits.test.mjs"
   },
   "devDependencies": {
     "@types/node": "26.6.5",

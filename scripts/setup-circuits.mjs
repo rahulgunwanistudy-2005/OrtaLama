@@ -7,6 +7,7 @@ const ptau = 'circuits/ceremony/powersOfTau28_hez_final_15.ptau';
 const expected = '982372c867d229c236091f767e703253249a9b432c1710b4f326306bfa2428a17b06240359606cfe4d580b10a5a1f63fbed499527069c18ae17060472969ae6e';
 const bytes = await readFile(ptau);
 if (createHash('blake2b512').update(bytes).digest('hex') !== expected) throw new Error('PublishedPowersOfTauHashMismatch');
+if (!(await readFile('circuits/ceremony/ptau-verification.log', 'utf8')).includes('FULL_TRANSCRIPT_VERIFICATION=PASS')) throw new Error('PublicCeremonyVerificationRequired');
 const entries = [];
 const serialCurve = await snarkjs.curves.getCurveFromName('bn128', { singleThread: true });
 globalThis.curve_bn128 = serialCurve;

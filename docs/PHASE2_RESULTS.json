@@ -1,0 +1,28 @@
+{
+  "phase": 2,
+  "simulation": true,
+  "status": "PARTIAL",
+  "witnessPositiveCases": 7,
+  "witnessNegativeCases": 27,
+  "publicInputMutationsRejected": 27,
+  "measurements": [
+    {
+      "name": "below_threshold",
+      "publicInputs": 13,
+      "nodeProvingMs": 1698.39,
+      "browserProvingMs": null,
+      "browserStatus": "NOT_MEASURED"
+    },
+    {
+      "name": "commitment_validity",
+      "publicInputs": 14,
+      "nodeProvingMs": 2837.7,
+      "browserProvingMs": null,
+      "browserStatus": "NOT_MEASURED"
+    }
+  ],
+  "remaining": [
+    "Browser proving measurement",
+    "Gate reconciliation with ceremony records"
+  ]
+}

@@ -1,0 +1,170 @@
+[info] Reading r1cs
+[info] Reading tauG1
+[info] Reading tauG2
+[info] Reading alphatauG1
+[info] Reading betatauG1
+[debug] processing constraints: 0/3742
+[debug] writing coeffs: 0/28818
+[debug] Writing points start IC: 0/14
+[debug] Writing points end IC: 0/14
+[debug] splitting buffer: 0/4096
+[debug] HashingHPoints: 0/4096
+[debug] Writing points start C: 0/3726
+[debug] Writing points end C: 0/3726
+[debug] Writing points start A: 0/3740
+[debug] Writing points end A: 0/3740
+[debug] Writing points start B1: 0/3740
+[debug] Writing points end B1: 0/3740
+[debug] Writing points start B2: 0/3740
+[debug] Writing points end B2: 0/3740
+[info] Circuit hash: 
+		0ff57167 b0a8fcfb 972e1ff4 73e5ba26
+		a685c117 72bf14fc 3f4cf966 0f2dc242
+		2f2f164d 7a3d8878 968928bc b4a07c1f
+		41760d8e 6e6451e5 6946e242 c559aec6
+[debug] Applying key: L Section: 0/3726
+[debug] Applying key: H Section: 0/4096
+[info] Circuit Hash: 
+		0ff57167 b0a8fcfb 972e1ff4 73e5ba26
+		a685c117 72bf14fc 3f4cf966 0f2dc242
+		2f2f164d 7a3d8878 968928bc b4a07c1f
+		41760d8e 6e6451e5 6946e242 c559aec6
+[info] Contribution Hash: 
+		704c021c 5bed09c0 a422a2a5 1c0c7db8
+		851f1231 e224b0c2 44a31316 bf04cfab
+		18335e6f 86962c2f acd86025 1828e27a
+		5b6d4627 ab9fdc44 42838567 dc46e707
+[info] Reading r1cs
+[info] Reading tauG1
+[info] Reading tauG2
+[info] Reading alphatauG1
+[info] Reading betatauG1
+[debug] processing constraints: 0/3742
+[debug] writing coeffs: 0/28818
+[debug] Writing points start IC: 0/14
+[debug] Writing points end IC: 0/14
+[debug] splitting buffer: 0/4096
+[debug] HashingHPoints: 0/4096
+[debug] Writing points start C: 0/3726
+[debug] Writing points end C: 0/3726
+[debug] Writing points start A: 0/3740
+[debug] Writing points end A: 0/3740
+[debug] Writing points start B1: 0/3740
+[debug] Writing points end B1: 0/3740
+[debug] Writing points start B2: 0/3740
+[debug] Writing points end B2: 0/3740
+[info] Circuit hash: 
+		0ff57167 b0a8fcfb 972e1ff4 73e5ba26
+		a685c117 72bf14fc 3f4cf966 0f2dc242
+		2f2f164d 7a3d8878 968928bc b4a07c1f
+		41760d8e 6e6451e5 6946e242 c559aec6
+[debug] Same ratio check L section:  0/3726
+[debug] H Verification(tau):  0/4096
+[debug] H Verification(lagrange):  0/4096
+[info] Circuit Hash: 
+		0ff57167 b0a8fcfb 972e1ff4 73e5ba26
+		a685c117 72bf14fc 3f4cf966 0f2dc242
+		2f2f164d 7a3d8878 968928bc b4a07c1f
+		41760d8e 6e6451e5 6946e242 c559aec6
+[info] -------------------------
+[info] contribution #1 Ortalama single-operator demonstration contribution:
+		704c021c 5bed09c0 a422a2a5 1c0c7db8
+		851f1231 e224b0c2 44a31316 bf04cfab
+		18335e6f 86962c2f acd86025 1828e27a
+		5b6d4627 ab9fdc44 42838567 dc46e707
+[info] -------------------------
+[info] ZKey Ok!
+[info] EXPORT VERIFICATION KEY STARTED
+[info] > Detected protocol: groth16
+[info] EXPORT VERIFICATION KEY FINISHED
+[info] EXPORT VERIFICATION KEY STARTED
+[info] > Detected protocol: groth16
+[info] EXPORT VERIFICATION KEY FINISHED
+RESULT below_threshold: contributed setup and R1CS-linked transcript verification PASS
+[info] Reading r1cs
+[info] Reading tauG1
+[info] Reading tauG2
+[info] Reading alphatauG1
+[info] Reading betatauG1
+[debug] processing constraints: 0/7521
+[debug] writing coeffs: 0/43595
+[debug] Writing points start IC: 0/15
+[debug] Writing points end IC: 0/15
+[debug] splitting buffer: 0/8192
+[debug] HashingHPoints: 0/8192
+[debug] Writing points start C: 0/7501
+[debug] Writing points end C: 0/7501
+[debug] Writing points start C: 4774/7501
+[debug] Writing points end C: 4774/7501
+[debug] Writing points start A: 0/7516
+[debug] Writing points end A: 0/7516
+[debug] Writing points start B1: 0/7516
+[debug] Writing points end B1: 0/7516
+[debug] Writing points start B2: 0/7516
+[debug] Writing points end B2: 0/7516
+[info] Circuit hash: 
+		95a2ad17 8621bd37 396bf13f 24abd988
+		082f1a92 83fd4310 3951a0f4 d0d1dc2f
+		044df4e1 f68faf74 18879012 f8f15ac1
+		99ec1cf1 20e85030 ceb27269 3b5dba8c
+[debug] Applying key: L Section: 0/7501
+[debug] Applying key: H Section: 0/8192
+[info] Circuit Hash: 
+		95a2ad17 8621bd37 396bf13f 24abd988
+		082f1a92 83fd4310 3951a0f4 d0d1dc2f
+		044df4e1 f68faf74 18879012 f8f15ac1
+		99ec1cf1 20e85030 ceb27269 3b5dba8c
+[info] Contribution Hash: 
+		fd1d25ae f9d5471e c3d309a3 cf1c90dc
+		6479d066 7a2ea21f 068e20e6 931af89e
+		23fabb33 24116ba5 add56e3d 77b31749
+		fa2187bc 85a992d5 3c76a4ff 4ebda50e
+[info] Reading r1cs
+[info] Reading tauG1
+[info] Reading tauG2
+[info] Reading alphatauG1
+[info] Reading betatauG1
+[debug] processing constraints: 0/7521
+[debug] writing coeffs: 0/43595
+[debug] Writing points start IC: 0/15
+[debug] Writing points end IC: 0/15
+[debug] splitting buffer: 0/8192
+[debug] HashingHPoints: 0/8192
+[debug] Writing points start C: 0/7501
+[debug] Writing points end C: 0/7501
+[debug] Writing points start C: 4774/7501
+[debug] Writing points end C: 4774/7501
+[debug] Writing points start A: 0/7516
+[debug] Writing points end A: 0/7516
+[debug] Writing points start B1: 0/7516
+[debug] Writing points end B1: 0/7516
+[debug] Writing points start B2: 0/7516
+[debug] Writing points end B2: 0/7516
+[info] Circuit hash: 
+		95a2ad17 8621bd37 396bf13f 24abd988
+		082f1a92 83fd4310 3951a0f4 d0d1dc2f
+		044df4e1 f68faf74 18879012 f8f15ac1
+		99ec1cf1 20e85030 ceb27269 3b5dba8c
+[debug] Same ratio check L section:  0/7501
+[debug] H Verification(tau):  0/8192
+[debug] H Verification(lagrange):  0/8192
+[info] Circuit Hash: 
+		95a2ad17 8621bd37 396bf13f 24abd988
+		082f1a92 83fd4310 3951a0f4 d0d1dc2f
+		044df4e1 f68faf74 18879012 f8f15ac1
+		99ec1cf1 20e85030 ceb27269 3b5dba8c
+[info] -------------------------
+[info] contribution #1 Ortalama single-operator demonstration contribution:
+		fd1d25ae f9d5471e c3d309a3 cf1c90dc
+		6479d066 7a2ea21f 068e20e6 931af89e
+		23fabb33 24116ba5 add56e3d 77b31749
+		fa2187bc 85a992d5 3c76a4ff 4ebda50e
+[info] -------------------------
+[info] ZKey Ok!
+[info] EXPORT VERIFICATION KEY STARTED
+[info] > Detected protocol: groth16
+[info] EXPORT VERIFICATION KEY FINISHED
+[info] EXPORT VERIFICATION KEY STARTED
+[info] > Detected protocol: groth16
+[info] EXPORT VERIFICATION KEY FINISHED
+RESULT commitment_validity: contributed setup and R1CS-linked transcript verification PASS

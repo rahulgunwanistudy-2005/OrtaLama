@@ -1,6 +1,6 @@
 # Ortalama v2 — project bible
 
-Status: Phase 0 research and protocol specification. No deployed system, real plant
+Status: sourced foundation; current implementation gates are in BUILD_STATUS.md. No deployed system, real plant
 data, accreditation, partnership, regulatory acceptance or measured climate impact
 is claimed. Research accessed **2026-10-21**. Source IDs resolve in [SOURCES.md](SOURCES.md).
 

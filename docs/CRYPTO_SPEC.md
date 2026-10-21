@@ -118,9 +118,9 @@ canonical subgroup scalar constraints and `LessEqThan(128)`. Products are at mos
 The public context includes commitment coordinates, threshold numerator and
 denominator, roundId, installationId, thresholdId, chainId and registry/round
 contract domain. **Merely declaring roundId a public input does not prevent replay.**
-Constrain a Poseidon context tag over all public context fields to a public value
-computed by the registry; the circuit and verifier share its exact encoding.
-The registry checks every input against stored round/installation state and the
+Constrain a Poseidon context tag over all public context fields. The prover supplies
+the tag and proves its correct derivation; the registry need not recompute Poseidon
+on-chain. The registry checks each non-derived public field against stored round/installation state and the
 selected immutable threshold. IDs are field-canonical; use bounded integers or
 an explicit hash encoding rather than silently reducing 256-bit identifiers.
 

@@ -5,6 +5,6 @@
   "pairReconstructionsPerLanguage": 672,
   "bidirectionalTransportCases": 16,
   "status": "PASS",
-  "elapsedSeconds": 15.648,
+  "elapsedSeconds": 13.081,
   "node": "v24.19.0"
 }
