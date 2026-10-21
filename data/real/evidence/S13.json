@@ -1,0 +1,9 @@
+{
+  "id": "S13",
+  "title": "circomlib fixed-base scalar circuit",
+  "url": "https://github.com/iden3/circomlib/blob/master/circuits/escalarmulfix.circom",
+  "status": "UPSTREAM",
+  "accessed_on": "2026-10-21",
+  "evidence": "EscalarMulFix interface and segment logic. Range, context and scalar canonicality constraints must be added by caller.",
+  "status_code": 200
+}

@@ -1,0 +1,9 @@
+{
+  "id": "S17",
+  "title": "Noble ciphers documentation",
+  "url": "https://raw.githubusercontent.com/paulmillr/noble-ciphers/main/README.md",
+  "status": "UPSTREAM",
+  "accessed_on": "2026-10-21",
+  "evidence": "XChaCha20-Poly1305 AEAD, random 24-byte nonce and AAD; audit scope tied to release.",
+  "status_code": 200
+}

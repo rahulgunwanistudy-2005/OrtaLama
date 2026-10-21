@@ -1,0 +1,9 @@
+{
+  "id": "S14",
+  "title": "Noble documentation",
+  "url": "https://raw.githubusercontent.com/paulmillr/noble-curves/main/README.md",
+  "status": "UPSTREAM",
+  "accessed_on": "2026-10-21",
+  "evidence": "ECDH is raw shared secret requiring KDF; point APIs and modular arithmetic; audit claims have version/scope limits.",
+  "status_code": 200
+}

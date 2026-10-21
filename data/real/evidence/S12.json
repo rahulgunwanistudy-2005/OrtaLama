@@ -1,0 +1,9 @@
+{
+  "id": "S12",
+  "title": "circomlibjs Baby Jubjub source",
+  "url": "https://github.com/iden3/circomlibjs/blob/main/src/babyjub.js",
+  "status": "UPSTREAM",
+  "accessed_on": "2026-10-21",
+  "evidence": "Field, curve coefficients, subgroup order, Base8, point operations. Mutable upstream; lock installed package and record integrity before implementation claims.",
+  "status_code": 200
+}

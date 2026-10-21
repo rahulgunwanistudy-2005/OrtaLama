@@ -1,0 +1,9 @@
+{
+  "id": "S20",
+  "title": "snarkjs setup and public powers-of-tau table",
+  "url": "https://raw.githubusercontent.com/iden3/snarkjs/master/README.md",
+  "status": "UPSTREAM",
+  "accessed_on": "2026-10-21",
+  "status_code": 200,
+  "evidence": "snarkjs upstream table links https://circom.info/powersOfTau28_hez_final_15.ptau with BLAKE2b-512 982372c867d229c236091f767e703253249a9b432c1710b4f326306bfa2428a17b06240359606cfe4d580b10a5a1f63fbed499527069c18ae17060472969ae6e. Upstream describes zkey contribution, verifyFromR1cs and proof verification."
+}

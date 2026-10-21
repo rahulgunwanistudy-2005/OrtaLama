@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "S01",
+      "title": "EU defaults annex",
+      "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/2621/oj/eng",
+      "evidence_class": "PRIMARY",
+      "scope": "Annex I: fallback instruction, Türkiye cement rows, Other Countries and Territories grey clinker row and mark-up columns. Table values preserved without recomputing rounded components.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S02",
+      "title": "TURKCIMENTO statement distributed by EQS",
+      "url": "https://www.eqs-news.com/news/media/turkcimento-calls-for-eu-aligned-mrv-data-recognition-under-cbam/347f954a-8081-4308-b01a-445e526ef6da_en",
+      "evidence_class": "ATTRIBUTED_PRIMARY",
+      "scope": "Statement dated 24 March 2026. Association reports 0.88 tCO₂/t and approximately €20/€80. Underlying plant reports and cost assumptions unavailable; not independently validated.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S03",
+      "title": "CemNet industry reporting",
+      "url": "https://www.cemnet.com/News/story/181054/t-rk-imento-warns-cbam-default-values-risk-undermining-cement-exports.html",
+      "evidence_class": "SECONDARY",
+      "scope": "26 March 2026 article reports member production of 75 Mt in first eleven months of 2025. Not national annual production or a demo denominator.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S04",
+      "title": "European Commission certificate prices",
+      "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/price-cbam-certificates_en",
+      "evidence_class": "PRIMARY",
+      "scope": "Q3 2026 €82.32, published 5 October 2026; Q4 blank at access. Price applicability is quarterly; not a complete liability methodology.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S05",
+      "title": "CBAM amendment",
+      "url": "https://eur-lex.europa.eu/eli/reg/2025/2083/oj/eng",
+      "evidence_class": "PRIMARY",
+      "scope": "Annex I amendment (4) replaces Annex IV point 7 second paragraph; point 4.1 is separate. Does not establish acceptance of this project.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S06",
+      "title": "Original CBAM regulation",
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/956/oj/eng",
+      "evidence_class": "PRIMARY",
+      "scope": "Annex IV point 7 adaptation provision. Original official text read alongside S05 amendment, not represented as a consolidated current instrument.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S07",
+      "title": "DoCC board announcement",
+      "url": "https://iklim.gov.tr/tr-ets-pilot-uygulama-donemine-yonelik-karbon-piyasasi-kurulu-toplanti-kararlarina-kpk-2026-1-iliskin-duyuru-duyuru-45",
+      "evidence_class": "PRIMARY",
+      "scope": "3 September 2026 announcement: pilot 2026–2027, reporting only in 2026, 100% free allocation, all-installation weighted averages except electricity. Announcement references 27 August regulation, Gazette 33353.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S08",
+      "title": "ICAP pilot-design summary",
+      "url": "https://icapcarbonaction.com/en/node/1238",
+      "evidence_class": "SECONDARY",
+      "scope": "8 September 2026 corroboration; redirects to titled news article. Prefer S07 for operational claims.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S09",
+      "title": "Official hackathon overview",
+      "url": "https://ieee-climatechain-hack.devpost.com/",
+      "evidence_class": "PRIMARY",
+      "scope": "Track, twelve names, unweighted criteria, sponsor image labels, deadline. Eligibility summary conflicts with rules. ISO sponsor identity and COP31 winner-announcement claim not established.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S10",
+      "title": "Official hackathon rules",
+      "url": "https://ieee-climatechain-hack.devpost.com/rules",
+      "evidence_class": "PRIMARY",
+      "scope": "Video 3–5 minutes; deadline 25 October 2026 10:00 EDT. No published scoring weights in accessed text. Eligibility conflict with overview unresolved.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S11",
+      "title": "COP31 AI-Enabled Cleantech concept note",
+      "url": "https://cop31.tr/assets/docs/action-agenda/cop31-ai-enabled-cleantech-concept-note.pdf",
+      "evidence_class": "PRIMARY",
+      "scope": "Pilot launch definition and Pillar 3. This is alignment evidence, not project acceptance or partnership.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S12",
+      "title": "circomlibjs Baby Jubjub source",
+      "url": "https://github.com/iden3/circomlibjs/blob/main/src/babyjub.js",
+      "evidence_class": "UPSTREAM",
+      "scope": "Field, curve coefficients, subgroup order, Base8, point operations. Mutable upstream; lock installed package and record integrity before implementation claims.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S13",
+      "title": "circomlib fixed-base scalar circuit",
+      "url": "https://github.com/iden3/circomlib/blob/master/circuits/escalarmulfix.circom",
+      "evidence_class": "UPSTREAM",
+      "scope": "EscalarMulFix interface and segment logic. Range, context and scalar canonicality constraints must be added by caller.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S14",
+      "title": "Noble documentation",
+      "url": "https://raw.githubusercontent.com/paulmillr/noble-curves/main/README.md",
+      "evidence_class": "UPSTREAM",
+      "scope": "ECDH is raw shared secret requiring KDF; point APIs and modular arithmetic; audit claims have version/scope limits.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S15",
+      "title": "EU monitoring-methods regulation",
+      "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/2547/oj/eng",
+      "evidence_class": "UNVERIFIED",
+      "scope": "Referenced and linked by S01. Full primary-text review and methodology mapping deferred; no numerical factors imported.",
+      "accessed_on": "2026-10-21",
+      "retrieved": false
+    },
+    {
+      "id": "S16",
+      "title": "TR-ETS procedures, 1 October 2026",
+      "url": "https://iklim.gov.tr/",
+      "evidence_class": "UNVERIFIED",
+      "scope": "Exact official procedures URL not yet retrieved. Search found secondary descriptions only. Do not use as implemented allocation methodology.",
+      "accessed_on": "2026-10-21",
+      "retrieved": false
+    },
+    {
+      "id": "S17",
+      "title": "Noble ciphers documentation",
+      "url": "https://raw.githubusercontent.com/paulmillr/noble-ciphers/main/README.md",
+      "evidence_class": "UPSTREAM",
+      "scope": "XChaCha20-Poly1305 AEAD, random 24-byte nonce and AAD; audit scope tied to release.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S18",
+      "title": "Noble hashes documentation",
+      "url": "https://raw.githubusercontent.com/paulmillr/noble-hashes/main/README.md",
+      "evidence_class": "UPSTREAM",
+      "scope": "Keccak, SHA-256, HKDF and utility APIs; no application-authored hash.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S19",
+      "title": "Noble post-quantum documentation",
+      "url": "https://raw.githubusercontent.com/paulmillr/noble-post-quantum/main/README.md",
+      "evidence_class": "UPSTREAM",
+      "scope": "ML-DSA/ML-KEM and hybrid interfaces. Auditable is not identical to independent audit of every version or module.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S20",
+      "title": "snarkjs setup and public powers-of-tau table",
+      "url": "https://raw.githubusercontent.com/iden3/snarkjs/master/README.md",
+      "evidence_class": "UPSTREAM",
+      "scope": "snarkjs upstream table links https://circom.info/powersOfTau28_hez_final_15.ptau with BLAKE2b-512 982372c867d229c236091f767e703253249a9b432c1710b4f326306bfa2428a17b06240359606cfe4d580b10a5a1f63fbed499527069c18ae17060472969ae6e. Upstream describes zkey contribution, verifyFromR1cs and proof verification.",
+      "accessed_on": "2026-10-21",
+      "retrieved": true
+    }
+  ]
+}

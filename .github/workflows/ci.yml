@@ -1,0 +1,26 @@
+name: phase-gates
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  crypto-and-facts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: npm ci --ignore-scripts
+      - run: python -m venv .venv
+      - run: .venv/bin/python -m pip install -r packages/crypto-py/requirements.txt
+      - run: make test-core
+      - run: make circuits
+      - name: Positive and negative circuit witnesses
+        run: node --import tsx --test --test-name-pattern='badge accepts|badge blocks|validity accepts|validity blocks' circuits/test/circuits.test.mjs
+      # Full proofs/ceremony verification are a separate phase gate. This job
+      # deliberately has no misleading "all phases complete" success label.

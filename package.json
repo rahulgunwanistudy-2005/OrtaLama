@@ -1,0 +1,39 @@
+{
+  "name": "ortalama",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24",
+    "npm": ">=11"
+  },
+  "workspaces": [
+    "packages/crypto-ts"
+  ],
+  "scripts": {
+    "check:facts": "node scripts/check-facts.mjs",
+    "test:crypto": "node --import tsx --test packages/crypto-ts/test/*.test.ts",
+    "test:vectors": "node --import tsx scripts/cross-check.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run test:phase1 && npm run build:circuits && npm run test:circuits",
+    "derive:h": "node --import tsx scripts/derive-h.ts",
+    "test:phase1": "npm run check:facts && npm run typecheck && npm run test:crypto && npm run test:vectors",
+    "build:circuits": "node scripts/build-circuits.mjs",
+    "test:circuits": "node --import tsx --test circuits/test/circuits.test.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "circom2": "0.2.23",
+    "circomlib": "2.0.5",
+    "snarkjs": "0.7.6",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  },
+  "overrides": {
+    "ws": "8.21.0",
+    "underscore": "1.13.8"
+  },
+  "dependencies": {
+    "ws": "8.21.0"
+  }
+}

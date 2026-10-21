@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "accessed_on": "2026-10-21",
+  "simulation": false,
+  "facts": [
+    {
+      "id": "F01",
+      "status": "VERIFIED",
+      "name": "cn_code",
+      "value": "25231000",
+      "unit": null,
+      "source_ids": [
+        "S01"
+      ],
+      "notes": "Grey clinker product identifier; colour disambiguates same CN."
+    },
+    {
+      "id": "F02",
+      "status": "VERIFIED",
+      "name": "fallback_base_total",
+      "value": "1.410",
+      "unit": "tCO2e/t",
+      "source_ids": [
+        "S01"
+      ],
+      "notes": "Published total before mark-up; do not sum displayed rounded components."
+    },
+    {
+      "id": "F03",
+      "status": "VERIFIED",
+      "name": "fallback_by_year",
+      "value": {
+        "2026": "1.551",
+        "2027": "1.692",
+        "2028_onwards": "1.833"
+      },
+      "unit": "tCO2e/t",
+      "source_ids": [
+        "S01"
+      ],
+      "notes": "Includes mark-up; corresponding 10%,20%,30%."
+    },
+    {
+      "id": "F04",
+      "status": "DERIVED",
+      "name": "comparison_percent",
+      "value": "76.25",
+      "unit": "percent",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "notes": "(1.551 / 0.88 - 1) * 100. Comparability UNVERIFIED; not measured overstatement."
+    },
+    {
+      "id": "F05",
+      "status": "ATTRIBUTED",
+      "name": "association_declared_intensity",
+      "value": "0.88",
+      "unit": "tCO2/t",
+      "source_ids": [
+        "S02"
+      ],
+      "notes": "Member exporters' declared figure; not independently verified."
+    },
+    {
+      "id": "F06",
+      "status": "ATTRIBUTED",
+      "name": "historical_cost_estimates",
+      "value": {
+        "low": "20",
+        "high": "80",
+        "date": "2026-03-24"
+      },
+      "unit": "EUR/t clinker",
+      "source_ids": [
+        "S02"
+      ],
+      "notes": "Unreproduced association estimate; excluded from calculator inputs."
+    },
+    {
+      "id": "F07",
+      "status": "REPORTED",
+      "name": "member_production",
+      "value": "75000000",
+      "unit": "t clinker",
+      "source_ids": [
+        "S03"
+      ],
+      "notes": "January–November 2025, members only. Never a demo denominator."
+    },
+    {
+      "id": "F08",
+      "status": "VERIFIED",
+      "name": "latest_published_certificate_price",
+      "value": {
+        "quarter": "2026-Q3",
+        "published_on": "2026-10-05",
+        "value": "82.32"
+      },
+      "unit": "EUR/tCO2",
+      "source_ids": [
+        "S04"
+      ],
+      "notes": "Latest populated row at access; Q4 unpopulated. Not a universal spot quote."
+    },
+    {
+      "id": "F09",
+      "status": "VERIFIED",
+      "name": "adaptation_clause",
+      "value": "Annex IV point 7",
+      "unit": null,
+      "source_ids": [
+        "S05",
+        "S06"
+      ],
+      "notes": "Not point 4.1; regulatory acceptance of project is not claimed."
+    },
+    {
+      "id": "F10",
+      "status": "UNVERIFIED",
+      "name": "regional_adaptation_markup",
+      "value": null,
+      "unit": null,
+      "source_ids": [
+        "S05",
+        "S06"
+      ],
+      "notes": "Display both scenarios; no default legal interpretation."
+    },
+    {
+      "id": "F11",
+      "status": "VERIFIED",
+      "name": "pilot_years",
+      "value": [
+        "2026",
+        "2027"
+      ],
+      "unit": null,
+      "source_ids": [
+        "S07",
+        "S08"
+      ],
+      "notes": "Official announcement; 2026 reporting-only."
+    },
+    {
+      "id": "F12",
+      "status": "VERIFIED",
+      "name": "non_electricity_benchmark",
+      "value": "weighted average across all installations",
+      "unit": null,
+      "source_ids": [
+        "S07"
+      ],
+      "notes": "A partial voluntary cohort is not automatically equivalent."
+    },
+    {
+      "id": "F13",
+      "status": "VERIFIED",
+      "name": "video_bounds",
+      "value": {
+        "minimum": "3",
+        "maximum": "5"
+      },
+      "unit": "minutes",
+      "source_ids": [
+        "S10"
+      ],
+      "notes": "Project target 3:30–4:00 is an internal choice."
+    },
+    {
+      "id": "F14",
+      "status": "VERIFIED",
+      "name": "submission_deadline",
+      "value": {
+        "publisher": "2026-10-25T10:00:00-04:00",
+        "local": "2026-10-25T19:30:00+05:30"
+      },
+      "unit": null,
+      "source_ids": [
+        "S09",
+        "S10"
+      ],
+      "notes": "Time-zone conversion; source displays EDT."
+    },
+    {
+      "id": "F15",
+      "status": "UNVERIFIED",
+      "name": "numeric_judging_weights",
+      "value": null,
+      "unit": null,
+      "source_ids": [
+        "S09",
+        "S10"
+      ],
+      "notes": "No numeric weights found; requested weights are internal planning assumptions."
+    },
+    {
+      "id": "F16",
+      "status": "UNVERIFIED",
+      "name": "team_eligibility",
+      "value": null,
+      "unit": null,
+      "source_ids": [
+        "S09",
+        "S10"
+      ],
+      "notes": "Overview and full rules conflict; must be resolved for submission."
+    },
+    {
+      "id": "F17",
+      "status": "UNVERIFIED",
+      "name": "iso_sponsor_identity",
+      "value": null,
+      "unit": null,
+      "source_ids": [
+        "S09"
+      ],
+      "notes": "Logo label alone does not identify the organisation."
+    },
+    {
+      "id": "F18",
+      "status": "UNVERIFIED",
+      "name": "winner_announcement_at_cop31",
+      "value": null,
+      "unit": null,
+      "source_ids": [
+        "S09",
+        "S10"
+      ],
+      "notes": "Not established by accessed pages."
+    },
+    {
+      "id": "F19",
+      "status": "UNVERIFIED",
+      "name": "tr_ets_october_procedures",
+      "value": null,
+      "unit": null,
+      "source_ids": [
+        "S16"
+      ],
+      "notes": "Exact primary document pending retrieval."
+    },
+    {
+      "id": "F20",
+      "status": "UNVERIFIED",
+      "name": "cbam_report_boundary_comparability",
+      "value": null,
+      "unit": null,
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Do not claim 0.88 is directly comparable to default total."
+    },
+    {
+      "id": "F21",
+      "status": "VERIFIED",
+      "name": "fallback_components",
+      "value": {
+        "direct": "1.370",
+        "indirect": "0.050",
+        "total": "1.410"
+      },
+      "unit": "tCO2e/t",
+      "source_ids": [
+        "S01"
+      ],
+      "notes": "Original printed values. Arithmetic component sum differs; retain table total and disclose."
+    },
+    {
+      "id": "F22",
+      "status": "VERIFIED",
+      "name": "pilot_free_allocation",
+      "value": "100",
+      "unit": "percent",
+      "source_ids": [
+        "S07"
+      ],
+      "notes": "Announcement policy, not unconditional plant entitlement."
+    }
+  ]
+}

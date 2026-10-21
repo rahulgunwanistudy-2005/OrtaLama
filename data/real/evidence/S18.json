@@ -1,0 +1,9 @@
+{
+  "id": "S18",
+  "title": "Noble hashes documentation",
+  "url": "https://raw.githubusercontent.com/paulmillr/noble-hashes/main/README.md",
+  "status": "UPSTREAM",
+  "accessed_on": "2026-10-21",
+  "evidence": "Keccak, SHA-256, HKDF and utility APIs; no application-authored hash.",
+  "status_code": 200
+}

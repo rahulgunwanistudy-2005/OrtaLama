@@ -1,0 +1,10 @@
+{
+  "simulation": true,
+  "phase": 1,
+  "vectorCount": 224,
+  "pairReconstructionsPerLanguage": 672,
+  "bidirectionalTransportCases": 16,
+  "status": "PASS",
+  "elapsedSeconds": 15.648,
+  "node": "v24.19.0"
+}
