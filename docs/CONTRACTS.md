@@ -28,7 +28,10 @@ The audit environment is separate because its Web3 dependency pins differ from
 the independent Python cryptography oracle. Never install it over `.venv`.
 The [official CI action](https://github.com/foundry-rs/foundry-toolchain/tree/v1)
 installs the exact Foundry release; CI generates fresh demonstration contributions
-and verifier sources together before running proofs and contract tests.
+and verifier sources together before running proofs and contract tests. A separate
+final CI step restores the committed verifier sources and checks their published
+real proof fixtures, including all public-input and malformed-point negatives.
+This prevents fresh test contributions from hiding an error in the shipped bundle.
 
 `PHASE3_CONTRACT_TESTS.json` records executed test groups, custom-error selector
 assertions and source hashes. Arithmetic is compared against 224 independent

@@ -17,12 +17,15 @@ contract VerifierTest is Test {
     function setUp() public {
         badge = new BelowThresholdVerifier();
         validity = new CommitmentValidityVerifier();
-        string[] memory args = new string[](4);
-        args[0] = "node";
-        args[1] = "--import";
-        args[2] = "tsx";
-        args[3] = "scripts/verifier-fixtures.mjs";
-        string memory file = abi.decode(vm.ffi(args), (string));
+        string memory file = vm.envOr("ORTALAMA_PUBLISHED_VERIFIER_FIXTURE", string(""));
+        if (bytes(file).length == 0) {
+            string[] memory args = new string[](4);
+            args[0] = "node";
+            args[1] = "--import";
+            args[2] = "tsx";
+            args[3] = "scripts/verifier-fixtures.mjs";
+            file = abi.decode(vm.ffi(args), (string));
+        }
         string memory data = vm.readFile(file);
         assertTrue(vm.parseJsonBool(data, ".simulation"));
         badgeProof = abi.decode(vm.parseJsonBytes(data, ".below_threshold.proof"), (T.Proof));

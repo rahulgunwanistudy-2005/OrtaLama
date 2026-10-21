@@ -52,3 +52,9 @@ jobs:
       - run: python -m venv .tools/audit-venv
       - run: .tools/audit-venv/bin/python -m pip install -r requirements-audit.txt
       - run: make analyze-contracts
+      - name: Verify the committed public verifier bundle
+        env:
+          ORTALAMA_PUBLISHED_VERIFIER_FIXTURE: data/simulated/SIMULATED_verifier_vectors_397cae5a7b64b128.json
+        run: |
+          git restore contracts/src/BelowThresholdVerifier.sol contracts/src/CommitmentValidityVerifier.sol
+          forge test --match-contract VerifierTest
