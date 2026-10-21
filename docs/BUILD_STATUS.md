@@ -7,8 +7,9 @@ are separate from local results; no deployment or full-system demo is implied.
 | --- | --- | --- |
 | 0 | Bible, sources, machine-readable facts, crypto specification | Local documentary/provenance PASS |
 | 1 | TypeScript core, independent Python reference, reproducible H, co-signatures | Local tests and foundational CI PASS |
-| 2 | Badge and commitment-validity circuits | Local full gate PASS; expanded CI pending |
-| 3–10 | Contracts through submission | NOT STARTED; do not advance across the Phase 2 gate |
+| 2 | Badge and commitment-validity circuits | Full local gate and expanded CI PASS |
+| 3 | Contracts | Local gate PASS; expanded CI pending |
+| 4–10 | Services through submission | NOT STARTED; require Phase 3 gate |
 
 ## Phase 0 report
 
@@ -66,21 +67,50 @@ Real: ceremony verification, actual proof generation/verification, constraint
 failures and generated Solidity verifiers. Simulated: proving inputs and test
 identity/context values. Earlier interrupted memory-pressure attempts are not
 counted as passes. No on-chain badge claim is permitted. Expanded CI now adds real
-proof generation using fresh test-only contributions. Next phase after CI passes:
+proof generation using fresh test-only contributions. [Expanded CI passed](https://github.com/rahulgunwanistudy-2005/OrtaLama/actions/runs/39612175418)
+on commit 17ead3fca26e85df796a564bce297e30688f60ac. Next phase:
 round lifecycle, curve checks, registry and adversarial contract tests.
+
+## Phase 3 local report
+
+28 contract test groups passed, including three fuzz tests with 256 cases each,
+a 64-run × 32-call stateful invariant and 224 independent Python arithmetic
+vectors. All 31 application custom errors have executed selector assertions.
+Every positive proof uses the actual generated Groth16 verifiers. Line coverage
+is 456/464 (98.276%) across all five executable source files, including generated
+verifiers; both raw compiler-mode reports and the combination method are saved.
+
+Slither reports 135 findings, all individually classified with zero unreviewed.
+The six raw high warnings are intentional early false returns in exact generated
+snarkjs code, not accepted application high findings. The three medium warnings
+ignore an ECDSA diagnostic argument while checking its error enum and signer.
+The reviewed source hashes and maximum finding counts enforce re-review after
+changes. This is not an independent security audit or a claim of zero raw findings.
+
+Local optimized gas snapshots measured 912,888 for subgroup validation plus
+scalar multiplication and 1,988,912 for the isolated 12-plant close. Real: proofs,
+EVM arithmetic, signatures and verification. SIMULATED: all plant values,
+identities, keys and round denominator. See [CONTRACTS.md](CONTRACTS.md) and
+[PHASE3_GATE.json](PHASE3_GATE.json). Expanded CI must pass before Phase 4 begins.
 
 ## Dependencies and tools
 
 Exact npm versions are locked; Python versions are pinned in requirements.txt.
-The latest refreshed installation scan reported 15 low-severity advisories and
-zero high/moderate advisories. WebSocket and Underscore overrides apply patched
+The Phase 3 refreshed installation scan reported 15 low-severity and four
+moderate-severity advisories, with zero high/critical advisories. The four moderate
+package paths lead to uuid's optional-buffer bounds issue in v3/v5/v6, through the
+development Merkle-tree tooling; project leaves use ABI encoding and Keccak,
+not these UUID APIs. This is a reachability review, not removal of the advisory.
+WebSocket and Underscore overrides apply patched
 versions; npm may label the deliberately overridden upstream exact WebSocket pin
 as invalid in `npm ls`. This is not an audit-clean claim. Remaining Elliptic-related
 transitive advisories come through circomlibjs/Ethers; project signing uses viem
 and Noble instead. Production reachability and audit scope remain to be reviewed.
 
 engineering-workflow and project-quality-audit were searched for and not found in
-the installed skill directories. No substitute audit is misrepresented as those
+the installed skill directories. The user authorised the documented test gates
+and judge-panel review as the final audit substitute, with a reminder to supply
+the proper skill source at that point. No substitute is misrepresented as those
 skills. frontend-design has not been used because product UI work has not started.
 
 ## Protocol changes required by review

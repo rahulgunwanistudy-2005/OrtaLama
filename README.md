@@ -32,6 +32,13 @@ Chrome, with adversarial witness and public-input tests. Detailed gate status,
 proof timings and deployment status must be read from the current
 [build status](docs/BUILD_STATUS.md), not inferred from the presence of circuit files.
 
+Contracts now execute a complete 12-plant synthetic round, authenticated trustee
+receipts/publications, aggregate opening checks and non-transferable threshold
+badges in real EVM tests. The local contract gate has 28 passing test groups,
+31 custom errors asserted, 224 Python differential vectors and 98.28% line
+coverage. Static-analysis acceptances and exact reproduction commands are in
+[the contract gate notes](docs/CONTRACTS.md); CI status is tracked separately.
+
 ## Run the completed foundation
 
 Prerequisites: Node.js 24+, npm 11+, Python 3.11+, Make and public registry access.

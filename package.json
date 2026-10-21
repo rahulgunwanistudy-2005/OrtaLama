@@ -23,6 +23,8 @@
     "test:witnesses": "node --import tsx --test --test-name-pattern=\"badge accepts|badge blocks|validity accepts|validity blocks\" circuits/test/circuits.test.mjs"
   },
   "devDependencies": {
+    "@openzeppelin/contracts": "5.6.1",
+    "@openzeppelin/merkle-tree": "1.0.8",
     "@types/node": "26.6.5",
     "circom2": "0.2.23",
     "circomlib": "2.0.5",

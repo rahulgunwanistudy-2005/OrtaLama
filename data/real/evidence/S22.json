@@ -1,0 +1,7 @@
+{
+  "id": "S22",
+  "url": "https://docs.openzeppelin.com/contracts/5.x/api/utils/cryptography",
+  "accessed_on": "2026-10-21",
+  "evidence": "ECDSA.tryRecover exposes the recovered address, recovery error and an additional diagnostic argument. MerkleProof verifies membership of a leaf in a sorted-pair hash tree; project leaves use the matching StandardMerkleTree encoding.",
+  "method": "Official documentation read with Firecrawl; concise observed API/installation notes, not a full page archive."
+}

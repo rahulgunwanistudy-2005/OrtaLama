@@ -1,0 +1,47 @@
+{
+  "metric": "line coverage",
+  "scope": "all executable contracts/src files; no generated-verifier exclusion",
+  "method": "Application source maps use via-IR minimum optimization to avoid stack-depth errors. Generated Yul verifier source maps use legacy compilation because via-IR drops their assembly anchors. Both are real execution runs against the same sources and proving keys.",
+  "covered": 456,
+  "total": 464,
+  "lineCoveragePercent": 98.276,
+  "requiredPercent": 90,
+  "files": [
+    {
+      "file": "contracts/src/BabyJubjub.sol",
+      "compilerMode": "via-IR minimum optimization",
+      "covered": 61,
+      "total": 63,
+      "lineCoveragePercent": 96.825
+    },
+    {
+      "file": "contracts/src/BadgeRegistry.sol",
+      "compilerMode": "via-IR minimum optimization",
+      "covered": 20,
+      "total": 21,
+      "lineCoveragePercent": 95.238
+    },
+    {
+      "file": "contracts/src/BelowThresholdVerifier.sol",
+      "compilerMode": "legacy, optimizer disabled",
+      "covered": 81,
+      "total": 83,
+      "lineCoveragePercent": 97.59
+    },
+    {
+      "file": "contracts/src/CommitmentValidityVerifier.sol",
+      "compilerMode": "legacy, optimizer disabled",
+      "covered": 83,
+      "total": 85,
+      "lineCoveragePercent": 97.647
+    },
+    {
+      "file": "contracts/src/OrtalamaRound.sol",
+      "compilerMode": "via-IR minimum optimization",
+      "covered": 211,
+      "total": 212,
+      "lineCoveragePercent": 99.528
+    }
+  ],
+  "status": "PASS"
+}

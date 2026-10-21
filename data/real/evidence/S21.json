@@ -1,0 +1,7 @@
+{
+  "id": "S21",
+  "url": "https://getfoundry.sh/introduction/installation/",
+  "accessed_on": "2026-10-21",
+  "evidence": "Official installer supports specific releases and verifies downloaded binary SHA-256 values against GitHub release attestations. CI action documentation at https://github.com/foundry-rs/foundry-toolchain/tree/v1 exposes the version input.",
+  "method": "Official documentation read with Firecrawl; concise observed API/installation notes, not a full page archive."
+}

@@ -1,0 +1,24 @@
+[profile.default]
+src = "contracts/src"
+test = "contracts/test"
+script = "contracts/script"
+out = "contracts/out"
+cache_path = "contracts/cache"
+libs = ["lib", "node_modules"]
+remappings = ["@openzeppelin/=node_modules/@openzeppelin/"]
+solc_version = "0.8.30"
+evm_version = "cancun"
+optimizer = true
+optimizer_runs = 200
+via_ir = true
+ffi = true
+fs_permissions = [{ access = "read", path = "./data/simulated" }, { access = "read", path = "./packages/crypto-ts/H.json" }]
+gas_reports = ["OrtalamaRound", "BadgeRegistry", "CurveHarness"]
+
+[profile.default.fuzz]
+runs = 256
+
+[profile.default.invariant]
+runs = 64
+depth = 32
+fail_on_revert = false

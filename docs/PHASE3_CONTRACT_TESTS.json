@@ -1,0 +1,653 @@
+{
+  "status": "PASS",
+  "testInputs": "SIMULATED",
+  "engine": "Real Solidity / EVM / Groth16; no positive verifier mocks",
+  "foundry": "1.8.5",
+  "solc": "0.8.30",
+  "fuzzRunsPerTest": 256,
+  "invariantRuns": 64,
+  "invariantDepth": 32,
+  "independentPythonVectors": 224,
+  "testGroups": 28,
+  "customErrors": 31,
+  "tests": [
+    {
+      "suite": "contracts/test/Curve.t.sol:CurveTest",
+      "name": "testDifferential224IndependentPythonVectors()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 230092496
+        }
+      },
+      "duration": "7s 224ms 293µs 583ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Curve.t.sol:CurveTest",
+      "name": "testFuzzHomomorphism(uint256,uint256,uint256,uint256)",
+      "status": "Success",
+      "kind": {
+        "Fuzz": {
+          "first_case": {
+            "gas": 3513193,
+            "stipend": 22356
+          },
+          "runs": 256,
+          "mean_gas": 3468205,
+          "median_gas": 3466363,
+          "failed_corpus_replays": 0
+        }
+      },
+      "duration": "58s 597ms 50µs 791ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Curve.t.sol:CurveTest",
+      "name": "testFuzzInverse(uint256)",
+      "status": "Success",
+      "kind": {
+        "Fuzz": {
+          "first_case": {
+            "gas": 29033,
+            "stipend": 21288
+          },
+          "runs": 256,
+          "mean_gas": 7753,
+          "median_gas": 7745,
+          "failed_corpus_replays": 0
+        }
+      },
+      "duration": "56s 860ms 281µs 625ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Curve.t.sol:CurveTest",
+      "name": "testGasScalarMultiplication()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 925842
+        }
+      },
+      "duration": "17ms 985µs 958ns",
+      "gasSnapshots": {
+        "BabyJubjub": {
+          "validate-and-multiply": "912888"
+        }
+      }
+    },
+    {
+      "suite": "contracts/test/Curve.t.sol:CurveTest",
+      "name": "testIdentityAndCancellation()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 5156159
+        }
+      },
+      "duration": "43ms 691µs 875ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Curve.t.sol:CurveTest",
+      "name": "testMalformedPointsAndScalar()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 501041
+        }
+      },
+      "duration": "5ms 72µs 416ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testAuthorizationStateAndParameterGuards()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 9512036
+        }
+      },
+      "duration": "29ms 959µs 833ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testBadgeRejections()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 154463205
+        }
+      },
+      "duration": "1s 479ms 757µs 833ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testClosingDeadlinesAndFrozenStates()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 54771193
+        }
+      },
+      "duration": "544ms 806µs 166ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testDeadlineAndConstructorGuards()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 6037932
+        }
+      },
+      "duration": "24ms 173µs 792ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testDroppedPlantAndAuthenticatedFaultEvidence()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 158679498
+        }
+      },
+      "duration": "1s 530ms 217µs 125ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testDuplicateCohortAndMetadataChecks()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 19808080
+        }
+      },
+      "duration": "151ms 210µs 750ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testFuzzCohortsAndPairs(uint8,uint8)",
+      "status": "Success",
+      "kind": {
+        "Fuzz": {
+          "first_case": {
+            "gas": 72837062,
+            "stipend": 21332
+          },
+          "runs": 256,
+          "mean_gas": 100044370,
+          "median_gas": 93933486,
+          "failed_corpus_replays": 0
+        }
+      },
+      "duration": "54s 377ms 333µs 917ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testGasCloseTwelvePlants()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 137414094
+        }
+      },
+      "duration": "1s 499ms 532µs 833ns",
+      "gasSnapshots": {
+        "OrtalamaRound": {
+          "close-twelve-plants": "1988912"
+        }
+      }
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testIncomingPointsAndInvalidRealProof()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 23823012
+        }
+      },
+      "duration": "139ms 490µs 375ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testPairOneThree()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 146774195
+        }
+      },
+      "duration": "1s 346ms 758µs 833ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testPairTwoThree()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 146753464
+        }
+      },
+      "duration": "1s 457ms 839µs 583ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testPreviousRoundProofReplayAndBadSectorAttestation()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 288891360
+        }
+      },
+      "duration": "6s 85ms 660µs 375ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testPublicationGuards()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 59390320
+        }
+      },
+      "duration": "577ms 284µs 83ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testReceiptErrorsAndCommonPairRequirement()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 59261532
+        }
+      },
+      "duration": "461ms 907µs 959ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testSmallCohortRevertAndSeparateAbort()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 23286297
+        }
+      },
+      "duration": "201ms 402µs 417ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testTwelvePlantRoundAndNonTransferableBadges()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 162354366
+        }
+      },
+      "duration": "1s 463ms 497µs 750ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Round.t.sol:RoundTest",
+      "name": "testUnknownVerifierAndPQHashSubstitution()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 15018792
+        }
+      },
+      "duration": "93ms 949µs",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/RoundInvariant.t.sol:RoundInvariantTest",
+      "name": "invariantOnlyTrueCommittedSumsCanClose()",
+      "status": "Success",
+      "kind": {
+        "Invariant": {
+          "runs": 64,
+          "calls": 2048,
+          "reverts": 0,
+          "workers": 1,
+          "metrics": {
+            "contracts/test/RoundInvariant.t.sol:RoundHandler.publishCorrupt": {
+              "calls": 378,
+              "reverts": 0,
+              "discards": 0
+            },
+            "contracts/test/RoundInvariant.t.sol:RoundHandler.close": {
+              "calls": 395,
+              "reverts": 0,
+              "discards": 0
+            },
+            "contracts/test/RoundInvariant.t.sol:RoundHandler.publish": {
+              "calls": 431,
+              "reverts": 0,
+              "discards": 0
+            },
+            "contracts/test/RoundInvariant.t.sol:RoundHandler.advance": {
+              "calls": 423,
+              "reverts": 0,
+              "discards": 0
+            },
+            "contracts/test/RoundInvariant.t.sol:RoundHandler.commit": {
+              "calls": 421,
+              "reverts": 0,
+              "discards": 0
+            }
+          },
+          "failed_corpus_replays": 0,
+          "optimization_best_value": null
+        }
+      },
+      "duration": "1m 20s 255ms 64µs 417ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Verifier.t.sol:VerifierTest",
+      "name": "testEveryPublicInputMutationAndFieldBound()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 9345403
+        }
+      },
+      "duration": "221ms 286µs 500ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Verifier.t.sol:VerifierTest",
+      "name": "testMalformedProofPointsFail()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 2084672
+        }
+      },
+      "duration": "6ms 300µs 500ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Verifier.t.sol:VerifierTest",
+      "name": "testRealProofs()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 647302
+        }
+      },
+      "duration": "19ms 106µs 375ns",
+      "gasSnapshots": {}
+    },
+    {
+      "suite": "contracts/test/Verifier.t.sol:VerifierTest",
+      "name": "testUnderfundedPrecompileFailsClosed()",
+      "status": "Success",
+      "kind": {
+        "Unit": {
+          "gas": 118111
+        }
+      },
+      "duration": "119µs 583ns",
+      "gasSnapshots": {}
+    }
+  ],
+  "errors": [
+    {
+      "file": "BabyJubjub.sol",
+      "error": "NonCanonicalPoint",
+      "passedSelectorAssertionTests": [
+        "Curve.t.sol:testMalformedPointsAndScalar",
+        "Round.t.sol:testIncomingPointsAndInvalidRealProof"
+      ]
+    },
+    {
+      "file": "BabyJubjub.sol",
+      "error": "NotOnCurve",
+      "passedSelectorAssertionTests": [
+        "Curve.t.sol:testMalformedPointsAndScalar",
+        "Round.t.sol:testIncomingPointsAndInvalidRealProof"
+      ]
+    },
+    {
+      "file": "BabyJubjub.sol",
+      "error": "NotInSubgroup",
+      "passedSelectorAssertionTests": [
+        "Curve.t.sol:testMalformedPointsAndScalar",
+        "Round.t.sol:testIncomingPointsAndInvalidRealProof"
+      ]
+    },
+    {
+      "file": "BabyJubjub.sol",
+      "error": "NonCanonicalScalar",
+      "passedSelectorAssertionTests": [
+        "Curve.t.sol:testMalformedPointsAndScalar"
+      ]
+    },
+    {
+      "file": "BabyJubjub.sol",
+      "error": "InvalidInverse",
+      "passedSelectorAssertionTests": [
+        "Curve.t.sol:testMalformedPointsAndScalar"
+      ]
+    },
+    {
+      "file": "BadgeRegistry.sol",
+      "error": "InvalidParams",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testDeadlineAndConstructorGuards"
+      ]
+    },
+    {
+      "file": "BadgeRegistry.sol",
+      "error": "WrongRound",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testBadgeRejections",
+        "Round.t.sol:testPreviousRoundProofReplayAndBadSectorAttestation"
+      ]
+    },
+    {
+      "file": "BadgeRegistry.sol",
+      "error": "UnknownPlant",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testBadgeRejections"
+      ]
+    },
+    {
+      "file": "BadgeRegistry.sol",
+      "error": "AlreadyBadged",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testBadgeRejections"
+      ]
+    },
+    {
+      "file": "BadgeRegistry.sol",
+      "error": "InvalidProof",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testBadgeRejections"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "Unauthorized",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testAuthorizationStateAndParameterGuards"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "UnknownRound",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testAuthorizationStateAndParameterGuards"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "InvalidParams",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testDuplicateCohortAndMetadataChecks",
+        "Round.t.sol:testDroppedPlantAndAuthenticatedFaultEvidence",
+        "Round.t.sol:testBadgeRejections",
+        "Round.t.sol:testAuthorizationStateAndParameterGuards",
+        "Round.t.sol:testDeadlineAndConstructorGuards"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "WrongState",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testAuthorizationStateAndParameterGuards"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "DeadlinePassed",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testDeadlineAndConstructorGuards",
+        "Round.t.sol:testClosingDeadlinesAndFrozenStates"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "NotInCohort",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testDuplicateCohortAndMetadataChecks"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "UnknownVerifier",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testUnknownVerifierAndPQHashSubstitution"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "AlreadyCommitted",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testDuplicateCohortAndMetadataChecks"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "InvalidProof",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testIncomingPointsAndInvalidRealProof"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "InvalidMetadata",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testDuplicateCohortAndMetadataChecks"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "UnknownPlant",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testReceiptErrorsAndCommonPairRequirement"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "WrongTrustee",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testReceiptErrorsAndCommonPairRequirement",
+        "Round.t.sol:testDroppedPlantAndAuthenticatedFaultEvidence",
+        "Round.t.sol:testPublicationGuards"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "AlreadyAcknowledged",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testReceiptErrorsAndCommonPairRequirement"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "WrongCiphertext",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testReceiptErrorsAndCommonPairRequirement"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "CohortTooSmall",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testSmallCohortRevertAndSeparateAbort"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "MissingReceipts",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testReceiptErrorsAndCommonPairRequirement",
+        "Round.t.sol:testDroppedPlantAndAuthenticatedFaultEvidence"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "WrongManifest",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testDroppedPlantAndAuthenticatedFaultEvidence",
+        "Round.t.sol:testPublicationGuards"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "AlreadyPublished",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testPublicationGuards"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "AggregateMismatch",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testDroppedPlantAndAuthenticatedFaultEvidence",
+        "Round.t.sol:testPublicationGuards"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "InsufficientSums",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testReceiptErrorsAndCommonPairRequirement"
+      ]
+    },
+    {
+      "file": "OrtalamaRound.sol",
+      "error": "InvalidSectorProduction",
+      "passedSelectorAssertionTests": [
+        "Round.t.sol:testPreviousRoundProofReplayAndBadSectorAttestation"
+      ]
+    }
+  ],
+  "sha256": {
+    "contracts/src/BabyJubjub.sol": "3893d8af3a2428889267c695e4a7bdc9089ff23064d689dee478b4d41a28f319",
+    "contracts/src/BadgeRegistry.sol": "281d180d3d9aa2d2013e69a19fa4042c7f0beeed41b917493bf0a98c16ae10b9",
+    "contracts/src/BelowThresholdVerifier.sol": "5090ed8e4131daa0defaf647c02e8c68810ab0ed938dc2532e2d567e1faa6599",
+    "contracts/src/CommitmentValidityVerifier.sol": "3a47f0a3477694878422581d8373025179f5b11ca377f3ae2b3e7ba280c42e53",
+    "contracts/src/OrtalamaRound.sol": "03094089482cbcbf3a1e9a5d08e2501e4f0e260df46d78def9687f05fd5b0325",
+    "contracts/src/ProtocolTypes.sol": "98538580c808084338dc35ce871bf88e112e831cc64a5254257f4250398c05b1"
+  }
+}

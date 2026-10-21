@@ -25,7 +25,7 @@ jobs:
   groth16-proofs:
     needs: crypto-and-facts
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -39,3 +39,16 @@ jobs:
       # public ptau; generate and verify fresh test-only phase-2 contributions.
       - run: node scripts/setup-circuits.mjs
       - run: npm run test:circuits
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: v1.8.5
+          cache: false
+      - run: make bootstrap-contracts
+      - run: make test-contracts
+      - run: make coverage-contracts
+      - run: python -m venv .tools/audit-venv
+      - run: .tools/audit-venv/bin/python -m pip install -r requirements-audit.txt
+      - run: make analyze-contracts

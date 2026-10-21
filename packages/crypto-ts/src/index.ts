@@ -124,7 +124,9 @@ export async function createCrypto() {
     const slopes = { E: randomScalar(), r: randomScalar(), P: randomScalar(), s: randomScalar() };
     const columns = { E: evaluate(opening.E, slopes.E), r: evaluate(opening.r, slopes.r), P: evaluate(opening.P, slopes.P), s: evaluate(opening.s, slopes.s) };
     const shares: PlantShare[] = [0, 1, 2].map(i => ({ index: i + 1, E: columns.E[i]!.value, r: columns.r[i]!.value, P: columns.P[i]!.value, s: columns.s[i]!.value }));
-    return { shares, CE: commit(opening.E, opening.r), CP: commit(opening.P, opening.s), AE: commit(slopes.E, slopes.r), AP: commit(slopes.P, slopes.s) };
+    // Private slopes are needed by the local validity prover. Never serialize
+    // this entire object as public metadata or send slopes to an indexer.
+    return { shares, slopes, CE: commit(opening.E, opening.r), CP: commit(opening.P, opening.s), AE: commit(slopes.E, slopes.r), AP: commit(slopes.P, slopes.s) };
   }
   function verifyShare(share: PlantShare, commitments: { CE: Point; CP: Point; AE: Point; AP: Point }): boolean {
     const j = BigInt(index(share.index));

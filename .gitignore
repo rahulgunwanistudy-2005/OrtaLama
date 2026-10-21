@@ -1,4 +1,6 @@
 node_modules/
+.tools/
+lib/
 .venv/
 __pycache__/
 .pytest_cache/
@@ -8,6 +10,7 @@ __pycache__/
 out/
 cache/
 coverage/
+!docs/coverage/
 dist/
 *.r1cs
 *.wasm

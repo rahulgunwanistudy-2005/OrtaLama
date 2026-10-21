@@ -17,5 +17,9 @@ test('ECDSA and ML-DSA authenticate the same domain-bound statement and register
   assert.equal(await verifyCoSignature(s, signer.address, pqPublicKeyHash(other.publicKey), other.publicKey, sig), false);
   const broken = new Uint8Array(sig.pqSignature); broken[0] = broken[0]! ^ 1;
   assert.equal(await verifyCoSignature(s, signer.address, s.pqKeyHash, pq.publicKey, { ...sig, pqSignature: broken }), false);
+  const another = await coSign(s, signer, pq);
+  // A valid co-signature/hash pair still needs its own authenticated ECDSA link.
+  assert.equal(await verifyCoSignature(s, signer.address, s.pqKeyHash, pq.publicKey, { ...another, pqLink: `0x${'00'.repeat(65)}` }), false);
+  assert.equal(await verifyCoSignature(s, signer.address, s.pqKeyHash, pq.publicKey, { ...sig, pqSignatureHash: `0x${'55'.repeat(32)}` }), false);
   await assert.rejects(() => coSign(s, signer, other), /PQKeyIdentityMismatch/);
 });

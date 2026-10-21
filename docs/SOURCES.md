@@ -161,3 +161,17 @@ Access date for every retrieved source: **2026-10-21 (Asia/Kolkata)**. Retrieval
 ## Phase 0 fact gate
 
 Every number in BIBLE.md is either tied to these sources, explicitly identified as a reproducible arithmetic result, tagged UNVERIFIED, or called an engineering/planning parameter. That documentary gate permits no claims about software correctness, proving speed, deployed contracts or regulatory acceptance. See BUILD_STATUS.md for actual phase state.
+
+## S21 — Foundry installation and binary verification
+
+- URL: https://getfoundry.sh/introduction/installation/
+- Access: 2026-10-21
+- Evidence class: **UPSTREAM**
+- Scope: Official installer supports specific releases and verifies downloaded binary SHA-256 values against GitHub release attestations. CI action documentation at https://github.com/foundry-rs/foundry-toolchain/tree/v1 exposes the version input.
+
+## S22 — OpenZeppelin cryptography utilities
+
+- URL: https://docs.openzeppelin.com/contracts/5.x/api/utils/cryptography
+- Access: 2026-10-21
+- Evidence class: **UPSTREAM**
+- Scope: ECDSA.tryRecover exposes the recovered address, recovery error and an additional diagnostic argument. MerkleProof verifies membership of a leaf in a sorted-pair hash tree; project leaves use the matching StandardMerkleTree encoding.

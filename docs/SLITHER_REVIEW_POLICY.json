@@ -1,0 +1,56 @@
+{
+  "reviewScope": "Application source reviewed by build agent; not an independent security audit",
+  "reviewedApplicationSha256": {
+    "contracts/src/ProtocolTypes.sol": "98538580c808084338dc35ce871bf88e112e831cc64a5254257f4250398c05b1",
+    "contracts/src/BadgeRegistry.sol": "281d180d3d9aa2d2013e69a19fa4042c7f0beeed41b917493bf0a98c16ae10b9",
+    "contracts/src/BabyJubjub.sol": "3893d8af3a2428889267c695e4a7bdc9089ff23064d689dee478b4d41a28f319",
+    "contracts/src/OrtalamaRound.sol": "03094089482cbcbf3a1e9a5d08e2501e4f0e260df46d78def9687f05fd5b0325"
+  },
+  "rules": {
+    "High:incorrect-return": {
+      "maximumCount": 6,
+      "generatedOnly": true,
+      "reason": "Unmodified snarkjs Yul intentionally returns ABI false from the external verifier on invalid field/precompile input. No caller cleanup or state writes are bypassed. Real proof, all public-input/field-bound mutations, malformed points and low-gas tests exercise fail-closed behavior. Exact generated-source comparison is mandatory."
+    },
+    "Medium:unused-return": {
+      "maximumCount": 3,
+      "generatedOnly": false,
+      "reason": "Only the third ECDSA.tryRecover diagnostic argument is discarded. The RecoverError enum and recovered signer are both checked; protocol custom errors intentionally replace the library diagnostic."
+    },
+    "Low:timestamp": {
+      "maximumCount": 7,
+      "generatedOnly": false,
+      "reason": "Timestamps enforce coarse lifecycle deadlines, with no random selection, asset payout or price oracle. Block producer timestamp tolerance is accepted for the demo; operators must use ample windows."
+    },
+    "Informational:assembly": {
+      "maximumCount": 9,
+      "generatedOnly": false,
+      "reason": "Generated Groth16 pairing precompile code and the application modexp inverse wrapper. Inverse checks call success and multiplicative identity; differential and negative tests cover arithmetic."
+    },
+    "Informational:cyclomatic-complexity": {
+      "maximumCount": 2,
+      "generatedOnly": false,
+      "reason": "Commit and close implement explicit protocol guards and three-pair fallback. Covered by lifecycle, fuzz and stateful invariant tests; complexity remains a maintenance risk."
+    },
+    "Informational:missing-inheritance": {
+      "maximumCount": 2,
+      "generatedOnly": true,
+      "reason": "Generated verifier contracts satisfy the fixed-array interfaces structurally. Preserve exact upstream generation; constructors additionally pin verifier runtime code hashes."
+    },
+    "Informational:naming-convention": {
+      "maximumCount": 110,
+      "generatedOnly": false,
+      "reason": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    "Informational:solc-version": {
+      "maximumCount": 1,
+      "generatedOnly": true,
+      "reason": "Generated sources declare a broad compatibility pragma, but foundry.toml pins the actual compiler to 0.8.30. Generated source is preserved exactly."
+    },
+    "Informational:too-many-digits": {
+      "maximumCount": 2,
+      "generatedOnly": false,
+      "reason": "Compiler-generated runtime bytecode constants are hashed to authenticate actual verifier code, rather than handwritten numeric approximations."
+    }
+  }
+}

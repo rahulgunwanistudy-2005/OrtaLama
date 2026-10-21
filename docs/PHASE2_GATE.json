@@ -1,6 +1,6 @@
 {
   "phase": 2,
-  "status": "LOCAL_PASS",
+  "status": "PASS",
   "evaluatedOn": "2026-10-21",
   "testInputs": "SIMULATED",
   "publicCeremonyContributionsChecked": 55,
@@ -46,5 +46,15 @@
     "circuits/ceremony/ptau-verification.log": "9d509668cd2cc1b8ae3c3f2a06ef9bd56df94b78b7f08209015cf5ccc9bc4a29",
     "circuits/ceremony/phase2-verification.log": "e97db8d08323ad0e3438d71fffd7d6c8295c53022a2c37654e1f4e6438dcb493"
   },
-  "ci": "PENDING_FULL_PROOF_JOB"
+  "ci": {
+    "status": "success",
+    "head_sha": "17ead3fca26e85df796a564bce297e30688f60ac",
+    "run_id": 39612175418,
+    "url": "https://github.com/rahulgunwanistudy-2005/OrtaLama/actions/runs/39612175418",
+    "verified_on": "2026-10-21",
+    "scope": [
+      "crypto-and-facts",
+      "groth16-proofs"
+    ]
+  }
 }

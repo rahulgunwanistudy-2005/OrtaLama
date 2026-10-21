@@ -21,6 +21,10 @@ export type Statement = {
 };
 export const pqKeygen = () => ml_dsa65.keygen();
 export const pqPublicKeyHash = (key: Uint8Array): Hex => `0x${bytesToHex(keccak_256(key))}`;
+export const pqLinkTypes = { PQLink: [{ name: 'statementDigest', type: 'bytes32' }, { name: 'pqSignatureHash', type: 'bytes32' }] } as const;
+export function typedPQLink(s: Statement, statementDigest: Hex, pqSignatureHash: Hex) {
+  return { domain: typedStatement(s).domain, types: pqLinkTypes, primaryType: 'PQLink' as const, message: { statementDigest, pqSignatureHash } };
+}
 export function typedStatement(s: Statement) {
   return {
     domain: { name: 'Ortalama', version: '2', chainId: s.chainId, verifyingContract: s.verifyingContract },
@@ -35,14 +39,16 @@ export async function coSign(s: Statement, account: PrivateKeyAccount, pq: { sec
   const typed = typedStatement(s), digest = hashTypedData(typed);
   const ecdsa = await account.signTypedData(typed);
   const pqSignature = ml_dsa65.sign(hexToBytes(digest), pq.secretKey, { context: new TextEncoder().encode('ORTALAMA_VERIFIER_v2') });
-  return { digest, ecdsa, pqSignature, pqSignatureHash: `0x${bytesToHex(keccak_256(pqSignature))}` as Hex };
+  const pqSignatureHash = `0x${bytesToHex(keccak_256(pqSignature))}` as Hex;
+  const pqLink = await account.signTypedData(typedPQLink(s, digest, pqSignatureHash));
+  return { digest, ecdsa, pqSignature, pqSignatureHash, pqLink };
 }
 /** expectedPQKeyHash and ECDSA address must come from an authenticated allowlist. */
-export async function verifyCoSignature(s: Statement, signer: Address, expectedPQKeyHash: Hex, publicKey: Uint8Array, signatures: { ecdsa: Hex; pqSignature: Uint8Array; pqSignatureHash: Hex }): Promise<boolean> {
+export async function verifyCoSignature(s: Statement, signer: Address, expectedPQKeyHash: Hex, publicKey: Uint8Array, signatures: { ecdsa: Hex; pqSignature: Uint8Array; pqSignatureHash: Hex; pqLink: Hex }): Promise<boolean> {
   try {
     if (s.pqKeyHash !== expectedPQKeyHash || pqPublicKeyHash(publicKey) !== expectedPQKeyHash) return false;
     if (`0x${bytesToHex(keccak_256(signatures.pqSignature))}` !== signatures.pqSignatureHash) return false;
     const typed = typedStatement(s);
-    return await verifyTypedData({ ...typed, address: signer, signature: signatures.ecdsa }) && ml_dsa65.verify(signatures.pqSignature, hexToBytes(hashTypedData(typed)), publicKey, { context: new TextEncoder().encode('ORTALAMA_VERIFIER_v2') });
+    return await verifyTypedData({ ...typed, address: signer, signature: signatures.ecdsa }) && await verifyTypedData({ ...typedPQLink(s, hashTypedData(typed), signatures.pqSignatureHash), address: signer, signature: signatures.pqLink }) && ml_dsa65.verify(signatures.pqSignature, hexToBytes(hashTypedData(typed)), publicKey, { context: new TextEncoder().encode('ORTALAMA_VERIFIER_v2') });
   } catch { return false; }
 }

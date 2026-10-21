@@ -104,7 +104,15 @@ in the report-review metadata; no fake accreditation.
 
 ML-DSA verification is off-chain, including browser/CLI; on-chain hash storage
 alone does not verify it. Negative tests must reject wrong key, signature, statement
-and context. ECDSA/ML-DSA are not implemented until later phases.
+and context. Real co-signatures and negative tests were implemented in Phase 1;
+the authenticated PQ link was added during Phase 3 integration.
+
+Implementation correction: the verifier additionally EIP-712-signs
+`PQLink(statementDigest, pqSignatureHash)`. This authenticates the stored hash
+without circular signing; the main ECDSA and ML-DSA signatures still cover the
+same statement digest. Without that link, a front-running relayer could replace
+the hash and poison later off-chain PQ verification. The round contract must
+check the link signer against the same allowlisted verifier.
 
 ## Circuits and replay binding
 

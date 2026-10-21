@@ -1,0 +1,1105 @@
+{
+  "tool": "slither-analyzer 0.11.6",
+  "status": "PASS_WITH_DOCUMENTED_ACCEPTANCES",
+  "independentAudit": false,
+  "rawFindingCount": 135,
+  "counts": {
+    "High:incorrect-return": 6,
+    "Medium:unused-return": 3,
+    "Low:timestamp": 7,
+    "Informational:assembly": 9,
+    "Informational:cyclomatic-complexity": 1,
+    "Informational:solc-version": 1,
+    "Informational:missing-inheritance": 2,
+    "Informational:naming-convention": 104,
+    "Informational:too-many-digits": 2
+  },
+  "unreviewed": [],
+  "reviewed": [
+    {
+      "key": "High:incorrect-return",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "CommitmentValidityVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[14]) (contracts/src/CommitmentValidityVerifier.sol#98-258) calls CommitmentValidityVerifier.verifyProof.asm_0.checkField() (contracts/src/CommitmentValidityVerifier.sol#100-105) which halt the execution return(uint256,uint256)(0,0x20) (contracts/src/CommitmentValidityVerifier.sol#103)\n",
+      "disposition": "Unmodified snarkjs Yul intentionally returns ABI false from the external verifier on invalid field/precompile input. No caller cleanup or state writes are bypassed. Real proof, all public-input/field-bound mutations, malformed points and low-gas tests exercise fail-closed behavior. Exact generated-source comparison is mandatory."
+    },
+    {
+      "key": "High:incorrect-return",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "BelowThresholdVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[13]) (contracts/src/BelowThresholdVerifier.sol#95-251) calls BelowThresholdVerifier.verifyProof.asm_0.checkPairing() (contracts/src/BelowThresholdVerifier.sol#130-211) which halt the execution return(uint256,uint256)(0,0x20) (contracts/src/BelowThresholdVerifier.sol#116)\n",
+      "disposition": "Unmodified snarkjs Yul intentionally returns ABI false from the external verifier on invalid field/precompile input. No caller cleanup or state writes are bypassed. Real proof, all public-input/field-bound mutations, malformed points and low-gas tests exercise fail-closed behavior. Exact generated-source comparison is mandatory."
+    },
+    {
+      "key": "High:incorrect-return",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "CommitmentValidityVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[14]) (contracts/src/CommitmentValidityVerifier.sol#98-258) calls CommitmentValidityVerifier.verifyProof.asm_0.checkPairing() (contracts/src/CommitmentValidityVerifier.sol#133-216) which halt the execution return(uint256,uint256)(0,0x20) (contracts/src/CommitmentValidityVerifier.sol#129)\n",
+      "disposition": "Unmodified snarkjs Yul intentionally returns ABI false from the external verifier on invalid field/precompile input. No caller cleanup or state writes are bypassed. Real proof, all public-input/field-bound mutations, malformed points and low-gas tests exercise fail-closed behavior. Exact generated-source comparison is mandatory."
+    },
+    {
+      "key": "High:incorrect-return",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "BelowThresholdVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[13]) (contracts/src/BelowThresholdVerifier.sol#95-251) calls BelowThresholdVerifier.verifyProof.asm_0.checkField() (contracts/src/BelowThresholdVerifier.sol#97-102) which halt the execution return(uint256,uint256)(0,0x20) (contracts/src/BelowThresholdVerifier.sol#100)\n",
+      "disposition": "Unmodified snarkjs Yul intentionally returns ABI false from the external verifier on invalid field/precompile input. No caller cleanup or state writes are bypassed. Real proof, all public-input/field-bound mutations, malformed points and low-gas tests exercise fail-closed behavior. Exact generated-source comparison is mandatory."
+    },
+    {
+      "key": "High:incorrect-return",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "BelowThresholdVerifier.verifyProof.asm_0.checkPairing() (contracts/src/BelowThresholdVerifier.sol#130-211) calls BelowThresholdVerifier.verifyProof.asm_0.g1_mulAccC() (contracts/src/BelowThresholdVerifier.sol#105-128) which halt the execution return(uint256,uint256)(0,0x20) (contracts/src/BelowThresholdVerifier.sol#116)\n",
+      "disposition": "Unmodified snarkjs Yul intentionally returns ABI false from the external verifier on invalid field/precompile input. No caller cleanup or state writes are bypassed. Real proof, all public-input/field-bound mutations, malformed points and low-gas tests exercise fail-closed behavior. Exact generated-source comparison is mandatory."
+    },
+    {
+      "key": "High:incorrect-return",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "CommitmentValidityVerifier.verifyProof.asm_0.checkPairing() (contracts/src/CommitmentValidityVerifier.sol#133-216) calls CommitmentValidityVerifier.verifyProof.asm_0.g1_mulAccC() (contracts/src/CommitmentValidityVerifier.sol#108-131) which halt the execution return(uint256,uint256)(0,0x20) (contracts/src/CommitmentValidityVerifier.sol#129)\n",
+      "disposition": "Unmodified snarkjs Yul intentionally returns ABI false from the external verifier on invalid field/precompile input. No caller cleanup or state writes are bypassed. Real proof, all public-input/field-bound mutations, malformed points and low-gas tests exercise fail-closed behavior. Exact generated-source comparison is mandatory."
+    },
+    {
+      "key": "Medium:unused-return",
+      "files": [
+        "contracts/src/OrtalamaRound.sol"
+      ],
+      "description": "OrtalamaRound.recordFault(uint64,uint8,bytes32,ProtocolTypes.Sum,bytes) (contracts/src/OrtalamaRound.sol#370-383) ignores return value by (signer,error,None) = ECDSA.tryRecover(digest,signature) (contracts/src/OrtalamaRound.sol#378)\n",
+      "disposition": "Only the third ECDSA.tryRecover diagnostic argument is discarded. The RecoverError enum and recovered signer are both checked; protocol custom errors intentionally replace the library diagnostic."
+    },
+    {
+      "key": "Medium:unused-return",
+      "files": [
+        "contracts/src/OrtalamaRound.sol"
+      ],
+      "description": "OrtalamaRound.commit(ProtocolTypes.Statement,bytes32,bytes32[3],bytes,bytes,bytes32,bytes32[],bytes32[],ProtocolTypes.Proof) (contracts/src/OrtalamaRound.sol#225-301) ignores return value by (signer,error,None) = ECDSA.tryRecover(digest,verifierSignature) (contracts/src/OrtalamaRound.sol#249)\n",
+      "disposition": "Only the third ECDSA.tryRecover diagnostic argument is discarded. The RecoverError enum and recovered signer are both checked; protocol custom errors intentionally replace the library diagnostic."
+    },
+    {
+      "key": "Medium:unused-return",
+      "files": [
+        "contracts/src/OrtalamaRound.sol"
+      ],
+      "description": "OrtalamaRound.commit(ProtocolTypes.Statement,bytes32,bytes32[3],bytes,bytes,bytes32,bytes32[],bytes32[],ProtocolTypes.Proof) (contracts/src/OrtalamaRound.sol#225-301) ignores return value by (linkSigner,linkError,None) = ECDSA.tryRecover(link,pqLinkSignature) (contracts/src/OrtalamaRound.sol#259)\n",
+      "disposition": "Only the third ECDSA.tryRecover diagnostic argument is discarded. The RecoverError enum and recovered signer are both checked; protocol custom errors intentionally replace the library diagnostic."
+    },
+    {
+      "key": "Low:timestamp",
+      "files": [
+        "contracts/src/OrtalamaRound.sol"
+      ],
+      "description": "OrtalamaRound.startSharing(uint64) (contracts/src/OrtalamaRound.sol#303-309) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.sharingDeadline (contracts/src/OrtalamaRound.sol#306)\n",
+      "disposition": "Timestamps enforce coarse lifecycle deadlines, with no random selection, asset payout or price oracle. Block producer timestamp tolerance is accepted for the demo; operators must use ample windows."
+    },
+    {
+      "key": "Low:timestamp",
+      "files": [
+        "contracts/src/OrtalamaRound.sol"
+      ],
+      "description": "OrtalamaRound.startClosing(uint64) (contracts/src/OrtalamaRound.sol#326-339) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.closingDeadline (contracts/src/OrtalamaRound.sol#330)\n",
+      "disposition": "Timestamps enforce coarse lifecycle deadlines, with no random selection, asset payout or price oracle. Block producer timestamp tolerance is accepted for the demo; operators must use ample windows."
+    },
+    {
+      "key": "Low:timestamp",
+      "files": [
+        "contracts/src/OrtalamaRound.sol"
+      ],
+      "description": "OrtalamaRound.createRound(OrtalamaRound.Config) (contracts/src/OrtalamaRound.sol#157-184) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- config.cohortRoot == bytes32(0) || config.verifierRoot == bytes32(0) || config.productCN == bytes8(0) || config.country == bytes2(0) || config.minimumPlants < 5 || config.minimumPlants > 256 || config.sectorProduction == 0 || config.sectorAttestationHash == bytes32(0) || config.commitDeadline <= block.timestamp || config.sharingDeadline <= config.commitDeadline || config.closingDeadline <= config.sharingDeadline || config.fixedThresholdCount > 3 (contracts/src/OrtalamaRound.sol#159-163)\n",
+      "disposition": "Timestamps enforce coarse lifecycle deadlines, with no random selection, asset payout or price oracle. Block producer timestamp tolerance is accepted for the demo; operators must use ample windows."
+    },
+    {
+      "key": "Low:timestamp",
+      "files": [
+        "contracts/src/OrtalamaRound.sol"
+      ],
+      "description": "OrtalamaRound.open(uint64) (contracts/src/OrtalamaRound.sol#186-192) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.commitDeadline (contracts/src/OrtalamaRound.sol#189)\n",
+      "disposition": "Timestamps enforce coarse lifecycle deadlines, with no random selection, asset payout or price oracle. Block producer timestamp tolerance is accepted for the demo; operators must use ample windows."
+    },
+    {
+      "key": "Low:timestamp",
+      "files": [
+        "contracts/src/OrtalamaRound.sol"
+      ],
+      "description": "OrtalamaRound.publishSum(uint64,uint8,bytes32,ProtocolTypes.Sum) (contracts/src/OrtalamaRound.sol#347-360) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.closingDeadline (contracts/src/OrtalamaRound.sol#351)\n",
+      "disposition": "Timestamps enforce coarse lifecycle deadlines, with no random selection, asset payout or price oracle. Block producer timestamp tolerance is accepted for the demo; operators must use ample windows."
+    },
+    {
+      "key": "Low:timestamp",
+      "files": [
+        "contracts/src/OrtalamaRound.sol"
+      ],
+      "description": "OrtalamaRound.commit(ProtocolTypes.Statement,bytes32,bytes32[3],bytes,bytes,bytes32,bytes32[],bytes32[],ProtocolTypes.Proof) (contracts/src/OrtalamaRound.sol#225-301) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.commitDeadline (contracts/src/OrtalamaRound.sol#240)\n",
+      "disposition": "Timestamps enforce coarse lifecycle deadlines, with no random selection, asset payout or price oracle. Block producer timestamp tolerance is accepted for the demo; operators must use ample windows."
+    },
+    {
+      "key": "Low:timestamp",
+      "files": [
+        "contracts/src/OrtalamaRound.sol"
+      ],
+      "description": "OrtalamaRound.acknowledge(uint64,bytes32,uint8,bytes32) (contracts/src/OrtalamaRound.sol#311-324) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.sharingDeadline (contracts/src/OrtalamaRound.sol#315)\n",
+      "disposition": "Timestamps enforce coarse lifecycle deadlines, with no random selection, asset payout or price oracle. Block producer timestamp tolerance is accepted for the demo; operators must use ample windows."
+    },
+    {
+      "key": "Informational:assembly",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "CommitmentValidityVerifier.verifyProof.asm_0.g1_mulAccC() (contracts/src/CommitmentValidityVerifier.sol#108-131) uses assembly\n\t- INLINE ASM (contracts/src/CommitmentValidityVerifier.sol#108-131)\n",
+      "disposition": "Generated Groth16 pairing precompile code and the application modexp inverse wrapper. Inverse checks call success and multiplicative identity; differential and negative tests cover arithmetic."
+    },
+    {
+      "key": "Informational:assembly",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "BelowThresholdVerifier.verifyProof.asm_0.checkPairing() (contracts/src/BelowThresholdVerifier.sol#130-211) uses assembly\n\t- INLINE ASM (contracts/src/BelowThresholdVerifier.sol#130-211)\n",
+      "disposition": "Generated Groth16 pairing precompile code and the application modexp inverse wrapper. Inverse checks call success and multiplicative identity; differential and negative tests cover arithmetic."
+    },
+    {
+      "key": "Informational:assembly",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "CommitmentValidityVerifier.verifyProof.asm_0.checkPairing() (contracts/src/CommitmentValidityVerifier.sol#133-216) uses assembly\n\t- INLINE ASM (contracts/src/CommitmentValidityVerifier.sol#133-216)\n",
+      "disposition": "Generated Groth16 pairing precompile code and the application modexp inverse wrapper. Inverse checks call success and multiplicative identity; differential and negative tests cover arithmetic."
+    },
+    {
+      "key": "Informational:assembly",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "BelowThresholdVerifier.verifyProof.asm_0.checkField() (contracts/src/BelowThresholdVerifier.sol#97-102) uses assembly\n\t- INLINE ASM (contracts/src/BelowThresholdVerifier.sol#97-102)\n",
+      "disposition": "Generated Groth16 pairing precompile code and the application modexp inverse wrapper. Inverse checks call success and multiplicative identity; differential and negative tests cover arithmetic."
+    },
+    {
+      "key": "Informational:assembly",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "CommitmentValidityVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[14]) (contracts/src/CommitmentValidityVerifier.sol#98-258) uses assembly\n\t- INLINE ASM (contracts/src/CommitmentValidityVerifier.sol#99-257)\n",
+      "disposition": "Generated Groth16 pairing precompile code and the application modexp inverse wrapper. Inverse checks call success and multiplicative identity; differential and negative tests cover arithmetic."
+    },
+    {
+      "key": "Informational:assembly",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "CommitmentValidityVerifier.verifyProof.asm_0.checkField() (contracts/src/CommitmentValidityVerifier.sol#100-105) uses assembly\n\t- INLINE ASM (contracts/src/CommitmentValidityVerifier.sol#100-105)\n",
+      "disposition": "Generated Groth16 pairing precompile code and the application modexp inverse wrapper. Inverse checks call success and multiplicative identity; differential and negative tests cover arithmetic."
+    },
+    {
+      "key": "Informational:assembly",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "BelowThresholdVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[13]) (contracts/src/BelowThresholdVerifier.sol#95-251) uses assembly\n\t- INLINE ASM (contracts/src/BelowThresholdVerifier.sol#96-250)\n",
+      "disposition": "Generated Groth16 pairing precompile code and the application modexp inverse wrapper. Inverse checks call success and multiplicative identity; differential and negative tests cover arithmetic."
+    },
+    {
+      "key": "Informational:assembly",
+      "files": [
+        "contracts/src/BabyJubjub.sol"
+      ],
+      "description": "BabyJubjub.inverseQ(uint256) (contracts/src/BabyJubjub.sol#125-134) uses assembly\n\t- INLINE ASM (contracts/src/BabyJubjub.sol#129-132)\n",
+      "disposition": "Generated Groth16 pairing precompile code and the application modexp inverse wrapper. Inverse checks call success and multiplicative identity; differential and negative tests cover arithmetic."
+    },
+    {
+      "key": "Informational:assembly",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "BelowThresholdVerifier.verifyProof.asm_0.g1_mulAccC() (contracts/src/BelowThresholdVerifier.sol#105-128) uses assembly\n\t- INLINE ASM (contracts/src/BelowThresholdVerifier.sol#105-128)\n",
+      "disposition": "Generated Groth16 pairing precompile code and the application modexp inverse wrapper. Inverse checks call success and multiplicative identity; differential and negative tests cover arithmetic."
+    },
+    {
+      "key": "Informational:cyclomatic-complexity",
+      "files": [
+        "contracts/src/OrtalamaRound.sol"
+      ],
+      "description": "OrtalamaRound.commit(ProtocolTypes.Statement,bytes32,bytes32[3],bytes,bytes,bytes32,bytes32[],bytes32[],ProtocolTypes.Proof) (contracts/src/OrtalamaRound.sol#225-301) has a high cyclomatic complexity (12).\n",
+      "disposition": "Commit and close implement explicit protocol guards and three-pair fallback. Covered by lifecycle, fuzz and stateful invariant tests; complexity remains a maintenance risk."
+    },
+    {
+      "key": "Informational:solc-version",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol",
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Version constraint >=0.7.0<0.9.0 is too complex.\nIt is used by:\n\t- >=0.7.0<0.9.0 (contracts/src/BelowThresholdVerifier.sol#21)\n\t- >=0.7.0<0.9.0 (contracts/src/CommitmentValidityVerifier.sol#21)\n",
+      "disposition": "Generated sources declare a broad compatibility pragma, but foundry.toml pins the actual compiler to 0.8.30. Generated source is preserved exactly."
+    },
+    {
+      "key": "Informational:missing-inheritance",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol",
+        "contracts/src/ProtocolTypes.sol"
+      ],
+      "description": "BelowThresholdVerifier (contracts/src/BelowThresholdVerifier.sol#23-252) should inherit from IBelowThresholdVerifier (contracts/src/ProtocolTypes.sol#42-49)\n",
+      "disposition": "Generated verifier contracts satisfy the fixed-array interfaces structurally. Preserve exact upstream generation; constructors additionally pin verifier runtime code hashes."
+    },
+    {
+      "key": "Informational:missing-inheritance",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol",
+        "contracts/src/ProtocolTypes.sol"
+      ],
+      "description": "CommitmentValidityVerifier (contracts/src/CommitmentValidityVerifier.sol#23-259) should inherit from ICommitmentValidityVerifier (contracts/src/ProtocolTypes.sol#33-40)\n",
+      "disposition": "Generated verifier contracts satisfy the fixed-array interfaces structurally. Preserve exact upstream generation; constructors additionally pin verifier runtime code hashes."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC0x (contracts/src/CommitmentValidityVerifier.sol#46) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.pPairing (contracts/src/BelowThresholdVerifier.sol#91) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC6x (contracts/src/BelowThresholdVerifier.sol#64) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.betay2 (contracts/src/CommitmentValidityVerifier.sol#35) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC10y (contracts/src/CommitmentValidityVerifier.sol#77) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC5y (contracts/src/CommitmentValidityVerifier.sol#62) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC10x (contracts/src/CommitmentValidityVerifier.sol#76) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Parameter BelowThresholdVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[13])._pubSignals (contracts/src/BelowThresholdVerifier.sol#95) is not in mixedCase\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.pLastMem (contracts/src/CommitmentValidityVerifier.sol#96) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.gammay2 (contracts/src/BelowThresholdVerifier.sol#39) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.q (contracts/src/CommitmentValidityVerifier.sol#27) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC4x (contracts/src/CommitmentValidityVerifier.sol#58) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC3x (contracts/src/BelowThresholdVerifier.sol#55) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.betay1 (contracts/src/BelowThresholdVerifier.sol#34) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Parameter CommitmentValidityVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[14])._pubSignals (contracts/src/CommitmentValidityVerifier.sol#98) is not in mixedCase\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.deltay1 (contracts/src/BelowThresholdVerifier.sol#42) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.alphax (contracts/src/CommitmentValidityVerifier.sol#30) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC11x (contracts/src/CommitmentValidityVerifier.sol#79) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC3y (contracts/src/BelowThresholdVerifier.sol#56) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC12y (contracts/src/CommitmentValidityVerifier.sol#83) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC12x (contracts/src/CommitmentValidityVerifier.sol#82) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.r (contracts/src/CommitmentValidityVerifier.sol#25) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.deltay2 (contracts/src/CommitmentValidityVerifier.sol#43) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC1x (contracts/src/BelowThresholdVerifier.sol#49) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC7x (contracts/src/CommitmentValidityVerifier.sol#67) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Parameter CommitmentValidityVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[14])._pC (contracts/src/CommitmentValidityVerifier.sol#98) is not in mixedCase\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC7y (contracts/src/BelowThresholdVerifier.sol#68) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.pLastMem (contracts/src/BelowThresholdVerifier.sol#93) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.alphax (contracts/src/BelowThresholdVerifier.sol#30) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.betax2 (contracts/src/BelowThresholdVerifier.sol#33) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.betay2 (contracts/src/BelowThresholdVerifier.sol#35) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Parameter BelowThresholdVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[13])._pB (contracts/src/BelowThresholdVerifier.sol#95) is not in mixedCase\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC10y (contracts/src/BelowThresholdVerifier.sol#77) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Parameter CommitmentValidityVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[14])._pA (contracts/src/CommitmentValidityVerifier.sol#98) is not in mixedCase\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.alphay (contracts/src/BelowThresholdVerifier.sol#31) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC1y (contracts/src/BelowThresholdVerifier.sol#50) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC8x (contracts/src/CommitmentValidityVerifier.sol#70) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC2x (contracts/src/BelowThresholdVerifier.sol#52) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Parameter BelowThresholdVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[13])._pC (contracts/src/BelowThresholdVerifier.sol#95) is not in mixedCase\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.r (contracts/src/BelowThresholdVerifier.sol#25) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC6y (contracts/src/BelowThresholdVerifier.sol#65) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.gammay1 (contracts/src/BelowThresholdVerifier.sol#38) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC5y (contracts/src/BelowThresholdVerifier.sol#62) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC9y (contracts/src/CommitmentValidityVerifier.sol#74) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.pVk (contracts/src/CommitmentValidityVerifier.sol#93) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC7y (contracts/src/CommitmentValidityVerifier.sol#68) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.gammax1 (contracts/src/CommitmentValidityVerifier.sol#36) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.deltax1 (contracts/src/BelowThresholdVerifier.sol#40) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC13y (contracts/src/BelowThresholdVerifier.sol#86) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Parameter BelowThresholdVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[13])._pA (contracts/src/BelowThresholdVerifier.sol#95) is not in mixedCase\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC10x (contracts/src/BelowThresholdVerifier.sol#76) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC0y (contracts/src/CommitmentValidityVerifier.sol#47) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC8y (contracts/src/CommitmentValidityVerifier.sol#71) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC9x (contracts/src/CommitmentValidityVerifier.sol#73) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC11x (contracts/src/BelowThresholdVerifier.sol#79) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC5x (contracts/src/CommitmentValidityVerifier.sol#61) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.q (contracts/src/BelowThresholdVerifier.sol#27) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC12y (contracts/src/BelowThresholdVerifier.sol#83) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.deltax2 (contracts/src/CommitmentValidityVerifier.sol#41) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC2y (contracts/src/BelowThresholdVerifier.sol#53) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.deltay2 (contracts/src/BelowThresholdVerifier.sol#43) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC7x (contracts/src/BelowThresholdVerifier.sol#67) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC1x (contracts/src/CommitmentValidityVerifier.sol#49) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC11y (contracts/src/BelowThresholdVerifier.sol#80) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.betax1 (contracts/src/CommitmentValidityVerifier.sol#32) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.pVk (contracts/src/BelowThresholdVerifier.sol#90) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.betax2 (contracts/src/CommitmentValidityVerifier.sol#33) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.gammax1 (contracts/src/BelowThresholdVerifier.sol#36) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC9x (contracts/src/BelowThresholdVerifier.sol#73) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC4y (contracts/src/BelowThresholdVerifier.sol#59) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC11y (contracts/src/CommitmentValidityVerifier.sol#80) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.alphay (contracts/src/CommitmentValidityVerifier.sol#31) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC5x (contracts/src/BelowThresholdVerifier.sol#61) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Parameter CommitmentValidityVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[14])._pB (contracts/src/CommitmentValidityVerifier.sol#98) is not in mixedCase\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC9y (contracts/src/BelowThresholdVerifier.sol#74) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.deltay1 (contracts/src/CommitmentValidityVerifier.sol#42) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.deltax2 (contracts/src/BelowThresholdVerifier.sol#41) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC14x (contracts/src/CommitmentValidityVerifier.sol#88) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.deltax1 (contracts/src/CommitmentValidityVerifier.sol#40) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC14y (contracts/src/CommitmentValidityVerifier.sol#89) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC3y (contracts/src/CommitmentValidityVerifier.sol#56) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC1y (contracts/src/CommitmentValidityVerifier.sol#50) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC3x (contracts/src/CommitmentValidityVerifier.sol#55) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC6y (contracts/src/CommitmentValidityVerifier.sol#65) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC12x (contracts/src/BelowThresholdVerifier.sol#82) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC0y (contracts/src/BelowThresholdVerifier.sol#47) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC0x (contracts/src/BelowThresholdVerifier.sol#46) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.gammax2 (contracts/src/CommitmentValidityVerifier.sol#37) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.gammay1 (contracts/src/CommitmentValidityVerifier.sol#38) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.gammay2 (contracts/src/CommitmentValidityVerifier.sol#39) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC4y (contracts/src/CommitmentValidityVerifier.sol#59) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.pPairing (contracts/src/CommitmentValidityVerifier.sol#94) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC8x (contracts/src/BelowThresholdVerifier.sol#70) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC6x (contracts/src/CommitmentValidityVerifier.sol#64) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.betay1 (contracts/src/CommitmentValidityVerifier.sol#34) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC8y (contracts/src/BelowThresholdVerifier.sol#71) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.gammax2 (contracts/src/BelowThresholdVerifier.sol#37) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC4x (contracts/src/BelowThresholdVerifier.sol#58) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.betax1 (contracts/src/BelowThresholdVerifier.sol#32) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC2x (contracts/src/CommitmentValidityVerifier.sol#52) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC13y (contracts/src/CommitmentValidityVerifier.sol#86) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "Constant BelowThresholdVerifier.IC13x (contracts/src/BelowThresholdVerifier.sol#85) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC13x (contracts/src/CommitmentValidityVerifier.sol#85) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:naming-convention",
+      "files": [
+        "contracts/src/CommitmentValidityVerifier.sol"
+      ],
+      "description": "Constant CommitmentValidityVerifier.IC2y (contracts/src/CommitmentValidityVerifier.sol#53) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "disposition": "Mathematical coordinates and generated ABI names intentionally follow the circuit/reference notation; no security semantics depend on casing."
+    },
+    {
+      "key": "Informational:too-many-digits",
+      "files": [
+        "contracts/src/BadgeRegistry.sol"
+      ],
+      "description": "BadgeRegistry.constructor(address,address) (contracts/src/BadgeRegistry.sol#32-38) uses literals with too many digits:\n\t- rounds_.code.length == 0 || verifier_.codehash != keccak256(bytes)(type()(BelowThresholdVerifier).runtimeCode) (contracts/src/BadgeRegistry.sol#33)\n",
+      "disposition": "Compiler-generated runtime bytecode constants are hashed to authenticate actual verifier code, rather than handwritten numeric approximations."
+    },
+    {
+      "key": "Informational:too-many-digits",
+      "files": [
+        "contracts/src/OrtalamaRound.sol"
+      ],
+      "description": "OrtalamaRound.constructor(address,address) (contracts/src/OrtalamaRound.sol#131-138) uses literals with too many digits:\n\t- regulator_ == address(0) || verifier_.codehash != keccak256(bytes)(type()(CommitmentValidityVerifier).runtimeCode) || block.chainid > type()(uint64).max (contracts/src/OrtalamaRound.sol#133-134)\n",
+      "disposition": "Compiler-generated runtime bytecode constants are hashed to authenticate actual verifier code, rather than handwritten numeric approximations."
+    }
+  ],
+  "policy": "docs/SLITHER_REVIEW_POLICY.json",
+  "verifierIntegrity": "Exact active proving-key / pinned snarkjs template comparison passed"
+}

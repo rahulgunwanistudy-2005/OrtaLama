@@ -24,7 +24,9 @@ for (const [name, contract] of [['below_threshold', 'BelowThresholdVerifier'], [
   }
 }
 for (const file of ['circuits/lib/opening.circom', 'circuits/lib/generators.circom', 'circuits/ceremony/ptau-verification.log', 'circuits/ceremony/phase2-verification.log']) artifacts[file] = createHash('sha256').update(await readFile(file)).digest('hex');
-const gate = { phase: 2, status: 'LOCAL_PASS', evaluatedOn: '2026-10-21', testInputs: 'SIMULATED', publicCeremonyContributionsChecked: 55, projectCeremony: 'single-operator demonstration only', nodeProofsVerified: 2, browserProofsVerified: 2, witnessPositiveCases: 7, witnessNegativeCases: 27, nodePublicInputMutationsRejected: 27, browserPublicInputMutationsRejected: 2, measurements, browser: browser.browser, sha256: artifacts, ci: 'PENDING_FULL_PROOF_JOB' };
+const ci = JSON.parse(await readFile('docs/PHASE2_CI.json', 'utf8'));
+assert.equal(ci.status, 'success');
+const gate = { phase: 2, status: 'PASS', evaluatedOn: '2026-10-21', testInputs: 'SIMULATED', publicCeremonyContributionsChecked: 55, projectCeremony: 'single-operator demonstration only', nodeProofsVerified: 2, browserProofsVerified: 2, witnessPositiveCases: 7, witnessNegativeCases: 27, nodePublicInputMutationsRejected: 27, browserPublicInputMutationsRejected: 2, measurements, browser: browser.browser, sha256: artifacts, ci };
 await writeFile('docs/PHASE2_GATE.json', JSON.stringify(gate, null, 2) + '\n');
 await writeFile('circuits/ceremony/ARTIFACT_HASHES.json', JSON.stringify({ algorithm: 'SHA-256', purpose: 'Exact matching demonstration proving bundle; public keys and parameters, no signing secrets', sha256: artifacts }, null, 2) + '\n');
 const rows = measurements.map(x => `| ${x.name} | ${x.constraints.toLocaleString('en-US')} | ${x.publicInputs} | ${(x.nodeProvingMs/1000).toFixed(3)} s | ${(x.browserProvingMs/1000).toFixed(3)} s |`).join('\n');

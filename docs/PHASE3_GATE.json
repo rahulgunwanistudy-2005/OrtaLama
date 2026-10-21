@@ -1,0 +1,38 @@
+{
+  "phase": 3,
+  "status": "LOCAL_PASS_AWAITING_CI",
+  "testInputs": "SIMULATED",
+  "testGroups": 28,
+  "customErrorsAsserted": 31,
+  "independentPythonVectors": 224,
+  "fuzzRunsPerTest": 256,
+  "invariantRuns": 64,
+  "invariantDepth": 32,
+  "lineCoveragePercent": 98.276,
+  "executableSourceFiles": 5,
+  "staticAnalysis": {
+    "rawFindings": 135,
+    "unreviewed": 0,
+    "disposition": "PASS_WITH_DOCUMENTED_ACCEPTANCES"
+  },
+  "gas": {
+    "subgroupValidationAndScalarMultiplication": 912888,
+    "closeTwelvePlants": 1988912
+  },
+  "sha256": {
+    "contracts/src/BabyJubjub.sol": "3893d8af3a2428889267c695e4a7bdc9089ff23064d689dee478b4d41a28f319",
+    "contracts/src/BadgeRegistry.sol": "281d180d3d9aa2d2013e69a19fa4042c7f0beeed41b917493bf0a98c16ae10b9",
+    "contracts/src/BelowThresholdVerifier.sol": "5090ed8e4131daa0defaf647c02e8c68810ab0ed938dc2532e2d567e1faa6599",
+    "contracts/src/CommitmentValidityVerifier.sol": "3a47f0a3477694878422581d8373025179f5b11ca377f3ae2b3e7ba280c42e53",
+    "contracts/src/OrtalamaRound.sol": "03094089482cbcbf3a1e9a5d08e2501e4f0e260df46d78def9687f05fd5b0325",
+    "contracts/src/ProtocolTypes.sol": "98538580c808084338dc35ce871bf88e112e831cc64a5254257f4250398c05b1"
+  },
+  "ci": null,
+  "independentAudit": false,
+  "limitations": [
+    "Local EVM tests, not a networked service demo or testnet deployment",
+    "Single-operator demonstration circuit contributions",
+    "Application curve code has no independent security audit",
+    "Static-analysis findings accepted only as documented; raw tool findings are not zero"
+  ]
+}
