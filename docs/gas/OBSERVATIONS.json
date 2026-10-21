@@ -1,0 +1,19 @@
+{
+  "inputClassification": "SIMULATED",
+  "measurement": "Real optimized Foundry EVM execution; not a network deployment or currency-cost estimate",
+  "foundry": "1.8.5",
+  "solc": "0.8.30",
+  "optimizerRuns": 200,
+  "viaIR": true,
+  "evmVersion": "cancun",
+  "gas": {
+    "subgroupValidationAndScalarMultiplication": 912888,
+    "closeTwelvePlants": 1988912
+  },
+  "runtimeBytes": {
+    "OrtalamaRound": 17719,
+    "BadgeRegistry": 2302,
+    "BelowThresholdVerifier": 3126,
+    "CommitmentValidityVerifier": 3292
+  }
+}

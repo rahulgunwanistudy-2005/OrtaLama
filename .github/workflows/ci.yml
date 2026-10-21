@@ -46,6 +46,8 @@ jobs:
         with:
           version: v1.8.5
           cache: false
+      - run: python -m venv .venv
+      - run: .venv/bin/python -m pip install -r packages/crypto-py/requirements.txt
       - run: make bootstrap-contracts
       - run: make test-contracts
       - run: make coverage-contracts

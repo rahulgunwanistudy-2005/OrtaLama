@@ -75,7 +75,7 @@ round lifecycle, curve checks, registry and adversarial contract tests.
 
 28 contract test groups passed, including three fuzz tests with 256 cases each,
 a 64-run × 32-call stateful invariant and 224 independent Python arithmetic
-vectors. All 31 application custom errors have executed selector assertions.
+vectors freshly recomputed through Foundry FFI. All 31 application custom errors have executed selector assertions.
 Every positive proof uses the actual generated Groth16 verifiers. Line coverage
 is 456/464 (98.276%) across all five executable source files, including generated
 verifiers; both raw compiler-mode reports and the combination method are saved.

@@ -34,8 +34,9 @@ real proof fixtures, including all public-input and malformed-point negatives.
 This prevents fresh test contributions from hiding an error in the shipped bundle.
 
 `PHASE3_CONTRACT_TESTS.json` records executed test groups, custom-error selector
-assertions and source hashes. Arithmetic is compared against 224 independent
-Python vectors. Randomized tests cover homomorphism, inverses and cohort/pair
+assertions and source hashes. Foundry invokes the independent Python oracle by
+FFI and compares all 224 commitments against its freshly computed coordinates
+and the committed vectors. Randomized tests cover homomorphism, inverses and cohort/pair
 choices; a stateful invariant handler tracks actual committed plants and rejects
 incorrect publications before accepting a close. Three trustee pairs are tested.
 

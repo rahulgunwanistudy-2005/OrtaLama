@@ -83,13 +83,19 @@ contract CurveTest is Test {
         assertEq(mulmod(value, curve.inverse(value), Q), 1);
     }
 
-    function testDifferential224IndependentPythonVectors() public view {
+    function testDifferential224IndependentPythonVectors() public {
+        string[] memory args = new string[](2);
+        args[0] = ".venv/bin/python";
+        args[1] = "packages/crypto-py/solidity_oracle.py";
+        uint256[448] memory python = abi.decode(vm.ffi(args), (uint256[448]));
         string memory json = vm.readFile("data/simulated/SIMULATED_cross_language_vectors.json");
         for (uint256 i; i < 224; ++i) {
             string memory index = vm.toString(i);
             uint256 value = vm.parseJsonUint(json, string.concat(".vectors[", index, "].value"));
             uint256 blinding = vm.parseJsonUint(json, string.concat(".vectors[", index, "].blinding"));
             B.Point memory actual = curve.commit(value, blinding);
+            assertEq(actual.x, python[2 * i]);
+            assertEq(actual.y, python[2 * i + 1]);
             assertEq(actual.x, vm.parseJsonUint(json, string.concat(".expected[", index, "].commitment[0]")));
             assertEq(actual.y, vm.parseJsonUint(json, string.concat(".expected[", index, "].commitment[1]")));
         }

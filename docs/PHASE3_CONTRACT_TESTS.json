@@ -17,10 +17,10 @@
       "status": "Success",
       "kind": {
         "Unit": {
-          "gas": 230092496
+          "gas": 230361255
         }
       },
-      "duration": "7s 224ms 293µs 583ns",
+      "duration": "9s 511ms 797µs 334ns",
       "gasSnapshots": {}
     },
     {
@@ -30,16 +30,16 @@
       "kind": {
         "Fuzz": {
           "first_case": {
-            "gas": 3513193,
-            "stipend": 22356
+            "gas": 3485947,
+            "stipend": 22272
           },
           "runs": 256,
-          "mean_gas": 3468205,
-          "median_gas": 3466363,
+          "mean_gas": 3408488,
+          "median_gas": 3409124,
           "failed_corpus_replays": 0
         }
       },
-      "duration": "58s 597ms 50µs 791ns",
+      "duration": "52s 65ms 505µs 584ns",
       "gasSnapshots": {}
     },
     {
@@ -49,16 +49,16 @@
       "kind": {
         "Fuzz": {
           "first_case": {
-            "gas": 29033,
-            "stipend": 21288
+            "gas": 29021,
+            "stipend": 21276
           },
           "runs": 256,
-          "mean_gas": 7753,
+          "mean_gas": 7761,
           "median_gas": 7745,
           "failed_corpus_replays": 0
         }
       },
-      "duration": "56s 860ms 281µs 625ns",
+      "duration": "52s 59ms 851µs 542ns",
       "gasSnapshots": {}
     },
     {
@@ -70,7 +70,7 @@
           "gas": 925842
         }
       },
-      "duration": "17ms 985µs 958ns",
+      "duration": "17ms 761µs 291ns",
       "gasSnapshots": {
         "BabyJubjub": {
           "validate-and-multiply": "912888"
@@ -86,7 +86,7 @@
           "gas": 5156159
         }
       },
-      "duration": "43ms 691µs 875ns",
+      "duration": "41ms 651µs 42ns",
       "gasSnapshots": {}
     },
     {
@@ -98,7 +98,7 @@
           "gas": 501041
         }
       },
-      "duration": "5ms 72µs 416ns",
+      "duration": "5ms 413µs 458ns",
       "gasSnapshots": {}
     },
     {
@@ -110,7 +110,7 @@
           "gas": 9512036
         }
       },
-      "duration": "29ms 959µs 833ns",
+      "duration": "48ms 71µs 875ns",
       "gasSnapshots": {}
     },
     {
@@ -122,7 +122,7 @@
           "gas": 154463205
         }
       },
-      "duration": "1s 479ms 757µs 833ns",
+      "duration": "1s 441ms 304µs 125ns",
       "gasSnapshots": {}
     },
     {
@@ -134,7 +134,7 @@
           "gas": 54771193
         }
       },
-      "duration": "544ms 806µs 166ns",
+      "duration": "510ms 963µs 667ns",
       "gasSnapshots": {}
     },
     {
@@ -146,7 +146,7 @@
           "gas": 6037932
         }
       },
-      "duration": "24ms 173µs 792ns",
+      "duration": "26ms 242µs 167ns",
       "gasSnapshots": {}
     },
     {
@@ -158,7 +158,7 @@
           "gas": 158679498
         }
       },
-      "duration": "1s 530ms 217µs 125ns",
+      "duration": "1s 438ms 973µs 42ns",
       "gasSnapshots": {}
     },
     {
@@ -170,7 +170,7 @@
           "gas": 19808080
         }
       },
-      "duration": "151ms 210µs 750ns",
+      "duration": "105ms 152µs 959ns",
       "gasSnapshots": {}
     },
     {
@@ -180,16 +180,16 @@
       "kind": {
         "Fuzz": {
           "first_case": {
-            "gas": 72837062,
-            "stipend": 21332
+            "gas": 83380545,
+            "stipend": 21344
           },
           "runs": 256,
-          "mean_gas": 100044370,
+          "mean_gas": 100704988,
           "median_gas": 93933486,
           "failed_corpus_replays": 0
         }
       },
-      "duration": "54s 377ms 333µs 917ns",
+      "duration": "47s 69ms 367µs 458ns",
       "gasSnapshots": {}
     },
     {
@@ -201,7 +201,7 @@
           "gas": 137414094
         }
       },
-      "duration": "1s 499ms 532µs 833ns",
+      "duration": "1s 153ms 415µs 959ns",
       "gasSnapshots": {
         "OrtalamaRound": {
           "close-twelve-plants": "1988912"
@@ -217,7 +217,7 @@
           "gas": 23823012
         }
       },
-      "duration": "139ms 490µs 375ns",
+      "duration": "157ms 866µs 334ns",
       "gasSnapshots": {}
     },
     {
@@ -229,7 +229,7 @@
           "gas": 146774195
         }
       },
-      "duration": "1s 346ms 758µs 833ns",
+      "duration": "1s 292ms 421µs 666ns",
       "gasSnapshots": {}
     },
     {
@@ -241,7 +241,7 @@
           "gas": 146753464
         }
       },
-      "duration": "1s 457ms 839µs 583ns",
+      "duration": "1s 329ms 739µs 417ns",
       "gasSnapshots": {}
     },
     {
@@ -253,7 +253,7 @@
           "gas": 288891360
         }
       },
-      "duration": "6s 85ms 660µs 375ns",
+      "duration": "4s 156ms 167µs 541ns",
       "gasSnapshots": {}
     },
     {
@@ -265,7 +265,7 @@
           "gas": 59390320
         }
       },
-      "duration": "577ms 284µs 83ns",
+      "duration": "571ms 959µs 917ns",
       "gasSnapshots": {}
     },
     {
@@ -277,7 +277,7 @@
           "gas": 59261532
         }
       },
-      "duration": "461ms 907µs 959ns",
+      "duration": "490ms 258µs 875ns",
       "gasSnapshots": {}
     },
     {
@@ -289,7 +289,7 @@
           "gas": 23286297
         }
       },
-      "duration": "201ms 402µs 417ns",
+      "duration": "221ms 971µs 833ns",
       "gasSnapshots": {}
     },
     {
@@ -301,7 +301,7 @@
           "gas": 162354366
         }
       },
-      "duration": "1s 463ms 497µs 750ns",
+      "duration": "1s 303ms 297µs 834ns",
       "gasSnapshots": {}
     },
     {
@@ -313,7 +313,7 @@
           "gas": 15018792
         }
       },
-      "duration": "93ms 949µs",
+      "duration": "94ms 367µs 125ns",
       "gasSnapshots": {}
     },
     {
@@ -327,28 +327,28 @@
           "reverts": 0,
           "workers": 1,
           "metrics": {
-            "contracts/test/RoundInvariant.t.sol:RoundHandler.publishCorrupt": {
-              "calls": 378,
-              "reverts": 0,
-              "discards": 0
-            },
             "contracts/test/RoundInvariant.t.sol:RoundHandler.close": {
-              "calls": 395,
-              "reverts": 0,
-              "discards": 0
-            },
-            "contracts/test/RoundInvariant.t.sol:RoundHandler.publish": {
-              "calls": 431,
+              "calls": 413,
               "reverts": 0,
               "discards": 0
             },
             "contracts/test/RoundInvariant.t.sol:RoundHandler.advance": {
-              "calls": 423,
+              "calls": 395,
+              "reverts": 0,
+              "discards": 0
+            },
+            "contracts/test/RoundInvariant.t.sol:RoundHandler.publishCorrupt": {
+              "calls": 430,
+              "reverts": 0,
+              "discards": 0
+            },
+            "contracts/test/RoundInvariant.t.sol:RoundHandler.publish": {
+              "calls": 386,
               "reverts": 0,
               "discards": 0
             },
             "contracts/test/RoundInvariant.t.sol:RoundHandler.commit": {
-              "calls": 421,
+              "calls": 424,
               "reverts": 0,
               "discards": 0
             }
@@ -357,7 +357,7 @@
           "optimization_best_value": null
         }
       },
-      "duration": "1m 20s 255ms 64µs 417ns",
+      "duration": "1m 12s 863ms 455µs 792ns",
       "gasSnapshots": {}
     },
     {
@@ -369,7 +369,7 @@
           "gas": 9345403
         }
       },
-      "duration": "221ms 286µs 500ns",
+      "duration": "273ms 439µs 83ns",
       "gasSnapshots": {}
     },
     {
@@ -381,7 +381,7 @@
           "gas": 2084672
         }
       },
-      "duration": "6ms 300µs 500ns",
+      "duration": "12ms 17µs",
       "gasSnapshots": {}
     },
     {
@@ -393,7 +393,7 @@
           "gas": 647302
         }
       },
-      "duration": "19ms 106µs 375ns",
+      "duration": "16ms 769µs 209ns",
       "gasSnapshots": {}
     },
     {
@@ -405,7 +405,7 @@
           "gas": 118111
         }
       },
-      "duration": "119µs 583ns",
+      "duration": "146µs 166ns",
       "gasSnapshots": {}
     }
   ],
