@@ -1,0 +1,24 @@
+{
+  "simulation": true,
+  "status": "PASS",
+  "checkedAt": "2026-10-25T08:11:30Z",
+  "buildHTMLSHA256": "0f80e2324e2e74aa2c179f17d5e4f39ac7a82d0f3912c63b3235ede9b4a3bc31",
+  "rebuiltCurrentSource": true,
+  "elapsedSeconds": 1481.21,
+  "checks": [
+    "Real twelve-plant CLI round and six mined attacks",
+    "Encrypted storage and database outage/recovery",
+    "Agent unit checks",
+    "Five browser participants and three deliberately lost-response recoveries",
+    "Qualifying badge and above-average witness rejection",
+    "Six fresh UI attacks",
+    "English/Turkish desktop/mobile accessibility",
+    "Mobile Lighthouse rendering",
+    "Matching dossier API downloads and independent reproduction",
+    "Real local-model report/review/commit/share workflow",
+    "Indexer reorganisation and idle recovery"
+  ],
+  "remoteCIExecuted": false,
+  "physicalPhoneTest": false,
+  "scope": "Fresh owned local Anvil/PostgreSQL/model/trustee stack and newly built private application; no public transactions or hosting"
+}

@@ -1,0 +1,98 @@
+{
+  "simulation": true,
+  "status": "PASS",
+  "checkedAt": "2026-10-25T18:51:00.569912+00:00",
+  "scope": "Linux arm64 Docker source bootstrap, real twelve-plant Anvil/trustee/PostgreSQL gate, six mined rejections, encrypted storage, database outage/recovery and independent host-browser verification through container routing",
+  "container": "ortalama-v2-reaudit-20261025-v2",
+  "containerModelAndRuntimeInitiallyEmpty": true,
+  "publicToolArchivesCached": true,
+  "networkInstallResumedAfterInterruptions": true,
+  "sourceRefreshedDuringRetry": true,
+  "criticalSourceMatchesHost": true,
+  "sourceSHA256": {
+    "scripts/bootstrap-demo.py": "fb52b81c935e24a1d2d0900626bd814a01aa23f55b135f87a5f4b76c3fd543c3",
+    "scripts/bootstrap_install.py": "22e6bdf50138fc31641b6b61bb97cf8be7b68cf7b758b9d64e4987cef85e3e77",
+    "scripts/run-services.py": "e26318684255fb8c0915000a66a5846def05f44bac6e5c2bb94ea852e4f51ceb",
+    "services/operator_app.py": "ebc9b1d9958d5d732f91c15f0689bc8e8d14a13c91ff474fa0382b3284637aef",
+    "services/plant_agent/engine.py": "75b98f0ad038057235a7ac1d502715a1e6fa9c225324a21bfc09c62715389e53",
+    "services/indexer/app.py": "7204d15aa0a765114a2e749e35a9f2ae1126686f849a1354ec1f705b3642b1c7",
+    "apps/web/src/pages/ReportPlant.tsx": "ea265eda2be7e2548ea6a9010cbc673d49a6092c949871015e89583fa257fafe",
+    "apps/web/src/pages/Evidence.tsx": "f397610a86070fcd989fd755764b301475e965779c6cbe03678819c844bed26f",
+    "apps/web/src/style.css": "da6e3058bbda78aa42720302395feb59cd83e1abdf7bbfaf9d9ec14d50bda9c6",
+    "packages/protocol/src/runtime.ts": "65c886ba07997e2e0ee2a9dc2a7161ad1391f726da5fcc79af7b0f5ec43f285e",
+    "packages/protocol/src/verify.ts": "ac6356cf9059f48c678648ea881a58201135d02530bf75c26573fdff04e7a173",
+    "packages/protocol/src/public-chain.ts": "4aa53d391312231ff3ce2f83146be19e5d1ca9b8e6febcdbb3ab4703b6d14cbc",
+    "contracts/src/OrtalamaRound.sol": "5f44dc6e9b8626b56ec8a82159c8b681b18e7ae280ddf00cdb5ba24fa478a186",
+    "contracts/src/BadgeRegistry.sol": "80b7434cef477590ccd3d47faa32e5ac43dd1af3c5595d3424219616987149ae"
+  },
+  "gate": {
+    "status": "PASS",
+    "chainId": 31337,
+    "mainRoundId": "1",
+    "result": {
+      "verified": true,
+      "simulation": true,
+      "roundId": "1",
+      "manifestHash": "0x36a8361c90205382e215a5a94cdde9f443c7f21f0ccb6dd83d49ba6c04261550",
+      "SE": "6483829053",
+      "SP": "7350000000",
+      "intensity": "882153",
+      "coveragePpm": "800000",
+      "representativePolicyFlag": true,
+      "steps": [
+        "Exact frozen manifest",
+        "All incoming points and aggregate point sums",
+        "Every published trustee sum against VSS commitments",
+        "Threshold interpolation and aggregate openings",
+        "Stored intensity and declared-denominator coverage"
+      ]
+    },
+    "attacks": [
+      {
+        "status": "reverted",
+        "error": "AggregateMismatch"
+      },
+      {
+        "status": "reverted",
+        "error": "UnknownVerifier"
+      },
+      {
+        "status": "reverted",
+        "error": "AlreadyCommitted"
+      },
+      {
+        "status": "reverted",
+        "error": "CohortTooSmall"
+      },
+      {
+        "status": "reverted",
+        "error": "InvalidProof"
+      },
+      {
+        "status": "reverted",
+        "error": "WrongRound"
+      }
+    ]
+  },
+  "storage": {
+    "simulation": true,
+    "status": "PASS",
+    "separateSigningKeys": 3,
+    "separateEncryptionKeys": 3,
+    "separateStorageKeys": 3,
+    "encryptedRowsChecked": 52,
+    "modifiedCiphertextsRejected": 52,
+    "crossNodeStorageKeysRejected": 52,
+    "plaintextRecordsPersisted": 0
+  },
+  "databaseRecovery": true,
+  "independentMobileSizedBrowserVerified": true,
+  "physicalPhoneTest": false,
+  "pageErrors": [],
+  "elapsedSecondsFromReadinessObserver": 329.63,
+  "limits": [
+    "Public checksum-verified runtime archives were cached from the initial failed attempt; this is not an uncached Internet-speed benchmark",
+    "The same owned container resumed incomplete installs after network interruptions; no host site-packages, chain state or private keys were imported",
+    "The application source was refreshed during retry; recorded source hashes identify tested code separately from its original base-image digest"
+  ]
+}

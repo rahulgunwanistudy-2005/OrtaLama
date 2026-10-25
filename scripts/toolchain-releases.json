@@ -1,0 +1,61 @@
+{
+  "accessed_on": "2026-10-22",
+  "foundry": {
+    "source": "https://github.com/foundry-rs/foundry/releases/tag/v1.8.5",
+    "api": "https://api.github.com/repos/foundry-rs/foundry/releases/403938064",
+    "accessed_on": "2026-10-22",
+    "version": "v1.8.5",
+    "assets": [
+      {
+        "name": "foundry_v1.8.5_darwin_amd64.tar.gz",
+        "url": "https://github.com/foundry-rs/foundry/releases/download/v1.8.5/foundry_v1.8.5_darwin_amd64.tar.gz",
+        "sha256": "b919f69bb4231ad68beaaba9dc8f7d36d9d552cef1a76a8bf69c2bdfd974339a",
+        "bytes": 133090112
+      },
+      {
+        "name": "foundry_v1.8.5_darwin_arm64.tar.gz",
+        "url": "https://github.com/foundry-rs/foundry/releases/download/v1.8.5/foundry_v1.8.5_darwin_arm64.tar.gz",
+        "sha256": "56049728e25e44a61c7f2e49438023b0890cb45850ffcb7c882f90cd998baf83",
+        "bytes": 121257495
+      },
+      {
+        "name": "foundry_v1.8.5_linux_amd64.tar.gz",
+        "url": "https://github.com/foundry-rs/foundry/releases/download/v1.8.5/foundry_v1.8.5_linux_amd64.tar.gz",
+        "sha256": "6c66ffcc55fa4249197721baa3098bc208014ea1d8aa04b2ed50ac6bccffb226",
+        "bytes": 117753167
+      },
+      {
+        "name": "foundry_v1.8.5_linux_arm64.tar.gz",
+        "url": "https://github.com/foundry-rs/foundry/releases/download/v1.8.5/foundry_v1.8.5_linux_arm64.tar.gz",
+        "sha256": "5bdce3dade8b6f0a65d4fccf6908426aee4905a988b08dce79d0a72fe7498310",
+        "bytes": 130236927
+      }
+    ]
+  },
+  "ollama": {
+    "source": "https://github.com/ollama/ollama/releases/tag/v0.40.7",
+    "api": "https://api.github.com/repos/ollama/ollama/releases/416126438",
+    "accessed_on": "2026-10-22",
+    "version": "v0.40.7",
+    "assets": [
+      {
+        "name": "ollama-darwin.tgz",
+        "url": "https://github.com/ollama/ollama/releases/download/v0.40.7/ollama-darwin.tgz",
+        "sha256": "6c8b378e423a4c959b586c0bb62865d20ae057e817f1a8ee10abcc44bde6abab",
+        "bytes": 174723727
+      },
+      {
+        "name": "ollama-linux-amd64.tar.zst",
+        "url": "https://github.com/ollama/ollama/releases/download/v0.40.7/ollama-linux-amd64.tar.zst",
+        "sha256": "7f082e625b4c334df84ed1558fe282d6d8091fe3545790aef30b3a9c50d44d41",
+        "bytes": 1505607169
+      },
+      {
+        "name": "ollama-linux-arm64.tar.zst",
+        "url": "https://github.com/ollama/ollama/releases/download/v0.40.7/ollama-linux-arm64.tar.zst",
+        "sha256": "c74249e87795b1437ce0f484adfd05b4628d7497472c475b13ec6db69ecc69cf",
+        "bytes": 1561537851
+      }
+    ]
+  }
+}

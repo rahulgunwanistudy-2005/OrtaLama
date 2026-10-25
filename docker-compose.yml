@@ -1,0 +1,19 @@
+name: ortalama-v2-local
+services:
+  demo:
+    build: .
+    init: true
+    ports:
+      - "127.0.0.1:5173:5173"
+    environment:
+      ORTALAMA_WEB_HOST: "0.0.0.0"
+      ORTALAMA_WEB_PORT: "5173"
+    volumes:
+      - simulated-runtime:/app/.runtime
+      - public-model-cache:/app/.tools/ollama/models
+      - tool-cache:/app/.tools/downloads
+    stop_grace_period: 40s
+volumes:
+  simulated-runtime:
+  public-model-cache:
+  tool-cache:

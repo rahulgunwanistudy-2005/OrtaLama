@@ -1,0 +1,29 @@
+{
+  "simulation": true,
+  "status": "HOST_LOCAL_PASS_CONTAINER_PENDING",
+  "checked_on": "2026-10-23",
+  "publicSourceCopyWithoutProjectDependencies": true,
+  "downloadedPinnedToolRuntimes": true,
+  "downloadedPinnedModel": true,
+  "bootstrapBuildCompleted": true,
+  "seededCLIAndStorageAndDatabaseRecoveryCompleted": true,
+  "hostPrerequisites": "Preinstalled Node 24, Python 3.11 and PostgreSQL 14.17 on macOS; not a bare-machine OS test",
+  "testedBootstrapSHA256": "98d3c9a7e1041a7d7277dc72f245c7f169468bc777981ce977ed42a30155537b",
+  "currentBootstrapSHA256": "5342d7defa2ccc0060dd686599cbee20f21cb1e9c7badfd326793d957999ab98",
+  "note": "The clean source copy predates final recovery/API/UI hardening and the small schema/retry bootstrap additions. Targeted current-build gates cover those changes; the clean copy establishes dependency/runtime startup, not a separate final-source CI run.",
+  "evidenceLogSHA256": {
+    ".runtime/SIMULATED_clean_bootstrap.log": "0fd4c384829d9d6aaeae9da98d4798fb2a43c0c9747598c273d418b903345c60",
+    ".runtime/SIMULATED_clean_demo.log": "9460e11522ba3a0b11f2f5ccfb9497af5d337728fd051e5ef2cb9c8bc0419831",
+    ".runtime/SIMULATED_final_demo.log": "d4568b4f7e7e50822250aee3708a6d17a87029f7dbfa523f7c1e7e9c6aa5cd47"
+  },
+  "currentCheckoutMakeDemo": {
+    "entrypoint": "make demo",
+    "passed": true,
+    "realisticDatasetPlants": 12,
+    "intensityPpm": "882153",
+    "minedRevertedAttacks": 6,
+    "encryptedRowsChecked": 52
+  },
+  "container": "PENDING: Docker daemon stopped with EOF mid-build; no container pass claimed",
+  "publication": "No commit, push, release upload, image push or public deployment"
+}

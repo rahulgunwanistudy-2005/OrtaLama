@@ -54,9 +54,48 @@ jobs:
       - run: python -m venv .tools/audit-venv
       - run: .tools/audit-venv/bin/python -m pip install -r requirements-audit.txt
       - run: make analyze-contracts
+      - name: Local service integration gate
+        run: |
+          make bootstrap-services
+          make e2e-cli
       - name: Verify the committed public verifier bundle
         env:
           ORTALAMA_PUBLISHED_VERIFIER_FIXTURE: data/simulated/SIMULATED_verifier_vectors_397cae5a7b64b128.json
         run: |
           git restore contracts/src/BelowThresholdVerifier.sol contracts/src/CommitmentValidityVerifier.sol
           forge test --match-contract VerifierTest
+  full-product-local-gate:
+    needs: crypto-and-facts
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Prepare isolated host dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y postgresql zstd
+          make bootstrap-demo
+          .venv/bin/python -m pip install -r requirements-web-test.txt
+          .venv/bin/python -m playwright install --with-deps chromium
+      - name: Real services, AI, browser, attacks and dossier gates
+        run: |
+          CHROME_BIN=$(.venv/bin/python -c 'from playwright.sync_api import sync_playwright; p=sync_playwright().start(); print(p.chromium.executable_path); p.stop()')
+          .venv/bin/python scripts/run-local-gates.py --chrome "$CHROME_BIN"
+      - name: Preserve only public evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: SIMULATED-public-product-gates
+          path: |
+            docs/SIMULATED_*RESULTS.json
+            data/simulated/SIMULATED_PHASE4_CLI_RESULTS.json
+            data/simulated/SIMULATED_PHASE5_AGENT_RESULTS.json
+            output/pdf/SIMULATED_dossier_seed_round_1.*
+          if-no-files-found: warn

@@ -1,9 +1,12 @@
 node_modules/
 .tools/
-lib/
+/lib/
 .venv/
+.runtime/
+tmp/
 __pycache__/
 .pytest_cache/
+# Private machine-local environment settings and secrets.
 .env
 .env.*
 !.env.example
@@ -12,12 +15,21 @@ cache/
 coverage/
 !docs/coverage/
 dist/
+apps/web/public/crypto/
+apps/web/public/data/
+apps/web/public/reports/
 *.r1cs
 *.wasm
 *.zkey
+!circuits/ceremony/public/*_final.zkey
 *.ptau
 *.wtns
 *.download
 circuits/build/
 data/simulated/*key*
 data/simulated/*secret*
+# Generated hosting bundles, archives and recordings; the hosted site is rebuilt
+# from source plus deploy/public-snapshot by scripts/build-public-site.mjs.
+output/
+# Foundry script dry-run broadcasts.
+broadcast/
