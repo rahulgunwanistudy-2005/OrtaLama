@@ -2,9 +2,9 @@
   "reviewScope": "Application source reviewed by build agent; not an independent security audit",
   "reviewedApplicationSha256": {
     "contracts/src/ProtocolTypes.sol": "98538580c808084338dc35ce871bf88e112e831cc64a5254257f4250398c05b1",
-    "contracts/src/BadgeRegistry.sol": "281d180d3d9aa2d2013e69a19fa4042c7f0beeed41b917493bf0a98c16ae10b9",
+    "contracts/src/BadgeRegistry.sol": "80b7434cef477590ccd3d47faa32e5ac43dd1af3c5595d3424219616987149ae",
     "contracts/src/BabyJubjub.sol": "3893d8af3a2428889267c695e4a7bdc9089ff23064d689dee478b4d41a28f319",
-    "contracts/src/OrtalamaRound.sol": "03094089482cbcbf3a1e9a5d08e2501e4f0e260df46d78def9687f05fd5b0325"
+    "contracts/src/OrtalamaRound.sol": "5f44dc6e9b8626b56ec8a82159c8b681b18e7ae280ddf00cdb5ba24fa478a186"
   },
   "rules": {
     "High:incorrect-return": {
@@ -52,5 +52,9 @@
       "generatedOnly": false,
       "reason": "Compiler-generated runtime bytecode constants are hashed to authenticate actual verifier code, rather than handwritten numeric approximations."
     }
+  },
+  "latestReview": {
+    "date": "2026-10-24",
+    "change": "Only verifier gas caps in BadgeRegistry and OrtalamaRound increased from1M to2M, plus explanatory comment. Real Monad proof fails at1M/passes1.5M; 28 contract tests pass. Same135 Slither findings/counts/files reviewed; no new detector or application warning. Crypto/security simulated reviewer recheck found no serious defect. Not an independent audit."
   }
 }

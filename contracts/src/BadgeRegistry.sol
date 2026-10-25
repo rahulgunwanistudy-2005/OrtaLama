@@ -69,7 +69,7 @@ contract BadgeRegistry {
             uint256(uint160(address(this))),
             proof.contextTag
         ];
-        if (!verifier.verifyProof{gas: 1_000_000}(proof.a, proof.b, proof.c, inputs)) revert InvalidProof();
+        if (!verifier.verifyProof{gas: 2_000_000}(proof.a, proof.b, proof.c, inputs)) revert InvalidProof();
         bytes32 proofHash = keccak256(abi.encode(proof, inputs));
         records[id] = Badge(true, roundId, installationId, thresholdId, proofHash);
         emit BadgeAttested(id, roundId, installationId, thresholdId, proofHash);

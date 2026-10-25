@@ -20,7 +20,7 @@
           "gas": 230361255
         }
       },
-      "duration": "9s 511ms 797µs 334ns",
+      "duration": "10s 282ms 301µs 83ns",
       "gasSnapshots": {}
     },
     {
@@ -30,16 +30,16 @@
       "kind": {
         "Fuzz": {
           "first_case": {
-            "gas": 3485947,
-            "stipend": 22272
+            "gas": 3405237,
+            "stipend": 22056
           },
           "runs": 256,
-          "mean_gas": 3408488,
-          "median_gas": 3409124,
+          "mean_gas": 3460825,
+          "median_gas": 3469977,
           "failed_corpus_replays": 0
         }
       },
-      "duration": "52s 65ms 505µs 584ns",
+      "duration": "52s 316ms 251µs 375ns",
       "gasSnapshots": {}
     },
     {
@@ -49,16 +49,16 @@
       "kind": {
         "Fuzz": {
           "first_case": {
-            "gas": 29021,
-            "stipend": 21276
+            "gas": 28973,
+            "stipend": 21228
           },
           "runs": 256,
-          "mean_gas": 7761,
+          "mean_gas": 7755,
           "median_gas": 7745,
           "failed_corpus_replays": 0
         }
       },
-      "duration": "52s 59ms 851µs 542ns",
+      "duration": "24ms 507µs 833ns",
       "gasSnapshots": {}
     },
     {
@@ -70,7 +70,7 @@
           "gas": 925842
         }
       },
-      "duration": "17ms 761µs 291ns",
+      "duration": "18ms 981µs 959ns",
       "gasSnapshots": {
         "BabyJubjub": {
           "validate-and-multiply": "912888"
@@ -86,7 +86,7 @@
           "gas": 5156159
         }
       },
-      "duration": "41ms 651µs 42ns",
+      "duration": "48ms 446µs 292ns",
       "gasSnapshots": {}
     },
     {
@@ -98,7 +98,7 @@
           "gas": 501041
         }
       },
-      "duration": "5ms 413µs 458ns",
+      "duration": "3ms 899µs 875ns",
       "gasSnapshots": {}
     },
     {
@@ -110,7 +110,7 @@
           "gas": 9512036
         }
       },
-      "duration": "48ms 71µs 875ns",
+      "duration": "29ms 625ns",
       "gasSnapshots": {}
     },
     {
@@ -122,7 +122,7 @@
           "gas": 154463205
         }
       },
-      "duration": "1s 441ms 304µs 125ns",
+      "duration": "1s 352ms 771µs 959ns",
       "gasSnapshots": {}
     },
     {
@@ -131,10 +131,10 @@
       "status": "Success",
       "kind": {
         "Unit": {
-          "gas": 54771193
+          "gas": 54771276
         }
       },
-      "duration": "510ms 963µs 667ns",
+      "duration": "510ms 640µs 83ns",
       "gasSnapshots": {}
     },
     {
@@ -146,7 +146,7 @@
           "gas": 6037932
         }
       },
-      "duration": "26ms 242µs 167ns",
+      "duration": "19ms 736µs",
       "gasSnapshots": {}
     },
     {
@@ -158,7 +158,7 @@
           "gas": 158679498
         }
       },
-      "duration": "1s 438ms 973µs 42ns",
+      "duration": "1s 554ms 136µs 125ns",
       "gasSnapshots": {}
     },
     {
@@ -170,7 +170,7 @@
           "gas": 19808080
         }
       },
-      "duration": "105ms 152µs 959ns",
+      "duration": "112ms 619µs",
       "gasSnapshots": {}
     },
     {
@@ -180,16 +180,16 @@
       "kind": {
         "Fuzz": {
           "first_case": {
-            "gas": 83380545,
-            "stipend": 21344
+            "gas": 72837050,
+            "stipend": 21320
           },
           "runs": 256,
-          "mean_gas": 100704988,
+          "mean_gas": 97609484,
           "median_gas": 93933486,
           "failed_corpus_replays": 0
         }
       },
-      "duration": "47s 69ms 367µs 458ns",
+      "duration": "48s 796ms 957µs 791ns",
       "gasSnapshots": {}
     },
     {
@@ -201,7 +201,7 @@
           "gas": 137414094
         }
       },
-      "duration": "1s 153ms 415µs 959ns",
+      "duration": "1s 641ms 150µs 542ns",
       "gasSnapshots": {
         "OrtalamaRound": {
           "close-twelve-plants": "1988912"
@@ -214,10 +214,10 @@
       "status": "Success",
       "kind": {
         "Unit": {
-          "gas": 23823012
+          "gas": 24807387
         }
       },
-      "duration": "157ms 866µs 334ns",
+      "duration": "126ms 673µs 125ns",
       "gasSnapshots": {}
     },
     {
@@ -229,7 +229,7 @@
           "gas": 146774195
         }
       },
-      "duration": "1s 292ms 421µs 666ns",
+      "duration": "1s 272ms 771µs",
       "gasSnapshots": {}
     },
     {
@@ -241,7 +241,7 @@
           "gas": 146753464
         }
       },
-      "duration": "1s 329ms 739µs 417ns",
+      "duration": "1s 497ms 51µs",
       "gasSnapshots": {}
     },
     {
@@ -253,7 +253,7 @@
           "gas": 288891360
         }
       },
-      "duration": "4s 156ms 167µs 541ns",
+      "duration": "5s 262ms 924µs 83ns",
       "gasSnapshots": {}
     },
     {
@@ -262,10 +262,10 @@
       "status": "Success",
       "kind": {
         "Unit": {
-          "gas": 59390320
+          "gas": 59390422
         }
       },
-      "duration": "571ms 959µs 917ns",
+      "duration": "469ms 571µs 292ns",
       "gasSnapshots": {}
     },
     {
@@ -277,7 +277,7 @@
           "gas": 59261532
         }
       },
-      "duration": "490ms 258µs 875ns",
+      "duration": "533ms 191µs 791ns",
       "gasSnapshots": {}
     },
     {
@@ -289,7 +289,7 @@
           "gas": 23286297
         }
       },
-      "duration": "221ms 971µs 833ns",
+      "duration": "265ms 219µs 792ns",
       "gasSnapshots": {}
     },
     {
@@ -298,10 +298,10 @@
       "status": "Success",
       "kind": {
         "Unit": {
-          "gas": 162354366
+          "gas": 162354337
         }
       },
-      "duration": "1s 303ms 297µs 834ns",
+      "duration": "1s 585ms 299µs 375ns",
       "gasSnapshots": {}
     },
     {
@@ -313,7 +313,7 @@
           "gas": 15018792
         }
       },
-      "duration": "94ms 367µs 125ns",
+      "duration": "95ms 116µs 875ns",
       "gasSnapshots": {}
     },
     {
@@ -327,28 +327,28 @@
           "reverts": 0,
           "workers": 1,
           "metrics": {
-            "contracts/test/RoundInvariant.t.sol:RoundHandler.close": {
-              "calls": 413,
-              "reverts": 0,
-              "discards": 0
-            },
-            "contracts/test/RoundInvariant.t.sol:RoundHandler.advance": {
-              "calls": 395,
-              "reverts": 0,
-              "discards": 0
-            },
-            "contracts/test/RoundInvariant.t.sol:RoundHandler.publishCorrupt": {
-              "calls": 430,
-              "reverts": 0,
-              "discards": 0
-            },
             "contracts/test/RoundInvariant.t.sol:RoundHandler.publish": {
-              "calls": 386,
+              "calls": 400,
+              "reverts": 0,
+              "discards": 0
+            },
+            "contracts/test/RoundInvariant.t.sol:RoundHandler.close": {
+              "calls": 456,
               "reverts": 0,
               "discards": 0
             },
             "contracts/test/RoundInvariant.t.sol:RoundHandler.commit": {
-              "calls": 424,
+              "calls": 392,
+              "reverts": 0,
+              "discards": 0
+            },
+            "contracts/test/RoundInvariant.t.sol:RoundHandler.publishCorrupt": {
+              "calls": 400,
+              "reverts": 0,
+              "discards": 0
+            },
+            "contracts/test/RoundInvariant.t.sol:RoundHandler.advance": {
+              "calls": 400,
               "reverts": 0,
               "discards": 0
             }
@@ -357,7 +357,7 @@
           "optimization_best_value": null
         }
       },
-      "duration": "1m 12s 863ms 455µs 792ns",
+      "duration": "1m 13s 116ms 811µs 42ns",
       "gasSnapshots": {}
     },
     {
@@ -369,7 +369,7 @@
           "gas": 9345403
         }
       },
-      "duration": "273ms 439µs 83ns",
+      "duration": "232ms 530µs 916ns",
       "gasSnapshots": {}
     },
     {
@@ -381,7 +381,7 @@
           "gas": 2084672
         }
       },
-      "duration": "12ms 17µs",
+      "duration": "7ms 370µs 750ns",
       "gasSnapshots": {}
     },
     {
@@ -393,7 +393,7 @@
           "gas": 647302
         }
       },
-      "duration": "16ms 769µs 209ns",
+      "duration": "23ms 232µs 917ns",
       "gasSnapshots": {}
     },
     {
@@ -405,7 +405,7 @@
           "gas": 118111
         }
       },
-      "duration": "146µs 166ns",
+      "duration": "150µs 667ns",
       "gasSnapshots": {}
     }
   ],
@@ -644,10 +644,10 @@
   ],
   "sha256": {
     "contracts/src/BabyJubjub.sol": "3893d8af3a2428889267c695e4a7bdc9089ff23064d689dee478b4d41a28f319",
-    "contracts/src/BadgeRegistry.sol": "281d180d3d9aa2d2013e69a19fa4042c7f0beeed41b917493bf0a98c16ae10b9",
+    "contracts/src/BadgeRegistry.sol": "80b7434cef477590ccd3d47faa32e5ac43dd1af3c5595d3424219616987149ae",
     "contracts/src/BelowThresholdVerifier.sol": "5090ed8e4131daa0defaf647c02e8c68810ab0ed938dc2532e2d567e1faa6599",
     "contracts/src/CommitmentValidityVerifier.sol": "3a47f0a3477694878422581d8373025179f5b11ca377f3ae2b3e7ba280c42e53",
-    "contracts/src/OrtalamaRound.sol": "03094089482cbcbf3a1e9a5d08e2501e4f0e260df46d78def9687f05fd5b0325",
+    "contracts/src/OrtalamaRound.sol": "5f44dc6e9b8626b56ec8a82159c8b681b18e7ae280ddf00cdb5ba24fa478a186",
     "contracts/src/ProtocolTypes.sol": "98538580c808084338dc35ce871bf88e112e831cc64a5254257f4250398c05b1"
   }
 }

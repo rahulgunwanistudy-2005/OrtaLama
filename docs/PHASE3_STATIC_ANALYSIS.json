@@ -27,9 +27,9 @@
     {
       "key": "High:incorrect-return",
       "files": [
-        "contracts/src/BelowThresholdVerifier.sol"
+        "contracts/src/CommitmentValidityVerifier.sol"
       ],
-      "description": "BelowThresholdVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[13]) (contracts/src/BelowThresholdVerifier.sol#95-251) calls BelowThresholdVerifier.verifyProof.asm_0.checkPairing() (contracts/src/BelowThresholdVerifier.sol#130-211) which halt the execution return(uint256,uint256)(0,0x20) (contracts/src/BelowThresholdVerifier.sol#116)\n",
+      "description": "CommitmentValidityVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[14]) (contracts/src/CommitmentValidityVerifier.sol#98-258) calls CommitmentValidityVerifier.verifyProof.asm_0.checkPairing() (contracts/src/CommitmentValidityVerifier.sol#133-216) which halt the execution return(uint256,uint256)(0,0x20) (contracts/src/CommitmentValidityVerifier.sol#119)\n",
       "disposition": "Unmodified snarkjs Yul intentionally returns ABI false from the external verifier on invalid field/precompile input. No caller cleanup or state writes are bypassed. Real proof, all public-input/field-bound mutations, malformed points and low-gas tests exercise fail-closed behavior. Exact generated-source comparison is mandatory."
     },
     {
@@ -37,7 +37,15 @@
       "files": [
         "contracts/src/CommitmentValidityVerifier.sol"
       ],
-      "description": "CommitmentValidityVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[14]) (contracts/src/CommitmentValidityVerifier.sol#98-258) calls CommitmentValidityVerifier.verifyProof.asm_0.checkPairing() (contracts/src/CommitmentValidityVerifier.sol#133-216) which halt the execution return(uint256,uint256)(0,0x20) (contracts/src/CommitmentValidityVerifier.sol#129)\n",
+      "description": "CommitmentValidityVerifier.verifyProof.asm_0.checkPairing() (contracts/src/CommitmentValidityVerifier.sol#133-216) calls CommitmentValidityVerifier.verifyProof.asm_0.g1_mulAccC() (contracts/src/CommitmentValidityVerifier.sol#108-131) which halt the execution return(uint256,uint256)(0,0x20) (contracts/src/CommitmentValidityVerifier.sol#119)\n",
+      "disposition": "Unmodified snarkjs Yul intentionally returns ABI false from the external verifier on invalid field/precompile input. No caller cleanup or state writes are bypassed. Real proof, all public-input/field-bound mutations, malformed points and low-gas tests exercise fail-closed behavior. Exact generated-source comparison is mandatory."
+    },
+    {
+      "key": "High:incorrect-return",
+      "files": [
+        "contracts/src/BelowThresholdVerifier.sol"
+      ],
+      "description": "BelowThresholdVerifier.verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[13]) (contracts/src/BelowThresholdVerifier.sol#95-251) calls BelowThresholdVerifier.verifyProof.asm_0.checkPairing() (contracts/src/BelowThresholdVerifier.sol#130-211) which halt the execution return(uint256,uint256)(0,0x20) (contracts/src/BelowThresholdVerifier.sol#116)\n",
       "disposition": "Unmodified snarkjs Yul intentionally returns ABI false from the external verifier on invalid field/precompile input. No caller cleanup or state writes are bypassed. Real proof, all public-input/field-bound mutations, malformed points and low-gas tests exercise fail-closed behavior. Exact generated-source comparison is mandatory."
     },
     {
@@ -57,19 +65,11 @@
       "disposition": "Unmodified snarkjs Yul intentionally returns ABI false from the external verifier on invalid field/precompile input. No caller cleanup or state writes are bypassed. Real proof, all public-input/field-bound mutations, malformed points and low-gas tests exercise fail-closed behavior. Exact generated-source comparison is mandatory."
     },
     {
-      "key": "High:incorrect-return",
-      "files": [
-        "contracts/src/CommitmentValidityVerifier.sol"
-      ],
-      "description": "CommitmentValidityVerifier.verifyProof.asm_0.checkPairing() (contracts/src/CommitmentValidityVerifier.sol#133-216) calls CommitmentValidityVerifier.verifyProof.asm_0.g1_mulAccC() (contracts/src/CommitmentValidityVerifier.sol#108-131) which halt the execution return(uint256,uint256)(0,0x20) (contracts/src/CommitmentValidityVerifier.sol#129)\n",
-      "disposition": "Unmodified snarkjs Yul intentionally returns ABI false from the external verifier on invalid field/precompile input. No caller cleanup or state writes are bypassed. Real proof, all public-input/field-bound mutations, malformed points and low-gas tests exercise fail-closed behavior. Exact generated-source comparison is mandatory."
-    },
-    {
       "key": "Medium:unused-return",
       "files": [
         "contracts/src/OrtalamaRound.sol"
       ],
-      "description": "OrtalamaRound.recordFault(uint64,uint8,bytes32,ProtocolTypes.Sum,bytes) (contracts/src/OrtalamaRound.sol#370-383) ignores return value by (signer,error,None) = ECDSA.tryRecover(digest,signature) (contracts/src/OrtalamaRound.sol#378)\n",
+      "description": "OrtalamaRound.recordFault(uint64,uint8,bytes32,ProtocolTypes.Sum,bytes) (contracts/src/OrtalamaRound.sol#371-384) ignores return value by (signer,error,None) = ECDSA.tryRecover(digest,signature) (contracts/src/OrtalamaRound.sol#379)\n",
       "disposition": "Only the third ECDSA.tryRecover diagnostic argument is discarded. The RecoverError enum and recovered signer are both checked; protocol custom errors intentionally replace the library diagnostic."
     },
     {
@@ -77,7 +77,7 @@
       "files": [
         "contracts/src/OrtalamaRound.sol"
       ],
-      "description": "OrtalamaRound.commit(ProtocolTypes.Statement,bytes32,bytes32[3],bytes,bytes,bytes32,bytes32[],bytes32[],ProtocolTypes.Proof) (contracts/src/OrtalamaRound.sol#225-301) ignores return value by (signer,error,None) = ECDSA.tryRecover(digest,verifierSignature) (contracts/src/OrtalamaRound.sol#249)\n",
+      "description": "OrtalamaRound.commit(ProtocolTypes.Statement,bytes32,bytes32[3],bytes,bytes,bytes32,bytes32[],bytes32[],ProtocolTypes.Proof) (contracts/src/OrtalamaRound.sol#225-302) ignores return value by (signer,error,None) = ECDSA.tryRecover(digest,verifierSignature) (contracts/src/OrtalamaRound.sol#249)\n",
       "disposition": "Only the third ECDSA.tryRecover diagnostic argument is discarded. The RecoverError enum and recovered signer are both checked; protocol custom errors intentionally replace the library diagnostic."
     },
     {
@@ -85,7 +85,7 @@
       "files": [
         "contracts/src/OrtalamaRound.sol"
       ],
-      "description": "OrtalamaRound.commit(ProtocolTypes.Statement,bytes32,bytes32[3],bytes,bytes,bytes32,bytes32[],bytes32[],ProtocolTypes.Proof) (contracts/src/OrtalamaRound.sol#225-301) ignores return value by (linkSigner,linkError,None) = ECDSA.tryRecover(link,pqLinkSignature) (contracts/src/OrtalamaRound.sol#259)\n",
+      "description": "OrtalamaRound.commit(ProtocolTypes.Statement,bytes32,bytes32[3],bytes,bytes,bytes32,bytes32[],bytes32[],ProtocolTypes.Proof) (contracts/src/OrtalamaRound.sol#225-302) ignores return value by (linkSigner,linkError,None) = ECDSA.tryRecover(link,pqLinkSignature) (contracts/src/OrtalamaRound.sol#259)\n",
       "disposition": "Only the third ECDSA.tryRecover diagnostic argument is discarded. The RecoverError enum and recovered signer are both checked; protocol custom errors intentionally replace the library diagnostic."
     },
     {
@@ -93,7 +93,7 @@
       "files": [
         "contracts/src/OrtalamaRound.sol"
       ],
-      "description": "OrtalamaRound.startSharing(uint64) (contracts/src/OrtalamaRound.sol#303-309) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.sharingDeadline (contracts/src/OrtalamaRound.sol#306)\n",
+      "description": "OrtalamaRound.publishSum(uint64,uint8,bytes32,ProtocolTypes.Sum) (contracts/src/OrtalamaRound.sol#348-361) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.closingDeadline (contracts/src/OrtalamaRound.sol#352)\n",
       "disposition": "Timestamps enforce coarse lifecycle deadlines, with no random selection, asset payout or price oracle. Block producer timestamp tolerance is accepted for the demo; operators must use ample windows."
     },
     {
@@ -101,7 +101,15 @@
       "files": [
         "contracts/src/OrtalamaRound.sol"
       ],
-      "description": "OrtalamaRound.startClosing(uint64) (contracts/src/OrtalamaRound.sol#326-339) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.closingDeadline (contracts/src/OrtalamaRound.sol#330)\n",
+      "description": "OrtalamaRound.startSharing(uint64) (contracts/src/OrtalamaRound.sol#304-310) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.sharingDeadline (contracts/src/OrtalamaRound.sol#307)\n",
+      "disposition": "Timestamps enforce coarse lifecycle deadlines, with no random selection, asset payout or price oracle. Block producer timestamp tolerance is accepted for the demo; operators must use ample windows."
+    },
+    {
+      "key": "Low:timestamp",
+      "files": [
+        "contracts/src/OrtalamaRound.sol"
+      ],
+      "description": "OrtalamaRound.acknowledge(uint64,bytes32,uint8,bytes32) (contracts/src/OrtalamaRound.sol#312-325) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.sharingDeadline (contracts/src/OrtalamaRound.sol#316)\n",
       "disposition": "Timestamps enforce coarse lifecycle deadlines, with no random selection, asset payout or price oracle. Block producer timestamp tolerance is accepted for the demo; operators must use ample windows."
     },
     {
@@ -125,7 +133,7 @@
       "files": [
         "contracts/src/OrtalamaRound.sol"
       ],
-      "description": "OrtalamaRound.publishSum(uint64,uint8,bytes32,ProtocolTypes.Sum) (contracts/src/OrtalamaRound.sol#347-360) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.closingDeadline (contracts/src/OrtalamaRound.sol#351)\n",
+      "description": "OrtalamaRound.startClosing(uint64) (contracts/src/OrtalamaRound.sol#327-340) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.closingDeadline (contracts/src/OrtalamaRound.sol#331)\n",
       "disposition": "Timestamps enforce coarse lifecycle deadlines, with no random selection, asset payout or price oracle. Block producer timestamp tolerance is accepted for the demo; operators must use ample windows."
     },
     {
@@ -133,15 +141,7 @@
       "files": [
         "contracts/src/OrtalamaRound.sol"
       ],
-      "description": "OrtalamaRound.commit(ProtocolTypes.Statement,bytes32,bytes32[3],bytes,bytes,bytes32,bytes32[],bytes32[],ProtocolTypes.Proof) (contracts/src/OrtalamaRound.sol#225-301) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.commitDeadline (contracts/src/OrtalamaRound.sol#240)\n",
-      "disposition": "Timestamps enforce coarse lifecycle deadlines, with no random selection, asset payout or price oracle. Block producer timestamp tolerance is accepted for the demo; operators must use ample windows."
-    },
-    {
-      "key": "Low:timestamp",
-      "files": [
-        "contracts/src/OrtalamaRound.sol"
-      ],
-      "description": "OrtalamaRound.acknowledge(uint64,bytes32,uint8,bytes32) (contracts/src/OrtalamaRound.sol#311-324) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.sharingDeadline (contracts/src/OrtalamaRound.sol#315)\n",
+      "description": "OrtalamaRound.commit(ProtocolTypes.Statement,bytes32,bytes32[3],bytes,bytes,bytes32,bytes32[],bytes32[],ProtocolTypes.Proof) (contracts/src/OrtalamaRound.sol#225-302) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- block.timestamp > r.config.commitDeadline (contracts/src/OrtalamaRound.sol#240)\n",
       "disposition": "Timestamps enforce coarse lifecycle deadlines, with no random selection, asset payout or price oracle. Block producer timestamp tolerance is accepted for the demo; operators must use ample windows."
     },
     {
@@ -221,7 +221,7 @@
       "files": [
         "contracts/src/OrtalamaRound.sol"
       ],
-      "description": "OrtalamaRound.commit(ProtocolTypes.Statement,bytes32,bytes32[3],bytes,bytes,bytes32,bytes32[],bytes32[],ProtocolTypes.Proof) (contracts/src/OrtalamaRound.sol#225-301) has a high cyclomatic complexity (12).\n",
+      "description": "OrtalamaRound.commit(ProtocolTypes.Statement,bytes32,bytes32[3],bytes,bytes,bytes32,bytes32[],bytes32[],ProtocolTypes.Proof) (contracts/src/OrtalamaRound.sol#225-302) has a high cyclomatic complexity (12).\n",
       "disposition": "Commit and close implement explicit protocol guards and three-pair fallback. Covered by lifecycle, fuzz and stateful invariant tests; complexity remains a maintenance risk."
     },
     {

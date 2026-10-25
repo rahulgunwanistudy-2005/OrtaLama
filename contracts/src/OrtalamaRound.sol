@@ -283,8 +283,9 @@ contract OrtalamaRound is EIP712 {
             proof.contextTag
         ];
         // Engineering gas cap: malformed precompile inputs must not consume an
-        // unbounded relayer allowance. Measured in contract gas snapshots.
-        if (!inputVerifier.verifyProof{gas: 1_000_000}(proof.a, proof.b, proof.c, inputs)) revert InvalidProof();
+        // unbounded relayer allowance. Monad testnet measured valid at 1.5M;
+        // 2M allows headroom for its repriced BN254 precompiles.
+        if (!inputVerifier.verifyProof{gas: 2_000_000}(proof.a, proof.b, proof.c, inputs)) revert InvalidProof();
         Plant storage p = plants[id][s.installationId];
         p.statement = s;
         p.ciphertextHashes = ciphertextHashes;

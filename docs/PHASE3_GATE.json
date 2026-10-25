@@ -1,6 +1,6 @@
 {
   "phase": 3,
-  "status": "LOCAL_PASS_AWAITING_CI",
+  "status": "PASS",
   "testInputs": "SIMULATED",
   "testGroups": 28,
   "customErrorsAsserted": 31,
@@ -27,7 +27,25 @@
     "contracts/src/OrtalamaRound.sol": "03094089482cbcbf3a1e9a5d08e2501e4f0e260df46d78def9687f05fd5b0325",
     "contracts/src/ProtocolTypes.sol": "98538580c808084338dc35ce871bf88e112e831cc64a5254257f4250398c05b1"
   },
-  "ci": null,
+  "ci": {
+    "status": "success",
+    "head_sha": "eb1bf2bfe42502473cd6a034e10e9f0c8a7d399f",
+    "run_id": 39644421007,
+    "url": "https://github.com/rahulgunwanistudy-2005/OrtaLama/actions/runs/39644421007",
+    "verified_on": "2026-10-21",
+    "jobs": [
+      "crypto-and-facts",
+      "groth16-proofs"
+    ],
+    "scope": [
+      "facts, TypeScript/Python core and cross-language vectors",
+      "positive/negative witnesses and real Groth16 proofs",
+      "unit, fuzz, invariant and live Python FFI differential tests",
+      "all executable src coverage",
+      "Slither with explicit reviewed acceptances",
+      "exact committed verifier bundle positive and negative proofs"
+    ]
+  },
   "independentAudit": false,
   "limitations": [
     "Local EVM tests, not a networked service demo or testnet deployment",
