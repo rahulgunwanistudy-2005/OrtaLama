@@ -49,11 +49,13 @@ jobs:
       - run: python -m venv .venv
       - run: .venv/bin/python -m pip install -r packages/crypto-py/requirements.txt
       - run: make bootstrap-contracts
-      # The fresh ceremony above proved the setup pipeline. Contract gates run
+      # The fresh ceremony above proved the setup pipeline. Later gates run
       # against the published proving keys (restored by `make public-keys`), so
-      # restore the committed verifiers generated from those same keys.
-      - name: Use the committed verifiers for the published proving keys
-        run: git restore contracts/src/BelowThresholdVerifier.sol contracts/src/CommitmentValidityVerifier.sol
+      # restore the committed verifiers and verification keys for those keys.
+      - name: Use the committed verifiers and keys for the published proving keys
+        run: |
+          git restore contracts/src/BelowThresholdVerifier.sol contracts/src/CommitmentValidityVerifier.sol \
+            circuits/ceremony/below_threshold_verification_key.json circuits/ceremony/commitment_validity_verification_key.json
       - run: make test-contracts
       - run: make coverage-contracts
       - run: python -m venv .tools/audit-venv
