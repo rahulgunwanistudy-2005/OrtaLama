@@ -1,0 +1,1 @@
+{"simulation":true,"status":"LOCAL_PASS","unchangedHeadSkipsSnapshots":true,"actualAnvilReorgRemovedOrphan":true,"survivingSignatureSidecarRevalidatedAndPreserved":true,"orphanRoundAndItsSidecarRemoved":true,"reorgRebuildCount":1,"postRecoveryIdle":true,"scope":"Isolated real PostgreSQL/indexer/RPC, real validity proofs and co-signatures; no request or bridge mocks"}

@@ -1,0 +1,90 @@
+{
+  "simulation": true,
+  "status": "LOCAL_PASS",
+  "roundId": "1",
+  "pinnedBlock": "191",
+  "payloadSHA256": "0xc7a5237eaf39d3377197f7e52659558474b5c37cdb2b8e145e2005f79a927882",
+  "pdfSHA256": "0xb1f4b361ce26c6409e43df34b42cdf01d49ae00a753514c29ea2174621a8546d",
+  "offlineStatus": "ARITHMETIC_AND_SIGNATURES_VERIFIED_CHAIN_NOT_QUERIED",
+  "onlineStatus": "PINNED_RPC_STATE_ARITHMETIC_AND_SIGNATURES_VERIFIED",
+  "transactionsChecked": 57,
+  "deterministicJSON": true,
+  "deterministicPDFUnderRecordedToolchain": true,
+  "tamperRejections": [
+    {
+      "label": "Unadvertised payload change",
+      "rejected": true,
+      "reason": "DossierDigestMismatch"
+    },
+    {
+      "label": "Rehashed false emissions aggregate",
+      "rejected": true,
+      "reason": "StoredAggregateMismatch"
+    },
+    {
+      "label": "Rehashed false published intensity",
+      "rejected": true,
+      "reason": "StoredResultMismatch"
+    },
+    {
+      "label": "Duplicate frozen member",
+      "rejected": true,
+      "reason": "InvalidManifestMember"
+    },
+    {
+      "label": "Invalid commitment point",
+      "rejected": true,
+      "reason": "NotOnCurve"
+    },
+    {
+      "label": "Changed ML-DSA co-signature",
+      "rejected": true,
+      "reason": "InvalidCoSignature"
+    },
+    {
+      "label": "Missing signature identity with unchanged count",
+      "rejected": true,
+      "reason": "CoSignatureHashMismatch"
+    },
+    {
+      "label": "Private opening injected into public export",
+      "rejected": true,
+      "reason": "DossierSchemaRejected:/payload/snapshot/plants/0"
+    },
+    {
+      "label": "Invented regulatory acceptance",
+      "rejected": true,
+      "reason": "DossierSchemaRejected:/payload/provenance/officialAcceptance"
+    },
+    {
+      "label": "Suppressed limitations",
+      "rejected": true,
+      "reason": "DossierSchemaRejected:/payload/limitations"
+    },
+    {
+      "label": "Changed source scope",
+      "rejected": true,
+      "reason": "DossierSourceProvenanceMismatch"
+    },
+    {
+      "label": "Changed reproduction source hash",
+      "rejected": true,
+      "reason": "ReproductionSourceBuildMismatch"
+    },
+    {
+      "label": "Rehashed counterfeit transaction event",
+      "rejected": true,
+      "reason": "PinnedTransactionEventsMismatch"
+    },
+    {
+      "label": "Wrong independently selected deployment anchor",
+      "rejected": true,
+      "reason": "IndependentDeploymentAnchorMismatch"
+    }
+  ],
+  "publicOnlyFieldCheck": true,
+  "limits": [
+    "Selected RPC and independent deployment anchor are trust inputs; this is not a light client",
+    "No physical report truth, accreditation or regulatory acceptance is established"
+  ]
+}

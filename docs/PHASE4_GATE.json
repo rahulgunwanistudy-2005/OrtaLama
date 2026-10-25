@@ -1,0 +1,20 @@
+{
+  "simulation": true,
+  "status": "LOCAL_PASS",
+  "database": "pg_ctl (PostgreSQL) 14.17 (Homebrew)",
+  "databaseOutageResponses": 2,
+  "databaseRecovery": true,
+  "storage": {
+    "simulation": true,
+    "status": "PASS",
+    "separateSigningKeys": 3,
+    "separateEncryptionKeys": 3,
+    "separateStorageKeys": 3,
+    "encryptedRowsChecked": 52,
+    "modifiedCiphertextsRejected": 52,
+    "crossNodeStorageKeysRejected": 52,
+    "plaintextRecordsPersisted": 0
+  },
+  "cliEvidence": "data/simulated/SIMULATED_PHASE4_CLI_RESULTS.json",
+  "ci": "PENDING: user requested no commits or pushes"
+}

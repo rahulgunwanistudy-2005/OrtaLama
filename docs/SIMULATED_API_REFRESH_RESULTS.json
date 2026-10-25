@@ -1,0 +1,9 @@
+{
+  "simulation": true,
+  "status": "LOCAL_PASS",
+  "actualHTTPRoute": "POST /sync",
+  "syncDelegatedToExistingWriter": true,
+  "attachedBackgroundWriterDisabled": true,
+  "block": "178",
+  "scope": "Updated API delegates its forced sync to the original single cache writer; no second writer runs in the attached API"
+}

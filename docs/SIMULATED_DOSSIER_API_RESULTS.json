@@ -1,0 +1,12 @@
+{
+  "simulation": true,
+  "status": "LOCAL_PASS",
+  "scope": "Actual ASGI handlers using the running local RPC, PostgreSQL sidecars and real signature/arithmetic checks; no request or bridge mocks",
+  "roundId": "1",
+  "pinnedBlock": "191",
+  "payloadSHA256": "0xc7a5237eaf39d3377197f7e52659558474b5c37cdb2b8e145e2005f79a927882",
+  "matchingJSONAndPDF": true,
+  "wrongDigestRejected": true,
+  "invalidBlockRejected": true,
+  "invalidRoundRejected": true
+}
