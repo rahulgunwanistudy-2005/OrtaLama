@@ -1,0 +1,63 @@
+{
+  "simulation": true,
+  "status": "LOCAL_PASS",
+  "buildHTMLSHA256": "0f80e2324e2e74aa2c179f17d5e4f39ac7a82d0f3912c63b3235ede9b4a3bc31",
+  "observations": [
+    {
+      "route": "/",
+      "url": "http://127.0.0.1:57927/",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1508.5862,
+        "largest-contentful-paint": 2562.8793,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1508.5862
+      },
+      "fetchTime": "2026-10-25T08:07:46.285Z",
+      "lighthouseVersion": "13.5.0",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+        "benchmarkIndex": 1445,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "evidence": "docs/qa/SIMULATED_lighthouse_home.json"
+    },
+    {
+      "route": "/verify/5",
+      "url": "http://127.0.0.1:57927/verify/5",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1510.1439,
+        "largest-contentful-paint": 2110.1439,
+        "total-blocking-time": 1,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1510.1439
+      },
+      "fetchTime": "2026-10-25T08:07:58.376Z",
+      "lighthouseVersion": "13.5.0",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36",
+        "hostUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+        "benchmarkIndex": 1797.5,
+        "credits": {
+          "axe-core": "4.14.0"
+        }
+      },
+      "evidence": "docs/qa/SIMULATED_lighthouse_verify.json"
+    }
+  ],
+  "limits": [
+    "Single local mobile-emulation observations; not physical-phone measurements or a controlled production benchmark",
+    "Protocol verification remains an actual worker calculation; no request mocking or hard-coded result"
+  ]
+}

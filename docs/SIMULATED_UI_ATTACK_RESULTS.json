@@ -1,0 +1,108 @@
+{
+  "simulation": true,
+  "status": "LOCAL_PASS",
+  "attacks": [
+    {
+      "attack": 1,
+      "expectedError": "AggregateMismatch",
+      "receipt": {
+        "hash": "0x2beb11ae24dda25cf486dedeae05f214652c1eceb4dc608f567463ea2253165f",
+        "blockNumber": "164",
+        "status": "reverted",
+        "gasUsed": "1440321",
+        "error": "AggregateMismatch",
+        "errorArgs": [
+          1
+        ],
+        "roundId": "6",
+        "faultReceipt": {
+          "hash": "0xe2fab0eedaebec23fb5d10fa7290acdfceb9dfd4963755fb875f3ceac046c797",
+          "blockNumber": "165",
+          "status": "success",
+          "gasUsed": "1463940"
+        },
+        "faultyTrusteeIndex": 1,
+        "closeReceipt": {
+          "hash": "0x59eccacbbacb972a1863511232493e305a00cfbe3b31a219a9c484572ad2e8ab",
+          "blockNumber": "168",
+          "status": "success",
+          "gasUsed": "1991597"
+        }
+      }
+    },
+    {
+      "attack": 2,
+      "expectedError": "UnknownVerifier",
+      "receipt": {
+        "hash": "0x023a4e6d495e0f94600bd6af8e82ddb979d2a8877d0b7a613f40680b299a5ed7",
+        "blockNumber": "172",
+        "status": "reverted",
+        "gasUsed": "68410",
+        "error": "UnknownVerifier",
+        "roundId": "7"
+      }
+    },
+    {
+      "attack": 3,
+      "expectedError": "AlreadyCommitted",
+      "receipt": {
+        "hash": "0xe807c29c28dd84458d41689d99f734395d1a4af98c25f9e58d410a672d04187e",
+        "blockNumber": "178",
+        "status": "reverted",
+        "gasUsed": "68530",
+        "error": "AlreadyCommitted",
+        "roundId": "8",
+        "abortReceipt": {
+          "hash": "0x7cb2ef9e94f544a5c1eb392635aca6870e0efd4bbb3c365a626702b57f423087",
+          "blockNumber": "179",
+          "status": "success",
+          "gasUsed": "32559"
+        }
+      }
+    },
+    {
+      "attack": 4,
+      "expectedError": "CohortTooSmall",
+      "receipt": {
+        "hash": "0xa0de365c5a4664c22c8ca562d4853cf9534a771773be828ee7fba22e990b2bd6",
+        "blockNumber": "188",
+        "status": "reverted",
+        "gasUsed": "28447",
+        "error": "CohortTooSmall",
+        "roundId": "9",
+        "abortReceipt": {
+          "hash": "0xd6dd2a90414746e6d58fb529b2ecff2afeedc07194f71c11953b4729f4b60215",
+          "blockNumber": "189",
+          "status": "success",
+          "gasUsed": "32559"
+        }
+      }
+    },
+    {
+      "attack": 5,
+      "expectedError": "InvalidProof",
+      "receipt": {
+        "hash": "0x9d2a65bac6edf75e86dbdbc77613b0a1dfd7ad8f3dc89c1246f1c0406abe4a1a",
+        "blockNumber": "190",
+        "status": "reverted",
+        "gasUsed": "359087",
+        "error": "InvalidProof",
+        "roundId": "1",
+        "witnessGenerationBlocked": true
+      }
+    },
+    {
+      "attack": 6,
+      "expectedError": "WrongRound",
+      "receipt": {
+        "hash": "0x85af2f9bc7d7068c3e970e3208ea5c68190e921e2e13430c029e9beffe8e852a",
+        "blockNumber": "191",
+        "status": "reverted",
+        "gasUsed": "34920",
+        "error": "WrongRound",
+        "roundId": "2",
+        "proofRoundId": "1"
+      }
+    }
+  ]
+}

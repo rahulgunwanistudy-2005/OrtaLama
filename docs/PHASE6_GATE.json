@@ -1,0 +1,49 @@
+{
+  "simulation": true,
+  "status": "LOCAL_PASS",
+  "checked_on": "2026-10-23",
+  "browserEvidence": "SIMULATED_BROWSER_RESULTS.json",
+  "accessibilityEvidence": "SIMULATED_ACCESSIBILITY_RESULTS.json",
+  "accessibilityChecks": 56,
+  "mobileLighthouse": [
+    {
+      "route": "/",
+      "performance": 98,
+      "accessibility": 100
+    },
+    {
+      "route": "/verify/8",
+      "performance": 99,
+      "accessibility": 100
+    }
+  ],
+  "lighthouseEvidence": "SIMULATED_LIGHTHOUSE_RESULTS.json",
+  "attackEvidence": "SIMULATED_UI_ATTACK_RESULTS.json",
+  "freshMinedAttackReverts": 6,
+  "sourceSHA256": {
+    "apps/web/src/main.tsx": "cf88d7b5aa22329a40a5428428af0faaeaf97587a331e424d017af882920f01d",
+    "apps/web/src/ui.tsx": "bc71f07072c837f77f254c6e62fe825a85ae043d49a0d547f09bdea3c0a07792",
+    "apps/web/src/prover.worker.ts": "eccfca83cd0501e4115b48dcbbf18d80026a9f18985d65bcb6e36c3120111c74",
+    "apps/web/src/verify.worker.ts": "2212a9e175b656f3084b967af2c4aec9d7f1ac75444e2f8e67a9a130797d7ed3",
+    "packages/protocol/src/verify.ts": "ac6356cf9059f48c678648ea881a58201135d02530bf75c26573fdff04e7a173",
+    "services/operator.ts": "47d48b1feedc8c1b5dae3b850d666cd087ad33d5fb8df6e436bcef7a6c5a4d11",
+    "services/operator_app.py": "b3ad08c3af019ef16536310d037f525089cc9dc800484321312f7b974f6b3ce0",
+    "services/attack.ts": "c4b76ac006767cfb4c4ff75622156be4770c44d77511f28cd6c9b080746137f1",
+    "apps/web/src/pages/Roles.tsx": "f34e95c0561f3db1fcbf8c656327804d1d56a62f3c459f3306bcba9d94bdcc4e",
+    "apps/web/src/pages/Plant.tsx": "540efb29e192d0564ae23f7d0185db2ef5223637eba1c3cc67235c8e66a106b7",
+    "apps/web/src/pages/Home.tsx": "e5a3f98bf4cd511434a10f13e52d6a942f51abf44e90c9befae894bcf70072ad",
+    "apps/web/src/pages/Verify.tsx": "47db7e7a0933aaf39ad49d7b2ab51ebb899c7c35d8360a0ff745ba20f8318d72",
+    "apps/web/src/pages/Live.tsx": "a8449d7c08a221e3599ca93d78dc6034b23d974443cb63557614d9a5e8485f57",
+    "apps/web/src/pages/ReportPlant.tsx": "0b1829c8f78b7857ad59a9d397cca8f35a6755c996644597a816bd445ac28876",
+    "apps/web/src/pages/Evidence.tsx": "da035cfc50cdada414fcce705dc06dfb96ebb106452888bc526b5b3fc3bc9af4"
+  },
+  "ci": "PENDING: user requested no commits or pushes",
+  "limits": [
+    "Headless desktop Chrome with mobile emulation, not a physical phone",
+    "All actors, reports, input values and denominator SIMULATED on one host",
+    "No public deployment or regulatory acceptance claimed"
+  ],
+  "browserRoundId": "8",
+  "networkRecoveryCases": 3,
+  "localBrowserSeconds": 247.64
+}

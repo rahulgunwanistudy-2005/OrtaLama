@@ -1,0 +1,399 @@
+{
+  "simulation": true,
+  "status": "LOCAL_PASS",
+  "pageErrors": [],
+  "checks": [
+    {
+      "route": "/",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/live",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/live",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/plant",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/plant",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/verifier",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/verifier",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/trustee/1",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/trustee/1",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/trustee/2",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/trustee/2",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/trustee/3",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/trustee/3",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/attack",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/attack",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/calculator",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/calculator",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/methodology",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/methodology",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/round/5",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/round/5",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/dossier/5",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/dossier/5",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/verify/5",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/verify/5",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/badge/0x93148a5d24c693c72e4059c1fe0a8794e9750a688c9a4ed21f46a4e1139ffb1e",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/badge/0x93148a5d24c693c72e4059c1fe0a8794e9750a688c9a4ed21f46a4e1139ffb1e",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/live",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/live",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/plant",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/plant",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/verifier",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/verifier",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/trustee/1",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/trustee/1",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/trustee/2",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/trustee/2",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/trustee/3",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/trustee/3",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/attack",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/attack",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/calculator",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/calculator",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/methodology",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/methodology",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/round/5",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/round/5",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/dossier/5",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/dossier/5",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/verify/5",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/verify/5",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/badge/0x93148a5d24c693c72e4059c1fe0a8794e9750a688c9a4ed21f46a4e1139ffb1e",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/badge/0x93148a5d24c693c72e4059c1fe0a8794e9750a688c9a4ed21f46a4e1139ffb1e",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    }
+  ]
+}

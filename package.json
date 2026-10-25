@@ -8,7 +8,8 @@
     "npm": ">=11"
   },
   "workspaces": [
-    "packages/crypto-ts"
+    "packages/crypto-ts",
+    "apps/web"
   ],
   "scripts": {
     "check:facts": "node scripts/check-facts.mjs",
@@ -23,11 +24,16 @@
     "test:witnesses": "node --import tsx --test --test-name-pattern=\"badge accepts|badge blocks|validity accepts|validity blocks\" circuits/test/circuits.test.mjs"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
     "@openzeppelin/contracts": "5.6.1",
     "@openzeppelin/merkle-tree": "1.0.8",
     "@types/node": "26.6.5",
+    "@types/qrcode": "1.5.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
     "circom2": "0.2.23",
     "circomlib": "2.0.5",
+    "lighthouse": "13.5.0",
     "snarkjs": "0.7.6",
     "tsx": "4.23.15",
     "typescript": "7.0.2"
@@ -37,6 +43,7 @@
     "underscore": "1.13.8"
   },
   "dependencies": {
+    "ajv": "8.20.0",
     "ws": "8.21.0"
   }
 }

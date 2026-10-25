@@ -1,0 +1,1 @@
+{"extends":"../../tsconfig.json","compilerOptions":{"module":"ESNext","moduleResolution":"Bundler","jsx":"react-jsx","types":["vite/client","react","react-dom","node"],"lib":["ES2022","DOM","DOM.Iterable","WebWorker"]},"include":["src/**/*.ts","src/**/*.tsx","vite.config.ts","../../packages/**/*.ts"]}

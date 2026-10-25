@@ -1,0 +1,23 @@
+{
+  "simulation": true,
+  "status": "LOCAL_PASS",
+  "roundId": "5",
+  "badgeId": "0x93148a5d24c693c72e4059c1fe0a8794e9750a688c9a4ed21f46a4e1139ffb1e",
+  "participantBrowserContexts": 5,
+  "aggregate": {
+    "E": "4500",
+    "P": "5000",
+    "intensityPpm": "900000",
+    "coveragePpm": "800000"
+  },
+  "independentMobileBrowserVerified": true,
+  "cleanBadgeRecorded": true,
+  "aboveAverageWitnessBlocked": true,
+  "lostBroadcastResponseRecoveredAfterRefresh": true,
+  "failedPublicSidecarRetried": true,
+  "lostTrusteeReplyRecoveredAutomatically": true,
+  "privateFieldsOnPublicRequests": [],
+  "pageErrors": [],
+  "elapsedSeconds": 166.82,
+  "ci": "PENDING: no commits or pushes authorised"
+}
