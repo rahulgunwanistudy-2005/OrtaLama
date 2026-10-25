@@ -1,0 +1,49 @@
+{
+  "simulation": true,
+  "chainId": 10143,
+  "observedAt": "2026-10-24T16:33:00.148559+00:00",
+  "status": "ALL_FOUR_EXACT_SOURCE_MATCH",
+  "contracts": [
+    {
+      "contract": "CommitmentValidityVerifier",
+      "address": "0x4760d62a410a2efa415029e6630db240a3f65dca",
+      "status": "exact_match",
+      "verificationURL": "https://repo.sourcify.dev/10143/0x4760d62a410a2efa415029e6630db240a3f65dca",
+      "explorerURL": "https://testnet.monadexplorer.com/address/0x4760d62a410a2efa415029e6630db240a3f65dca",
+      "deploymentTransaction": "0x9f4ea725624ebce601a84c39fe16842875638910e15b90acb0d1ecc7df28560e",
+      "verificationLogSHA256": "d0142e31cedb02fc11a5c24bf04879817bbb254df6cb35202dae0b3484302a9c"
+    },
+    {
+      "contract": "BelowThresholdVerifier",
+      "address": "0x09a2a39b839a7509e69db572f2136a96f62c3de0",
+      "status": "exact_match",
+      "verificationURL": "https://repo.sourcify.dev/10143/0x09a2a39b839a7509e69db572f2136a96f62c3de0",
+      "explorerURL": "https://testnet.monadexplorer.com/address/0x09a2a39b839a7509e69db572f2136a96f62c3de0",
+      "deploymentTransaction": "0xab4494c02bfd971b93e19ac7390b7b9cf9bc0c7fc5a8e5f8194f678d4b9e0308",
+      "verificationLogSHA256": "a02e1729523ad7b94001e4081d8ce4186adfa32f777200e8dade51b1bea1bb13"
+    },
+    {
+      "contract": "OrtalamaRound",
+      "address": "0x9ea9702324c53dcfb3c179acfed122dbf52f9cfc",
+      "status": "exact_match",
+      "verificationURL": "https://repo.sourcify.dev/10143/0x9ea9702324c53dcfb3c179acfed122dbf52f9cfc",
+      "explorerURL": "https://testnet.monadexplorer.com/address/0x9ea9702324c53dcfb3c179acfed122dbf52f9cfc",
+      "deploymentTransaction": "0x0acbab67301745e458847126e3ea420c02038825f209ed0fdc7e5f3bb600b7d5",
+      "verificationLogSHA256": "4df00668b9491d20feee3577b032bacfdfba869a3acec671092796961eeac79f"
+    },
+    {
+      "contract": "BadgeRegistry",
+      "address": "0x8c0befc317e1896fda2fe6a1ffa04599f6a35e08",
+      "status": "exact_match",
+      "verificationURL": "https://repo.sourcify.dev/10143/0x8c0befc317e1896fda2fe6a1ffa04599f6a35e08",
+      "explorerURL": "https://testnet.monadexplorer.com/address/0x8c0befc317e1896fda2fe6a1ffa04599f6a35e08",
+      "deploymentTransaction": "0x4a49a52de35b7adad39fe7a1c14a609cb86b39fa783d451fb22e84802fcddc27",
+      "verificationLogSHA256": "1bec5f1ef23063f12e5013e9a5fe1eaf1111c3bf7b6b47f1dd1619eef45dc424"
+    }
+  ],
+  "verifier": "Sourcify, using forge verify-contract --verifier sourcify --watch and exact creation transaction",
+  "limits": [
+    "Source matching is not a security audit or institutional endorsement",
+    "Explorer UI indexing is separate from the verified Sourcify registry"
+  ]
+}

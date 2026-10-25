@@ -1,0 +1,78 @@
+{
+  "simulation": true,
+  "status": "RECORDED_ENGINEERING_WALKTHROUGH",
+  "seconds": 230.021333,
+  "previewSeconds": 20.0,
+  "chainId": 10143,
+  "sourceSHA256": {
+    ".runtime/monad_20261024/walkthrough/SIMULATED_problem.webm": "7749b56edd527683e46ab7daa20df5dfd04bb9253b008aec35227e60e24700d6",
+    ".runtime/monad_20261024/walkthrough/SIMULATED_mechanism.webm": "a5e25f9191c90db2badc1717447221b96921d6f723494e00ccfc41b6ccd00092",
+    ".runtime/monad_20261024/walkthrough/SIMULATED_agent.webm": "8f5f9a6eadcf8dcc1cf17db00126dcf981165e4f6140ef0c886e6b9a71f8a0a8",
+    ".runtime/monad_20261024/recording/SIMULATED_monad_actual_close.webm": "ad94fc030a72062a4bf2d8f9dfdeca61da697bc26b35db80024e512a3007895e",
+    ".runtime/monad_20261024/walkthrough/SIMULATED_verify.webm": "161c6d72606220542f78f3d0b74ee33b8e4cf8a6ef3b1a43309dda9a0df9b46b",
+    ".runtime/monad_20261024/walkthrough/SIMULATED_attacks.webm": "4d3830a9603fb6b6d0a8c990afcddecc19bd24cf722909697381c404b3748859",
+    ".runtime/monad_20261024/walkthrough/SIMULATED_badge.webm": "35f3664c54050659fcbb79be255304b734ff8edc62ecc954255aa93c4403a2c4",
+    ".runtime/monad_20261024/walkthrough/SIMULATED_dossier.webm": "7bd21ab3cde1f3b3f4b5e4951be15c6ff2d6f2d46e7c6473d174390b469d16c1"
+  },
+  "outputSHA256": {
+    "docs/media/SIMULATED_monad_walkthrough_3m50s.mp4": "725eaf53cdb9ddf2049a3c97ca4b93352a1ab6029ec645c1e80051f03e3ed326",
+    "docs/media/SIMULATED_monad_walkthrough_3m50s.srt": "7633db683df281940e2b1259e0e878c187876bbbf427c93b79f0c10c96f6403d",
+    "docs/media/SIMULATED_monad_preview_20s.mp4": "1ba66e2e848833d581a48a45f515ca5e478e259a5ad97638d94b7014ff878758",
+    "docs/media/SIMULATED_monad_preview_20s.gif": "9362f5d14d40b7f63e9d5823077b74e605cc42eadec67ea92f31912777a8dcca"
+  },
+  "narration": [
+    {
+      "section": "problem",
+      "sourceVoice": "macOS Samantha, computer-generated",
+      "speechSeconds": 23.213,
+      "fitSpeed": 1
+    },
+    {
+      "section": "mechanism",
+      "sourceVoice": "macOS Samantha, computer-generated",
+      "speechSeconds": 22.173,
+      "fitSpeed": 1
+    },
+    {
+      "section": "agent",
+      "sourceVoice": "macOS Samantha, computer-generated",
+      "speechSeconds": 37.957,
+      "fitSpeed": 1
+    },
+    {
+      "section": "close",
+      "sourceVoice": "macOS Samantha, computer-generated",
+      "speechSeconds": 15.764,
+      "fitSpeed": 1
+    },
+    {
+      "section": "verify",
+      "sourceVoice": "macOS Samantha, computer-generated",
+      "speechSeconds": 33.145,
+      "fitSpeed": 1
+    },
+    {
+      "section": "attacks",
+      "sourceVoice": "macOS Samantha, computer-generated",
+      "speechSeconds": 24.035,
+      "fitSpeed": 1
+    },
+    {
+      "section": "badge",
+      "sourceVoice": "macOS Samantha, computer-generated",
+      "speechSeconds": 21.87,
+      "fitSpeed": 1
+    },
+    {
+      "section": "dossier",
+      "sourceVoice": "macOS Samantha, computer-generated",
+      "speechSeconds": 33.356,
+      "fitSpeed": 1.1307
+    }
+  ],
+  "scope": "Edited actual Monad UI capture on localhost, earlier real close recording, computer-generated narration; no physical phone or public website measurement",
+  "editing": "Individual real UI clips trimmed to stated section durations, no fabricated protocol result. Earlier real close is explicitly captioned. Attack segment rechecks previously mined receipts and sends no new transaction. Preview is 10 seconds from the close and 10 from the receipt recheck.",
+  "physicalPhoneTest": false,
+  "publicHostingTest": false,
+  "finalPublicPhoneSubmissionVideoComplete": false
+}

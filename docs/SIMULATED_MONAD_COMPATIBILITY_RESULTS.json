@@ -1,0 +1,64 @@
+{
+  "simulation": true,
+  "status": "READ_ONLY_CRYPTO_COMPATIBILITY_PASS",
+  "checkedAt": "2026-10-24T14:30:13.841Z",
+  "chainId": 10143,
+  "publicAddress": "0x8cf8d07115760a5D4Db4a6561729E8ed4de4D8CA",
+  "balanceMON": "18.306399022",
+  "cases": [
+    {
+      "circuit": "below_threshold",
+      "tampered": false,
+      "expected": true,
+      "verified": true
+    },
+    {
+      "circuit": "below_threshold",
+      "tampered": true,
+      "expected": false,
+      "verified": false
+    },
+    {
+      "circuit": "commitment_validity",
+      "tampered": false,
+      "expected": true,
+      "verified": true
+    },
+    {
+      "circuit": "commitment_validity",
+      "tampered": true,
+      "expected": false,
+      "verified": false
+    }
+  ],
+  "contractSizes": [
+    {
+      "name": "OrtalamaRound",
+      "runtimeBytes": 17719,
+      "runtimeSHA3": "0x006b63e4b6f3288a4a9b701a1de9c552b7e25b1a8ecf6a7b80ee4b0eebba9f6e"
+    },
+    {
+      "name": "BadgeRegistry",
+      "runtimeBytes": 2302,
+      "runtimeSHA3": "0xa0d0e13f7c3583142a157651542f101131a4cfb93109bdacd5dcdde0257b2df7"
+    },
+    {
+      "name": "BelowThresholdVerifier",
+      "runtimeBytes": 3126,
+      "runtimeSHA3": "0xcd7ad9c0f2d01b1d3f48654a1b617d249b23f8e8e08ed4603f79f8d5ee80fee0"
+    },
+    {
+      "name": "CommitmentValidityVerifier",
+      "runtimeBytes": 3292,
+      "runtimeSHA3": "0xcb00b06dc58b1fc2dfe4128a1b6d2f9911165d6c836b7757be5f5378371076f0"
+    }
+  ],
+  "transactionsSent": 0,
+  "walletNonceUnchanged": true,
+  "scope": "Actual remote Monad eth_call creation executes the exact generated verifier bytecode with valid synthetic proof fixtures and changed public inputs. Temporary execution state is discarded. No stored contract or complete round is deployed.",
+  "limits": [
+    "Fixture proof domains remain their original synthetic context; this checks verifier/precompile execution only",
+    "Full Monad round, signing-domain, gas, indexer, archive access and hosted browser gates remain pending",
+    "Same-host SIMULATED inputs/actors; no institutional custody or regulatory acceptance"
+  ]
+}

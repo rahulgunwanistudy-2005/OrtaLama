@@ -1,0 +1,265 @@
+{
+  "simulation": true,
+  "chainId": 10143,
+  "status": "PASS",
+  "checkedAt": "2026-10-25T18:34:09.517406+00:00",
+  "checks": [
+    {
+      "route": "/",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/round/2",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/round/2",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/verify/2",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/verify/2",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/badge/0xc31f02dcaec3d4ed09ce272a33b5d5dac3faad8fe68258d2275039af9cb6dfef",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/badge/0xc31f02dcaec3d4ed09ce272a33b5d5dac3faad8fe68258d2275039af9cb6dfef",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/dossier/2",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/dossier/2",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/attack",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/attack",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/calculator",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/calculator",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/methodology",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/methodology",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/live",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/live",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/round/2",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/round/2",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/verify/2",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/verify/2",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/badge/0xc31f02dcaec3d4ed09ce272a33b5d5dac3faad8fe68258d2275039af9cb6dfef",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/badge/0xc31f02dcaec3d4ed09ce272a33b5d5dac3faad8fe68258d2275039af9cb6dfef",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/dossier/2",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/dossier/2",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/attack",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/attack",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/calculator",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/calculator",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/methodology",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/methodology",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/live",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/live",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    }
+  ],
+  "pageErrors": [],
+  "elapsedSeconds": 44.22,
+  "scope": "Exact exported static bundle, actual RPC verification/badge/six reverted receipts, matching JSON/PDF downloads and EN/TR accessibility; no request mocks",
+  "physicalPhoneTest": false,
+  "publicHostingTest": false
+}

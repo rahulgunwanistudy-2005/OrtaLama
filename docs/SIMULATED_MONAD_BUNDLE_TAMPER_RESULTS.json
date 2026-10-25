@@ -1,0 +1,7 @@
+{
+  "simulation": true,
+  "status": "PASS",
+  "scope": "Exact exported bundle, actual RPC, isolated negative-only cache interception; mutated ML-DSA signature rejected",
+  "positiveResultFabricated": false,
+  "chainId": 10143
+}

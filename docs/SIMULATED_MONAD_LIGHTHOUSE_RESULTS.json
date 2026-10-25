@@ -1,0 +1,31 @@
+{
+  "simulation": true,
+  "status": "PASS",
+  "buildHTMLSHA256": "144505d596ff1dee7b44edc25bf0c3563f293e06c08f8b395ae7763fd49d93b3",
+  "observations": [
+    {
+      "route": "/",
+      "scores": {
+        "performance": 96,
+        "accessibility": 100
+      },
+      "fetchTime": "2026-10-25T18:33:26.130Z",
+      "lighthouseVersion": "13.5.0",
+      "evidence": "docs/qa/monad/SIMULATED_lighthouse_home.json"
+    },
+    {
+      "route": "/verify/2",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100
+      },
+      "fetchTime": "2026-10-25T18:33:39.267Z",
+      "lighthouseVersion": "13.5.0",
+      "evidence": "docs/qa/monad/SIMULATED_lighthouse_verify.json"
+    }
+  ],
+  "limits": [
+    "Single headless mobile-emulation observations of the exact public export on loopback, not physical-phone or public-host measurements",
+    "Lighthouse measures page rendering; completed protocol verification is checked separately against actual RPC"
+  ]
+}

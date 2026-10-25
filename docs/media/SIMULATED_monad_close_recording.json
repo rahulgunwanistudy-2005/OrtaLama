@@ -1,0 +1,46 @@
+{
+  "simulation": true,
+  "chainId": 10143,
+  "roundId": 2,
+  "states": [
+    {
+      "seconds": 1.393,
+      "state": "Sharing"
+    },
+    {
+      "seconds": 15.058,
+      "state": "Sharing"
+    },
+    {
+      "seconds": 28.124,
+      "state": "Closing"
+    },
+    {
+      "seconds": 41.154,
+      "state": "Closing"
+    },
+    {
+      "seconds": 54.242,
+      "state": "Closing"
+    },
+    {
+      "seconds": 67.235,
+      "state": "Closing"
+    },
+    {
+      "seconds": 80.168,
+      "state": "Closing"
+    },
+    {
+      "seconds": 93.119,
+      "state": "Closing"
+    },
+    {
+      "seconds": 106.117,
+      "state": "Closed"
+    }
+  ],
+  "rawSeconds": 111.455,
+  "url": "http://127.0.0.1:49300/round/2",
+  "scope": "Real Monad testnet contracts and actual localhost public-evidence UI. Periodic page reloads fetch the running indexer. No physical-phone or public-hosting claim."
+}

@@ -1,0 +1,175 @@
+1
+00:00:00,000 --> 00:00:06,250
+Ortalama keeps plant inputs private and makes a weighted
+emissions average checkable. The EU default for Turkish
+
+2
+00:00:06,250 --> 00:00:12,500
+grey clinker is one point five five one, including the twenty
+twenty six mark-up. The industry reports
+
+3
+00:00:12,500 --> 00:00:18,750
+zero point eight eight from member declarations. Their boundaries
+need reconciliation. This demonstration uses actual Monad testnet
+
+4
+00:00:18,750 --> 00:00:25,000
+contracts, with synthetic inputs and identities.
+
+5
+00:00:25,000 --> 00:00:31,250
+Plants seal emissions and production in hiding commitments and
+prove bounded openings. They split the openings into
+
+6
+00:00:31,250 --> 00:00:37,500
+encrypted shares for three trustees. Closing reconstructs only
+the group aggregate and checks every contribution in the
+
+7
+00:00:37,500 --> 00:00:43,750
+frozen manifest. A ledger proves this arithmetic. It cannot
+establish physical report truth, accreditation, complete sector
+coverage
+
+8
+00:00:43,750 --> 00:00:50,000
+or regulatory acceptance.
+
+9
+00:00:50,000 --> 00:00:56,667
+Before sealing, the local report agent proposes fields and
+citations from Turkish reports. Deterministic code reads source
+
+10
+00:00:56,667 --> 00:01:03,333
+tokens, checks units and tests cement physics. A named review
+controls acceptance, and a physics override requires
+
+11
+00:01:03,333 --> 00:01:10,000
+written justification. The actual evaluation used twenty
+synthetic PDFs. It got one hundred eighty nine of two
+
+12
+00:01:10,000 --> 00:01:16,667
+hundred numeric fields right, but only seventy nine original
+citations. All eight planted impossible reports were blocked
+
+13
+00:01:16,667 --> 00:01:23,333
+without an override. Repairs are disclosed separately. These
+results do not establish accuracy on real reports, and
+
+14
+00:01:23,333 --> 00:01:30,000
+scripted test approvals are not human review.
+
+15
+00:01:30,000 --> 00:01:36,667
+This is the earlier recording of the actual testnet round
+closing. Five plants contributed, with three separately
+
+16
+00:01:36,667 --> 00:01:43,333
+keyed trustee processes on one host. The published intensity is
+zero point eight four eight six three
+
+17
+00:01:43,333 --> 00:01:50,000
+six kilograms of carbon dioxide per kilogram of product.
+
+18
+00:01:50,000 --> 00:01:58,000
+This browser independently fetches the selected chain, checks
+deployed code hashes and pins a block. It recomputes
+
+19
+00:01:58,000 --> 00:02:06,000
+the ordered manifest, commitment sums, trustee share sums,
+interpolation and aggregate openings. It also checks every
+allowlisted
+
+20
+00:02:06,000 --> 00:02:14,000
+ECDSA and M L D S A co-signature. A tampered signature cache was
+rejected in the negative
+
+21
+00:02:14,000 --> 00:02:22,000
+browser test. The result is the average of this participating
+cohort. Coverage against the synthetic declared denominator
+
+22
+00:02:22,000 --> 00:02:30,000
+is only twenty six point six seven percent. The representative
+policy flag is false.
+
+23
+00:02:30,000 --> 00:02:36,250
+All six required attacks actually mined as reverted. This button
+now fetches those receipts again from Monad.
+
+24
+00:02:36,250 --> 00:02:42,500
+Omitting a member failed the aggregate check; a separate
+successful transaction recorded the trustee fault. A non-
+allowlisted
+
+25
+00:02:42,500 --> 00:02:48,750
+verifier, duplicate installation, undersized cohort, invalid
+badge proof and previous-round replay were also rejected. Receipt
+status alone
+
+26
+00:02:48,750 --> 00:02:55,000
+does not prove its error reason.
+
+27
+00:02:55,000 --> 00:03:01,250
+A qualifying plant issued a real, non-transferable attestation.
+It proves an at or below relation to the
+
+28
+00:03:01,250 --> 00:03:07,500
+participating cohort average, without publishing the plant
+intensity. This page checks the deployed registry and successful
+attestation
+
+29
+00:03:07,500 --> 00:03:13,750
+event directly. The above-average witness failed its inequality
+constraint. Each issued threshold badge still reveals one
+comparison
+
+30
+00:03:13,750 --> 00:03:20,000
+bit.
+
+31
+00:03:20,000 --> 00:03:26,000
+The public evidence exports as matching JSON and PDF, anchored to
+a pinned block and checksum. Independent
+
+32
+00:03:26,000 --> 00:03:32,000
+reproduction checked twenty nine successful transaction records
+for round two. Private reports, openings, individual shares and
+signing
+
+33
+00:03:32,000 --> 00:03:38,000
+keys are excluded. Two colluding trustees can reconstruct plants;
+repeated cohorts can leak differences. This is engineering
+
+34
+00:03:38,000 --> 00:03:44,000
+evidence with same-host simulated custody. The owner will publish
+the prepared site and test a physical phone.
+
+35
+00:03:44,000 --> 00:03:50,000
+No official acceptance, institutional partnership or emissions
+reduction is claimed.

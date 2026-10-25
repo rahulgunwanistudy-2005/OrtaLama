@@ -1,0 +1,31 @@
+{
+  "simulation": true,
+  "status": "PASS",
+  "chainId": 10143,
+  "roundId": "2",
+  "checkedAt": "2026-10-24T20:32:52.298447+00:00",
+  "results": [
+    {
+      "case": "desktop",
+      "actualRPCArithmeticAndSignatures": true,
+      "checks": 5,
+      "horizontalOverflow": false
+    },
+    {
+      "case": "mobile-emulation",
+      "actualRPCArithmeticAndSignatures": true,
+      "checks": 5,
+      "horizontalOverflow": false
+    },
+    {
+      "case": "tampered-public-PQ-sidecar",
+      "rejected": true,
+      "scope": "Only this negative browser context intercepted its cache response; positive cases used unmodified services/RPC"
+    }
+  ],
+  "pageErrors": [],
+  "elapsedSeconds": 75.69,
+  "physicalPhoneTest": false,
+  "publicHostingTest": false,
+  "scope": "Real Monad RPC and deployed code hashes; actual current round arithmetic and co-signatures in separate desktop/mobile browser contexts; isolated cache tamper must fail"
+}

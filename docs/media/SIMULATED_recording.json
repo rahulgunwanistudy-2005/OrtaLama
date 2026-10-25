@@ -1,0 +1,19 @@
+{
+  "closeSeconds": 519.926,
+  "attackClickSeconds": 0.848,
+  "attackSeconds": 36.735,
+  "simulation": true,
+  "roundId": "6",
+  "chain": "Local Anvil 31337",
+  "note": "Actual UI and mined local transactions. Close uses the final ten seconds of the capture. Attack sequence compressed to ten seconds with an on-frame label. This is a local rehearsal, not the required deployed-system final video.",
+  "previewSeconds": 20.0,
+  "attackSpeedup": 3.5487,
+  "sourceSHA256": {
+    ".runtime/SIMULATED_recording/SIMULATED_close.webm": "912a218b326d466a256d5c0769b77edb7c05b5bcfee029794c11678353da0560",
+    ".runtime/SIMULATED_recording/SIMULATED_attack.webm": "38e7083f86407d6768d3f498f82f0e8b3481c5b8658951897d008a34620a3b48"
+  },
+  "outputSHA256": {
+    "docs/media/SIMULATED_local_preview_20s.mp4": "ae6442448105537aa32233f03329cfebfd31ac28dddb1e0a870b31d5e24eb1f5",
+    "docs/media/SIMULATED_local_preview_20s.gif": "e4fe433b156e5994bd4c69f7f7f3a16e6b2293ce0546b0dc0f55c820225191c3"
+  }
+}

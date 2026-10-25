@@ -1,0 +1,115 @@
+{
+  "simulation": true,
+  "status": "MONAD_BUILD_PASS_OWNER_HOSTING_PENDING",
+  "checkedAt": "2026-10-25T18:51:17.678098+00:00",
+  "scope": "Fresh local functional audit plus refreshed read-only Monad export; immutable public dossiers retain original pinned blocks",
+  "gitHeadUnchanged": "eb1bf2bfe42502473cd6a034e10e9f0c8a7d399f",
+  "commitsOrPushesPerformed": false,
+  "fullOriginalDefinitionOfDoneMet": false,
+  "chainId": 10143,
+  "deployment": "0x9ea9702324c53dcfb3c179acfed122dbf52f9cfc",
+  "mainRoundId": "2",
+  "closedRounds": [
+    "2",
+    "3"
+  ],
+  "cohortPlantsEach": 5,
+  "intensityPpm": "848636",
+  "coveragePpm": "266666",
+  "representativePolicyFlag": false,
+  "checks": {
+    "actualTestnetGate": "PASS: six named mined rejections, badge issued, dirty witness rejected, separate fault record and abort",
+    "exactSourceMatches": 4,
+    "browserChecks": 36,
+    "browserPageErrors": 0,
+    "actualRPCSignatureTamperRejection": "PASS",
+    "lighthouse": [
+      {
+        "route": "/",
+        "scores": {
+          "performance": 96,
+          "accessibility": 100
+        }
+      },
+      {
+        "route": "/verify/2",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100
+        }
+      }
+    ],
+    "dossierTransactionRecords": {
+      "round2": 29,
+      "round3": 27
+    },
+    "pdfVisualReview": "Both five-page PDFs rendered and reviewed",
+    "contractGroups": 28,
+    "slither": "135 documented findings; zero unreviewed; no independent audit claimed",
+    "transactionAndPaginationUnitTests": 4,
+    "indexerRegression": "PASS: actual reorganization removes orphan and revalidates/preserves surviving sidecar",
+    "rootAndWebTypeChecks": "PASS",
+    "factProvenance": "22 claims / 37 sources / 37 hashed records / 6 explicit unknowns",
+    "privateValueScan": {
+      "simulation": true,
+      "status": "SOURCE_HANDOFF_READY",
+      "files": 386,
+      "actualPrivateValuesChecked": 27,
+      "privateMatches": 0,
+      "bytes": 7728515,
+      "sha256": "d6fc4b332a58fe1b2c4964fe17f4169f1e22ce3ea6680ec10c3b9e457e42b750"
+    },
+    "engineeringWalkthroughSeconds": 230.021333,
+    "containerBootstrap": "PASS within cached-public-archive, resumed-install and refreshed-source scope; see SIMULATED_CONTAINER_RESULTS.json"
+  },
+  "testFundAllocation": {
+    "unit": "test MON",
+    "capWei": "16000000000000000000",
+    "reservedOrSettledWei": "15981939114000000000",
+    "includes": "Superseded attempts and internal role funding, not only marginal gas expense"
+  },
+  "ownerDeliverySteps": [
+    "Publish the provided website/backend on the selected hosting services",
+    "Open the published verify/2 and badge on a physical phone; save URL/device/browser/date/result",
+    "Replace/add the public-phone portion of the final submission video and publish submission"
+  ],
+  "otherUnmeasuredChecks": [
+    "New remote CI under the no-push instruction"
+  ],
+  "limits": [
+    "Synthetic actors, reports and denominator; no accreditation or physical report truth established",
+    "Three separately keyed trustee processes share one host; no institutional custody",
+    "Twelve-plant interrupted public round was aborted; public minimum-cohort negative is one-versus-five, with four-plant boundary tested locally",
+    "Two optional final reviewer reruns were unavailable due account limits; their earlier completed reviews are not misrepresented as fresh passes",
+    "No independent production security audit, regulatory approval or physical emissions reduction claim",
+    "Fresh full product gate preceded final report UI fixes; those changes passed subsequent targeted real workflow, accessibility, export and container checks. No single later all-in-one rerun claimed."
+  ],
+  "properAuditSkillSourceStillRequested": true,
+  "artifactSHA256": {
+    "output/SIMULATED_monad_hosting.zip": "c7f09c68fe8ca8610311c9141996031aa79b0b789ba048b96b8e34f1feec6352",
+    "output/SIMULATED_source_handoff.zip": "d6fc4b332a58fe1b2c4964fe17f4169f1e22ce3ea6680ec10c3b9e457e42b750",
+    "output/SIMULATED_monad_site/index.html": "144505d596ff1dee7b44edc25bf0c3563f293e06c08f8b395ae7763fd49d93b3",
+    "output/pdf/SIMULATED_monad_dossier_round_2.json": "5f157b0d3ea4ea38473fab90107966cac31b0c130443c213f27fe77182076ad4",
+    "output/pdf/SIMULATED_monad_dossier_round_2.pdf": "294f5c2535db5d3e3e8bebf03e50cd64d4c6f32cec4bef3b18da638d83d01b4f",
+    "output/pdf/SIMULATED_monad_dossier_round_3.json": "134ad3965a3ffdedbc15d78acffafafdbee4f4f878828ba2f2353a11f695b281",
+    "output/pdf/SIMULATED_monad_dossier_round_3.pdf": "741e9a6b07a9a2be52d77f1e68752e80022edaccbd063b75b64b7bfb61a5a73f",
+    "docs/media/SIMULATED_monad_walkthrough_3m50s.mp4": "725eaf53cdb9ddf2049a3c97ca4b93352a1ab6029ec645c1e80051f03e3ed326",
+    "docs/media/SIMULATED_monad_walkthrough_3m50s.srt": "7633db683df281940e2b1259e0e878c187876bbbf427c93b79f0c10c96f6403d",
+    "docs/media/SIMULATED_monad_preview_20s.gif": "9362f5d14d40b7f63e9d5823077b74e605cc42eadec67ea92f31912777a8dcca"
+  },
+  "criticalSourceSHA256": {
+    "contracts/src/OrtalamaRound.sol": "5f44dc6e9b8626b56ec8a82159c8b681b18e7ae280ddf00cdb5ba24fa478a186",
+    "contracts/src/BadgeRegistry.sol": "80b7434cef477590ccd3d47faa32e5ac43dd1af3c5595d3424219616987149ae",
+    "packages/protocol/src/runtime.ts": "65c886ba07997e2e0ee2a9dc2a7161ad1391f726da5fcc79af7b0f5ec43f285e",
+    "packages/protocol/src/testnet-transactions.ts": "eae157744c991b5accd6be3c780054b85180bbc61615915181e9d14984a3d3bd",
+    "packages/protocol/src/public-chain.ts": "4aa53d391312231ff3ce2f83146be19e5d1ca9b8e6febcdbb3ab4703b6d14cbc",
+    "packages/protocol/src/dossier.ts": "e8443956d7b8c4ef548acd35cb97ee46eb248706a049cb89aa69599fa6b65f36",
+    "services/e2e-monad.ts": "16ff4cbd1a421b9a1dbac223a9966376ebe2f4a3b350778e57cdc77df5c854e7",
+    "scripts/package-testnet.ts": "cba9fa22cfe77047ae2ffc2d8b24dd7eefc2d8ed823a6368a8decca8b524f8d1",
+    "scripts/package-source-handoff.py": "89b6b423017b89f6ea16c9080269805e31057906684eb8d40f092edf46c5ae2d",
+    "apps/web/src/verify.worker.ts": "139450d702566addcf499e897165f0891aedf7455fa6bab62c799017fbc81335",
+    "apps/web/src/pages/PublicAttacks.tsx": "ad6bb12b0d638c75edb0673600d3b75b48a206b86d959055b69a963936fe7e69"
+  },
+  "functionalAudit": "docs/FINAL_FUNCTIONAL_AUDIT.json",
+  "additionalMonadTransactionsDuringFunctionalAudit": 0
+}
