@@ -1,0 +1,12 @@
+{
+  "simulation": false,
+  "boundary": "Grey clinker, direct fossil and carbonate-process CO2 only; no CCS, biomass or non-carbonate oxide sources",
+  "fuelCO2KgPerTJNCV": {
+    "petcoke": {"default": "97500", "lower": "82900", "upper": "115000", "sourceId": "S23", "table": "2.3", "page": "2.18"},
+    "coal": {"default": "94600", "lower": "89500", "upper": "99700", "sourceId": "S23", "table": "2.3", "page": "2.18"},
+    "gas": {"default": "56100", "lower": "54300", "upper": "58300", "sourceId": "S23", "table": "2.3", "page": "2.18"}
+  },
+  "roundedMolecularWeights": {"CO2": "44.01", "CaO": "56.08", "MgO": "40.30", "sourceIds": ["S26", "S27", "S28", "S29"]},
+  "batReferenceMJPerTonneClinker": {"lower": "2900", "upper": "3300", "sourceId": "S25", "scope": "New plants and major upgrades with dry-process multistage preheating/precalcination, subject to source footnotes; advisory only, not a physical feasibility range"},
+  "reviewPolicy": {"massBalanceRelativeTolerance": "0.02", "yearOnYearRelativeFlag": "0.15", "source": "Explicit application review policy, not a sourced physical constant, regulation or verified plant uncertainty"}
+}

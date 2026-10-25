@@ -1,0 +1,7 @@
+{
+  "id": "S35",
+  "url": "https://eprint.iacr.org/2017/375.pdf",
+  "accessed_on": "2026-10-22",
+  "evidence": "Original decision framework, Section III and Figure 1: storage, multiple writers, acceptable online trusted party, writer trust/identity and public verifiability. Known mutually distrusting writers can fit a public permissioned design; public permissionless settlement is a separate project choice.",
+  "method": "Official public page or primary paper retrieved with Firecrawl; concise observed scope notes, not a licensed standard archive."
+}

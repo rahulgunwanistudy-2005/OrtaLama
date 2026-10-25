@@ -48,20 +48,9 @@ can form part of an evidence dossier. It does not by itself establish reliabilit
 representativeness, matching calculation boundaries or official acceptance. [S05, S06]
 
 Whether a regional adaptation itself carries a mark-up is **UNVERIFIED**. Any
-calculator must present both assumptions and label them. The mapping of the
-full monitoring methodology in Implementing Regulation (EU) **2025/2547** is
-**UNVERIFIED pending Phase 7 primary-text review**; its identity and subject are
-linked by the defaults regulation. [S01, S15]
+calculator must present both assumptions and label them. Implementing Regulation (EU) **2025/2547**, Articles 3–6, requires matching system boundaries, functional units, monitoring and attribution. Article 4(5) uses clinker contained in the specified cement goods. The simulated direct-only physics model is not that complete methodology. [S15]
 
-The DoCC's **3 September 2026** announcement says the TR-ETS pilot covers
-**2026–2027** emissions, with reporting-only obligations in **2026**, **100%**
-free allocation under the benchmark method, and an all-installation weighted
-average for sectors other than electricity. It references the regulation published
-**27 August 2026**, Official Gazette **33353**. These statements are verified
-against the official announcement and corroborated by ICAP; the underlying Gazette
-text and the reported **1 October 2026** procedures remain **UNVERIFIED** until
-retrieved directly. A voluntary cohort does not automatically meet an all-covered-
-installation benchmark requirement. [S07, S08, S16]
+The DoCC's **3 September 2026 announcement** describes the **2026–2027** pilot. Primary-text review now confirms the **27 August 2026** regulation in Official Gazette **33353** and the procedures announced **1 October 2026**, approved **30 September 2026**, approval **18626**. The announcement identifies the board meeting as **15 January 2026 (KPK/2026/1)**; an announcement date is not a meeting date. Procedures Article 11 distinguishes benchmarks for relevant sub-installations and separate electricity rules. A voluntary, minimum-sized cohort does not automatically meet the required official population, activity attribution or allocation methodology. [S07, S08, S16, S36, S37]
 
 ## Intended solution
 
@@ -73,7 +62,9 @@ and the explicitly documented trustee-collusion and transport threats.
 
 After a round closes, a plant may prove **E·ΣP ≤ ΣE·P**, opening its registered
 commitments without revealing its individual intensity. The accurate badge label
-is **“at or below the sector average”** because equality is accepted. Badges are
+is **“at or below the participating cohort average”** because equality is accepted.
+This does not establish the full sector average, even when the coverage policy
+flag is true; population completeness and comparability require separate review. Badges are
 non-transferable attestation records, with no token, marketplace or NFT.
 
 ## Why a ledger and AI

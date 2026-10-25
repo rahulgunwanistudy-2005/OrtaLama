@@ -6,7 +6,7 @@
       "title": "EU defaults annex",
       "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/2621/oj/eng",
       "evidence_class": "PRIMARY",
-      "scope": "Annex I: fallback instruction, T\u00fcrkiye cement rows, Other Countries and Territories grey clinker row and mark-up columns. Table values preserved without recomputing rounded components.",
+      "scope": "Annex I: fallback instruction, Türkiye cement rows, Other Countries and Territories grey clinker row and mark-up columns. Table values preserved without recomputing rounded components.",
       "accessed_on": "2026-10-21",
       "retrieved": true
     },
@@ -15,7 +15,7 @@
       "title": "TURKCIMENTO statement distributed by EQS",
       "url": "https://www.eqs-news.com/news/media/turkcimento-calls-for-eu-aligned-mrv-data-recognition-under-cbam/347f954a-8081-4308-b01a-445e526ef6da_en",
       "evidence_class": "ATTRIBUTED_PRIMARY",
-      "scope": "Statement dated 24 March 2026. Association reports 0.88 tCO\u2082/t and approximately \u20ac20/\u20ac80. Underlying plant reports and cost assumptions unavailable; not independently validated.",
+      "scope": "Statement dated 24 March 2026. Association reports 0.88 tCO₂/t and approximately €20/€80. Underlying plant reports and cost assumptions unavailable; not independently validated.",
       "accessed_on": "2026-10-21",
       "retrieved": true
     },
@@ -33,7 +33,7 @@
       "title": "European Commission certificate prices",
       "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/price-cbam-certificates_en",
       "evidence_class": "PRIMARY",
-      "scope": "Q3 2026 \u20ac82.32, published 5 October 2026; Q4 blank at access. Price applicability is quarterly; not a complete liability methodology.",
+      "scope": "Q3 2026 €82.32, published 5 October 2026; Q4 blank at access. Price applicability is quarterly; not a complete liability methodology.",
       "accessed_on": "2026-10-21",
       "retrieved": true
     },
@@ -60,7 +60,7 @@
       "title": "DoCC board announcement",
       "url": "https://iklim.gov.tr/tr-ets-pilot-uygulama-donemine-yonelik-karbon-piyasasi-kurulu-toplanti-kararlarina-kpk-2026-1-iliskin-duyuru-duyuru-45",
       "evidence_class": "PRIMARY",
-      "scope": "3 September 2026 announcement: pilot 2026\u20132027, reporting only in 2026, 100% free allocation, all-installation weighted averages except electricity. Announcement references 27 August regulation, Gazette 33353.",
+      "scope": "3 September 2026 announcement: pilot 2026–2027, reporting only in 2026, 100% free allocation, all-installation weighted averages except electricity. Announcement references 27 August regulation, Gazette 33353.",
       "accessed_on": "2026-10-21",
       "retrieved": true
     },
@@ -87,7 +87,7 @@
       "title": "Official hackathon rules",
       "url": "https://ieee-climatechain-hack.devpost.com/rules",
       "evidence_class": "PRIMARY",
-      "scope": "Video 3\u20135 minutes; deadline 25 October 2026 10:00 EDT. No published scoring weights in accessed text. Eligibility conflict with overview unresolved.",
+      "scope": "Video 3–5 minutes; deadline 25 October 2026 10:00 EDT. No published scoring weights in accessed text. Eligibility conflict with overview unresolved.",
       "accessed_on": "2026-10-21",
       "retrieved": true
     },
@@ -129,21 +129,21 @@
     },
     {
       "id": "S15",
-      "title": "EU monitoring-methods regulation",
+      "title": "CBAM calculation and attribution methods",
       "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/2547/oj/eng",
-      "evidence_class": "UNVERIFIED",
-      "scope": "Referenced and linked by S01. Full primary-text review and methodology mapping deferred; no numerical factors imported.",
-      "accessed_on": "2026-10-21",
-      "retrieved": false
+      "evidence_class": "PRIMARY",
+      "scope": "IR 2025/2547, Articles 3–6: system boundaries, functional units, monitoring plan and attribution. Article 4(5) uses tonnes of clinker contained in specified cement goods. Direct-only simulated E is not a full CBAM embedded-emissions result.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
     },
     {
       "id": "S16",
-      "title": "TR-ETS procedures, 1 October 2026",
-      "url": "https://iklim.gov.tr/",
-      "evidence_class": "UNVERIFIED",
-      "scope": "Exact official procedures URL not yet retrieved. Search found secondary descriptions only. Do not use as implemented allocation methodology.",
-      "accessed_on": "2026-10-21",
-      "retrieved": false
+      "title": "TR-ETS pilot procedures",
+      "url": "https://iklim.gov.tr/db/turkce/duyurular/files/Yay%C4%B1mlanan_%20TR%20ETS%20Usul%20ve%20Esaslar.pdf",
+      "evidence_class": "PRIMARY",
+      "scope": "Pilot procedures: Articles 2–4 define covered facilities, plans and reports; Article 11 sets weighted benchmarks per relevant sub-installation, with separate electricity rules; Article 12 applies allocation calculations and adjustments. This project implements aggregation evidence, not these complete allocation rules.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
     },
     {
       "id": "S17",
@@ -197,6 +197,141 @@
       "evidence_class": "UPSTREAM",
       "scope": "ECDSA.tryRecover exposes the recovered address, recovery error and an additional diagnostic argument. MerkleProof verifies membership of a leaf in a sorted-pair hash tree; project leaves use the matching StandardMerkleTree encoding.",
       "accessed_on": "2026-10-21",
+      "retrieved": true
+    },
+    {
+      "id": "S23",
+      "title": "IPCC 2006 Vol 2 Ch 2 stationary combustion",
+      "url": "https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_2_Ch2_Stationary_Combustion.pdf",
+      "evidence_class": "PRIMARY",
+      "scope": "Table 2.3 manufacturing and construction: kg CO2/TJ on a net calorific basis. Petroleum coke 97500 (82900-115000); other bituminous coal 94600 (89500-99700); natural gas 56100 (54300-58300); lignite 101000 (90900-115000). These are defaults, not plant-specific measured factors.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
+    },
+    {
+      "id": "S24",
+      "title": "IPCC 2006 Vol 3 Ch 2 mineral industry",
+      "url": "https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/3_Volume3/V3_2_Ch2_Mineral_Industry.pdf",
+      "evidence_class": "PRIMARY",
+      "scope": "Clinker rather than cement production is needed for clinker process CO2. CaO origin, non-carbonate inputs, CKD, MgO, and carbon capture affect methodology. Tier 2 and 3 account for CKD. A simple carbonate stoichiometric plausibility check does not constitute a complete monitoring methodology.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
+    },
+    {
+      "id": "S25",
+      "title": "EU cement BAT conclusions, Decision 2013/163/EU",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32013D0163",
+      "evidence_class": "PRIMARY",
+      "scope": "Section 1.2.3 Table 1: 2900-3300 MJ/tonne clinker is a BAT-associated energy consumption range for new plants and major upgrades using dry-process multistage preheating and precalcination, subject to raw-material moisture and footnotes. It is not a universal physical feasibility band.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
+    },
+    {
+      "id": "S26",
+      "title": "IPCC cement production background paper",
+      "url": "https://www.ipcc-nggip.iges.or.jp/public/gp/bgp/3_1_Cement_Production.pdf",
+      "evidence_class": "PRIMARY",
+      "scope": "Section 2.2.1 gives EF_clinker = fractionCaO * (44.01 g/mol CO2 / 56.08 g/mol CaO). It discusses non-carbonate CaO, lost CKD, clinker imports/exports, confidential information and external review. Do not use its historical activity data as a current fact.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
+    },
+    {
+      "id": "S27",
+      "title": "NIST magnesium oxide",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C1309484&Units=SI",
+      "evidence_class": "PRIMARY",
+      "scope": "NIST Chemistry WebBook species magnesium oxide, MgO, CAS 1309-48-4, molecular weight 40.3044. Rounded to two decimals: 40.30.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
+    },
+    {
+      "id": "S28",
+      "title": "NIST carbon dioxide",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C124389&Units=SI",
+      "evidence_class": "PRIMARY",
+      "scope": "NIST Chemistry WebBook species carbon dioxide, CO2, CAS 124-38-9, molecular weight 44.0095. Rounded to two decimals: 44.01.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
+    },
+    {
+      "id": "S29",
+      "title": "NIST calcium oxide",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C1305788&Units=SI",
+      "evidence_class": "PRIMARY",
+      "scope": "NIST Chemistry WebBook species calcium oxide, CaO, CAS 1305-78-8, molecular weight 56.077. Rounded to two decimals: 56.08.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
+    },
+    {
+      "id": "S30",
+      "title": "Ollama structured outputs",
+      "url": "https://docs.ollama.com/capabilities/structured-outputs",
+      "evidence_class": "UPSTREAM",
+      "scope": "Local /api/chat accepts stream:false and a JSON schema in format; responses contain message.content, which must be parsed and schema validated. Passing the schema in the prompt and temperature 0 is recommended. JSON schema constraints do not establish factual extraction accuracy.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
+    },
+    {
+      "id": "S31",
+      "title": "Qwen2.5 1.5B model library",
+      "url": "https://ollama.com/library/qwen2.5:1.5b",
+      "evidence_class": "UPSTREAM",
+      "scope": "Official tag qwen2.5:1.5b, digest prefix 65ec06548149, Q4_K_M quantisation, 1.54B parameters, 986MB advertised model size, Apache 2.0. Structured-output capability is a model claim, not an evaluation result on these reports.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
+    },
+    {
+      "id": "S32",
+      "title": "ISO 14064-1:2018 public scope",
+      "url": "https://www.iso.org/standard/66453.html",
+      "evidence_class": "PRIMARY",
+      "scope": "Organisation-level GHG quantification, reporting and inventory management. Programme-specific requirements remain additional. Public scope only; no licensed clause text or conformance certification.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
+    },
+    {
+      "id": "S33",
+      "title": "ISO 14064-3:2019 public scope",
+      "url": "https://www.iso.org/standard/66455.html",
+      "evidence_class": "PRIMARY",
+      "scope": "Principles and requirements for validation/verification of organisation, project and product GHG statements. Programme requirements remain additional; a cryptographic signature is not a verification engagement.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
+    },
+    {
+      "id": "S34",
+      "title": "ISO 14065:2020 public scope",
+      "url": "https://www.iso.org/standard/74257.html",
+      "evidence_class": "PRIMARY",
+      "scope": "Requirements for bodies validating/verifying environmental information; a sector application of ISO/IEC 17029:2019. Correct designation is ISO 14065, not ISO/IEC 14065. An allowlisted public key establishes no accreditation.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
+    },
+    {
+      "id": "S35",
+      "title": "Wüst and Gervais, Do you need a Blockchain?",
+      "url": "https://eprint.iacr.org/2017/375.pdf",
+      "evidence_class": "PRIMARY_RESEARCH",
+      "scope": "Original decision framework, Section III and Figure 1: storage, multiple writers, acceptable online trusted party, writer trust/identity and public verifiability. Known mutually distrusting writers can fit a public permissioned design; public permissionless settlement is a separate project choice.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
+    },
+    {
+      "id": "S36",
+      "title": "Gazetted Türkiye Emissions Trading System Regulation",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/08/20260827-7.htm",
+      "evidence_class": "PRIMARY",
+      "scope": "Regulation published 27 August 2026 in Official Gazette 33353. Covers MRV and ETS responsibilities; defines accreditation and sub-installations. A simulated public-key allowlist is not a TÜRKAK accreditation check.",
+      "accessed_on": "2026-10-22",
+      "retrieved": true
+    },
+    {
+      "id": "S37",
+      "title": "DoCC announcement of pilot procedures",
+      "url": "https://iklim.gov.tr/tr-ets-pilot-uygulama-donemine-iliskin-usul-ve-esaslar-yayimlandi-duyuru-1045",
+      "evidence_class": "PRIMARY",
+      "scope": "Announcement dated 1 October 2026 says procedures were approved on 30 September 2026, approval 18626; cites the board meeting of 15 January 2026 (KPK/2026/1), distinct from the 3 September announcement. Pilot system years 2026–2027; reporting only in 2026 and first surrender for 2027 emissions.",
+      "accessed_on": "2026-10-22",
       "retrieved": true
     }
   ]

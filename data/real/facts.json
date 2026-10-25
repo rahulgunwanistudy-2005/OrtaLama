@@ -232,14 +232,19 @@
     },
     {
       "id": "F19",
-      "status": "UNVERIFIED",
+      "status": "VERIFIED",
       "name": "tr_ets_october_procedures",
-      "value": null,
+      "value": {
+        "announcement_date": "2026-10-01",
+        "approval_date": "2026-09-30",
+        "approval_number": "18626"
+      },
       "unit": null,
       "source_ids": [
-        "S16"
+        "S16",
+        "S37"
       ],
-      "notes": "Exact primary document pending retrieval."
+      "notes": "Primary procedures and official announcement retrieved on 2026-10-22. Article 11 distinguishes relevant sub-installation benchmarks and electricity rules. This verifies the instrument and dates, not conformance of the prototype or regulatory acceptance."
     },
     {
       "id": "F20",

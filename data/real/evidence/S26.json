@@ -1,0 +1,7 @@
+{
+  "id": "S26",
+  "url": "https://www.ipcc-nggip.iges.or.jp/public/gp/bgp/3_1_Cement_Production.pdf",
+  "accessed_on": "2026-10-22",
+  "evidence": "Section 2.2.1 gives EF_clinker = fractionCaO * (44.01 g/mol CO2 / 56.08 g/mol CaO). It discusses non-carbonate CaO, lost CKD, clinker imports/exports, confidential information and external review. Do not use its historical activity data as a current fact.",
+  "method": "Primary or upstream page read using Firecrawl; concise observed notes, not a full source archive."
+}

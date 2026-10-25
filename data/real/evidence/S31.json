@@ -1,0 +1,7 @@
+{
+  "id": "S31",
+  "url": "https://ollama.com/library/qwen2.5:1.5b",
+  "accessed_on": "2026-10-22",
+  "evidence": "Official tag qwen2.5:1.5b, digest prefix 65ec06548149, Q4_K_M quantisation, 1.54B parameters, 986MB advertised model size, Apache 2.0. Structured-output capability is a model claim, not an evaluation result on these reports.",
+  "method": "Primary or upstream page read using Firecrawl; concise observed notes, not a full source archive."
+}

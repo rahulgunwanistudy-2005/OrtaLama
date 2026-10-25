@@ -1,0 +1,7 @@
+{
+  "id": "S30",
+  "url": "https://docs.ollama.com/capabilities/structured-outputs",
+  "accessed_on": "2026-10-22",
+  "evidence": "Local /api/chat accepts stream:false and a JSON schema in format; responses contain message.content, which must be parsed and schema validated. Passing the schema in the prompt and temperature 0 is recommended. JSON schema constraints do not establish factual extraction accuracy.",
+  "method": "Primary or upstream page read using Firecrawl; concise observed notes, not a full source archive."
+}

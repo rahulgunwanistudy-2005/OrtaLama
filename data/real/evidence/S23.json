@@ -1,0 +1,7 @@
+{
+  "id": "S23",
+  "url": "https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_2_Ch2_Stationary_Combustion.pdf",
+  "accessed_on": "2026-10-22",
+  "evidence": "Table 2.3 manufacturing and construction: kg CO2/TJ on a net calorific basis. Petroleum coke 97500 (82900-115000); other bituminous coal 94600 (89500-99700); natural gas 56100 (54300-58300); lignite 101000 (90900-115000). These are defaults, not plant-specific measured factors.",
+  "method": "Primary or upstream page read using Firecrawl; concise observed notes, not a full source archive."
+}
