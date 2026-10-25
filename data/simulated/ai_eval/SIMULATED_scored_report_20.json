@@ -1,0 +1,456 @@
+{
+  "simulation": true,
+  "file": "data/simulated/reports/SIMULATED_TR_plant_20.pdf",
+  "reportSHA256": "6dc3b2f25adf872159b0c37679c0fdc6d5b1cd0066ab96141850221771db4387",
+  "measurement": {
+    "provider": "ollama",
+    "model": "qwen2.5:1.5b",
+    "local": true,
+    "simulation": true,
+    "seconds": 48.664,
+    "usage": {
+      "prompt_eval_count": 1454,
+      "eval_count": 360,
+      "total_duration": 48640551292,
+      "load_duration": 1702458,
+      "prompt_eval_duration": 3676997000,
+      "eval_duration": 20120900000
+    },
+    "temperature": 0,
+    "seed": 42,
+    "promptVersion": 2,
+    "promptHash": "b7b3e69797a528742b75af6b6390739f8bcebca463a16743a681fc186b5aee00"
+  },
+  "schemaValid": true,
+  "exactValueFields": 4,
+  "exactCitationFields": 4,
+  "numericValueFields": 10,
+  "analysis": {
+    "simulation": true,
+    "reportHash": "6dc3b2f25adf872159b0c37679c0fdc6d5b1cd0066ab96141850221771db4387",
+    "extraction": {
+      "fields": {
+        "E": {
+          "rawValue": "603482635",
+          "page": 1,
+          "line": 7
+        },
+        "P": {
+          "rawValue": "665000000",
+          "page": 1,
+          "line": 8
+        },
+        "cao": {
+          "rawValue": "65",
+          "page": 1,
+          "line": 9
+        },
+        "mgo": {
+          "rawValue": "1.5",
+          "page": 1,
+          "line": 10
+        },
+        "ckd": {
+          "rawValue": "2",
+          "page": 1,
+          "line": 11
+        },
+        "petcoke": {
+          "rawValue": "2074.8",
+          "page": 1,
+          "line": 15
+        },
+        "coal": {
+          "rawValue": "389.025",
+          "page": 1,
+          "line": 18
+        },
+        "gas": {
+          "rawValue": "129675.0",
+          "page": 1,
+          "line": 20
+        },
+        "thermal": {
+          "rawValue": "2593.5",
+          "page": 1,
+          "line": 22
+        },
+        "previous": {
+          "rawValue": "0.925643",
+          "page": 1,
+          "line": 25
+        }
+      }
+    },
+    "citations": {
+      "E": {
+        "page": 1,
+        "line": 7,
+        "rawValue": "603482635",
+        "modelProposal": {
+          "rawValue": "603482635",
+          "page": 1,
+          "line": 7
+        },
+        "alignment": "VERBATIM",
+        "quote": "Toplam doğrudan CO2 emisyonu: 603482635 kg CO2",
+        "unit": "kg CO2",
+        "value": "603482635"
+      },
+      "P": {
+        "page": 1,
+        "line": 8,
+        "rawValue": "665000000",
+        "modelProposal": {
+          "rawValue": "665000000",
+          "page": 1,
+          "line": 8
+        },
+        "alignment": "VERBATIM",
+        "quote": "Gri klinker üretimi: 665000000 kg klinker",
+        "unit": "kg klinker",
+        "value": "665000000"
+      },
+      "cao": {
+        "page": 1,
+        "line": 9,
+        "rawValue": "65",
+        "modelProposal": {
+          "rawValue": "65",
+          "page": 1,
+          "line": 9
+        },
+        "alignment": "VERBATIM",
+        "quote": "Karbonat kaynaklı CaO oranı: 65 %",
+        "unit": "%",
+        "value": "65"
+      },
+      "mgo": {
+        "page": 1,
+        "line": 11,
+        "rawValue": "1,5",
+        "modelProposal": {
+          "rawValue": "1.5",
+          "page": 1,
+          "line": 10
+        },
+        "alignment": "NUMERIC_FORMAT_OR_UNIQUE_LINE_REPAIR_REQUIRES_REVIEW",
+        "quote": "Karbonat kaynaklı MgO oranı: 1,5 %",
+        "unit": "%",
+        "value": "1.5"
+      },
+      "ckd": {
+        "page": 1,
+        "line": 14,
+        "rawValue": "2",
+        "modelProposal": {
+          "rawValue": "2",
+          "page": 1,
+          "line": 11
+        },
+        "alignment": "NUMERIC_FORMAT_OR_UNIQUE_LINE_REPAIR_REQUIRES_REVIEW",
+        "quote": "Kayıp kalsine fırın tozu düzeltmesi: 2 %",
+        "unit": "%",
+        "value": "2"
+      },
+      "petcoke": {
+        "page": 1,
+        "line": 16,
+        "rawValue": "2074,800000",
+        "modelProposal": {
+          "rawValue": "2074.8",
+          "page": 1,
+          "line": 15
+        },
+        "alignment": "NUMERIC_FORMAT_OR_UNIQUE_LINE_REPAIR_REQUIRES_REVIEW",
+        "quote": "Petrokok enerji tüketimi: 2074,800000 TJ NCV",
+        "unit": "TJ NCV",
+        "value": "2074.800000"
+      },
+      "coal": {
+        "page": 1,
+        "line": 19,
+        "rawValue": "389,025000",
+        "modelProposal": {
+          "rawValue": "389.025",
+          "page": 1,
+          "line": 18
+        },
+        "alignment": "NUMERIC_FORMAT_OR_UNIQUE_LINE_REPAIR_REQUIRES_REVIEW",
+        "quote": "Bitümlü kömür enerji tüketimi: 389,025000 TJ NCV",
+        "unit": "TJ NCV",
+        "value": "389.025000"
+      },
+      "gas": {
+        "page": 1,
+        "line": 21,
+        "rawValue": "129675,000000",
+        "modelProposal": {
+          "rawValue": "129675.0",
+          "page": 1,
+          "line": 20
+        },
+        "alignment": "NUMERIC_FORMAT_OR_UNIQUE_LINE_REPAIR_REQUIRES_REVIEW",
+        "quote": "Doğal gaz enerji tüketimi: 129675,000000 TJ NCV",
+        "unit": "TJ NCV",
+        "value": "129675.000000"
+      },
+      "thermal": {
+        "page": 1,
+        "line": 24,
+        "rawValue": "2593,5",
+        "modelProposal": {
+          "rawValue": "2593.5",
+          "page": 1,
+          "line": 22
+        },
+        "alignment": "NUMERIC_FORMAT_OR_UNIQUE_LINE_REPAIR_REQUIRES_REVIEW",
+        "quote": "Toplam fırın ısıl enerji tüketimi: 2593,5 TJ NCV",
+        "unit": "TJ NCV",
+        "value": "2593.5"
+      },
+      "previous": {
+        "page": 1,
+        "line": 25,
+        "rawValue": "0,925643",
+        "modelProposal": {
+          "rawValue": "0.925643",
+          "page": 1,
+          "line": 25
+        },
+        "alignment": "NUMERIC_FORMAT_OR_UNIQUE_LINE_REPAIR_REQUIRES_REVIEW",
+        "quote": "Önceki yıl doğrudan emisyon yoğunluğu: 0,925643 kg CO2/kg klinker",
+        "unit": "kg CO2/kg klinker",
+        "value": "0.925643"
+      }
+    },
+    "rules": [
+      {
+        "id": "R00",
+        "status": "REVIEW",
+        "reason": "Model citation/format errors were aligned to unique labelled source fields with identical numeric values. The officer must review the repairs.",
+        "sourceIds": [
+          "APPLICATION_POLICY"
+        ],
+        "details": {
+          "fields": [
+            "mgo",
+            "ckd",
+            "petcoke",
+            "coal",
+            "gas",
+            "thermal",
+            "previous"
+          ]
+        }
+      },
+      {
+        "id": "R01",
+        "status": "PASS",
+        "reason": "E/P must be canonical integer kg values within circuit limits, with positive production.",
+        "sourceIds": [
+          "CRYPTO_SPEC"
+        ],
+        "details": null
+      },
+      {
+        "id": "R02",
+        "status": "PASS",
+        "reason": "Mass fractions and the stated CKD correction must be nonnegative and internally possible; unsupported boundaries require review.",
+        "sourceIds": [
+          "S24",
+          "S26"
+        ],
+        "details": null
+      },
+      {
+        "id": "R03",
+        "status": "PASS",
+        "reason": "Fuel energy quantities must be nonnegative and total kiln energy positive.",
+        "sourceIds": [
+          "S23"
+        ],
+        "details": null
+      },
+      {
+        "id": "R04",
+        "status": "FAIL",
+        "reason": "Reported total kiln thermal energy must reconcile with the individual NCV fuel quantities within the explicit 2% application review tolerance.",
+        "sourceIds": [
+          "S23",
+          "APPLICATION_POLICY"
+        ],
+        "details": {
+          "fuelSumTJ": "132138.825000",
+          "reportedTJ": "2593.5"
+        }
+      },
+      {
+        "id": "R05",
+        "status": "FAIL",
+        "reason": "Direct CO2 must fall within the declared carbonate plus fossil-fuel mass-balance interval. This simplified boundary assumes no CCS, biomass or non-carbonate oxides.",
+        "sourceIds": [
+          "S23",
+          "S24",
+          "S26",
+          "S27",
+          "S28",
+          "S29",
+          "APPLICATION_POLICY"
+        ],
+        "details": {
+          "processKg": "357113102.6859006807007359214",
+          "fuelKg": "7513862265.000000",
+          "lowerKg": "7453178574.982182667086721203",
+          "upperKg": "8358444463.089618694314750639",
+          "reportedKg": "603482635"
+        }
+      },
+      {
+        "id": "R06",
+        "status": "REVIEW",
+        "reason": "Scoped BAT energy reference only. A value outside 2900-3300 MJ/t is not proof of physical impossibility or noncompliance.",
+        "sourceIds": [
+          "S25"
+        ],
+        "details": {
+          "MJPerTonneClinker": "3900.0",
+          "referenceScope": "New plants and major upgrades with dry-process multistage preheating/precalcination, subject to source footnotes; advisory only, not a physical feasibility range"
+        }
+      },
+      {
+        "id": "R07",
+        "status": "PASS",
+        "reason": "Year-on-year movement above the explicit 15% application review threshold requires explanation; it is not a legal threshold.",
+        "sourceIds": [
+          "APPLICATION_POLICY"
+        ],
+        "details": {
+          "relativeChange": "0.01960833257473311439780381400"
+        }
+      }
+    ],
+    "blocked": true,
+    "calculation": {
+      "E": "603482635",
+      "P": "665000000",
+      "intensity": "0.9074926842105263157894736842",
+      "derivedPlausibilityInterval": [
+        "11.20778733080027468734845294",
+        "12.56908941817987773581165510"
+      ]
+    },
+    "constantsHash": "0bb6a487566342979d05839cf7e3fc98f7433b7c7b4286bd1605032da9cf310e",
+    "limitations": [
+      "Consistency within a declared simplified boundary does not establish truthful or complete measurement",
+      "BAT range is advisory; review tolerances are application policy, not official methodology"
+    ]
+  },
+  "endToEndBlocked": true,
+  "plantedError": "fuel_energy_unit_slip",
+  "expectedBlocked": true,
+  "oraclePhysics": {
+    "rules": [
+      {
+        "id": "R01",
+        "status": "PASS",
+        "reason": "E/P must be canonical integer kg values within circuit limits, with positive production.",
+        "sourceIds": [
+          "CRYPTO_SPEC"
+        ],
+        "details": null
+      },
+      {
+        "id": "R02",
+        "status": "PASS",
+        "reason": "Mass fractions and the stated CKD correction must be nonnegative and internally possible; unsupported boundaries require review.",
+        "sourceIds": [
+          "S24",
+          "S26"
+        ],
+        "details": null
+      },
+      {
+        "id": "R03",
+        "status": "PASS",
+        "reason": "Fuel energy quantities must be nonnegative and total kiln energy positive.",
+        "sourceIds": [
+          "S23"
+        ],
+        "details": null
+      },
+      {
+        "id": "R04",
+        "status": "FAIL",
+        "reason": "Reported total kiln thermal energy must reconcile with the individual NCV fuel quantities within the explicit 2% application review tolerance.",
+        "sourceIds": [
+          "S23",
+          "APPLICATION_POLICY"
+        ],
+        "details": {
+          "fuelSumTJ": "132138.825000",
+          "reportedTJ": "2593.5"
+        }
+      },
+      {
+        "id": "R05",
+        "status": "FAIL",
+        "reason": "Direct CO2 must fall within the declared carbonate plus fossil-fuel mass-balance interval. This simplified boundary assumes no CCS, biomass or non-carbonate oxides.",
+        "sourceIds": [
+          "S23",
+          "S24",
+          "S26",
+          "S27",
+          "S28",
+          "S29",
+          "APPLICATION_POLICY"
+        ],
+        "details": {
+          "processKg": "357113102.6859006807007359214",
+          "fuelKg": "7513862265.000000",
+          "lowerKg": "7453178574.982182667086721203",
+          "upperKg": "8358444463.089618694314750639",
+          "reportedKg": "603482635"
+        }
+      },
+      {
+        "id": "R06",
+        "status": "REVIEW",
+        "reason": "Scoped BAT energy reference only. A value outside 2900-3300 MJ/t is not proof of physical impossibility or noncompliance.",
+        "sourceIds": [
+          "S25"
+        ],
+        "details": {
+          "MJPerTonneClinker": "3900.0",
+          "referenceScope": "New plants and major upgrades with dry-process multistage preheating/precalcination, subject to source footnotes; advisory only, not a physical feasibility range"
+        }
+      },
+      {
+        "id": "R07",
+        "status": "PASS",
+        "reason": "Year-on-year movement above the explicit 15% application review threshold requires explanation; it is not a legal threshold.",
+        "sourceIds": [
+          "APPLICATION_POLICY"
+        ],
+        "details": {
+          "relativeChange": "0.01960833257473311439780381400"
+        }
+      }
+    ],
+    "blocked": true,
+    "calculation": {
+      "E": "603482635",
+      "P": "665000000",
+      "intensity": "0.9074926842105263157894736842",
+      "derivedPlausibilityInterval": [
+        "11.20778733080027468734845294",
+        "12.56908941817987773581165510"
+      ]
+    },
+    "constantsHash": "0bb6a487566342979d05839cf7e3fc98f7433b7c7b4286bd1605032da9cf310e",
+    "limitations": [
+      "Consistency within a declared simplified boundary does not establish truthful or complete measurement",
+      "BAT range is advisory; review tolerances are application policy, not official methodology"
+    ]
+  }
+}

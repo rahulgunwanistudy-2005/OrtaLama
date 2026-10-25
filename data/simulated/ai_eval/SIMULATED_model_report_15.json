@@ -1,0 +1,24 @@
+{
+  "simulation": true,
+  "reportSHA256": "5d10609b3d2b346ab33870f267f2e2733a9b8cb067d7d13500280376975bc727",
+  "rawModelResponse": "{\n  \"fields\": {\n    \"E\": {\n      \"rawValue\": \"421397640\",\n      \"page\": 1,\n      \"line\": 7\n    },\n    \"P\": {\n      \"rawValue\": \"490000000\",\n      \"page\": 1,\n      \"line\": 8\n    },\n    \"cao\": {\n      \"rawValue\": \"165\",\n      \"page\": 1,\n      \"line\": 9\n    },\n    \"mgo\": {\n      \"rawValue\": \"1.5\",\n      \"page\": 1,\n      \"line\": 10\n    },\n    \"ckd\": {\n      \"rawValue\": \"2\",\n      \"page\": 1,\n      \"line\": 11\n    },\n    \"petcoke\": {\n      \"rawValue\": \"1332.8\",\n      \"page\": 1,\n      \"line\": 13\n    },\n    \"coal\": {\n      \"rawValue\": \"249.9\",\n      \"page\": 1,\n      \"line\": 18\n    },\n    \"gas\": {\n      \"rawValue\": \"83.3\",\n      \"page\": 1,\n      \"line\": 21\n    },\n    \"thermal\": {\n      \"rawValue\": \"1666\",\n      \"page\": 1,\n      \"line\": 25\n    },\n    \"previous\": {\n      \"rawValue\": \"0.877195\",\n      \"page\": 1,\n      \"line\": 26\n    }\n  }\n}",
+  "measurement": {
+    "provider": "ollama",
+    "model": "qwen2.5:1.5b",
+    "local": true,
+    "simulation": true,
+    "seconds": 23.842,
+    "usage": {
+      "prompt_eval_count": 1449,
+      "eval_count": 353,
+      "total_duration": 23803921709,
+      "load_duration": 19446167,
+      "prompt_eval_duration": 3410491000,
+      "eval_duration": 20335865000
+    },
+    "temperature": 0,
+    "seed": 42,
+    "promptVersion": 2,
+    "promptHash": "e2610122bce9e2790a6fc41bcd11202ee6aea2aa837b694339983ca7fadcd164"
+  }
+}

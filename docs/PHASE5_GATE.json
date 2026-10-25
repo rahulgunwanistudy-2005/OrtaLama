@@ -1,0 +1,43 @@
+{
+  "simulation": true,
+  "status": "LOCAL_PASS",
+  "phase": 5,
+  "reports": 20,
+  "impossibleOracleCaught": 8,
+  "impossibleEndToEndBlocked": 8,
+  "numericFieldsCorrect": 189,
+  "fieldComparisons": 200,
+  "rawCitationsCorrect": 79,
+  "validReportsBlocked": 1,
+  "unitReviewTests": {
+    "simulation": true,
+    "status": "PASS",
+    "pythonTypeScriptDigestMatches": 2,
+    "genuineOfficerSignatures": 2,
+    "tamperedReviewAndReplayRejections": 18,
+    "physicsOracleReports": 20,
+    "plantedImpossibleCaught": 8,
+    "hallucinatedValueRejected": true,
+    "ambiguousCitationRepairRejected": true,
+    "uniqueIdenticalValueRepairRequiresReview": true,
+    "unsignedFailureBlocked": true,
+    "unacknowledgedReviewBlocked": true,
+    "circuitBoundsOverrideBlocked": true,
+    "humanApprovalPerformed": false
+  },
+  "actualAPIIntegration": "LOCAL_PASS",
+  "humanApprovalPerformed": false,
+  "ci": "PENDING: user requested no commits or pushes",
+  "evidenceSHA256": {
+    "docs/SIMULATED_AI_EVAL.json": "77f299fd8b665fc91566982094cc4f30498d1cffd27343608177dc02f770d139",
+    "data/simulated/SIMULATED_PHASE5_AGENT_RESULTS.json": "3baf5f774a1d4305663a2b86842d3ae44e6faa0ce34e97f7bfdb4e888fe45d86",
+    "data/simulated/reports/SIMULATED_report_manifest.json": "8096954f97d6fd2e74c87697f7ce7c03f2f8a9b4ccfb73011f0f380e809ac8ef"
+  },
+  "checked_on": "2026-10-23",
+  "lostCommitResponseRecovered": true,
+  "reportContextMismatchRejections": [
+    "country",
+    "productCN",
+    "period"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "simulation": true,
+  "status": "PASS",
+  "pythonTypeScriptDigestMatches": 2,
+  "genuineOfficerSignatures": 2,
+  "tamperedReviewAndReplayRejections": 18,
+  "physicsOracleReports": 20,
+  "plantedImpossibleCaught": 8,
+  "hallucinatedValueRejected": true,
+  "ambiguousCitationRepairRejected": true,
+  "uniqueIdenticalValueRepairRequiresReview": true,
+  "unsignedFailureBlocked": true,
+  "unacknowledgedReviewBlocked": true,
+  "circuitBoundsOverrideBlocked": true,
+  "humanApprovalPerformed": false
+}

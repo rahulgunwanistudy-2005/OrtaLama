@@ -1,0 +1,65 @@
+{
+  "simulation": true,
+  "status": "PASS",
+  "checks": [
+    {
+      "case": "sealed-closed-round",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "case": "sealed-closed-round",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "case": "blocked-source-editor",
+      "width": 1440,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "case": "blocked-source-editor",
+      "width": 1440,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "case": "sealed-closed-round",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "case": "sealed-closed-round",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "case": "blocked-source-editor",
+      "width": 390,
+      "language": "en",
+      "violations": [],
+      "horizontalOverflow": false
+    },
+    {
+      "case": "blocked-source-editor",
+      "width": 390,
+      "language": "tr",
+      "violations": [],
+      "horizontalOverflow": false
+    }
+  ],
+  "pageErrors": [],
+  "closedRoundSelectionPreserved": true,
+  "scope": "Actual saved jobs from real model/browser workflow; authenticated job restoration, blocked correction controls and sealed report state; no new signature or transaction"
+}

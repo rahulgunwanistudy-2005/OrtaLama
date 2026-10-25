@@ -1,0 +1,326 @@
+{
+  "simulation": true,
+  "file": "data/simulated/reports/SIMULATED_TR_plant_15.pdf",
+  "reportSHA256": "5d10609b3d2b346ab33870f267f2e2733a9b8cb067d7d13500280376975bc727",
+  "measurement": {
+    "provider": "ollama",
+    "model": "qwen2.5:1.5b",
+    "local": true,
+    "simulation": true,
+    "seconds": 23.842,
+    "usage": {
+      "prompt_eval_count": 1449,
+      "eval_count": 353,
+      "total_duration": 23803921709,
+      "load_duration": 19446167,
+      "prompt_eval_duration": 3410491000,
+      "eval_duration": 20335865000
+    },
+    "temperature": 0,
+    "seed": 42,
+    "promptVersion": 2,
+    "promptHash": "e2610122bce9e2790a6fc41bcd11202ee6aea2aa837b694339983ca7fadcd164"
+  },
+  "schemaValid": true,
+  "exactValueFields": 5,
+  "exactCitationFields": 4,
+  "numericValueFields": 10,
+  "analysis": {
+    "simulation": true,
+    "reportHash": "5d10609b3d2b346ab33870f267f2e2733a9b8cb067d7d13500280376975bc727",
+    "extraction": {
+      "fields": {
+        "E": {
+          "rawValue": "421397640",
+          "page": 1,
+          "line": 7
+        },
+        "P": {
+          "rawValue": "490000000",
+          "page": 1,
+          "line": 8
+        },
+        "cao": {
+          "rawValue": "165",
+          "page": 1,
+          "line": 9
+        },
+        "mgo": {
+          "rawValue": "1.5",
+          "page": 1,
+          "line": 10
+        },
+        "ckd": {
+          "rawValue": "2",
+          "page": 1,
+          "line": 11
+        },
+        "petcoke": {
+          "rawValue": "1332.8",
+          "page": 1,
+          "line": 13
+        },
+        "coal": {
+          "rawValue": "249.9",
+          "page": 1,
+          "line": 18
+        },
+        "gas": {
+          "rawValue": "83.3",
+          "page": 1,
+          "line": 21
+        },
+        "thermal": {
+          "rawValue": "1666",
+          "page": 1,
+          "line": 25
+        },
+        "previous": {
+          "rawValue": "0.877195",
+          "page": 1,
+          "line": 26
+        }
+      }
+    },
+    "citations": {
+      "E": {
+        "page": 1,
+        "line": 7,
+        "rawValue": "421397640",
+        "modelProposal": {
+          "rawValue": "421397640",
+          "page": 1,
+          "line": 7
+        },
+        "alignment": "VERBATIM",
+        "quote": "Toplam doğrudan CO2 emisyonu: 421397640 kg CO2",
+        "unit": "kg CO2",
+        "value": "421397640"
+      },
+      "P": {
+        "page": 1,
+        "line": 8,
+        "rawValue": "490000000",
+        "modelProposal": {
+          "rawValue": "490000000",
+          "page": 1,
+          "line": 8
+        },
+        "alignment": "VERBATIM",
+        "quote": "Gri klinker üretimi: 490000000 kg klinker",
+        "unit": "kg klinker",
+        "value": "490000000"
+      },
+      "cao": {
+        "page": 1,
+        "line": 9,
+        "rawValue": "165",
+        "modelProposal": {
+          "rawValue": "165",
+          "page": 1,
+          "line": 9
+        },
+        "alignment": "VERBATIM",
+        "quote": "Karbonat kaynaklı CaO oranı: 165 %",
+        "unit": "%",
+        "value": "165"
+      },
+      "mgo": {
+        "page": 1,
+        "line": 11,
+        "rawValue": "1,5",
+        "modelProposal": {
+          "rawValue": "1.5",
+          "page": 1,
+          "line": 10
+        },
+        "alignment": "NUMERIC_FORMAT_OR_UNIQUE_LINE_REPAIR_REQUIRES_REVIEW",
+        "quote": "Karbonat kaynaklı MgO oranı: 1,5 %",
+        "unit": "%",
+        "value": "1.5"
+      },
+      "ckd": {
+        "page": 1,
+        "line": 14,
+        "rawValue": "2",
+        "modelProposal": {
+          "rawValue": "2",
+          "page": 1,
+          "line": 11
+        },
+        "alignment": "NUMERIC_FORMAT_OR_UNIQUE_LINE_REPAIR_REQUIRES_REVIEW",
+        "quote": "Kayıp kalsine fırın tozu düzeltmesi: 2 %",
+        "unit": "%",
+        "value": "2"
+      },
+      "petcoke": {
+        "page": 1,
+        "line": 16,
+        "rawValue": "1332,800000",
+        "modelProposal": {
+          "rawValue": "1332.8",
+          "page": 1,
+          "line": 13
+        },
+        "alignment": "NUMERIC_FORMAT_OR_UNIQUE_LINE_REPAIR_REQUIRES_REVIEW",
+        "quote": "Petrokok enerji tüketimi: 1332,800000 TJ NCV",
+        "unit": "TJ NCV",
+        "value": "1332.800000"
+      },
+      "coal": {
+        "page": 1,
+        "line": 19,
+        "rawValue": "249,900000",
+        "modelProposal": {
+          "rawValue": "249.9",
+          "page": 1,
+          "line": 18
+        },
+        "alignment": "NUMERIC_FORMAT_OR_UNIQUE_LINE_REPAIR_REQUIRES_REVIEW",
+        "quote": "Bitümlü kömür enerji tüketimi: 249,900000 TJ NCV",
+        "unit": "TJ NCV",
+        "value": "249.900000"
+      },
+      "gas": {
+        "page": 1,
+        "line": 21,
+        "rawValue": "83,300000",
+        "modelProposal": {
+          "rawValue": "83.3",
+          "page": 1,
+          "line": 21
+        },
+        "alignment": "NUMERIC_FORMAT_OR_UNIQUE_LINE_REPAIR_REQUIRES_REVIEW",
+        "quote": "Doğal gaz enerji tüketimi: 83,300000 TJ NCV",
+        "unit": "TJ NCV",
+        "value": "83.300000"
+      },
+      "thermal": {
+        "page": 1,
+        "line": 24,
+        "rawValue": "1666",
+        "modelProposal": {
+          "rawValue": "1666",
+          "page": 1,
+          "line": 25
+        },
+        "alignment": "NUMERIC_FORMAT_OR_UNIQUE_LINE_REPAIR_REQUIRES_REVIEW",
+        "quote": "Toplam fırın ısıl enerji tüketimi: 1666 TJ NCV",
+        "unit": "TJ NCV",
+        "value": "1666"
+      },
+      "previous": {
+        "page": 1,
+        "line": 25,
+        "rawValue": "0,877195",
+        "modelProposal": {
+          "rawValue": "0.877195",
+          "page": 1,
+          "line": 26
+        },
+        "alignment": "NUMERIC_FORMAT_OR_UNIQUE_LINE_REPAIR_REQUIRES_REVIEW",
+        "quote": "Önceki yıl doğrudan emisyon yoğunluğu: 0,877195 kg CO2/kg klinker",
+        "unit": "kg CO2/kg klinker",
+        "value": "0.877195"
+      }
+    },
+    "rules": [
+      {
+        "id": "R00",
+        "status": "REVIEW",
+        "reason": "Model citation/format errors were aligned to unique labelled source fields with identical numeric values. The officer must review the repairs.",
+        "sourceIds": [
+          "APPLICATION_POLICY"
+        ],
+        "details": {
+          "fields": [
+            "mgo",
+            "ckd",
+            "petcoke",
+            "coal",
+            "gas",
+            "thermal",
+            "previous"
+          ]
+        }
+      },
+      {
+        "id": "R01",
+        "status": "PASS",
+        "reason": "E/P must be canonical integer kg values within circuit limits, with positive production.",
+        "sourceIds": [
+          "CRYPTO_SPEC"
+        ],
+        "details": null
+      },
+      {
+        "id": "R02",
+        "status": "FAIL",
+        "reason": "Mass fractions and the stated CKD correction must be nonnegative and internally possible; unsupported boundaries require review.",
+        "sourceIds": [
+          "S24",
+          "S26"
+        ],
+        "details": null
+      },
+      {
+        "id": "R03",
+        "status": "PASS",
+        "reason": "Fuel energy quantities must be nonnegative and total kiln energy positive.",
+        "sourceIds": [
+          "S23"
+        ],
+        "details": null
+      }
+    ],
+    "blocked": true,
+    "calculation": {
+      "E": "421397640",
+      "P": "490000000",
+      "intensity": "0.8599951836734693877551020408"
+    },
+    "constantsHash": "0bb6a487566342979d05839cf7e3fc98f7433b7c7b4286bd1605032da9cf310e"
+  },
+  "endToEndBlocked": true,
+  "plantedError": "impossible_oxide_fraction",
+  "expectedBlocked": true,
+  "oraclePhysics": {
+    "rules": [
+      {
+        "id": "R01",
+        "status": "PASS",
+        "reason": "E/P must be canonical integer kg values within circuit limits, with positive production.",
+        "sourceIds": [
+          "CRYPTO_SPEC"
+        ],
+        "details": null
+      },
+      {
+        "id": "R02",
+        "status": "FAIL",
+        "reason": "Mass fractions and the stated CKD correction must be nonnegative and internally possible; unsupported boundaries require review.",
+        "sourceIds": [
+          "S24",
+          "S26"
+        ],
+        "details": null
+      },
+      {
+        "id": "R03",
+        "status": "PASS",
+        "reason": "Fuel energy quantities must be nonnegative and total kiln energy positive.",
+        "sourceIds": [
+          "S23"
+        ],
+        "details": null
+      }
+    ],
+    "blocked": true,
+    "calculation": {
+      "E": "421397640",
+      "P": "490000000",
+      "intensity": "0.8599951836734693877551020408"
+    },
+    "constantsHash": "0bb6a487566342979d05839cf7e3fc98f7433b7c7b4286bd1605032da9cf310e"
+  }
+}

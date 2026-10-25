@@ -1,0 +1,638 @@
+{
+  "simulation": true,
+  "sourceIds": [
+    "S23",
+    "S24",
+    "S26",
+    "S27",
+    "S28",
+    "S29"
+  ],
+  "reports": [
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_01.pdf",
+      "sha256": "ec6b8fd2a692b3ceed3f6e88420bfa6b509bf326d34f78e156bb4d04ebe12efe",
+      "rawValues": {
+        "E": "342090077",
+        "P": "420000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "806,400000",
+        "coal": "201,600000",
+        "gas": "336,000000",
+        "thermal": "1344",
+        "previous": "0,830790"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": null,
+      "expectedBlocked": false
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_02.pdf",
+      "sha256": "5a1c0259013cbaa78c9de7798271e4a23c86dde081642230a2db76322de5299a",
+      "rawValues": {
+        "E": "377651221",
+        "P": "455000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "975,975000",
+        "coal": "225,225000",
+        "gas": "300,300000",
+        "thermal": "1501,5",
+        "previous": "0,846603"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": null,
+      "expectedBlocked": false
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_03.pdf",
+      "sha256": "f34dc8a7799348d4a91eb3392143bf35c78732add2d6ce1c089eaa8071892ff0",
+      "rawValues": {
+        "E": "414500400",
+        "P": "490000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "1166,200000",
+        "coal": "249,900000",
+        "gas": "249,900000",
+        "thermal": "1666",
+        "previous": "0,862838"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": null,
+      "expectedBlocked": false
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_04.pdf",
+      "sha256": "f6e03d579c9e73c40557cc56ec8dfd4c62338732aa436ae5600ba274c088c13e",
+      "rawValues": {
+        "E": "452681084",
+        "P": "525000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "1378,125000",
+        "coal": "275,625000",
+        "gas": "183,750000",
+        "thermal": "1837,5",
+        "previous": "0,879495"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": null,
+      "expectedBlocked": false
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_05.pdf",
+      "sha256": "5afe2f46b138399c61a89679563992fd328e7d800c35f6b29b2739579b0bc251",
+      "rawValues": {
+        "E": "492236743",
+        "P": "560000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "1612,800000",
+        "coal": "302,400000",
+        "gas": "100,800000",
+        "thermal": "2016",
+        "previous": "0,896574"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": null,
+      "expectedBlocked": false
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_06.pdf",
+      "sha256": "b456e2801ec4e1828868e662091b9c950d0a741da3d518f0fe3d8614ef54bbe0",
+      "rawValues": {
+        "E": "510425322",
+        "P": "595000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "1320,900000",
+        "coal": "330,225000",
+        "gas": "550,375000",
+        "thermal": "2201,5",
+        "previous": "0,875015"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": null,
+      "expectedBlocked": false
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_07.pdf",
+      "sha256": "77aaf1e2bff2939eb3a64df735386b64c09403db20184edfacd9402b9438b1e3",
+      "rawValues": {
+        "E": "550868966",
+        "P": "630000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "1556,100000",
+        "coal": "359,100000",
+        "gas": "478,800000",
+        "thermal": "2394",
+        "previous": "0,891883"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": null,
+      "expectedBlocked": false
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_08.pdf",
+      "sha256": "902674d3edf185b985a8218971ada26f8ed25a6c4c165c5a4f3fea95d2f7ee18",
+      "rawValues": {
+        "E": "592745545",
+        "P": "665000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "1815,450000",
+        "coal": "389,025000",
+        "gas": "389,025000",
+        "thermal": "2593,5",
+        "previous": "0,909174"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": null,
+      "expectedBlocked": false
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_09.pdf",
+      "sha256": "400cf8b2a12a5df54ff3fec6f9e95b66a8a2efb386c992dc1bfd7f805b5f2957",
+      "rawValues": {
+        "E": "636098529",
+        "P": "700000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "2100,000000",
+        "coal": "420,000000",
+        "gas": "280,000000",
+        "thermal": "2800",
+        "previous": "0,926886"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": null,
+      "expectedBlocked": false
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_10.pdf",
+      "sha256": "fc49427375d0e28899a57ff53025558acb87daefb70f369454c6f25b7333d832",
+      "rawValues": {
+        "E": "680971388",
+        "P": "735000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "2410,800000",
+        "coal": "452,025000",
+        "gas": "150,675000",
+        "thermal": "3013,5",
+        "previous": "0,945022"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": null,
+      "expectedBlocked": false
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_11.pdf",
+      "sha256": "6a52ac819fc816df2e1f10a3372db17f949f56a361b9ff877896520da8e0a0a1",
+      "rawValues": {
+        "E": "693935692",
+        "P": "770000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "1940,400000",
+        "coal": "485,100000",
+        "gas": "808,500000",
+        "thermal": "3234",
+        "previous": "0,919239"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": null,
+      "expectedBlocked": false
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_12.pdf",
+      "sha256": "c79b45683ca923a44ae8d8a948ffaa80f01228bfb05373106dbfe7ed0cc55e84",
+      "rawValues": {
+        "E": "739624086",
+        "P": "805000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "2249,975000",
+        "coal": "519,225000",
+        "gas": "692,300000",
+        "thermal": "3461,5",
+        "previous": "0,937163"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": null,
+      "expectedBlocked": false
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_13.pdf",
+      "sha256": "aabe52af48b982cc85752282923249e6a425297bfc8ccc5337b8f203c94d0a0d",
+      "rawValues": {
+        "E": "347654237000",
+        "P": "420000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "940,800000",
+        "coal": "201,600000",
+        "gas": "201,600000",
+        "thermal": "1344",
+        "previous": "0,844303"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": "emissions_unit_slip",
+      "expectedBlocked": true
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_14.pdf",
+      "sha256": "dd2e900477c5d6f469998fda56861396dcafaaba6433e0b48c73470edec4d6ec",
+      "rawValues": {
+        "E": "383867431",
+        "P": "0",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "1126,125000",
+        "coal": "225,225000",
+        "gas": "150,150000",
+        "thermal": "1501,5",
+        "previous": "0,860538"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": "zero_production",
+      "expectedBlocked": true
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_15.pdf",
+      "sha256": "5d10609b3d2b346ab33870f267f2e2733a9b8cb067d7d13500280376975bc727",
+      "rawValues": {
+        "E": "421397640",
+        "P": "490000000",
+        "cao": "165",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "1332,800000",
+        "coal": "249,900000",
+        "gas": "83,300000",
+        "thermal": "1666",
+        "previous": "0,877195"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": "impossible_oxide_fraction",
+      "expectedBlocked": true
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_16.pdf",
+      "sha256": "14470bfd5d8b99bf887edd7152c87a78f6a23e55e75b185f6704c0f0a9d25e74",
+      "rawValues": {
+        "E": "1",
+        "P": "525000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "1102,500000",
+        "coal": "275,625000",
+        "gas": "459,375000",
+        "thermal": "1837,5",
+        "previous": "0,857325"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": "below_calcination_and_fuel_mass_balance",
+      "expectedBlocked": true
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_17.pdf",
+      "sha256": "79eca6619a2af8790577b96f70543256e519ca05a8b976c9f95a08171a50dc34",
+      "rawValues": {
+        "E": "479717383",
+        "P": "560000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "1310,400000",
+        "coal": "302,400000",
+        "gas": "403,200000",
+        "thermal": "2016000",
+        "previous": "0,873771"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": "thermal_unit_slip",
+      "expectedBlocked": true
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_18.pdf",
+      "sha256": "73402b63206a81849f57a3c61f90e7ec71b84af9ee1543a9fdb62981d3363088",
+      "rawValues": {
+        "E": "519539532",
+        "P": "595000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "-1541,050000",
+        "coal": "330,225000",
+        "gas": "330,225000",
+        "thermal": "2201,5",
+        "previous": "0,890639"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": "negative_fuel",
+      "expectedBlocked": true
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_19.pdf",
+      "sha256": "82046e9247ca3c90d3c307a9f4db2c305fb12c9c6f86c713d7a7b82649909dd4",
+      "rawValues": {
+        "E": "630000000",
+        "P": "560780126",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "1795,500000",
+        "coal": "359,100000",
+        "gas": "239,400000",
+        "thermal": "2394",
+        "previous": "0,907930"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": "swapped_totals",
+      "expectedBlocked": true
+    },
+    {
+      "simulation": true,
+      "file": "data/simulated/reports/SIMULATED_TR_plant_20.pdf",
+      "sha256": "6dc3b2f25adf872159b0c37679c0fdc6d5b1cd0066ab96141850221771db4387",
+      "rawValues": {
+        "E": "603482635",
+        "P": "665000000",
+        "cao": "65",
+        "mgo": "1,5",
+        "ckd": "2",
+        "petcoke": "2074,800000",
+        "coal": "389,025000",
+        "gas": "129675,000000",
+        "thermal": "2593,5",
+        "previous": "0,925643"
+      },
+      "units": {
+        "E": "kg CO2",
+        "P": "kg klinker",
+        "cao": "%",
+        "mgo": "%",
+        "ckd": "%",
+        "petcoke": "TJ NCV",
+        "coal": "TJ NCV",
+        "gas": "TJ NCV",
+        "thermal": "TJ NCV",
+        "previous": "kg CO2/kg klinker"
+      },
+      "plantedError": "fuel_energy_unit_slip",
+      "expectedBlocked": true
+    }
+  ],
+  "limitations": [
+    "Synthetic one-page report layouts; not a representative real-report benchmark",
+    "Fuel quantities are stated as energy quantities on an NCV basis, not measured fuel masses",
+    "Simplified direct-emissions boundary, not CBAM monitoring conformance"
+  ]
+}

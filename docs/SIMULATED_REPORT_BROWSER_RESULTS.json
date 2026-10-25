@@ -1,0 +1,25 @@
+{
+  "simulation": true,
+  "status": "PASS",
+  "roundId": "1",
+  "reportBrowserContexts": 5,
+  "realLocalModelCalls": 6,
+  "realPDFUpload": true,
+  "malformedPDFRejected": true,
+  "impossibleReportBlockedBeforeCommit": true,
+  "explicitSourceCorrections": true,
+  "keepCurrentProposalPreserved": true,
+  "reportJobRecoveredAfterRefresh": true,
+  "automatedReviewMetadataOnlyInterception": true,
+  "humanApprovalPerformed": false,
+  "aggregate": {
+    "E": "2079159525",
+    "P": "2450000000",
+    "intensityPpm": "848636"
+  },
+  "encryptedDeliveriesAcknowledged": 15,
+  "independentBrowserVerified": true,
+  "pageErrors": [],
+  "elapsedSeconds": 1317.61,
+  "scope": "Real local PDF/model/editor/review/proof/commit/share/close workflow; only review approval-kind is explicitly marked automated; no model, crypto, RPC or result mocks"
+}

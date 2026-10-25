@@ -1,0 +1,136 @@
+{
+  "simulation": true,
+  "file": "data/simulated/reports/SIMULATED_TR_plant_13.pdf",
+  "reportSHA256": "aabe52af48b982cc85752282923249e6a425297bfc8ccc5337b8f203c94d0a0d",
+  "measurement": {
+    "provider": "ollama",
+    "model": "qwen2.5:1.5b",
+    "local": true,
+    "simulation": true,
+    "seconds": 21.358,
+    "usage": {
+      "prompt_eval_count": 1451,
+      "eval_count": 374,
+      "total_duration": 21345110791,
+      "load_duration": 1109833,
+      "prompt_eval_duration": 2637389000,
+      "eval_duration": 18676852000
+    },
+    "temperature": 0,
+    "seed": 42,
+    "promptVersion": 2,
+    "promptHash": "f9b6dd067b28da85dc7e6e06e2deecff32a9edc9e748a937f1d80f6f81de1eb7"
+  },
+  "schemaValid": true,
+  "exactValueFields": 4,
+  "exactCitationFields": 3,
+  "numericValueFields": 6,
+  "groundingError": "CitationOrUnitMismatch:petcoke",
+  "endToEndBlocked": true,
+  "plantedError": "emissions_unit_slip",
+  "expectedBlocked": true,
+  "oraclePhysics": {
+    "rules": [
+      {
+        "id": "R01",
+        "status": "PASS",
+        "reason": "E/P must be canonical integer kg values within circuit limits, with positive production.",
+        "sourceIds": [
+          "CRYPTO_SPEC"
+        ],
+        "details": null
+      },
+      {
+        "id": "R02",
+        "status": "PASS",
+        "reason": "Mass fractions and the stated CKD correction must be nonnegative and internally possible; unsupported boundaries require review.",
+        "sourceIds": [
+          "S24",
+          "S26"
+        ],
+        "details": null
+      },
+      {
+        "id": "R03",
+        "status": "PASS",
+        "reason": "Fuel energy quantities must be nonnegative and total kiln energy positive.",
+        "sourceIds": [
+          "S23"
+        ],
+        "details": null
+      },
+      {
+        "id": "R04",
+        "status": "PASS",
+        "reason": "Reported total kiln thermal energy must reconcile with the individual NCV fuel quantities within the explicit 2% application review tolerance.",
+        "sourceIds": [
+          "S23",
+          "APPLICATION_POLICY"
+        ],
+        "details": {
+          "fuelSumTJ": "1344.000000",
+          "reportedTJ": "1344"
+        }
+      },
+      {
+        "id": "R05",
+        "status": "FAIL",
+        "reason": "Direct CO2 must fall within the declared carbonate plus fossil-fuel mass-balance interval. This simplified boundary assumes no CCS, biomass or non-carbonate oxides.",
+        "sourceIds": [
+          "S23",
+          "S24",
+          "S26",
+          "S27",
+          "S28",
+          "S29",
+          "APPLICATION_POLICY"
+        ],
+        "details": {
+          "processKg": "225545117.4858320088636226872",
+          "fuelKg": "122109120.000000",
+          "lowerKg": "325876967.1361153686863502335",
+          "upperKg": "372901715.8355486490408951409",
+          "reportedKg": "347654237000"
+        }
+      },
+      {
+        "id": "R06",
+        "status": "PASS",
+        "reason": "Scoped BAT energy reference only. A value outside 2900-3300 MJ/t is not proof of physical impossibility or noncompliance.",
+        "sourceIds": [
+          "S25"
+        ],
+        "details": {
+          "MJPerTonneClinker": "3200",
+          "referenceScope": "New plants and major upgrades with dry-process multistage preheating/precalcination, subject to source footnotes; advisory only, not a physical feasibility range"
+        }
+      },
+      {
+        "id": "R07",
+        "status": "REVIEW",
+        "reason": "Year-on-year movement above the explicit 15% application review threshold requires explanation; it is not a legal threshold.",
+        "sourceIds": [
+          "APPLICATION_POLICY"
+        ],
+        "details": {
+          "relativeChange": "979.3923275569710558097428687"
+        }
+      }
+    ],
+    "blocked": true,
+    "calculation": {
+      "E": "347654237000",
+      "P": "420000000",
+      "intensity": "827.7481833333333333333333333",
+      "derivedPlausibilityInterval": [
+        "0.7758975408002746873484529369",
+        "0.8878612281798777358116550974"
+      ]
+    },
+    "constantsHash": "0bb6a487566342979d05839cf7e3fc98f7433b7c7b4286bd1605032da9cf310e",
+    "limitations": [
+      "Consistency within a declared simplified boundary does not establish truthful or complete measurement",
+      "BAT range is advisory; review tolerances are application policy, not official methodology"
+    ]
+  }
+}
