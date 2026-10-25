@@ -1,0 +1,65 @@
+{
+  "simulation": true,
+  "networkMode": "PUBLIC_TESTNET_SIMULATION",
+  "status": "MONAD_PROTOCOL_PASS_OWNER_HOSTING_PENDING",
+  "instanceId": "4d7e3c8e-c3ae-4131-a9e7-778acce5a442",
+  "chainId": 10143,
+  "round": "0x9ea9702324c53dcfb3c179acfed122dbf52f9cfc",
+  "badge": "0x8c0befc317e1896fda2fe6a1ffa04599f6a35e08",
+  "validity": "0x4760d62a410a2efa415029e6630db240a3f65dca",
+  "below": "0x09a2a39b839a7509e69db572f2136a96f62c3de0",
+  "blockNumber": "73860619",
+  "transactions": {
+    "CommitmentValidityVerifier": {
+      "hash": "0x9f4ea725624ebce601a84c39fe16842875638910e15b90acb0d1ecc7df28560e",
+      "blockNumber": "73858859",
+      "gasUsed": "849098",
+      "gasLimit": "849098",
+      "maximumCost": "0",
+      "address": "0x4760d62a410a2efa415029e6630db240a3f65dca",
+      "reused": true
+    },
+    "BelowThresholdVerifier": {
+      "hash": "0xab4494c02bfd971b93e19ac7390b7b9cf9bc0c7fc5a8e5f8194f678d4b9e0308",
+      "blockNumber": "73858874",
+      "gasUsed": "809300",
+      "gasLimit": "809300",
+      "maximumCost": "0",
+      "address": "0x09a2a39b839a7509e69db572f2136a96f62c3de0",
+      "reused": true
+    },
+    "OrtalamaRound": {
+      "hash": "0x0acbab67301745e458847126e3ea420c02038825f209ed0fdc7e5f3bb600b7d5",
+      "blockNumber": "73860619",
+      "gasUsed": "4396285",
+      "gasLimit": "4396285",
+      "maximumCost": "536346770000000000",
+      "address": "0x9ea9702324c53dcfb3c179acfed122dbf52f9cfc"
+    },
+    "BadgeRegistry": {
+      "hash": "0x4a49a52de35b7adad39fe7a1c14a609cb86b39fa783d451fb22e84802fcddc27",
+      "blockNumber": "73860651",
+      "gasUsed": "694977",
+      "gasLimit": "694977",
+      "maximumCost": "84787194000000000",
+      "address": "0x8c0befc317e1896fda2fe6a1ffa04599f6a35e08"
+    }
+  },
+  "runtimeCodeHashes": {
+    "round": "0xe909450a60641a32fd2c30291ef0bbcd20c9b202d5a62a0a8b6aff975cfe9a75",
+    "badge": "0x21cdfc57c8afecb4dd2f20a3161f49eb4e27888a2cd921ff1e582d76d77679aa",
+    "validity": "0xcb00b06dc58b1fc2dfe4128a1b6d2f9911165d6c836b7757be5f5378371076f0",
+    "below": "0xcd7ad9c0f2d01b1d3f48654a1b617d249b23f8e8e08ed4603f79f8d5ee80fee0"
+  },
+  "governor": "0x8cf8d07115760a5D4Db4a6561729E8ed4de4D8CA",
+  "custody": "Three separately keyed local trustee processes on one host; simulated identities; no institutional custody",
+  "explorerVerification": {
+    "status": "ALL_FOUR_EXACT_SOURCE_MATCH",
+    "provider": "Sourcify",
+    "record": "docs/SIMULATED_MONAD_SOURCE_VERIFICATION.json"
+  },
+  "phoneVerification": "PENDING_OWNER_PHYSICAL_DEVICE",
+  "testnetGate": "docs/SIMULATED_MONAD_ROUND_RESULTS.json",
+  "mainRoundId": "2",
+  "hosting": "OWNER_HANDLED_NOT_PUBLISHED_BY_BUILD_SESSION"
+}

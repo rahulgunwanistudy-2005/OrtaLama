@@ -1,0 +1,7 @@
+{
+  "simulation": true,
+  "status": "PUBLISHED_SNAPSHOT",
+  "chainId": 10143,
+  "publishedAt": "2026-10-24T20:37:44.249Z",
+  "authority": "Browser verification fetches and checks current RPC state independently"
+}

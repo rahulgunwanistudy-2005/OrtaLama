@@ -1,0 +1,21 @@
+{
+  "simulation": true,
+  "chainId": 10143,
+  "round": "0x9ea9702324c53dcfb3c179acfed122dbf52f9cfc",
+  "badge": "0x8c0befc317e1896fda2fe6a1ffa04599f6a35e08",
+  "mainRoundId": "2",
+  "publicReadOnly": true,
+  "privateServicesIncluded": false,
+  "transactionsSentByPackaging": 0,
+  "publishedAt": "2026-10-24T20:37:44.249Z",
+  "limits": [
+    "Static snapshot and public signature sidecars are replaceable evidence caches",
+    "Verification independently fetches selected RPC state and checks code hashes and all co-signatures",
+    "Publishing new rounds or signatures requires regenerating the bundle",
+    "Private participation, trustee and operator services remain local; no institutional custody claimed",
+    "Hosting and physical-phone verification are performed by the project owner"
+  ],
+  "uiRefreshedAt": "2026-10-25T18:29:16.650Z",
+  "buildHTMLSHA256": "144505d596ff1dee7b44edc25bf0c3563f293e06c08f8b395ae7763fd49d93b3",
+  "evidenceRefresh": "Retained original pinned dossiers; source/arithmetic/signatures rechecked offline. This UI refresh sends no transaction and makes no new online-reproduction claim."
+}

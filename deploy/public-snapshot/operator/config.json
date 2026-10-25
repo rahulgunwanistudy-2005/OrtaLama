@@ -1,0 +1,2320 @@
+{
+  "badgeReceipts": {
+    "0xc31f02dcaec3d4ed09ce272a33b5d5dac3faad8fe68258d2275039af9cb6dfef": "0xd95fef4606b00db2c6a09f5aaa832747286641f7bbb908331d12361b1fc06601"
+  },
+  "simulation": true,
+  "publicEvidence": true,
+  "seedStatus": "READY",
+  "publishedAt": "2026-10-24T20:37:44.249Z",
+  "deployment": {
+    "simulation": true,
+    "networkMode": "PUBLIC_TESTNET_SIMULATION",
+    "status": "MONAD_PROTOCOL_PASS_OWNER_HOSTING_PENDING",
+    "instanceId": "4d7e3c8e-c3ae-4131-a9e7-778acce5a442",
+    "chainId": 10143,
+    "round": "0x9ea9702324c53dcfb3c179acfed122dbf52f9cfc",
+    "badge": "0x8c0befc317e1896fda2fe6a1ffa04599f6a35e08",
+    "validity": "0x4760d62a410a2efa415029e6630db240a3f65dca",
+    "below": "0x09a2a39b839a7509e69db572f2136a96f62c3de0",
+    "blockNumber": "73860619",
+    "transactions": {
+      "CommitmentValidityVerifier": {
+        "hash": "0x9f4ea725624ebce601a84c39fe16842875638910e15b90acb0d1ecc7df28560e",
+        "blockNumber": "73858859",
+        "gasUsed": "849098",
+        "gasLimit": "849098",
+        "maximumCost": "0",
+        "address": "0x4760d62a410a2efa415029e6630db240a3f65dca",
+        "reused": true
+      },
+      "BelowThresholdVerifier": {
+        "hash": "0xab4494c02bfd971b93e19ac7390b7b9cf9bc0c7fc5a8e5f8194f678d4b9e0308",
+        "blockNumber": "73858874",
+        "gasUsed": "809300",
+        "gasLimit": "809300",
+        "maximumCost": "0",
+        "address": "0x09a2a39b839a7509e69db572f2136a96f62c3de0",
+        "reused": true
+      },
+      "OrtalamaRound": {
+        "hash": "0x0acbab67301745e458847126e3ea420c02038825f209ed0fdc7e5f3bb600b7d5",
+        "blockNumber": "73860619",
+        "gasUsed": "4396285",
+        "gasLimit": "4396285",
+        "maximumCost": "536346770000000000",
+        "address": "0x9ea9702324c53dcfb3c179acfed122dbf52f9cfc"
+      },
+      "BadgeRegistry": {
+        "hash": "0x4a49a52de35b7adad39fe7a1c14a609cb86b39fa783d451fb22e84802fcddc27",
+        "blockNumber": "73860651",
+        "gasUsed": "694977",
+        "gasLimit": "694977",
+        "maximumCost": "84787194000000000",
+        "address": "0x8c0befc317e1896fda2fe6a1ffa04599f6a35e08"
+      }
+    },
+    "runtimeCodeHashes": {
+      "round": "0xe909450a60641a32fd2c30291ef0bbcd20c9b202d5a62a0a8b6aff975cfe9a75",
+      "badge": "0x21cdfc57c8afecb4dd2f20a3161f49eb4e27888a2cd921ff1e582d76d77679aa",
+      "validity": "0xcb00b06dc58b1fc2dfe4128a1b6d2f9911165d6c836b7757be5f5378371076f0",
+      "below": "0xcd7ad9c0f2d01b1d3f48654a1b617d249b23f8e8e08ed4603f79f8d5ee80fee0"
+    },
+    "governor": "0x8cf8d07115760a5D4Db4a6561729E8ed4de4D8CA",
+    "custody": "Three separately keyed local trustee processes on one host; simulated identities; no institutional custody",
+    "explorerVerification": {
+      "status": "ALL_FOUR_EXACT_SOURCE_MATCH",
+      "provider": "Sourcify",
+      "record": "docs/SIMULATED_MONAD_SOURCE_VERIFICATION.json"
+    },
+    "phoneVerification": "PENDING_OWNER_PHYSICAL_DEVICE",
+    "testnetGate": "docs/SIMULATED_MONAD_ROUND_RESULTS.json",
+    "mainRoundId": "2",
+    "hosting": "OWNER_HANDLED_NOT_PUBLISHED_BY_BUILD_SESSION"
+  },
+  "rpc": "https://testnet-rpc.monad.xyz",
+  "abis": {
+    "OrtalamaRound": [
+      {
+        "type": "constructor",
+        "inputs": [
+          {
+            "name": "regulator_",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "verifier_",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "PQ_LINK_TYPEHASH",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "STATEMENT_TYPEHASH",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "SUM_TYPEHASH",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "abort",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "reason",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "acknowledge",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "installationId",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "index",
+            "type": "uint8",
+            "internalType": "uint8"
+          },
+          {
+            "name": "ciphertextHash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "close",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "commit",
+        "inputs": [
+          {
+            "name": "s",
+            "type": "tuple",
+            "internalType": "struct ProtocolTypes.Statement",
+            "components": [
+              {
+                "name": "roundId",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "installationId",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "CE",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "CP",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "AE",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "AP",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "reportHash",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "metadataHash",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "pqKeyHash",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              }
+            ]
+          },
+          {
+            "name": "validationHash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "ciphertextHashes",
+            "type": "bytes32[3]",
+            "internalType": "bytes32[3]"
+          },
+          {
+            "name": "verifierSignature",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "pqLinkSignature",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "pqSignatureHash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "cohortProof",
+            "type": "bytes32[]",
+            "internalType": "bytes32[]"
+          },
+          {
+            "name": "verifierProof",
+            "type": "bytes32[]",
+            "internalType": "bytes32[]"
+          },
+          {
+            "name": "proof",
+            "type": "tuple",
+            "internalType": "struct ProtocolTypes.Proof",
+            "components": [
+              {
+                "name": "a",
+                "type": "uint256[2]",
+                "internalType": "uint256[2]"
+              },
+              {
+                "name": "b",
+                "type": "uint256[2][2]",
+                "internalType": "uint256[2][2]"
+              },
+              {
+                "name": "c",
+                "type": "uint256[2]",
+                "internalType": "uint256[2]"
+              },
+              {
+                "name": "contextTag",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "createRound",
+        "inputs": [
+          {
+            "name": "config",
+            "type": "tuple",
+            "internalType": "struct OrtalamaRound.Config",
+            "components": [
+              {
+                "name": "productCN",
+                "type": "bytes8",
+                "internalType": "bytes8"
+              },
+              {
+                "name": "country",
+                "type": "bytes2",
+                "internalType": "bytes2"
+              },
+              {
+                "name": "period",
+                "type": "uint32",
+                "internalType": "uint32"
+              },
+              {
+                "name": "cohortRoot",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "verifierRoot",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "trustees",
+                "type": "address[3]",
+                "internalType": "address[3]"
+              },
+              {
+                "name": "encryptionKeys",
+                "type": "bytes32[3]",
+                "internalType": "bytes32[3]"
+              },
+              {
+                "name": "commitDeadline",
+                "type": "uint64",
+                "internalType": "uint64"
+              },
+              {
+                "name": "sharingDeadline",
+                "type": "uint64",
+                "internalType": "uint64"
+              },
+              {
+                "name": "closingDeadline",
+                "type": "uint64",
+                "internalType": "uint64"
+              },
+              {
+                "name": "minimumPlants",
+                "type": "uint16",
+                "internalType": "uint16"
+              },
+              {
+                "name": "sectorProduction",
+                "type": "uint56",
+                "internalType": "uint56"
+              },
+              {
+                "name": "sectorAttestationHash",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "metadataHash",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "thresholdNumerators",
+                "type": "uint56[3]",
+                "internalType": "uint56[3]"
+              },
+              {
+                "name": "thresholdDenominators",
+                "type": "uint56[3]",
+                "internalType": "uint56[3]"
+              },
+              {
+                "name": "fixedThresholdCount",
+                "type": "uint8",
+                "internalType": "uint8"
+              },
+              {
+                "name": "simulated",
+                "type": "bool",
+                "internalType": "bool"
+              }
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "name": "id",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "eip712Domain",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "fields",
+            "type": "bytes1",
+            "internalType": "bytes1"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "version",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "chainId",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "verifyingContract",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "salt",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "extensions",
+            "type": "uint256[]",
+            "internalType": "uint256[]"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "getInstallations",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "bytes32[]",
+            "internalType": "bytes32[]"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "getPlant",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "installationId",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "tuple",
+            "internalType": "struct OrtalamaRound.Plant",
+            "components": [
+              {
+                "name": "statement",
+                "type": "tuple",
+                "internalType": "struct ProtocolTypes.Statement",
+                "components": [
+                  {
+                    "name": "roundId",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "installationId",
+                    "type": "bytes32",
+                    "internalType": "bytes32"
+                  },
+                  {
+                    "name": "CE",
+                    "type": "tuple",
+                    "internalType": "struct BabyJubjub.Point",
+                    "components": [
+                      {
+                        "name": "x",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                      },
+                      {
+                        "name": "y",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "CP",
+                    "type": "tuple",
+                    "internalType": "struct BabyJubjub.Point",
+                    "components": [
+                      {
+                        "name": "x",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                      },
+                      {
+                        "name": "y",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "AE",
+                    "type": "tuple",
+                    "internalType": "struct BabyJubjub.Point",
+                    "components": [
+                      {
+                        "name": "x",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                      },
+                      {
+                        "name": "y",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "AP",
+                    "type": "tuple",
+                    "internalType": "struct BabyJubjub.Point",
+                    "components": [
+                      {
+                        "name": "x",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                      },
+                      {
+                        "name": "y",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "reportHash",
+                    "type": "bytes32",
+                    "internalType": "bytes32"
+                  },
+                  {
+                    "name": "metadataHash",
+                    "type": "bytes32",
+                    "internalType": "bytes32"
+                  },
+                  {
+                    "name": "pqKeyHash",
+                    "type": "bytes32",
+                    "internalType": "bytes32"
+                  }
+                ]
+              },
+              {
+                "name": "ciphertextHashes",
+                "type": "bytes32[3]",
+                "internalType": "bytes32[3]"
+              },
+              {
+                "name": "receipts",
+                "type": "uint8",
+                "internalType": "uint8"
+              },
+              {
+                "name": "committed",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "pqSignatureHash",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              }
+            ]
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "getRound",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "tuple",
+            "internalType": "struct OrtalamaRound.Round",
+            "components": [
+              {
+                "name": "config",
+                "type": "tuple",
+                "internalType": "struct OrtalamaRound.Config",
+                "components": [
+                  {
+                    "name": "productCN",
+                    "type": "bytes8",
+                    "internalType": "bytes8"
+                  },
+                  {
+                    "name": "country",
+                    "type": "bytes2",
+                    "internalType": "bytes2"
+                  },
+                  {
+                    "name": "period",
+                    "type": "uint32",
+                    "internalType": "uint32"
+                  },
+                  {
+                    "name": "cohortRoot",
+                    "type": "bytes32",
+                    "internalType": "bytes32"
+                  },
+                  {
+                    "name": "verifierRoot",
+                    "type": "bytes32",
+                    "internalType": "bytes32"
+                  },
+                  {
+                    "name": "trustees",
+                    "type": "address[3]",
+                    "internalType": "address[3]"
+                  },
+                  {
+                    "name": "encryptionKeys",
+                    "type": "bytes32[3]",
+                    "internalType": "bytes32[3]"
+                  },
+                  {
+                    "name": "commitDeadline",
+                    "type": "uint64",
+                    "internalType": "uint64"
+                  },
+                  {
+                    "name": "sharingDeadline",
+                    "type": "uint64",
+                    "internalType": "uint64"
+                  },
+                  {
+                    "name": "closingDeadline",
+                    "type": "uint64",
+                    "internalType": "uint64"
+                  },
+                  {
+                    "name": "minimumPlants",
+                    "type": "uint16",
+                    "internalType": "uint16"
+                  },
+                  {
+                    "name": "sectorProduction",
+                    "type": "uint56",
+                    "internalType": "uint56"
+                  },
+                  {
+                    "name": "sectorAttestationHash",
+                    "type": "bytes32",
+                    "internalType": "bytes32"
+                  },
+                  {
+                    "name": "metadataHash",
+                    "type": "bytes32",
+                    "internalType": "bytes32"
+                  },
+                  {
+                    "name": "thresholdNumerators",
+                    "type": "uint56[3]",
+                    "internalType": "uint56[3]"
+                  },
+                  {
+                    "name": "thresholdDenominators",
+                    "type": "uint56[3]",
+                    "internalType": "uint56[3]"
+                  },
+                  {
+                    "name": "fixedThresholdCount",
+                    "type": "uint8",
+                    "internalType": "uint8"
+                  },
+                  {
+                    "name": "simulated",
+                    "type": "bool",
+                    "internalType": "bool"
+                  }
+                ]
+              },
+              {
+                "name": "state",
+                "type": "uint8",
+                "internalType": "enum OrtalamaRound.State"
+              },
+              {
+                "name": "n",
+                "type": "uint16",
+                "internalType": "uint16"
+              },
+              {
+                "name": "receipts",
+                "type": "uint16[3]",
+                "internalType": "uint16[3]"
+              },
+              {
+                "name": "publicationMask",
+                "type": "uint8",
+                "internalType": "uint8"
+              },
+              {
+                "name": "faultMask",
+                "type": "uint8",
+                "internalType": "uint8"
+              },
+              {
+                "name": "manifestHash",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "sumCE",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "sumCP",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "sumAE",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "sumAP",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "SE",
+                "type": "uint56",
+                "internalType": "uint56"
+              },
+              {
+                "name": "SP",
+                "type": "uint56",
+                "internalType": "uint56"
+              },
+              {
+                "name": "intensity",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "coveragePpm",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "representative",
+                "type": "bool",
+                "internalType": "bool"
+              }
+            ]
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "getSum",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "index",
+            "type": "uint8",
+            "internalType": "uint8"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "tuple",
+            "internalType": "struct ProtocolTypes.Sum",
+            "components": [
+              {
+                "name": "E",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "r",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "P",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "s",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "inputVerifier",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "contract ICommitmentValidityVerifier"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "metadataDigest",
+        "inputs": [
+          {
+            "name": "validationHash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "ciphertextHashes",
+            "type": "bytes32[3]",
+            "internalType": "bytes32[3]"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ],
+        "stateMutability": "pure"
+      },
+      {
+        "type": "function",
+        "name": "open",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "pqLinkDigest",
+        "inputs": [
+          {
+            "name": "digest",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "pqSignatureHash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "publishSum",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "index",
+            "type": "uint8",
+            "internalType": "uint8"
+          },
+          {
+            "name": "manifestHash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "sums",
+            "type": "tuple",
+            "internalType": "struct ProtocolTypes.Sum",
+            "components": [
+              {
+                "name": "E",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "r",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "P",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "s",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "recordFault",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "index",
+            "type": "uint8",
+            "internalType": "uint8"
+          },
+          {
+            "name": "manifestHash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "sums",
+            "type": "tuple",
+            "internalType": "struct ProtocolTypes.Sum",
+            "components": [
+              {
+                "name": "E",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "r",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "P",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "s",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          },
+          {
+            "name": "signature",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "regulator",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "roundCount",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "startClosing",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "startSharing",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "statementDigest",
+        "inputs": [
+          {
+            "name": "s",
+            "type": "tuple",
+            "internalType": "struct ProtocolTypes.Statement",
+            "components": [
+              {
+                "name": "roundId",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "installationId",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "CE",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "CP",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "AE",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "AP",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "reportHash",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "metadataHash",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "pqKeyHash",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              }
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "sumDigest",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "index",
+            "type": "uint8",
+            "internalType": "uint8"
+          },
+          {
+            "name": "manifestHash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "sums",
+            "type": "tuple",
+            "internalType": "struct ProtocolTypes.Sum",
+            "components": [
+              {
+                "name": "E",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "r",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "P",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "s",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "threshold",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "thresholdId",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "numerator",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "denominator",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "event",
+        "name": "EIP712DomainChanged",
+        "inputs": [],
+        "anonymous": false
+      },
+      {
+        "type": "event",
+        "name": "ManifestFrozen",
+        "inputs": [
+          {
+            "name": "roundId",
+            "type": "uint64",
+            "indexed": true,
+            "internalType": "uint64"
+          },
+          {
+            "name": "manifestHash",
+            "type": "bytes32",
+            "indexed": false,
+            "internalType": "bytes32"
+          }
+        ],
+        "anonymous": false
+      },
+      {
+        "type": "event",
+        "name": "PlantCommitted",
+        "inputs": [
+          {
+            "name": "roundId",
+            "type": "uint64",
+            "indexed": true,
+            "internalType": "uint64"
+          },
+          {
+            "name": "installationId",
+            "type": "bytes32",
+            "indexed": true,
+            "internalType": "bytes32"
+          },
+          {
+            "name": "verifier",
+            "type": "address",
+            "indexed": true,
+            "internalType": "address"
+          },
+          {
+            "name": "statement",
+            "type": "tuple",
+            "indexed": false,
+            "internalType": "struct ProtocolTypes.Statement",
+            "components": [
+              {
+                "name": "roundId",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "installationId",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "CE",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "CP",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "AE",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "AP",
+                "type": "tuple",
+                "internalType": "struct BabyJubjub.Point",
+                "components": [
+                  {
+                    "name": "x",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  },
+                  {
+                    "name": "y",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              },
+              {
+                "name": "reportHash",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "metadataHash",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "pqKeyHash",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              }
+            ]
+          },
+          {
+            "name": "ciphertextHashes",
+            "type": "bytes32[3]",
+            "indexed": false,
+            "internalType": "bytes32[3]"
+          },
+          {
+            "name": "pqSignatureHash",
+            "type": "bytes32",
+            "indexed": false,
+            "internalType": "bytes32"
+          }
+        ],
+        "anonymous": false
+      },
+      {
+        "type": "event",
+        "name": "RoundAborted",
+        "inputs": [
+          {
+            "name": "roundId",
+            "type": "uint64",
+            "indexed": true,
+            "internalType": "uint64"
+          },
+          {
+            "name": "reason",
+            "type": "bytes32",
+            "indexed": false,
+            "internalType": "bytes32"
+          }
+        ],
+        "anonymous": false
+      },
+      {
+        "type": "event",
+        "name": "RoundClosed",
+        "inputs": [
+          {
+            "name": "roundId",
+            "type": "uint64",
+            "indexed": true,
+            "internalType": "uint64"
+          },
+          {
+            "name": "SE",
+            "type": "uint56",
+            "indexed": false,
+            "internalType": "uint56"
+          },
+          {
+            "name": "SP",
+            "type": "uint56",
+            "indexed": false,
+            "internalType": "uint56"
+          },
+          {
+            "name": "intensity",
+            "type": "uint256",
+            "indexed": false,
+            "internalType": "uint256"
+          },
+          {
+            "name": "coveragePpm",
+            "type": "uint256",
+            "indexed": false,
+            "internalType": "uint256"
+          },
+          {
+            "name": "representative",
+            "type": "bool",
+            "indexed": false,
+            "internalType": "bool"
+          },
+          {
+            "name": "pairMask",
+            "type": "uint8",
+            "indexed": false,
+            "internalType": "uint8"
+          }
+        ],
+        "anonymous": false
+      },
+      {
+        "type": "event",
+        "name": "RoundCreated",
+        "inputs": [
+          {
+            "name": "roundId",
+            "type": "uint64",
+            "indexed": true,
+            "internalType": "uint64"
+          },
+          {
+            "name": "parametersHash",
+            "type": "bytes32",
+            "indexed": false,
+            "internalType": "bytes32"
+          },
+          {
+            "name": "simulated",
+            "type": "bool",
+            "indexed": false,
+            "internalType": "bool"
+          }
+        ],
+        "anonymous": false
+      },
+      {
+        "type": "event",
+        "name": "ShareAcknowledged",
+        "inputs": [
+          {
+            "name": "roundId",
+            "type": "uint64",
+            "indexed": true,
+            "internalType": "uint64"
+          },
+          {
+            "name": "installationId",
+            "type": "bytes32",
+            "indexed": true,
+            "internalType": "bytes32"
+          },
+          {
+            "name": "trusteeIndex",
+            "type": "uint8",
+            "indexed": true,
+            "internalType": "uint8"
+          },
+          {
+            "name": "ciphertextHash",
+            "type": "bytes32",
+            "indexed": false,
+            "internalType": "bytes32"
+          }
+        ],
+        "anonymous": false
+      },
+      {
+        "type": "event",
+        "name": "StateChanged",
+        "inputs": [
+          {
+            "name": "roundId",
+            "type": "uint64",
+            "indexed": true,
+            "internalType": "uint64"
+          },
+          {
+            "name": "state",
+            "type": "uint8",
+            "indexed": false,
+            "internalType": "enum OrtalamaRound.State"
+          }
+        ],
+        "anonymous": false
+      },
+      {
+        "type": "event",
+        "name": "SumPublished",
+        "inputs": [
+          {
+            "name": "roundId",
+            "type": "uint64",
+            "indexed": true,
+            "internalType": "uint64"
+          },
+          {
+            "name": "trusteeIndex",
+            "type": "uint8",
+            "indexed": true,
+            "internalType": "uint8"
+          },
+          {
+            "name": "sums",
+            "type": "tuple",
+            "indexed": false,
+            "internalType": "struct ProtocolTypes.Sum",
+            "components": [
+              {
+                "name": "E",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "r",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "P",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "s",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          },
+          {
+            "name": "manifestHash",
+            "type": "bytes32",
+            "indexed": false,
+            "internalType": "bytes32"
+          }
+        ],
+        "anonymous": false
+      },
+      {
+        "type": "event",
+        "name": "TrusteeFaultRecorded",
+        "inputs": [
+          {
+            "name": "roundId",
+            "type": "uint64",
+            "indexed": true,
+            "internalType": "uint64"
+          },
+          {
+            "name": "trusteeIndex",
+            "type": "uint8",
+            "indexed": true,
+            "internalType": "uint8"
+          },
+          {
+            "name": "evidenceHash",
+            "type": "bytes32",
+            "indexed": false,
+            "internalType": "bytes32"
+          }
+        ],
+        "anonymous": false
+      },
+      {
+        "type": "error",
+        "name": "AggregateMismatch",
+        "inputs": [
+          {
+            "name": "trusteeIndex",
+            "type": "uint8",
+            "internalType": "uint8"
+          }
+        ]
+      },
+      {
+        "type": "error",
+        "name": "AlreadyAcknowledged",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "AlreadyCommitted",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "AlreadyPublished",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "CohortTooSmall",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "DeadlinePassed",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "InsufficientSums",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "InvalidInverse",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "InvalidMetadata",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "InvalidParams",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "InvalidProof",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "InvalidSectorProduction",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "InvalidShortString",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "MissingReceipts",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "NonCanonicalPoint",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "NonCanonicalScalar",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "NotInCohort",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "NotInSubgroup",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "NotOnCurve",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "StringTooLong",
+        "inputs": [
+          {
+            "name": "str",
+            "type": "string",
+            "internalType": "string"
+          }
+        ]
+      },
+      {
+        "type": "error",
+        "name": "Unauthorized",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "UnknownPlant",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "UnknownRound",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "UnknownVerifier",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "WrongCiphertext",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "WrongManifest",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "WrongState",
+        "inputs": [
+          {
+            "name": "expected",
+            "type": "uint8",
+            "internalType": "enum OrtalamaRound.State"
+          },
+          {
+            "name": "actual",
+            "type": "uint8",
+            "internalType": "enum OrtalamaRound.State"
+          }
+        ]
+      },
+      {
+        "type": "error",
+        "name": "WrongTrustee",
+        "inputs": []
+      }
+    ],
+    "BadgeRegistry": [
+      {
+        "type": "constructor",
+        "inputs": [
+          {
+            "name": "rounds_",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "verifier_",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "attest",
+        "inputs": [
+          {
+            "name": "roundId",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "proofRoundId",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "installationId",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "thresholdId",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "proof",
+            "type": "tuple",
+            "internalType": "struct ProtocolTypes.Proof",
+            "components": [
+              {
+                "name": "a",
+                "type": "uint256[2]",
+                "internalType": "uint256[2]"
+              },
+              {
+                "name": "b",
+                "type": "uint256[2][2]",
+                "internalType": "uint256[2][2]"
+              },
+              {
+                "name": "c",
+                "type": "uint256[2]",
+                "internalType": "uint256[2]"
+              },
+              {
+                "name": "contextTag",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "name": "id",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "badgeId",
+        "inputs": [
+          {
+            "name": "roundId",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "installationId",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "thresholdId",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ],
+        "stateMutability": "pure"
+      },
+      {
+        "type": "function",
+        "name": "getBadge",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "tuple",
+            "internalType": "struct BadgeRegistry.Badge",
+            "components": [
+              {
+                "name": "issued",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "roundId",
+                "type": "uint64",
+                "internalType": "uint64"
+              },
+              {
+                "name": "installationId",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "thresholdId",
+                "type": "uint64",
+                "internalType": "uint64"
+              },
+              {
+                "name": "proofHash",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              }
+            ]
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "rounds",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "contract OrtalamaRound"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "verifier",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "contract IBelowThresholdVerifier"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "event",
+        "name": "BadgeAttested",
+        "inputs": [
+          {
+            "name": "badgeId",
+            "type": "bytes32",
+            "indexed": true,
+            "internalType": "bytes32"
+          },
+          {
+            "name": "roundId",
+            "type": "uint64",
+            "indexed": true,
+            "internalType": "uint64"
+          },
+          {
+            "name": "installationId",
+            "type": "bytes32",
+            "indexed": true,
+            "internalType": "bytes32"
+          },
+          {
+            "name": "thresholdId",
+            "type": "uint64",
+            "indexed": false,
+            "internalType": "uint64"
+          },
+          {
+            "name": "proofHash",
+            "type": "bytes32",
+            "indexed": false,
+            "internalType": "bytes32"
+          }
+        ],
+        "anonymous": false
+      },
+      {
+        "type": "error",
+        "name": "AlreadyBadged",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "InvalidParams",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "InvalidProof",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "UnknownPlant",
+        "inputs": []
+      },
+      {
+        "type": "error",
+        "name": "WrongRound",
+        "inputs": []
+      }
+    ],
+    "CommitmentValidityVerifier": [
+      {
+        "type": "function",
+        "name": "verifyProof",
+        "inputs": [
+          {
+            "name": "_pA",
+            "type": "uint256[2]",
+            "internalType": "uint256[2]"
+          },
+          {
+            "name": "_pB",
+            "type": "uint256[2][2]",
+            "internalType": "uint256[2][2]"
+          },
+          {
+            "name": "_pC",
+            "type": "uint256[2]",
+            "internalType": "uint256[2]"
+          },
+          {
+            "name": "_pubSignals",
+            "type": "uint256[14]",
+            "internalType": "uint256[14]"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ],
+        "stateMutability": "view"
+      }
+    ]
+  },
+  "plants": [
+    {
+      "installationId": "0xfbf398724193cc53959d2e2c6f51827849e5f663ff83d3e8b9412c2afe6cadd5",
+      "label": "SIMULATED plant 1",
+      "actor": "0x969486800776a83B7E2AB0100F9A33bBb3Ca285D",
+      "slot": 0
+    },
+    {
+      "installationId": "0xef53f13f4a104912d6d4b8662852a1d139fb5bfc5fb551eacdee6029cf2c46ec",
+      "label": "SIMULATED plant 2",
+      "actor": "0xA3892fFb529EE861659aa815aE883b0EBa05c2bB",
+      "slot": 1
+    },
+    {
+      "installationId": "0xf47eaf8e280bd035035b5c7456b5f6efc41e8b8a6d2c7617c7fc133bf83e9fdb",
+      "label": "SIMULATED plant 3",
+      "actor": "0x21B5011e87C297F64F19cb0c3B341E9657279b2A",
+      "slot": 2
+    },
+    {
+      "installationId": "0xd644d5b5c0487c6755b31f181c6ed5a1d963fbe33c97ea427c4e1434636cd7e0",
+      "label": "SIMULATED plant 4",
+      "actor": "0x2B2fe059d41439454658E73Ea0F402FdEbb16cFe",
+      "slot": 3
+    },
+    {
+      "installationId": "0xf1a5e87493b586a5ccb830aeb87010257f75745c6f62309d3145d72c0bd28590",
+      "label": "SIMULATED plant 5",
+      "actor": "0x3539947d3845f0758Bda290295c01b102c965384",
+      "slot": 4
+    },
+    {
+      "installationId": "0xf1879bc674c918cf17774f676caccb17a4b03f79e8ec032438ca0396d8141576",
+      "label": "SIMULATED plant 6",
+      "actor": "0x621D5cEb4ab5597a5C7Ba88085bE7165c3719BAA",
+      "slot": 5
+    },
+    {
+      "installationId": "0xe1d0b889f7d2b71a42a93b8cda9300f2c47c8170d647546ff84f0f145e023e40",
+      "label": "SIMULATED plant 7",
+      "actor": "0x33aD2b1c8cc1570F89Ddaa165310cA10e63a8aB9",
+      "slot": 6
+    },
+    {
+      "installationId": "0x66225737d983b40f45abacb57f93fc7090d5eafa302b65ef3305d71e691fcc7e",
+      "label": "SIMULATED plant 8",
+      "actor": "0xB881Da43B0C076B651f25C582cf131986Be6634e",
+      "slot": 7
+    },
+    {
+      "installationId": "0xbd0311eb3e3cae82fda7d959ac5b3d448854ee003d49bfe88b97a867fdd66a44",
+      "label": "SIMULATED plant 9",
+      "actor": "0x78F8237cCa1B0A60cb58f508062ebbEC95562E03",
+      "slot": 8
+    },
+    {
+      "installationId": "0xa11515b378668a8ef7236a2df987c91f14f134bee9dd766b0d5c91a5051497a9",
+      "label": "SIMULATED plant 10",
+      "actor": "0x3F2718ad517e3186aa1f1e155210C4848495d2Ff",
+      "slot": 9
+    },
+    {
+      "installationId": "0x8390f1806e32388bd825a16ce0cb1b5ffefc84ba3f83be244a26101b7e093179",
+      "label": "SIMULATED plant 11",
+      "actor": "0x06c048a329151476C4df02737D389469b686e365",
+      "slot": 10
+    },
+    {
+      "installationId": "0x738c0330e21eb95e8eab11abd57ad1066086c852335b4cdc8a0014eeabd36b63",
+      "label": "SIMULATED plant 12",
+      "actor": "0x53C8576Ef7Ca3D1cc4D9F80ccaBb5cA5fF03263e",
+      "slot": 11
+    }
+  ],
+  "trustees": [
+    {
+      "index": 1,
+      "address": "0x0599037051A0ab6945564fEccEF3188FcbD8C543",
+      "publicKey": "0xf7ed666f3b5d8bddbb1174111da2826cfcf4deaee522b95f9578a594bdb28941"
+    },
+    {
+      "index": 2,
+      "address": "0x434E1f0Fca22786AA0f07561f37b68bF0831D0c0",
+      "publicKey": "0xed35e1a1bf19bcb6540bf171abafe109e3781b7ec9ab15f8d867b1e8d0c86f7e"
+    },
+    {
+      "index": 3,
+      "address": "0x8a3768f69C0493e02F57E96DaAE9f24A761C0c7b",
+      "publicKey": "0xdec9e69b64b56bf9c8c75f17473fbea7f18ce32d8c55e33f7d43becad6d8a94d"
+    }
+  ],
+  "verifier": "0x313C016DB16778c20C7Ac86DAADB839fE1C112A6",
+  "pqKeyHash": "0x05bf0cbe88ebbcaccf6e5b0715c5dee26226a0bb1b17d33a06cfc2cd794e0983",
+  "cohortRoot": "0x03bc8eb363e4405ab530f556da4d8d512873a97dda7ca671ed1f8966650de0c0",
+  "verifierRoot": "0x0dc2c6512dc67f381d0d9b48aaa0274f319a5787ff0008439db86be18d3ee6d8",
+  "custody": "Three separately keyed trustee processes on one host; simulated identities, not independent organisations"
+}

@@ -1,0 +1,34 @@
+{
+  "simulation": true,
+  "status": "PINNED_RPC_STATE_ARITHMETIC_AND_SIGNATURES_VERIFIED",
+  "chainQueried": true,
+  "matchesSelectedRPC": true,
+  "finalityProof": false,
+  "chainAuthority": "Explicitly selected RPC and independent deployment anchor, not a light client",
+  "payloadSHA256": "0x4f76ea7a4b62c276ab83ad96612c22b539f5fefede694573435a66c0266f347f",
+  "transactionsChecked": 27,
+  "arithmetic": {
+    "verified": true,
+    "simulation": true,
+    "roundId": "3",
+    "manifestHash": "0x95151da532935589766ede87e8649d956b476c18d93f79f350848f0b7177329f",
+    "SE": "2079159525",
+    "SP": "2450000000",
+    "intensity": "848636",
+    "coveragePpm": "266666",
+    "representativePolicyFlag": false,
+    "steps": [
+      "Exact frozen manifest",
+      "All incoming points and aggregate point sums",
+      "Every published trustee sum against VSS commitments",
+      "Threshold interpolation and aggregate openings",
+      "Stored intensity and declared-denominator coverage"
+    ]
+  },
+  "signatures": {
+    "verified": true,
+    "ecdsaAndMLDSA65Statements": 5,
+    "keyIdentity": "Round allowlist root",
+    "onChainMLDSAVerification": false
+  }
+}

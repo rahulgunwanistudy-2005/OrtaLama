@@ -1,0 +1,18 @@
+# Render blueprint for the read-only public verification site.
+# Browser verification reads Monad testnet (chain 10143) directly; no private
+# signing, trustee or operator service is deployed and no secret is required.
+services:
+  - type: web
+    name: ortalama
+    runtime: node
+    plan: free
+    region: singapore
+    branch: main
+    buildCommand: npm ci --ignore-scripts --include=dev && node scripts/build-public-site.mjs
+    startCommand: node scripts/serve-public-site.mjs
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_VERSION
+        value: 24.19.0
+      - key: VITE_PUBLIC_EVIDENCE
+        value: "1"
