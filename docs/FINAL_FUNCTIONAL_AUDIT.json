@@ -1,0 +1,105 @@
+{
+  "simulation": true,
+  "status": "FUNCTIONAL_AUDIT_PASS_OWNER_DELIVERY_PENDING",
+  "checkedAt": "2026-10-25T18:51:17.678098+00:00",
+  "knownUnresolvedFunctionalBlockersInTestedScope": 0,
+  "fullOriginalDefinitionOfDoneMet": false,
+  "commitsOrPushesPerformed": false,
+  "additionalMonadTransactions": 0,
+  "gitHeadUnchanged": "eb1bf2bfe42502473cd6a034e10e9f0c8a7d399f",
+  "evidence": {
+    "docs/SIMULATED_FULL_PROJECT_RESULTS.json": {
+      "sha256": "7392edb770506f7f97ab199ea2fe8d3f3697c183ea9ccce624ff9ee58c7652e9",
+      "status": "PASS"
+    },
+    "docs/SIMULATED_REPORT_BROWSER_RESULTS.json": {
+      "sha256": "e2c2e9f00665a41feb7dd229b1f70459b9212e21bff5a88eec2c37781d6e4021",
+      "status": "PASS"
+    },
+    "docs/SIMULATED_REPORT_STATE_RESULTS.json": {
+      "sha256": "63c81e7515503fa73239f399aad369b546d9f81f75e5f2415bee7ef8d7ae77ff",
+      "status": "PASS"
+    },
+    "docs/SIMULATED_INDEXER_RECOVERY_RESULTS.json": {
+      "sha256": "f00796d7e9098e1695dadf6cbc13436099586ded2c5eb693cf02ee81cfe27ad4",
+      "status": "LOCAL_PASS"
+    },
+    "docs/SIMULATED_CONTAINER_RESULTS.json": {
+      "sha256": "ed40b7908fb25e92bc754bf2d52b9ba36a11f0f440df1b486c9d60134b0f0849",
+      "status": "PASS"
+    },
+    "docs/SIMULATED_MONAD_BUNDLE_RESULTS.json": {
+      "sha256": "b415618c4aa598fae8cc739b2e54f23586dfa4af4eeb89201afc0e9723540e86",
+      "status": "PASS"
+    },
+    "docs/SIMULATED_MONAD_LIGHTHOUSE_RESULTS.json": {
+      "sha256": "37d5f97d3f818a313c7c335c434427cd62d079ed73ae62379689703188e65078",
+      "status": "PASS"
+    },
+    "docs/SIMULATED_SOURCE_HANDOFF_RESULTS.json": {
+      "sha256": "39d2d92728327b4fc394a2293035c979941548a1f3eb3141713a9983205c1a11",
+      "status": "SOURCE_HANDOFF_READY"
+    }
+  },
+  "checks": {
+    "coreContractGroups": 28,
+    "crossLanguageVectors": 224,
+    "newPythonBoundaryInputInstallTests": 9,
+    "transactionAndPaginationTests": 4,
+    "privateAccessibilityChecks": 56,
+    "populatedReportAccessibilityChecks": 8,
+    "publicAccessibilityChecks": 36,
+    "reportBrowserContexts": 5,
+    "realLocalModelCalls": 6,
+    "encryptedReportDeliveriesAcknowledged": 15,
+    "containerEncryptedRowsChecked": 52,
+    "survivingSignatureRevalidatedAfterReorg": true,
+    "containerIndependentBrowserVerified": true
+  },
+  "artifactSHA256": {
+    "output/SIMULATED_monad_hosting.zip": "c7f09c68fe8ca8610311c9141996031aa79b0b789ba048b96b8e34f1feec6352",
+    "output/SIMULATED_source_handoff.zip": "d6fc4b332a58fe1b2c4964fe17f4169f1e22ce3ea6680ec10c3b9e457e42b750",
+    "output/SIMULATED_monad_site/index.html": "144505d596ff1dee7b44edc25bf0c3563f293e06c08f8b395ae7763fd49d93b3",
+    "output/pdf/SIMULATED_monad_dossier_round_2.json": "5f157b0d3ea4ea38473fab90107966cac31b0c130443c213f27fe77182076ad4",
+    "output/pdf/SIMULATED_monad_dossier_round_2.pdf": "294f5c2535db5d3e3e8bebf03e50cd64d4c6f32cec4bef3b18da638d83d01b4f",
+    "output/pdf/SIMULATED_monad_dossier_round_3.json": "134ad3965a3ffdedbc15d78acffafafdbee4f4f878828ba2f2353a11f695b281",
+    "output/pdf/SIMULATED_monad_dossier_round_3.pdf": "741e9a6b07a9a2be52d77f1e68752e80022edaccbd063b75b64b7bfb61a5a73f",
+    "docs/media/SIMULATED_monad_walkthrough_3m50s.mp4": "725eaf53cdb9ddf2049a3c97ca4b93352a1ab6029ec645c1e80051f03e3ed326",
+    "docs/media/SIMULATED_monad_walkthrough_3m50s.srt": "7633db683df281940e2b1259e0e878c187876bbbf427c93b79f0c10c96f6403d",
+    "docs/media/SIMULATED_monad_preview_20s.gif": "9362f5d14d40b7f63e9d5823077b74e605cc42eadec67ea92f31912777a8dcca"
+  },
+  "criticalSourceSHA256": {
+    "scripts/bootstrap-demo.py": "fb52b81c935e24a1d2d0900626bd814a01aa23f55b135f87a5f4b76c3fd543c3",
+    "scripts/bootstrap_install.py": "22e6bdf50138fc31641b6b61bb97cf8be7b68cf7b758b9d64e4987cef85e3e77",
+    "scripts/run-services.py": "e26318684255fb8c0915000a66a5846def05f44bac6e5c2bb94ea852e4f51ceb",
+    "services/operator_app.py": "ebc9b1d9958d5d732f91c15f0689bc8e8d14a13c91ff474fa0382b3284637aef",
+    "services/plant_agent/engine.py": "75b98f0ad038057235a7ac1d502715a1e6fa9c225324a21bfc09c62715389e53",
+    "services/indexer/app.py": "7204d15aa0a765114a2e749e35a9f2ae1126686f849a1354ec1f705b3642b1c7",
+    "apps/web/src/pages/ReportPlant.tsx": "ea265eda2be7e2548ea6a9010cbc673d49a6092c949871015e89583fa257fafe",
+    "apps/web/src/pages/Evidence.tsx": "f397610a86070fcd989fd755764b301475e965779c6cbe03678819c844bed26f",
+    "apps/web/src/style.css": "da6e3058bbda78aa42720302395feb59cd83e1abdf7bbfaf9d9ec14d50bda9c6",
+    "packages/protocol/src/runtime.ts": "65c886ba07997e2e0ee2a9dc2a7161ad1391f726da5fcc79af7b0f5ec43f285e",
+    "packages/protocol/src/verify.ts": "ac6356cf9059f48c678648ea881a58201135d02530bf75c26573fdff04e7a173",
+    "packages/protocol/src/public-chain.ts": "4aa53d391312231ff3ce2f83146be19e5d1ca9b8e6febcdbb3ab4703b6d14cbc",
+    "contracts/src/OrtalamaRound.sol": "5f44dc6e9b8626b56ec8a82159c8b681b18e7ae280ddf00cdb5ba24fa478a186",
+    "contracts/src/BadgeRegistry.sol": "80b7434cef477590ccd3d47faa32e5ac43dd1af3c5595d3424219616987149ae"
+  },
+  "ownerDeliverySteps": [
+    "Publish the provided website/backend on the selected hosting services",
+    "Open the published verify/2 and badge on a physical phone; save URL/device/browser/date/result",
+    "Replace/add the public-phone portion of the final submission video and publish submission"
+  ],
+  "unrun": [
+    "Remote CI under the no-push instruction"
+  ],
+  "limits": [
+    "Tests demonstrate the explicitly simulated project flows, not a universal bug-free or production-readiness guarantee",
+    "Full original product run preceded final targeted fixes; subsequent scoped workflow, report-state, export and container runs validate those fixes separately",
+    "Container cached checksum-verified public archives and resumed network installs; application source refreshed during retry; source hashes identify the tested filesystem",
+    "Automated browser review is explicitly signed as automated test metadata, not human approval",
+    "Trustees are separately keyed processes on one host; no independent institutional custody",
+    "Public website remains read-only; full report/participant workspaces run in the local application; actual Monad writes use the private CLI",
+    "Hosting and physical-phone/submission recording remain owner steps"
+  ],
+  "properAuditSkillSourceStillRequested": true
+}

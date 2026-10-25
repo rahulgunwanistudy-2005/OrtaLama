@@ -1,0 +1,31 @@
+{
+  "simulation": true,
+  "status": "LOCAL_PASS",
+  "checked_on": "2026-10-23",
+  "sourceRecords": 37,
+  "hashedAccessRecords": 37,
+  "dossierEvidence": "SIMULATED_DOSSIER_RESULTS.json",
+  "actualHTTPDownloadEvidence": "SIMULATED_DOSSIER_API_RESULTS.json",
+  "tamperRejections": 14,
+  "successfulTransactionsReproduced": 57,
+  "matchingPinnedJSONAndPDF": true,
+  "visualInspection": "All six PDF pages and rendered architecture SVG inspected; actual video frames inspected after excluding screenshot viewport changes",
+  "sourceSHA256": {
+    "docs/STANDARDS_CONFORMANCE.md": "bfcf1788394c50dfae80115dac8806ebf16865a675ec8465514a7410b935ed29",
+    "docs/REGULATORY_MAP.md": "efffb4471dcd8d9ee7b34259a00974d124ec7c741842c30d1f25841f57aa6a19",
+    "docs/PILOT_PLAN.md": "22878ef59f6388584101140bc785d8b00b81f6261111489747f293bcf1541aee",
+    "docs/EXPORTER_BRIEF_EN.md": "c3116c0bf4b73480343f25d61965681f717db66d3959ae1c889cec03f349491c",
+    "docs/EXPORTER_BRIEF_TR.md": "29a486b84bb59b2280fdbeb39fd30f2cb5077f53d8052ca3c812ac27a908c464",
+    "docs/AI_CARD.md": "d9b58594905dba5831c3a24ee6ff79ae80d00c06fb17c8780c9ed8cb6ba4c81a",
+    "docs/DO_YOU_NEED_A_BLOCKCHAIN.md": "a0995cc1d96f58b7daf84f6977f1064be242518a6b80e4701507112f17c3ed11",
+    "docs/ORACLE.md": "c452dd144794c764bcf6183c000dc24407d03fd77d5df47fff82b30e077c16b5",
+    "docs/THREAT_MODEL.md": "424cb619d1437eacfc6641fffca7b7e2f59deef98f4655a1f0e82d79bb2a3228",
+    "docs/LIMITATIONS.md": "c1b8a29e0514c378b24350b68f1fe50de7df2edcbe75c2800da1b9355261a277",
+    "docs/DOSSIER.md": "26fa09ea07262868e45978fc017e1bbfee3871f27b6bf31b2fd3b2408e3eebb2",
+    "schemas/dossier.schema.json": "8d96a36bf389e56774ccf3bfb661dd4cd279d32c0137829ad54c1c680039964b",
+    "packages/protocol/src/dossier.ts": "b141c885d64529ebf328a62614d01b7761fb55eaa732656dea9b0a3b385121a5",
+    "services/indexer/dossier.py": "dd636933cd1adf7a994334a98d7204b1fc9a617821ffeff0a00ef6ff4d6ecc0b"
+  },
+  "ci": "PENDING: no commits or pushes authorised",
+  "acceptance": "No certification, accreditation, institutional participation or regulatory acceptance claimed"
+}
